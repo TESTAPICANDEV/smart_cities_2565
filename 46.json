@@ -1,0 +1,228 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "4",
+    "@datatypes": "Person,Surname",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "1.827",
+    "@parsetiming": "0.34500000000000003",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP12049205757f7i2d8h7ig00004a2ef8h64f5addc1",
+    "@host": "https://www5a.wolframalpha.com",
+    "@server": "33",
+    "@related": "https://www5a.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa12050205757f7i2d8h7ig000063c08i247g16hg3d892137605540768984",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP12051205757f7i2d8h7ig00000cedd1f6786c691a?MSPStoreType=image/gif&s=33",
+                    "@alt": "Hamilton (surname)",
+                    "@title": "Hamilton (surname)",
+                    "@width": "136",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Hamilton (surname)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Basic information for the United States",
+            "@scanner": "Data",
+            "@id": "BasicInformation:SurnameData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "SurnameData"
+                },
+                "datasources": {
+                    "datasource": "USCensusSurnames"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP12052205757f7i2d8h7ig000050e9g13e8ii81ddi?MSPStoreType=image/gif&s=33",
+                    "@alt": "rank | 107th fraction | 1 in 1388 people (0.072%) number | 194331 people (based on 2000 United States Census)",
+                    "@title": "rank | 107th fraction | 1 in 1388 people (0.072%) number | 194331 people (based on 2000 United States Census)",
+                    "@width": "267",
+                    "@height": "126",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "rank | 107th\nfraction | 1 in 1388 people (0.072%)\nnumber | 194331 people\n(based on 2000 United States Census)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Ethnic fractions",
+            "@scanner": "Data",
+            "@id": "EthnicFractions:SurnameData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "SurnameData"
+                },
+                "datasources": {
+                    "datasource": "USCensusSurnames"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP12053205757f7i2d8h7ig00005ge8946591ebcfb1?MSPStoreType=image/gif&s=33",
+                    "@alt": "white | 72.79% black | 22.65% mixed | 1.73% Hispanic | 1.61% Amerindian | 0.78% Asian | 0.44%",
+                    "@title": "white | 72.79% black | 22.65% mixed | 1.73% Hispanic | 1.61% Amerindian | 0.78% Asian | 0.44%",
+                    "@width": "174",
+                    "@height": "196",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "white | 72.79%\nblack | 22.65%\nmixed | 1.73%\nHispanic | 1.61%\nAmerindian | 0.78%\nAsian | 0.44%"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Pie chart",
+                    "@input": "EthnicFractions:SurnameData__Pie chart"
+                }
+            }
+        },
+        {
+            "@title": "Notable people with surname Hamilton",
+            "@scanner": "Data",
+            "@id": "NotablePeopleWithName:SurnameData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "PeopleData",
+                        "SurnameData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP12054205757f7i2d8h7ig00000i55309285gc7d3a?MSPStoreType=image/gif&s=33",
+                    "@alt": "Alexander Hamilton (politician) (1755 to 1804) Lewis Hamilton (auto racer) (born 1985) (age: 35 years) Linda Hamilton (actor) (born 1956) (age: 63 years) Margaret Hamilton (actor) (1902 to 1985) Richard Hamilton (basketball player) (born 1978) (age: 41 years) Ashley Hamilton (socialite) (born 1974) (age: 45 years) Emma, Lady Hamilton (model) (1765 to 1815) Laurell K. Hamilton (novelist) (born 1963) (age: 56 years) Peter F. Hamilton (novelist) (born 1960) (age: 59 years) William Rowan Hamilton (mathematician) (1805 to 1865) ...",
+                    "@title": "Alexander Hamilton (politician) (1755 to 1804) Lewis Hamilton (auto racer) (born 1985) (age: 35 years) Linda Hamilton (actor) (born 1956) (age: 63 years) Margaret Hamilton (actor) (1902 to 1985) Richard Hamilton (basketball player) (born 1978) (age: 41 years) Ashley Hamilton (socialite) (born 1974) (age: 45 years) Emma, Lady Hamilton (model) (1765 to 1815) Laurell K. Hamilton (novelist) (born 1963) (age: 56 years) Peter F. Hamilton (novelist) (born 1960) (age: 59 years) William Rowan Hamilton (mathematician) (1805 to 1865) ...",
+                    "@width": "410",
+                    "@height": "209",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Alexander Hamilton (politician) (1755 to 1804)\nLewis Hamilton (auto racer) (born 1985) (age: 35 years)\nLinda Hamilton (actor) (born 1956) (age: 63 years)\nMargaret Hamilton (actor) (1902 to 1985)\nRichard Hamilton (basketball player) (born 1978) (age: 41 years)\nAshley Hamilton (socialite) (born 1974) (age: 45 years)\nEmma, Lady Hamilton (model) (1765 to 1815)\nLaurell K. Hamilton (novelist) (born 1963) (age: 56 years)\nPeter F. Hamilton (novelist) (born 1960) (age: 59 years)\nWilliam Rowan Hamilton (mathematician) (1805 to 1865)\n..."
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "More",
+                        "@input": "NotablePeopleWithName:SurnameData__More"
+                    },
+                    {
+                        "@name": "Show dates",
+                        "@input": "NotablePeopleWithName:SurnameData__Show dates"
+                    }
+                ]
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "1",
+        "assumption": {
+            "@type": "Clash",
+            "@word": "Hamilton",
+            "@template": "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead",
+            "@count": "7",
+            "value": [
+                {
+                    "@name": "Surname",
+                    "@desc": "a surname",
+                    "@input": "*C.Hamilton-_*Surname-"
+                },
+                {
+                    "@name": "Person",
+                    "@desc": "a person",
+                    "@input": "*C.Hamilton-_*Person-"
+                },
+                {
+                    "@name": "GivenName",
+                    "@desc": "a given name",
+                    "@input": "*C.Hamilton-_*GivenName-"
+                },
+                {
+                    "@name": "City",
+                    "@desc": "a city",
+                    "@input": "*C.Hamilton-_*City-"
+                },
+                {
+                    "@name": "AdministrativeDivision",
+                    "@desc": "an administrative division",
+                    "@input": "*C.Hamilton-_*AdministrativeDivision-"
+                },
+                {
+                    "@name": "Neighborhood",
+                    "@desc": "a neighborhood",
+                    "@input": "*C.Hamilton-_*Neighborhood-"
+                },
+                {
+                    "@name": "SolarSystemFeature",
+                    "@desc": "a solar system feature",
+                    "@input": "*C.Hamilton-_*SolarSystemFeature-"
+                }
+            ]
+        }
+    },
+    "sources": {
+        "@count": "2",
+        "source": [
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html",
+                "@text": "People data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/SurnameDataSourceInformationNotes.html",
+                "@text": "Surname data"
+            }
+        ]
+    }
+}

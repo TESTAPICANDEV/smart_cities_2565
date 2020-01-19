@@ -1,0 +1,780 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "13",
+    "@datatypes": "AdministrativeDivision,City,NuclearReactor,WeatherStation",
+    "@timedout": "Data,Character",
+    "@timedoutpods": "",
+    "@timing": "7.158",
+    "@parsetiming": "0.859",
+    "@parsetimedout": "false",
+    "@recalculate": "https://www4f.wolframalpha.com/api/v1/recalc.jsp?id=MSPa43141949381ha446dicg00000e1a2b827i9dd8c01425433651303739860",
+    "@id": "MSP43151949381ha446dicg00006205fi31d3dg42b7",
+    "@host": "https://www4f.wolframalpha.com",
+    "@server": "33",
+    "@related": "https://www4f.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa43161949381ha446dicg00005a3307bbdidhfhc61425433651303739860",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP43171949381ha446dicg0000234c6e5fgg65c4f2?MSPStoreType=image/gif&s=33",
+                    "@alt": "Saint John, New Brunswick",
+                    "@title": "Saint John, New Brunswick",
+                    "@width": "183",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Saint John, New Brunswick"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Population",
+            "@scanner": "Data",
+            "@id": "Population:CityData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCensusData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP43181949381ha446dicg000017cif6539i7h2h0f?MSPStoreType=image/gif&s=33",
+                    "@alt": "city population | 67575 people (country rank: 72nd) (2016 estimate)",
+                    "@title": "city population | 67575 people (country rank: 72nd) (2016 estimate)",
+                    "@width": "455",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "city population | 67575 people (country rank: 72nd) (2016 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show history",
+                    "@input": "Population:CityData__Show history"
+                }
+            }
+        },
+        {
+            "@title": "Location",
+            "@scanner": "Data",
+            "@id": "Location:CityData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "2",
+            "subpod": [
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP43191949381ha446dicg00004db7hi66g2fha37c?MSPStoreType=image/gif&s=33",
+                        "@alt": "New Brunswick, Canada",
+                        "@title": "New Brunswick, Canada",
+                        "@width": "163",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "New Brunswick, Canada"
+                },
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData",
+                            "CountryData"
+                        ]
+                    },
+                    "datasources": {
+                        "datasource": "CIAFactbook"
+                    },
+                    "img": {
+                        "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP43201949381ha446dicg00000dgd6abdcg162a09?MSPStoreType=image/gif&s=33",
+                        "@alt": "Location",
+                        "@title": "",
+                        "@width": "328",
+                        "@height": "214",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                }
+            ],
+            "expressiontypes": {
+                "@count": "2",
+                "expressiontype": [
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    }
+                ]
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "World map",
+                        "@input": "Location:CityData__World map"
+                    },
+                    {
+                        "@name": "Show coordinates",
+                        "@input": "Location:CityData__Show coordinates"
+                    }
+                ]
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=45.29%2C-66.06&q=45.29%20N%2C%2066.06%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "Map:CityData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP43211949381ha446dicg000013acfbe524dih4d1?MSPStoreType=image/gif&s=33",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "30 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "7 kilometers across",
+                            "@input": "Map:CityData__7 kilometers across"
+                        },
+                        {
+                            "@name": "10 kilometers across",
+                            "@input": "Map:CityData__10 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "Map:CityData__30 kilometers across"
+                        },
+                        {
+                            "@name": "60 kilometers across",
+                            "@input": "Map:CityData__60 kilometers across"
+                        },
+                        {
+                            "@name": "120 kilometers across",
+                            "@input": "Map:CityData__120 kilometers across"
+                        },
+                        {
+                            "@name": "240 kilometers across",
+                            "@input": "Map:CityData__240 kilometers across"
+                        },
+                        {
+                            "@name": "480 kilometers across",
+                            "@input": "Map:CityData__480 kilometers across"
+                        },
+                        {
+                            "@name": "960 kilometers across",
+                            "@input": "Map:CityData__960 kilometers across"
+                        },
+                        {
+                            "@name": "1900 kilometers across",
+                            "@input": "Map:CityData__1900 kilometers across"
+                        },
+                        {
+                            "@name": "3800 kilometers across",
+                            "@input": "Map:CityData__3800 kilometers across"
+                        },
+                        {
+                            "@name": "7400 kilometers across",
+                            "@input": "Map:CityData__7400 kilometers across"
+                        },
+                        {
+                            "@name": "12000 kilometers across",
+                            "@input": "Map:CityData__12000 kilometers across"
+                        },
+                        {
+                            "@name": "23000 kilometers across",
+                            "@input": "Map:CityData__23000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "Map:CityData__Non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=45.29%2C-66.06&q=45.29%20N%2C%2066.06%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Administrative regions",
+            "@scanner": "Data",
+            "@id": "AdministrativeRegions:CityData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP43221949381ha446dicg00002aaf232g8if79e6i?MSPStoreType=image/gif&s=33",
+                    "@alt": "region | New Brunswick country | Canada",
+                    "@title": "region | New Brunswick country | Canada",
+                    "@width": "205",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "region | New Brunswick\ncountry | Canada"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Current local time",
+            "@scanner": "Data",
+            "@id": "CurrentTime:CityData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP43231949381ha446dicg000040604eb8c1g86c0e?MSPStoreType=image/gif&s=33",
+                    "@alt": "12:38 am AST | Sunday, January 19, 2020",
+                    "@title": "12:38 am AST | Sunday, January 19, 2020",
+                    "@width": "291",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "12:38 am AST | Sunday, January 19, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Current weather",
+            "@scanner": "Data",
+            "@id": "WeatherPod:CityData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "WeatherData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP43241949381ha446dicg00001f263ge1hicbd3f8?MSPStoreType=image/gif&s=33",
+                    "@alt": "-12 \u00b0C (wind chill: -15 \u00b0C) | relative humidity: 85% | wind: 2 m/s | snow, overcast",
+                    "@title": "-12 \u00b0C (wind chill: -15 \u00b0C) | relative humidity: 85% | wind: 2 m/s | snow, overcast",
+                    "@width": "516",
+                    "@height": "39",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "-12 \u00b0C (wind chill: -15 \u00b0C) | relative humidity: 85% | wind: 2 m/s | snow, overcast"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show history",
+                        "@input": "WeatherPod:CityData__Show history"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "WeatherPod:CityData__Show non-metric"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby cities",
+            "@scanner": "Data",
+            "@id": "CityHierarchyInfo:CityData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP43251949381ha446dicg0000433feadc3b7iadg9?MSPStoreType=image/gif&s=33",
+                    "@alt": "Fredericton, New Brunswick | 88 km (kilometers) north-northwest | 56245 people Moncton, New Brunswick | 134 km (kilometers) northeast | 69074 people Halifax, Nova Scotia | 205 km (kilometers) east-southeast | 297943 people (straight-line distances between city centers)",
+                    "@title": "Fredericton, New Brunswick | 88 km (kilometers) north-northwest | 56245 people Moncton, New Brunswick | 134 km (kilometers) northeast | 69074 people Halifax, Nova Scotia | 205 km (kilometers) east-southeast | 297943 people (straight-line distances between city centers)",
+                    "@width": "546",
+                    "@height": "176",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Fredericton, New Brunswick | 88 km (kilometers) north-northwest | 56245 people\nMoncton, New Brunswick | 134 km (kilometers) northeast | 69074 people\nHalifax, Nova Scotia | 205 km (kilometers) east-southeast | 297943 people\n(straight-line distances between city centers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "CityHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "CityHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby airport",
+            "@scanner": "Data",
+            "@id": "AirportHierarchyInfo:CityData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP43261949381ha446dicg00005a7d7b963bb40c34?MSPStoreType=image/gif&s=33",
+                    "@alt": "Saint John Airport | 14 km (kilometers) east-northeast (straight-line distances between city center and airport)",
+                    "@title": "Saint John Airport | 14 km (kilometers) east-northeast (straight-line distances between city center and airport)",
+                    "@width": "386",
+                    "@height": "58",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Saint John Airport | 14 km (kilometers) east-northeast\n(straight-line distances between city center and airport)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "AirportHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "AirportHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:CityData",
+            "@position": "1100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP43271949381ha446dicg00003a3a39i9ca138db0?MSPStoreType=image/gif&s=33",
+                    "@alt": "elevation | 43 m",
+                    "@title": "elevation | 43 m",
+                    "@width": "139",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "elevation | 43 m"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:CityData__Show non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "units": {
+                        "@count": "1",
+                        "unit": {
+                            "@short": "m",
+                            "@long": "meters"
+                        },
+                        "img": {
+                            "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP43281949381ha446dicg0000249d7d0c1h59197f?MSPStoreType=image/gif&s=33",
+                            "@width": "96",
+                            "@height": "26"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Nearby features",
+            "@scanner": "Data",
+            "@id": "FeaturesHierarchyInfo:CityData",
+            "@position": "1200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "NuclearReactorData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "IAEAPowerReactorInformationSystem"
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP43291949381ha446dicg00002d5hi28g2d579996?MSPStoreType=image/gif&s=33",
+                    "@alt": "nuclear power site | Point Lepreau | 40 km (kilometers) southwest mountain | Mount Katahdin (1606 meters) | 233 km (kilometers) west-northwest (straight-line distances between city center and feature coordinates)",
+                    "@title": "nuclear power site | Point Lepreau | 40 km (kilometers) southwest mountain | Mount Katahdin (1606 meters) | 233 km (kilometers) west-northwest (straight-line distances between city center and feature coordinates)",
+                    "@width": "545",
+                    "@height": "128",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "nuclear power site | Point Lepreau | 40 km (kilometers) southwest\nmountain | Mount Katahdin (1606 meters) | 233 km (kilometers) west-northwest\n(straight-line distances between city center and feature coordinates)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "FeaturesHierarchyInfo:CityData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Nearest sea",
+            "@scanner": "Data",
+            "@id": "OceansHierarchyInfo:CityData",
+            "@position": "1300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP43301949381ha446dicg00005ia9b2ii0df74702?MSPStoreType=image/gif&s=33",
+                    "@alt": "Bay of Fundy (<5 km (kilometers))  (straight-line distance between city center and shore)",
+                    "@title": "Bay of Fundy (<5 km (kilometers))  (straight-line distance between city center and shore)",
+                    "@width": "301",
+                    "@height": "41",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Bay of Fundy (<5 km (kilometers)) \n(straight-line distance between city center and shore)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "OceansHierarchyInfo:CityData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Nickname",
+            "@scanner": "Data",
+            "@id": "BasicInformation:CityData",
+            "@position": "1400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP43311949381ha446dicg00002f5ae410c728gc9b?MSPStoreType=image/gif&s=33",
+                    "@alt": "Port City",
+                    "@title": "Port City",
+                    "@width": "57",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Port City"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "2",
+        "assumption": [
+            {
+                "@type": "MultiClash",
+                "@word": "",
+                "@template": "Assuming ${word1} is referring to ${desc1}. Use \"${word2}\" as ${desc2}. Use \"${word3}\" as ${desc3}. Use \"${word4}\" as ${desc4}.",
+                "@count": "4",
+                "value": [
+                    {
+                        "@name": "City",
+                        "@word": "the input",
+                        "@desc": "a city",
+                        "@input": "*MC.%7E-_*City-"
+                    },
+                    {
+                        "@name": "AdministrativeDivision",
+                        "@word": "Saint John",
+                        "@desc": "an administrative division",
+                        "@input": "*MC.%7E-_*AdministrativeDivision-"
+                    },
+                    {
+                        "@name": "University",
+                        "@word": "Saint John",
+                        "@desc": "a university",
+                        "@input": "*MC.%7E-_*University-"
+                    },
+                    {
+                        "@name": "Building",
+                        "@word": "Saint John",
+                        "@desc": "a structure",
+                        "@input": "*MC.%7E-_*Building-"
+                    }
+                ]
+            },
+            {
+                "@type": "SubCategory",
+                "@word": "City of Saint John",
+                "@template": "Assuming ${desc1}. Use ${desc2} instead",
+                "@count": "10",
+                "value": [
+                    {
+                        "@name": "{SaintJohn, NewBrunswick, Canada}",
+                        "@desc": "Saint John (New Brunswick, Canada)",
+                        "@input": "*DPClash.CityE.City+of+Saint+John-_**SaintJohn.NewBrunswick.Canada--"
+                    },
+                    {
+                        "@name": "{SaintJohns, NewfoundlandAndLabrador, Canada}",
+                        "@desc": "St. John's (Newfoundland and Labrador, Canada)",
+                        "@input": "*DPClash.CityE.City+of+Saint+John-_**SaintJohns.NewfoundlandAndLabrador.Canada--"
+                    },
+                    {
+                        "@name": "{SaintJohn, Indiana, UnitedStates}",
+                        "@desc": "Saint John (Indiana, USA)",
+                        "@input": "*DPClash.CityE.City+of+Saint+John-_**SaintJohn.Indiana.UnitedStates--"
+                    },
+                    {
+                        "@name": "{SaintJohn, Missouri, UnitedStates}",
+                        "@desc": "Saint John (Missouri, USA)",
+                        "@input": "*DPClash.CityE.City+of+Saint+John-_**SaintJohn.Missouri.UnitedStates--"
+                    },
+                    {
+                        "@name": "{SaintJohn, Kansas, UnitedStates}",
+                        "@desc": "Saint John (Kansas, USA)",
+                        "@input": "*DPClash.CityE.City+of+Saint+John-_**SaintJohn.Kansas.UnitedStates--"
+                    },
+                    {
+                        "@name": "{SaintJohn, SaintJohn, Jersey}",
+                        "@desc": "Saint John (Jersey)",
+                        "@input": "*DPClash.CityE.City+of+Saint+John-_**SaintJohn.SaintJohn.Jersey--"
+                    },
+                    {
+                        "@name": "{SaintJohn, Maine, UnitedStates}",
+                        "@desc": "Saint John (Maine, USA)",
+                        "@input": "*DPClash.CityE.City+of+Saint+John-_**SaintJohn.Maine.UnitedStates--"
+                    },
+                    {
+                        "@name": "{SaintJohn, NorthDakota, UnitedStates}",
+                        "@desc": "Saint John (North Dakota, USA)",
+                        "@input": "*DPClash.CityE.City+of+Saint+John-_**SaintJohn.NorthDakota.UnitedStates--"
+                    },
+                    {
+                        "@name": "{SaintJohns, SaintPeter, Montserrat}",
+                        "@desc": "Saint Johns (Montserrat)",
+                        "@input": "*DPClash.CityE.City+of+Saint+John-_**SaintJohns.SaintPeter.Montserrat--"
+                    },
+                    {
+                        "@name": "{SaintJohn, Washington, UnitedStates}",
+                        "@desc": "Saint John (Washington, USA)",
+                        "@input": "*DPClash.CityE.City+of+Saint+John-_**SaintJohn.Washington.UnitedStates--"
+                    }
+                ]
+            }
+        ]
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "6",
+        "source": [
+            {
+                "@url": "https://www4f.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www4f.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www4f.wolframalpha.com/sources/NuclearReactorDataSourceInformationNotes.html",
+                "@text": "Nuclear reactor data"
+            },
+            {
+                "@url": "https://www4f.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www4f.wolframalpha.com/sources/USCensusDataSourceInformationNotes.html",
+                "@text": "US census data"
+            },
+            {
+                "@url": "https://www4f.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html",
+                "@text": "Weather data"
+            }
+        ]
+    }
+}

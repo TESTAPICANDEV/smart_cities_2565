@@ -1,0 +1,852 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "14",
+    "@datatypes": "AdministrativeDivision,City,NuclearReactor,Person,WeatherStation",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "6.105",
+    "@parsetiming": "0.467",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP47351ff7aad8i00f3b85000051iggcbb8b622504",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "52",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa47361ff7aad8i00f3b85000049e2hd8926fchihc4257389488633439858",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47371ff7aad8i00f3b8500005cgd05e84hhd8d51?MSPStoreType=image/gif&s=52",
+                    "@alt": "Stratford, Ontario",
+                    "@title": "Stratford, Ontario",
+                    "@width": "118",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Stratford, Ontario"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Population",
+            "@scanner": "Data",
+            "@id": "Population:CityData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCensusData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47381ff7aad8i00f3b8500004fcgh17b094f8hg6?MSPStoreType=image/gif&s=52",
+                    "@alt": "city population | 31465 people (country rank: \u2248116th) (2016 estimate)",
+                    "@title": "city population | 31465 people (country rank: \u2248116th) (2016 estimate)",
+                    "@width": "471",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "city population | 31465 people (country rank: \u2248116th) (2016 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show history",
+                    "@input": "Population:CityData__Show history"
+                }
+            }
+        },
+        {
+            "@title": "Location",
+            "@scanner": "Data",
+            "@id": "Location:CityData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "2",
+            "subpod": [
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47391ff7aad8i00f3b85000026b2f5d5bc6ecgfc?MSPStoreType=image/gif&s=52",
+                        "@alt": "Ontario, Canada",
+                        "@title": "Ontario, Canada",
+                        "@width": "109",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "Ontario, Canada"
+                },
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData",
+                            "CountryData"
+                        ]
+                    },
+                    "datasources": {
+                        "datasource": "CIAFactbook"
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47401ff7aad8i00f3b8500001e47e4ah1i5da4db?MSPStoreType=image/gif&s=52",
+                        "@alt": "Location",
+                        "@title": "",
+                        "@width": "328",
+                        "@height": "214",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                }
+            ],
+            "expressiontypes": {
+                "@count": "2",
+                "expressiontype": [
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    }
+                ]
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "World map",
+                        "@input": "Location:CityData__World map"
+                    },
+                    {
+                        "@name": "Show coordinates",
+                        "@input": "Location:CityData__Show coordinates"
+                    }
+                ]
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=43.37%2C-80.98&q=43.37%20N%2C%2080.98%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "Map:CityData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47411ff7aad8i00f3b8500004a9i39b0cef66f8a?MSPStoreType=image/gif&s=52",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "20 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "8 kilometers across",
+                            "@input": "Map:CityData__8 kilometers across"
+                        },
+                        {
+                            "@name": "20 kilometers across",
+                            "@input": "Map:CityData__20 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "Map:CityData__30 kilometers across"
+                        },
+                        {
+                            "@name": "60 kilometers across",
+                            "@input": "Map:CityData__60 kilometers across"
+                        },
+                        {
+                            "@name": "120 kilometers across",
+                            "@input": "Map:CityData__120 kilometers across"
+                        },
+                        {
+                            "@name": "250 kilometers across",
+                            "@input": "Map:CityData__250 kilometers across"
+                        },
+                        {
+                            "@name": "490 kilometers across",
+                            "@input": "Map:CityData__490 kilometers across"
+                        },
+                        {
+                            "@name": "990 kilometers across",
+                            "@input": "Map:CityData__990 kilometers across"
+                        },
+                        {
+                            "@name": "2000 kilometers across",
+                            "@input": "Map:CityData__2000 kilometers across"
+                        },
+                        {
+                            "@name": "3900 kilometers across",
+                            "@input": "Map:CityData__3900 kilometers across"
+                        },
+                        {
+                            "@name": "7600 kilometers across",
+                            "@input": "Map:CityData__7600 kilometers across"
+                        },
+                        {
+                            "@name": "13000 kilometers across",
+                            "@input": "Map:CityData__13000 kilometers across"
+                        },
+                        {
+                            "@name": "24000 kilometers across",
+                            "@input": "Map:CityData__24000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "Map:CityData__Non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=43.37%2C-80.98&q=43.37%20N%2C%2080.98%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Administrative regions",
+            "@scanner": "Data",
+            "@id": "AdministrativeRegions:CityData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47421ff7aad8i00f3b8500000cbdda5bced2cd61?MSPStoreType=image/gif&s=52",
+                    "@alt": "region | Ontario country | Canada",
+                    "@title": "region | Ontario country | Canada",
+                    "@width": "151",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "region | Ontario\ncountry | Canada"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Current local time",
+            "@scanner": "Data",
+            "@id": "CurrentTime:CityData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47431ff7aad8i00f3b8500006ae539f774cg2g5b?MSPStoreType=image/gif&s=52",
+                    "@alt": "11:47 pm EST | Saturday, January 18, 2020",
+                    "@title": "11:47 pm EST | Saturday, January 18, 2020",
+                    "@width": "301",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "11:47 pm EST | Saturday, January 18, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Current weather",
+            "@scanner": "Data",
+            "@id": "WeatherPod:CityData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "WeatherData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47441ff7aad8i00f3b85000015a239g1912cc7d2?MSPStoreType=image/gif&s=52",
+                    "@alt": "0 \u00b0C (wind chill: -5 \u00b0C) | relative humidity: 86% | wind: 6 m/s | overcast",
+                    "@title": "0 \u00b0C (wind chill: -5 \u00b0C) | relative humidity: 86% | wind: 6 m/s | overcast",
+                    "@width": "502",
+                    "@height": "22",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "0 \u00b0C (wind chill: -5 \u00b0C) | relative humidity: 86% | wind: 6 m/s | overcast"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show history",
+                        "@input": "WeatherPod:CityData__Show history"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "WeatherPod:CityData__Show non-metric"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby cities",
+            "@scanner": "Data",
+            "@id": "CityHierarchyInfo:CityData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47451ff7aad8i00f3b8500002i4108ia42e78gah?MSPStoreType=image/gif&s=52",
+                    "@alt": "Kitchener, Ontario | 40 km (kilometers) east-northeast | 219153 people London, Ontario | 49 km (kilometers) south-southwest | 366151 people Hamilton, Ontario | 92 km (kilometers) east | 519949 people Toronto, Ontario | 133 km (kilometers) east-northeast | 2.615 million people (straight-line distances between city centers)",
+                    "@title": "Kitchener, Ontario | 40 km (kilometers) east-northeast | 219153 people London, Ontario | 49 km (kilometers) south-southwest | 366151 people Hamilton, Ontario | 92 km (kilometers) east | 519949 people Toronto, Ontario | 133 km (kilometers) east-northeast | 2.615 million people (straight-line distances between city centers)",
+                    "@width": "546",
+                    "@height": "162",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Kitchener, Ontario | 40 km (kilometers) east-northeast | 219153 people\nLondon, Ontario | 49 km (kilometers) south-southwest | 366151 people\nHamilton, Ontario | 92 km (kilometers) east | 519949 people\nToronto, Ontario | 133 km (kilometers) east-northeast | 2.615 million people\n(straight-line distances between city centers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "CityHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "CityHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby airport",
+            "@scanner": "Data",
+            "@id": "AirportHierarchyInfo:CityData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47461ff7aad8i00f3b8500003b1f41haf0693542?MSPStoreType=image/gif&s=52",
+                    "@alt": "Stratford Municipal Airport | 6 km (kilometers) northeast (straight-line distances between city center and airport)",
+                    "@title": "Stratford Municipal Airport | 6 km (kilometers) northeast (straight-line distances between city center and airport)",
+                    "@width": "407",
+                    "@height": "58",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Stratford Municipal Airport | 6 km (kilometers) northeast\n(straight-line distances between city center and airport)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "AirportHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "AirportHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:CityData",
+            "@position": "1000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47471ff7aad8i00f3b8500006b1941bi54ded84d?MSPStoreType=image/gif&s=52",
+                    "@alt": "elevation | 361 m",
+                    "@title": "elevation | 361 m",
+                    "@width": "147",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "elevation | 361 m"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:CityData__Show non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "units": {
+                        "@count": "1",
+                        "unit": {
+                            "@short": "m",
+                            "@long": "meters"
+                        },
+                        "img": {
+                            "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47481ff7aad8i00f3b8500005h83bb4d5a89156g?MSPStoreType=image/gif&s=52",
+                            "@width": "96",
+                            "@height": "26"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Nearby features",
+            "@scanner": "Data",
+            "@id": "FeaturesHierarchyInfo:CityData",
+            "@position": "1100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "NuclearReactorData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "IAEAPowerReactorInformationSystem"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47491ff7aad8i00f3b85000023d07c20f778bhc1?MSPStoreType=image/gif&s=52",
+                    "@alt": "nuclear power site | Douglas Point (permanent shutdown) | 117 km (kilometers) north-northwest waterfall | Niagara Falls (51 meters) | 158 km (kilometers) east (straight-line distances between city center and feature coordinates)",
+                    "@title": "nuclear power site | Douglas Point (permanent shutdown) | 117 km (kilometers) north-northwest waterfall | Niagara Falls (51 meters) | 158 km (kilometers) east (straight-line distances between city center and feature coordinates)",
+                    "@width": "545",
+                    "@height": "106",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "nuclear power site | Douglas Point (permanent shutdown) | 117 km (kilometers) north-northwest\nwaterfall | Niagara Falls (51 meters) | 158 km (kilometers) east\n(straight-line distances between city center and feature coordinates)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "FeaturesHierarchyInfo:CityData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Nearest sea",
+            "@scanner": "Data",
+            "@id": "OceansHierarchyInfo:CityData",
+            "@position": "1200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47501ff7aad8i00f3b8500002ci5002de017748g?MSPStoreType=image/gif&s=52",
+                    "@alt": "Atlantic Ocean (586 km (kilometers) southeast)  (straight-line distance between city center and shore)",
+                    "@title": "Atlantic Ocean (586 km (kilometers) southeast)  (straight-line distance between city center and shore)",
+                    "@width": "308",
+                    "@height": "41",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Atlantic Ocean (586 km (kilometers) southeast) \n(straight-line distance between city center and shore)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "3",
+                "state": [
+                    {
+                        "@name": "Show map",
+                        "@input": "OceansHierarchyInfo:CityData__Show map"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "OceansHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "OceansHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Notable people born in Stratford",
+            "@scanner": "Data",
+            "@id": "NotablePeople:CityData",
+            "@position": "1300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "PeopleData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47511ff7aad8i00f3b8500005ib6ffi7i55eb83g?MSPStoreType=image/gif&s=52",
+                    "@alt": "Pattie Mallette (author) (1975) Shawn Roberts (actor) (1984) Richard Manuel (singer-songwriter, etc.) (1943) Joe Dinicol (actor) (1983) Paul Erdman (economist) (1932) Bonnie Burnard (novelist) (1945) Douglas L. Coleman (scientist) (1931) Ken Kalmusky (musician) (1945) Charmaine Brooks (singer/songwriter) (1971) David Kalmusky (record producer, etc.) Larry Landreth (baseball player) (1955)",
+                    "@title": "Pattie Mallette (author) (1975) Shawn Roberts (actor) (1984) Richard Manuel (singer-songwriter, etc.) (1943) Joe Dinicol (actor) (1983) Paul Erdman (economist) (1932) Bonnie Burnard (novelist) (1945) Douglas L. Coleman (scientist) (1931) Ken Kalmusky (musician) (1945) Charmaine Brooks (singer/songwriter) (1971) David Kalmusky (record producer, etc.) Larry Landreth (baseball player) (1955)",
+                    "@width": "317",
+                    "@height": "209",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Pattie Mallette (author) (1975)\nShawn Roberts (actor) (1984)\nRichard Manuel (singer-songwriter, etc.) (1943)\nJoe Dinicol (actor) (1983)\nPaul Erdman (economist) (1932)\nBonnie Burnard (novelist) (1945)\nDouglas L. Coleman (scientist) (1931)\nKen Kalmusky (musician) (1945)\nCharmaine Brooks (singer/songwriter) (1971)\nDavid Kalmusky (record producer, etc.)\nLarry Landreth (baseball player) (1955)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "3",
+                "state": [
+                    {
+                        "@name": "More",
+                        "@input": "NotablePeople:CityData__More"
+                    },
+                    {
+                        "@name": "Show dates",
+                        "@input": "NotablePeople:CityData__Show dates"
+                    },
+                    {
+                        "@name": "Show deaths",
+                        "@input": "NotablePeople:CityData__Show deaths"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Wikipedia page hits history",
+            "@scanner": "Data",
+            "@id": "PopularityPod:WikipediaStatsData",
+            "@position": "1400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47521ff7aad8i00f3b850000267ide94bh76ifhb?MSPStoreType=image/gif&s=52",
+                    "@alt": "Wikipedia page hits history",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "166",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopularityPod:WikipediaStatsData__Log scale"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "2",
+        "assumption": [
+            {
+                "@type": "MultiClash",
+                "@word": "",
+                "@template": "Assuming ${word1} is referring to ${desc1}. Use \"${word2}\" as ${desc2}.",
+                "@count": "2",
+                "value": [
+                    {
+                        "@name": "City",
+                        "@word": "the input",
+                        "@desc": "a city",
+                        "@input": "*MC.%7E-_*City-"
+                    },
+                    {
+                        "@name": "AdministrativeDivision",
+                        "@word": "Stratford",
+                        "@desc": "an administrative division",
+                        "@input": "*MC.%7E-_*AdministrativeDivision-"
+                    }
+                ]
+            },
+            {
+                "@type": "SubCategory",
+                "@word": "Town of Stratford",
+                "@template": "Assuming ${desc1}. Use ${desc2} instead",
+                "@count": "13",
+                "value": [
+                    {
+                        "@name": "{Stratford, Ontario, Canada}",
+                        "@desc": "Stratford (Canada)",
+                        "@input": "*DPClash.CityE.Town+of+Stratford-_**Stratford.Ontario.Canada--"
+                    },
+                    {
+                        "@name": "{Stratford, Connecticut, UnitedStates}",
+                        "@desc": "Stratford (Connecticut, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Stratford-_**Stratford.Connecticut.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Stratford, NewJersey, UnitedStates}",
+                        "@desc": "Stratford (New Jersey, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Stratford-_**Stratford.NewJersey.UnitedStates--"
+                    },
+                    {
+                        "@name": "{StratfordUponAvon, Warwickshire, UnitedKingdom}",
+                        "@desc": "Stratford\u2010upon\u2010Avon (United Kingdom)",
+                        "@input": "*DPClash.CityE.Town+of+Stratford-_**StratfordUponAvon.Warwickshire.UnitedKingdom--"
+                    },
+                    {
+                        "@name": "{Stratford, NewYork, UnitedStates}",
+                        "@desc": "Stratford (New York, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Stratford-_**Stratford.NewYork.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Stratford, NewHampshire, UnitedStates}",
+                        "@desc": "Stratford (New Hampshire, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Stratford-_**Stratford.NewHampshire.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Stratford, Wisconsin, UnitedStates}",
+                        "@desc": "Stratford (Wisconsin, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Stratford-_**Stratford.Wisconsin.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Stratford, Texas, UnitedStates}",
+                        "@desc": "Stratford (Texas, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Stratford-_**Stratford.Texas.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Stratford, Oklahoma, UnitedStates}",
+                        "@desc": "Stratford (Oklahoma, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Stratford-_**Stratford.Oklahoma.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Stratford, Iowa, UnitedStates}",
+                        "@desc": "Stratford (Iowa, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Stratford-_**Stratford.Iowa.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Stratford, Taranaki, NewZealand}",
+                        "@desc": "Stratford (New Zealand)",
+                        "@input": "*DPClash.CityE.Town+of+Stratford-_**Stratford.Taranaki.NewZealand--"
+                    },
+                    {
+                        "@name": "{Stratford, California, UnitedStates}",
+                        "@desc": "Stratford (California, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Stratford-_**Stratford.California.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Stratford, SouthDakota, UnitedStates}",
+                        "@desc": "Stratford (South Dakota, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Stratford-_**Stratford.SouthDakota.UnitedStates--"
+                    }
+                ]
+            }
+        ]
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "7",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/NuclearReactorDataSourceInformationNotes.html",
+                "@text": "Nuclear reactor data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html",
+                "@text": "People data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USCensusDataSourceInformationNotes.html",
+                "@text": "US census data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html",
+                "@text": "Weather data"
+            }
+        ]
+    }
+}

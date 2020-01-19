@@ -1,0 +1,94 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "2",
+    "@datatypes": "Chemical",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "0.9460000000000001",
+    "@parsetiming": "0.56",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP90521h11g44gb4eac6a1000037i6746d19d7fd2c",
+    "@host": "https://www5a.wolframalpha.com",
+    "@server": "23",
+    "@related": "https://www5a.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa90531h11g44gb4eac6a100000gb6bb7e682hc8dd4080631721199541613",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP90541h11g44gb4eac6a1000023bd93ea63id3b65?MSPStoreType=image/gif&s=23",
+                    "@alt": "vitamin B1 | chemical classes",
+                    "@title": "vitamin B1 | chemical classes",
+                    "@width": "208",
+                    "@height": "23",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "vitamin B1 | chemical classes"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Result",
+            "@scanner": "Data",
+            "@id": "ChemicalClassification:ChemicalData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "ChemicalData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP90551h11g44gb4eac6a1000022id7g9gdae693i8?MSPStoreType=image/gif&s=23",
+                    "@alt": "chemical functional groups | heterocyclic | pyrimidine chemical types | organic | salt chemical uses | drug | vitamin",
+                    "@title": "chemical functional groups | heterocyclic | pyrimidine chemical types | organic | salt chemical uses | drug | vitamin",
+                    "@width": "403",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "chemical functional groups | heterocyclic | pyrimidine\nchemical types | organic | salt\nchemical uses | drug | vitamin"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        }
+    ],
+    "warnings": {
+        "@count": "1",
+        "spellcheck": {
+            "@word": "Eskasoni",
+            "@suggestion": "eskapen",
+            "@text": "Interpreting \"Eskasoni\" as \"eskapen\""
+        }
+    },
+    "sources": {
+        "@count": "1",
+        "source": {
+            "@url": "https://www5a.wolframalpha.com/sources/ChemicalDataSourceInformationNotes.html",
+            "@text": "Chemical data"
+        }
+    }
+}

@@ -1,0 +1,203 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "3",
+    "@datatypes": "City,USCounty",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "1.3800000000000001",
+    "@parsetiming": "0.755",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP5449141001f5614d804b00000ice1b9bd62bbg7b",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "56",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa5450141001f5614d804b00006221hac56109gi6h2586184755524934074",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP5451141001f5614d804b000033dcg0egb331fd97?MSPStoreType=image/gif&s=56",
+                    "@alt": "Amherstburg, Ontario | Essex County, Massachusetts (US county)",
+                    "@title": "Amherstburg, Ontario | Essex County, Massachusetts (US county)",
+                    "@width": "433",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Amherstburg, Ontario | Essex County, Massachusetts (US county)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Demographics",
+            "@scanner": "Data",
+            "@id": "DemographicProperties:MultipleData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCountyData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "USCensusQuickfacts"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP5452141001f5614d804b0000508ed58d5dchae61?MSPStoreType=image/gif&s=56",
+                    "@alt": " | Amherstburg, Ontario | Essex County, Massachusetts population | 21936 people | 785205 people",
+                    "@title": " | Amherstburg, Ontario | Essex County, Massachusetts population | 21936 people | 785205 people",
+                    "@width": "476",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Amherstburg, Ontario | Essex County, Massachusetts\npopulation | 21936 people | 785205 people"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:MultipleData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCountyData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "USCensusQuickfacts"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP5453141001f5614d804b00006b29i85ic73913h3?MSPStoreType=image/gif&s=56",
+                    "@alt": " | Amherstburg | Essex County area | | 2146 km^2 (square kilometers) average elevation | 178 meters | ",
+                    "@title": " | Amherstburg | Essex County area | | 2146 km^2 (square kilometers) average elevation | 178 meters | ",
+                    "@width": "461",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Amherstburg | Essex County\narea | | 2146 km^2 (square kilometers)\naverage elevation | 178 meters |"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:MultipleData__Show non-metric"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "2",
+        "assumption": [
+            {
+                "@type": "Clash",
+                "@word": "County of Essex",
+                "@template": "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead",
+                "@count": "2",
+                "value": [
+                    {
+                        "@name": "USCounty",
+                        "@desc": "a US county",
+                        "@input": "*C.County+of+Essex-_*USCounty-"
+                    },
+                    {
+                        "@name": "AdministrativeDivision",
+                        "@desc": "an administrative division",
+                        "@input": "*C.County+of+Essex-_*AdministrativeDivision-"
+                    }
+                ]
+            },
+            {
+                "@type": "SubCategory",
+                "@word": "County of Essex",
+                "@template": "Assuming ${desc1}. Use ${desc2} instead",
+                "@count": "5",
+                "value": [
+                    {
+                        "@name": "EssexMA",
+                        "@desc": "Essex County (MA)",
+                        "@input": "*DPClash.USCountyE.County+of+Essex-_*EssexMA-"
+                    },
+                    {
+                        "@name": "EssexNJ",
+                        "@desc": "Essex County (NJ)",
+                        "@input": "*DPClash.USCountyE.County+of+Essex-_*EssexNJ-"
+                    },
+                    {
+                        "@name": "EssexNY",
+                        "@desc": "Essex County (NY)",
+                        "@input": "*DPClash.USCountyE.County+of+Essex-_*EssexNY-"
+                    },
+                    {
+                        "@name": "EssexVT",
+                        "@desc": "Essex County (VT)",
+                        "@input": "*DPClash.USCountyE.County+of+Essex-_*EssexVT-"
+                    },
+                    {
+                        "@name": "EssexVA",
+                        "@desc": "Essex County (VA)",
+                        "@input": "*DPClash.USCountyE.County+of+Essex-_*EssexVA-"
+                    }
+                ]
+            }
+        ]
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "2",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USCountyDataSourceInformationNotes.html",
+                "@text": "US county data"
+            }
+        ]
+    }
+}

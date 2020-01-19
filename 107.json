@@ -1,0 +1,208 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "4",
+    "@datatypes": "AdministrativeDivision,City",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "1.838",
+    "@parsetiming": "1.05",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP118871eccdhab8e9i6b6h0000411534bf0fa8573f",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "36",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa118881eccdhab8e9i6b6h000034f673ghcd7b570a3163323455734918590",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP118891eccdhab8e9i6b6h00004i0a5d1d0c11a2e1?MSPStoreType=image/gif&s=36",
+                    "@alt": "Welland, Ontario | Niagara, Ontario, Canada (regional municipality)",
+                    "@title": "Welland, Ontario | Niagara, Ontario, Canada (regional municipality)",
+                    "@width": "467",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Welland, Ontario | Niagara, Ontario, Canada (regional municipality)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Distances",
+            "@scanner": "Data",
+            "@id": "Distances:MultipleData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP118901eccdhab8e9i6b6h00004gfi3fagf148ih42?MSPStoreType=image/gif&s=36",
+                    "@alt": "Welland to Niagara, Ontario, Canada | 8 km (kilometers)",
+                    "@title": "Welland to Niagara, Ontario, Canada | 8 km (kilometers)",
+                    "@width": "414",
+                    "@height": "32",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Welland to Niagara, Ontario, Canada | 8 km (kilometers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "Distances:MultipleData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Demographics",
+            "@scanner": "Data",
+            "@id": "DemographicProperties:MultipleData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "Statoids"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP118911eccdhab8e9i6b6h000021c2hghhe9eeg2bd?MSPStoreType=image/gif&s=36",
+                    "@alt": " | Welland, Ontario | Niagara, Ontario, Canada population | 50631 people | 393936 people",
+                    "@title": " | Welland, Ontario | Niagara, Ontario, Canada population | 50631 people | 393936 people",
+                    "@width": "425",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Welland, Ontario | Niagara, Ontario, Canada\npopulation | 50631 people | 393936 people"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:MultipleData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP118921eccdhab8e9i6b6h0000479c5171cifi634h?MSPStoreType=image/gif&s=36",
+                    "@alt": " | Welland | Niagara, Ontario, Canada area | | 1862 km^2 (square kilometers) average elevation | 180 meters | ",
+                    "@title": " | Welland | Niagara, Ontario, Canada area | | 1862 km^2 (square kilometers) average elevation | 180 meters | ",
+                    "@width": "448",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Welland | Niagara, Ontario, Canada\narea | | 1862 km^2 (square kilometers)\naverage elevation | 180 meters |"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:MultipleData__Show non-metric"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "1",
+        "assumption": {
+            "@type": "MultiClash",
+            "@word": "",
+            "@template": "Assuming ${word1} is referring to ${desc1}. Use \"${word2}\" as ${desc2}.",
+            "@count": "2",
+            "value": [
+                {
+                    "@name": "AdministrativeDivision",
+                    "@word": "Niagara Region",
+                    "@desc": "an administrative division",
+                    "@input": "*MC.Niagara+Region-_*AdministrativeDivision-"
+                },
+                {
+                    "@name": "City",
+                    "@word": "Niagara",
+                    "@desc": "a city",
+                    "@input": "*MC.Niagara+Region-_*City-"
+                }
+            ]
+        }
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "2",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            }
+        ]
+    }
+}

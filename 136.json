@@ -1,0 +1,368 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "4",
+    "@datatypes": "AdministrativeDivision,City",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "2.478",
+    "@parsetiming": "1.526",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP77201g2e76628h1idcd50000656i9d1c0edec937",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "50",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa77211g2e76628h1idcd500000h14h6bhbef9b8823545779640047213222",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP77221g2e76628h1idcd500001fdd87g546f5big0?MSPStoreType=image/gif&s=50",
+                    "@alt": "Lincoln, Nebraska, United States | Niagara, Ontario, Canada (regional municipality)",
+                    "@title": "Lincoln, Nebraska, United States | Niagara, Ontario, Canada (regional municipality)",
+                    "@width": "481",
+                    "@height": "38",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Lincoln, Nebraska, United States | Niagara, Ontario, Canada (regional municipality)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Distances",
+            "@scanner": "Data",
+            "@id": "Distances:MultipleData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP77231g2e76628h1idcd50000476bihba512edh2f?MSPStoreType=image/gif&s=50",
+                    "@alt": " | distance | flight time Lincoln to Niagara, Ontario, Canada | 1459 km (kilometers) | 1 hour 40 minutes (assuming direct flight path at 890 km/h)",
+                    "@title": " | distance | flight time Lincoln to Niagara, Ontario, Canada | 1459 km (kilometers) | 1 hour 40 minutes (assuming direct flight path at 890 km/h)",
+                    "@width": "546",
+                    "@height": "105",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| distance | flight time\nLincoln to Niagara, Ontario, Canada | 1459 km (kilometers) | 1 hour 40 minutes\n(assuming direct flight path at 890 km/h)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "Distances:MultipleData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Demographics",
+            "@scanner": "Data",
+            "@id": "DemographicProperties:MultipleData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "Statoids"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP77241g2e76628h1idcd5000012bi551if0g5d8ci?MSPStoreType=image/gif&s=50",
+                    "@alt": " | Lincoln, Nebraska, United States | Niagara, Ontario, Canada population | 284736 people | 393936 people",
+                    "@title": " | Lincoln, Nebraska, United States | Niagara, Ontario, Canada population | 284736 people | 393936 people",
+                    "@width": "526",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Lincoln, Nebraska, United States | Niagara, Ontario, Canada\npopulation | 284736 people | 393936 people"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:MultipleData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP77251g2e76628h1idcd500005d72g7a1f7705hce?MSPStoreType=image/gif&s=50",
+                    "@alt": " | Lincoln | Niagara, Ontario, Canada area | 230.8 km^2 (square kilometers) | 1862 km^2 (square kilometers) average elevation | 367 meters | ",
+                    "@title": " | Lincoln | Niagara, Ontario, Canada area | 230.8 km^2 (square kilometers) | 1862 km^2 (square kilometers) average elevation | 367 meters | ",
+                    "@width": "545",
+                    "@height": "117",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Lincoln | Niagara, Ontario, Canada\narea | 230.8 km^2 (square kilometers) | 1862 km^2 (square kilometers)\naverage elevation | 367 meters |"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:MultipleData__Show non-metric"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "2",
+        "assumption": [
+            {
+                "@type": "MultiClash",
+                "@word": "",
+                "@template": "Assuming ${word1} is referring to ${desc1}. Use \"${word2}\" as ${desc2}.",
+                "@count": "2",
+                "value": [
+                    {
+                        "@name": "AdministrativeDivision",
+                        "@word": "Niagara Region",
+                        "@desc": "an administrative division",
+                        "@input": "*MC.Niagara+Region-_*AdministrativeDivision-"
+                    },
+                    {
+                        "@name": "City",
+                        "@word": "Niagara",
+                        "@desc": "a city",
+                        "@input": "*MC.Niagara+Region-_*City-"
+                    }
+                ]
+            },
+            {
+                "@type": "SubCategory",
+                "@word": "Town of Lincoln",
+                "@template": "Assuming ${desc1}. Use ${desc2} instead",
+                "@count": "30",
+                "value": [
+                    {
+                        "@name": "{Lincoln, Nebraska, UnitedStates}",
+                        "@desc": "Lincoln (Nebraska, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**Lincoln.Nebraska.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Lincoln, RhodeIsland, UnitedStates}",
+                        "@desc": "Lincoln (Rhode Island, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**Lincoln.RhodeIsland.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Lincoln, Lincolnshire, UnitedKingdom}",
+                        "@desc": "Lincoln (United Kingdom)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**Lincoln.Lincolnshire.UnitedKingdom--"
+                    },
+                    {
+                        "@name": "{Lincoln, Massachusetts, UnitedStates}",
+                        "@desc": "Lincoln (Massachusetts, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**Lincoln.Massachusetts.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Lincoln, California, UnitedStates}",
+                        "@desc": "Lincoln (California, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**Lincoln.California.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Lincoln, Illinois, UnitedStates}",
+                        "@desc": "Lincoln (Illinois, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**Lincoln.Illinois.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Lincoln, Maine, UnitedStates}",
+                        "@desc": "Lincoln (Maine, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**Lincoln.Maine.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Lincoln, NewYork, UnitedStates}",
+                        "@desc": "Lincoln (New York, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**Lincoln.NewYork.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Lincoln, Vermont, UnitedStates}",
+                        "@desc": "Lincoln (Vermont, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**Lincoln.Vermont.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Lincoln, Alabama, UnitedStates}",
+                        "@desc": "Lincoln (Alabama, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**Lincoln.Alabama.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Lincoln, NewHampshire, UnitedStates}",
+                        "@desc": "Lincoln (New Hampshire, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**Lincoln.NewHampshire.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Lincoln, BuenosAires, Argentina}",
+                        "@desc": "Lincoln (Argentina)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**Lincoln.BuenosAires.Argentina--"
+                    },
+                    {
+                        "@name": "{Lincoln, Wisconsin, UnitedStates}",
+                        "@desc": "Lincoln (Wisconsin, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**Lincoln.Wisconsin.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Lincoln, NorthDakota, UnitedStates}",
+                        "@desc": "Lincoln (North Dakota, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**Lincoln.NorthDakota.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Lincoln, Pennsylvania, UnitedStates}",
+                        "@desc": "Lincoln (Pennsylvania, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**Lincoln.Pennsylvania.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Lincoln, Arkansas, UnitedStates}",
+                        "@desc": "Lincoln (Arkansas, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**Lincoln.Arkansas.UnitedStates--"
+                    },
+                    {
+                        "@name": "{LincolnKewaunee, Wisconsin, UnitedStates}",
+                        "@desc": "Lincoln (Wisconsin, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**LincolnKewaunee.Wisconsin.UnitedStates--"
+                    },
+                    {
+                        "@name": "{LincolnMonroe, Wisconsin, UnitedStates}",
+                        "@desc": "Lincoln (Wisconsin, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**LincolnMonroe.Wisconsin.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Lincoln, Missouri, UnitedStates}",
+                        "@desc": "Lincoln (Missouri, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**Lincoln.Missouri.UnitedStates--"
+                    },
+                    {
+                        "@name": "{LincolnTrempealeau, Wisconsin, UnitedStates}",
+                        "@desc": "Lincoln (Wisconsin, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**LincolnTrempealeau.Wisconsin.UnitedStates--"
+                    },
+                    {
+                        "@name": "{LincolnCenter, Kansas, UnitedStates}",
+                        "@desc": "Lincoln Center (Kansas, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**LincolnCenter.Kansas.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Lincoln, Michigan, UnitedStates}",
+                        "@desc": "Lincoln (Michigan, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**Lincoln.Michigan.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Lincoln, Montana, UnitedStates}",
+                        "@desc": "Lincoln (Montana, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**Lincoln.Montana.UnitedStates--"
+                    },
+                    {
+                        "@name": "{LincolnAdams, Wisconsin, UnitedStates}",
+                        "@desc": "Lincoln (Wisconsin, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**LincolnAdams.Wisconsin.UnitedStates--"
+                    },
+                    {
+                        "@name": "{LincolnBayfield, Wisconsin, UnitedStates}",
+                        "@desc": "Lincoln (Wisconsin, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**LincolnBayfield.Wisconsin.UnitedStates--"
+                    },
+                    {
+                        "@name": "{LincolnBurnett, Wisconsin, UnitedStates}",
+                        "@desc": "Lincoln (Wisconsin, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**LincolnBurnett.Wisconsin.UnitedStates--"
+                    },
+                    {
+                        "@name": "{LincolnBuffalo, Wisconsin, UnitedStates}",
+                        "@desc": "Lincoln (Wisconsin, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**LincolnBuffalo.Wisconsin.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Lincoln, Canterbury, NewZealand}",
+                        "@desc": "Lincoln (New Zealand)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**Lincoln.Canterbury.NewZealand--"
+                    },
+                    {
+                        "@name": "{LincolnOxford, Maine, UnitedStates}",
+                        "@desc": "Lincoln (Maine, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**LincolnOxford.Maine.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Lincoln, Iowa, UnitedStates}",
+                        "@desc": "Lincoln (Iowa, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lincoln-_**Lincoln.Iowa.UnitedStates--"
+                    }
+                ]
+            }
+        ]
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "2",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            }
+        ]
+    }
+}

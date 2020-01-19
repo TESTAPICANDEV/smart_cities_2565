@@ -1,0 +1,93 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "2",
+    "@datatypes": "AdministrativeDivision",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "0.47200000000000003",
+    "@parsetiming": "0.105",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP215510g1gc7273c10fa200000h2eb4d7gg688h8e",
+    "@host": "https://www5a.wolframalpha.com",
+    "@server": "56",
+    "@related": "https://www5a.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa215610g1gc7273c10fa200000d16a2a30bahd3eh1335321721000003642",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP215710g1gc7273c10fa20000600bif3980ggd47f?MSPStoreType=image/gif&s=56",
+                    "@alt": "Nunavut, Canada | subdivisions",
+                    "@title": "Nunavut, Canada | subdivisions",
+                    "@width": "226",
+                    "@height": "23",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Nunavut, Canada | subdivisions"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Result",
+            "@scanner": "Data",
+            "@id": "Subdivisions:AdministrativeDivisionData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "AdministrativeDivisionData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP215810g1gc7273c10fa2000033edbafi05h69190?MSPStoreType=image/gif&s=56",
+                    "@alt": "Baffin (area: 45.4%) | Kitikmeot (area: 28.2%) | Keewatin (area: 26.4%) (total: 3)",
+                    "@title": "Baffin (area: 45.4%) | Kitikmeot (area: 28.2%) | Keewatin (area: 26.4%) (total: 3)",
+                    "@width": "530",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Baffin (area: 45.4%) | Kitikmeot (area: 28.2%) | Keewatin (area: 26.4%) (total: 3)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show map",
+                    "@input": "Subdivisions:AdministrativeDivisionData__Show map"
+                }
+            }
+        }
+    ],
+    "sources": {
+        "@count": "1",
+        "source": {
+            "@url": "https://www5a.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+            "@text": "Administrative division data"
+        }
+    }
+}

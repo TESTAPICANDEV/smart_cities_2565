@@ -1,0 +1,366 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "8",
+    "@datatypes": "GivenName,Person",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "3.371",
+    "@parsetiming": "0.186",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP19371dg6430d18fd8fg200005i5a83ae19ib8f10",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "55",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa19381dg6430d18fd8fg200005f6c4a9074ih0ef57113371518146264914",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP19391dg6430d18fd8fg200005ebegbe1f0444hhg?MSPStoreType=image/gif&s=55",
+                    "@alt": "Regina (female given name)",
+                    "@title": "Regina (female given name)",
+                    "@width": "186",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Regina (female given name)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Information for US births",
+            "@scanner": "Data",
+            "@id": "BasicInformation:GivenNameData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "GivenNameData"
+                },
+                "datasources": {
+                    "datasource": "USSSABabyNames"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP19401dg6430d18fd8fg200004a88iifea3c82821?MSPStoreType=image/gif&s=55",
+                    "@alt": "rank | 409th fraction | 1 in 2246 people (0.045%) number | 751 people per year (US data based on 2018 births and other SSA registrations in the US)",
+                    "@title": "rank | 409th fraction | 1 in 2246 people (0.045%) number | 751 people per year (US data based on 2018 births and other SSA registrations in the US)",
+                    "@width": "546",
+                    "@height": "126",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "rank | 409th\nfraction | 1 in 2246 people (0.045%)\nnumber | 751 people per year\n(US data based on 2018 births and other SSA registrations in the US)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "History for US births",
+            "@scanner": "Data",
+            "@id": "History:GivenNameData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "Fraction",
+                "microsources": {
+                    "microsource": "GivenNameData"
+                },
+                "datasources": {
+                    "datasource": "USSSABabyNames"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP19411dg6430d18fd8fg200000g95bfg7h228455b?MSPStoreType=image/gif&s=55",
+                    "@alt": "History for US births Fraction",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "217",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Log scale",
+                        "@input": "History:GivenNameData__Log scale"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "History:GivenNameData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Estimates for current US population",
+            "@scanner": "Data",
+            "@id": "CurrentEstimates:GivenNameData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "GivenNameData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP19421dg6430d18fd8fg200005874f73i674b21d4?MSPStoreType=image/gif&s=55",
+                    "@alt": "expected total number alive today | 149189 people expected population fraction | 1 in 1763 people (0.057%) expected rank | 353rd most common age | 46 years (using standard US mortality data)",
+                    "@title": "expected total number alive today | 149189 people expected population fraction | 1 in 1763 people (0.057%) expected rank | 353rd most common age | 46 years (using standard US mortality data)",
+                    "@width": "546",
+                    "@height": "158",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "expected total number alive today | 149189 people\nexpected population fraction | 1 in 1763 people (0.057%)\nexpected rank | 353rd\nmost common age | 46 years\n(using standard US mortality data)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Estimated current age distribution",
+            "@scanner": "Data",
+            "@id": "AgeDistribution:GivenNameData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "GivenNameData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP19431dg6430d18fd8fg2000059dc83544ee16547?MSPStoreType=image/gif&s=55",
+                    "@alt": "Estimated current age distribution",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "242",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            }
+        },
+        {
+            "@title": "Alternate versions",
+            "@scanner": "Data",
+            "@id": "AlternateVersions:GivenNameData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "GivenNameData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP19441dg6430d18fd8fg200004d2h86dg5dd230ed?MSPStoreType=image/gif&s=55",
+                    "@alt": "Gina | Ray | Reggie",
+                    "@title": "Gina | Ray | Reggie",
+                    "@width": "151",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Gina | Ray | Reggie"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Notable people named Regina",
+            "@scanner": "Data",
+            "@id": "NotablePeopleWithName:GivenNameData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "GivenNameData",
+                        "PeopleData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP19451dg6430d18fd8fg2000025a4g697g006bda8?MSPStoreType=image/gif&s=55",
+                    "@alt": "Regina Spektor (singer/songwriter) (born 1980) (age: 39 years) Regina King (actor) (born 1971) (age: 49 years) Regina Hall (actor) (born 1970) (age: 49 years) Regina Belle (singer/songwriter, etc.) (born 1963) (age: 56 years) Regina Taylor (playwright, etc.) (born 1960) (age: 59 years) Regina von Habsburg (royalty) (1925 to 2010) Regina Carter (jazz musician, etc.) (born 1966) (age: 53 years) Regina Brett (journalist, etc.) (born 1956) (age: 63 years) Regina Weber (athlete) (born 1963) Regina Jonas (rabbi) (1902 to 1944) ...",
+                    "@title": "Regina Spektor (singer/songwriter) (born 1980) (age: 39 years) Regina King (actor) (born 1971) (age: 49 years) Regina Hall (actor) (born 1970) (age: 49 years) Regina Belle (singer/songwriter, etc.) (born 1963) (age: 56 years) Regina Taylor (playwright, etc.) (born 1960) (age: 59 years) Regina von Habsburg (royalty) (1925 to 2010) Regina Carter (jazz musician, etc.) (born 1966) (age: 53 years) Regina Brett (journalist, etc.) (born 1956) (age: 63 years) Regina Weber (athlete) (born 1963) Regina Jonas (rabbi) (1902 to 1944) ...",
+                    "@width": "408",
+                    "@height": "209",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Regina Spektor (singer/songwriter) (born 1980) (age: 39 years)\nRegina King (actor) (born 1971) (age: 49 years)\nRegina Hall (actor) (born 1970) (age: 49 years)\nRegina Belle (singer/songwriter, etc.) (born 1963) (age: 56 years)\nRegina Taylor (playwright, etc.) (born 1960) (age: 59 years)\nRegina von Habsburg (royalty) (1925 to 2010)\nRegina Carter (jazz musician, etc.) (born 1966) (age: 53 years)\nRegina Brett (journalist, etc.) (born 1956) (age: 63 years)\nRegina Weber (athlete) (born 1963)\nRegina Jonas (rabbi) (1902 to 1944)\n..."
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "More",
+                        "@input": "NotablePeopleWithName:GivenNameData__More"
+                    },
+                    {
+                        "@name": "Show dates",
+                        "@input": "NotablePeopleWithName:GivenNameData__Show dates"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Etymology",
+            "@scanner": "Data",
+            "@id": "NameMeaning:GivenNameData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "GivenNameData"
+                },
+                "datasources": {
+                    "datasource": "BehindTheName"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP19461dg6430d18fd8fg200002658e3h02de0iafg?MSPStoreType=image/gif&s=55",
+                    "@alt": "Late Latin name meaning \"queen\"",
+                    "@title": "Late Latin name meaning \"queen\"",
+                    "@width": "224",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Late Latin name meaning \"queen\""
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "1",
+        "assumption": {
+            "@type": "Clash",
+            "@word": "Regina",
+            "@template": "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead",
+            "@count": "8",
+            "value": [
+                {
+                    "@name": "GivenName",
+                    "@desc": "a given name",
+                    "@input": "*C.Regina-_*GivenName-"
+                },
+                {
+                    "@name": "City",
+                    "@desc": "a city",
+                    "@input": "*C.Regina-_*City-"
+                },
+                {
+                    "@name": "Neighborhood",
+                    "@desc": "a neighborhood",
+                    "@input": "*C.Regina-_*Neighborhood-"
+                },
+                {
+                    "@name": "GovernmentPosition",
+                    "@desc": "a leadership position",
+                    "@input": "*C.Regina-_*GovernmentPosition-"
+                },
+                {
+                    "@name": "AdministrativeDivision",
+                    "@desc": "an administrative division",
+                    "@input": "*C.Regina-_*AdministrativeDivision-"
+                },
+                {
+                    "@name": "Species",
+                    "@desc": "a species specification",
+                    "@input": "*C.Regina-_*Species-"
+                },
+                {
+                    "@name": "Person",
+                    "@desc": "a person",
+                    "@input": "*C.Regina-_*Person-"
+                },
+                {
+                    "@name": "SolarSystemFeature",
+                    "@desc": "a solar system feature",
+                    "@input": "*C.Regina-_*SolarSystemFeature-"
+                }
+            ]
+        }
+    },
+    "sources": {
+        "@count": "2",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/GivenNameDataSourceInformationNotes.html",
+                "@text": "Given name data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html",
+                "@text": "People data"
+            }
+        ]
+    }
+}

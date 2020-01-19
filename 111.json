@@ -1,0 +1,130 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "2",
+    "@datatypes": "City,OlympicMedalist,Person",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "0.905",
+    "@parsetiming": "0.459",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP82431dg63720fbh6bag900005e8b92ag4ff6ec9h",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "55",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa82441dg63720fbh6bag900004ceda9he13d4265e7113371518146264914",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP82451dg63720fbh6bag90000192e2476hihbee8e?MSPStoreType=image/gif&s=55",
+                    "@alt": "Olympic medals | Los Angeles, California, United States (summer 1984) Marguerite Broquedis (athlete) 1984",
+                    "@title": "Olympic medals | Los Angeles, California, United States (summer 1984) Marguerite Broquedis (athlete) 1984",
+                    "@width": "509",
+                    "@height": "89",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Olympic medals | Los Angeles, California, United States (summer 1984)\nMarguerite Broquedis (athlete)\n1984"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Medals",
+            "@scanner": "Data",
+            "@id": "OlympicMedalistResults:OlympicData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "OlympicData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP82461dg63720fbh6bag9000024b3bce9d1bh2g60?MSPStoreType=image/gif&s=55",
+                    "@alt": "(none)",
+                    "@title": "(none)",
+                    "@width": "41",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "(none)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "1",
+        "assumption": {
+            "@type": "Attribute",
+            "@word": "OlympicMedalist",
+            "@template": "Assuming ${desc1}. Use ${desc2} instead",
+            "@count": "2",
+            "value": [
+                {
+                    "@name": "",
+                    "@desc": "1984",
+                    "@input": "*LitAttr.OlympicMedalist.*OlympicLocation_%7FEntity%5B%22City%22%2C+%7B%22LosAngeles%22%2C+%22California%22%2C+%22UnitedStates%22%7D%2C+%7B%7D%5D.OlympicMedalRecipient_%7FEntity%5B%22Person%22%2C+%22MargueriteBroquedis%3A%3A67gs5%22%2C+%7B%7D%5D--_***OlympicYear_%7F1984---"
+                },
+                {
+                    "@name": "",
+                    "@desc": "1932",
+                    "@input": "*LitAttr.OlympicMedalist.*OlympicLocation_%7FEntity%5B%22City%22%2C+%7B%22LosAngeles%22%2C+%22California%22%2C+%22UnitedStates%22%7D%2C+%7B%7D%5D.OlympicMedalRecipient_%7FEntity%5B%22Person%22%2C+%22MargueriteBroquedis%3A%3A67gs5%22%2C+%7B%7D%5D--_***OlympicYear_%7F1932---"
+                }
+            ]
+        }
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "warnings": {
+        "@count": "1",
+        "spellcheck": {
+            "@word": "Broquerie",
+            "@suggestion": "broquedis",
+            "@text": "Interpreting \"Broquerie\" as \"broquedis\""
+        }
+    },
+    "sources": {
+        "@count": "3",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/OlympicDataSourceInformationNotes.html",
+                "@text": "Olympic data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html",
+                "@text": "People data"
+            }
+        ]
+    }
+}

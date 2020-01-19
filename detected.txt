@@ -1,0 +1,157 @@
+0; Austin
+1; Boisbriand
+2; Bowen Island
+3; Bromont
+4; City of Abbotsford
+5; City of Brampton
+6; City of Campbell River
+7; City of Charlottetown
+8; City of Clarence-Rockland
+9; City of Coquitlam
+10; City of Cornwall
+11; City of Estevan
+12; City of Greater Sudbury
+13; City of Kelowna
+14; City of Langford
+15; City of Lethbridge
+16; City of Maple Ridge
+17; City of Markham
+18; City of Mississauga
+19; City of Moncton
+20; City of Nanaimo
+21; City of New Westminster
+22; City of North Bay
+23; City of North Vancouver
+24; City of Oshawa
+25; City of Ottawa
+26; City of Penticton
+27; City of Port Alberni
+28; City of Revelstoke
+29; City of Saint John
+30; City of St. Albert
+31; City of Thunder Bay
+32; City of Vaughan
+33; City of Wetaskiwin
+34; City of Whitehorse
+35; City of Winnipeg
+36; Coaticook
+37; Corner Brook
+38; County of Bruce
+39; County of Simcoe
+40; Dieppe
+41; District of Squamish
+42; Drummondville
+43; Eskasoni (group)
+44; Frog Lake First Nation
+45; Halifax Regional Municipality
+46; Hamilton
+47; Hampstead
+48; Joliette
+49; Kingston
+50; Laval
+51; London
+52; Longueuil
+53; Montebello
+54; Moose Factory
+55; Municipality of Hope Town
+56; Nelson (group)
+57; Nicolet
+58; Powell River
+59; Regina
+60; Rosemère
+61; Saguenay
+62; Sainte-Julie
+63; Saint-Nazaire
+64; Sault Ste. Marie
+65; Sherbrooke
+66; St. John's
+67; St. Mary's (group)
+68; Strathcona County
+69; The City of Calgary
+70; The City of Red Deer
+71; The City of Toronto
+72; Town of Banff
+73; Town of Beaumont
+74; Town of Caledon
+75; Town of Cochrane
+76; Town of Devon
+77; Town of Essex/County of Essex (group)
+78; Town of Halton Hills
+79; Town of New Glasgow
+80; Town of Olds
+81; Town of Sackville
+82; Town of Stratford
+83; Town of Valleyview
+84; Town of Yarmouth
+85; Vaudreuil-Soulanges  
+86; Victoriaville
+87; Village of Stirling
+88; Williams Lake
+89; City of Edmonton
+90; City of Richmond
+91; Lac Ste Anne County (group)
+92; Montréal
+93; Nunavut Communities
+94; Quebec City
+95; Saskatoon
+96; Town of Bridgewater
+97; Town of The Pas (group)
+98; Yellowknife
+99; Beaconsfield (group)
+100; Blandford-Blenheim/Oxford County (group)
+101; Brossard (group)
+102; Castlegar (group)
+103; City of Morden (group)
+104; City of Niagara Falls / Niagara Region (group)
+105; City of St. Catharines / Niagara Region (group)
+106; City of Thorold / Niagara Region (group)
+107; City of Welland / Niagara Region (group)
+108; City of Windsor (group)
+109; City of Winkler (group)
+110; Ingersoll/Oxford County (group)
+111; La Broquerie (group)
+112; La Prairie (group)
+113; Magog (group)
+114; Membertou (group)
+115; Municipality of Chatham-Kent (group)
+116; Municipality of the County of Annapolis (group)
+117; Municipality of the County of Antigonish (group)
+118; Municipality of the District of Digby (group)
+119; Norwich/Oxford County (group)
+120; Plessisville (group)
+121; Riverhead (group)
+122; Rossland (group)
+123; Saint-Constant (group)
+124; Sainte-Catherine (group)
+125; Saint-Lambert (group)
+126; Saint-Quentin (group)
+127; Tillsonburg/Oxford County (group)
+128; Town of Amherstburg/County of Essex (group)
+129; Town of Digby (group)
+130; Town of Fort Erie / Niagara Region (group)
+131; Town of Grimsby / Niagara Region (group)
+132; Town of Kingsville/County of Essex (group)
+133; Town of Lakeshore/County of Essex (group)
+134; Town of LaSalle/County of Essex (group)
+135; Town of Leamington/County of Essex (group)
+136; Town of Lincoln / Niagara Region (group)
+137; Town of Niagara-on-the-Lake / Niagara Region (group)
+138; Town of Pelham / Niagara Region (group)
+139; Town of Tecumseh/County of Essex (group)
+140; Township of Langley (group)
+141; Trail (group)
+142; Woodstock/Oxford County (group)
+143; Brazeau County (group)
+144; City of Cambridge/Waterloo Region (group)
+145; City of Guelph (group)
+146; City of Kitchener/Waterloo Region (group)
+147; City of Surrey (group)
+148; City of Vancouver (group)
+149; City of Waterloo/Waterloo Region (group)
+150; Fredericton (group)
+153; Wellington County (group)
+
+151; Greater Victoria (group)
+152; Parkland County (group)
+153; Wellington County (group)
+

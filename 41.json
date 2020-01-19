@@ -1,0 +1,94 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "2",
+    "@datatypes": "City",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "1.448",
+    "@parsetiming": "0.252",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP50721hb63h47351d9e180000277ha3bf320h7g2a",
+    "@host": "https://www5a.wolframalpha.com",
+    "@server": "31",
+    "@related": "https://www5a.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa50731hb63h47351d9e1800004h11i3ge4h17b5e42433495843949992771",
+    "@version": "2.6",
+    "@nodata": "true",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP50741hb63h47351d9e1800004a0709a8a6hhhcbg?MSPStoreType=image/gif&s=31",
+                    "@alt": "neighborhoods | in Squamish, British Columbia",
+                    "@title": "neighborhoods | in Squamish, British Columbia",
+                    "@width": "354",
+                    "@height": "32",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "neighborhoods | in Squamish, British Columbia"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Result",
+            "@scanner": "Data",
+            "@id": "Result",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "@nodata": "true",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP50751hb63h47351d9e180000405cbf48c5f05ie0?MSPStoreType=image/gif&s=31",
+                    "@alt": "(data not available)",
+                    "@title": "(data not available)",
+                    "@width": "125",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "(data not available)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        }
+    ],
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "1",
+        "source": {
+            "@url": "https://www5a.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+            "@text": "City data"
+        }
+    }
+}

@@ -1,0 +1,975 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "18",
+    "@datatypes": "ACS,City,MetropolitanArea,NuclearReactor,Person,USCounty,USState,WeatherStation",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "7.715",
+    "@parsetiming": "0.253",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP437120936768i42eai97000019cd870i1h106h9b",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "40",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa437220936768i42eai9700000gh491gc3b852a363354538778751843049",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP437320936768i42eai9700000f7781iiia4c605e?MSPStoreType=image/gif&s=40",
+                    "@alt": "La Prairie, Wisconsin, United States",
+                    "@title": "La Prairie, Wisconsin, United States",
+                    "@width": "232",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "La Prairie, Wisconsin, United States"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Populations",
+            "@scanner": "Data",
+            "@id": "Population:CityData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "MetropolitanAreaData",
+                        "USCensusData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP437420936768i42eai97000031baf65521ii91a6?MSPStoreType=image/gif&s=40",
+                    "@alt": "city population | 860 people (2017 estimate) metro area population | 160092 people (Janesville metro area) (country rank: 259th) (2011 estimate)",
+                    "@title": "city population | 860 people (2017 estimate) metro area population | 160092 people (Janesville metro area) (country rank: 259th) (2011 estimate)",
+                    "@width": "546",
+                    "@height": "85",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "city population | 860 people (2017 estimate)\nmetro area population | 160092 people (Janesville metro area) (country rank: 259th) (2011 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show history",
+                    "@input": "Population:CityData__Show history"
+                }
+            }
+        },
+        {
+            "@title": "Location",
+            "@scanner": "Data",
+            "@id": "Location:CityData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "2",
+            "subpod": [
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "CityData",
+                            "USCountyData",
+                            "USStateData"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP437520936768i42eai9700006243eah1i5edihe7?MSPStoreType=image/gif&s=40",
+                        "@alt": "Rock County, Wisconsin",
+                        "@title": "Rock County, Wisconsin",
+                        "@width": "160",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "Rock County, Wisconsin"
+                },
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "CityData",
+                            "USCountyData",
+                            "USStateData",
+                            "CountryData"
+                        ]
+                    },
+                    "datasources": {
+                        "datasource": "CIAFactbook"
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP437620936768i42eai97000040d6e635d68g8h6c?MSPStoreType=image/gif&s=40",
+                        "@alt": "Location",
+                        "@title": "",
+                        "@width": "328",
+                        "@height": "177",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                }
+            ],
+            "expressiontypes": {
+                "@count": "2",
+                "expressiontype": [
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    }
+                ]
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "World map",
+                        "@input": "Location:CityData__World map"
+                    },
+                    {
+                        "@name": "Show coordinates",
+                        "@input": "Location:CityData__Show coordinates"
+                    }
+                ]
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=42.6287%2C-88.9438&q=42.6287%20N%2C%2088.9438%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "Map:CityData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP437720936768i42eai970000426a5cd9i6ed62b6?MSPStoreType=image/gif&s=40",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "30 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "8 kilometers across",
+                            "@input": "Map:CityData__8 kilometers across"
+                        },
+                        {
+                            "@name": "20 kilometers across",
+                            "@input": "Map:CityData__20 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "Map:CityData__30 kilometers across"
+                        },
+                        {
+                            "@name": "60 kilometers across",
+                            "@input": "Map:CityData__60 kilometers across"
+                        },
+                        {
+                            "@name": "120 kilometers across",
+                            "@input": "Map:CityData__120 kilometers across"
+                        },
+                        {
+                            "@name": "250 kilometers across",
+                            "@input": "Map:CityData__250 kilometers across"
+                        },
+                        {
+                            "@name": "500 kilometers across",
+                            "@input": "Map:CityData__500 kilometers across"
+                        },
+                        {
+                            "@name": "1000 kilometers across",
+                            "@input": "Map:CityData__1000 kilometers across"
+                        },
+                        {
+                            "@name": "2000 kilometers across",
+                            "@input": "Map:CityData__2000 kilometers across"
+                        },
+                        {
+                            "@name": "4000 kilometers across",
+                            "@input": "Map:CityData__4000 kilometers across"
+                        },
+                        {
+                            "@name": "7700 kilometers across",
+                            "@input": "Map:CityData__7700 kilometers across"
+                        },
+                        {
+                            "@name": "13000 kilometers across",
+                            "@input": "Map:CityData__13000 kilometers across"
+                        },
+                        {
+                            "@name": "25000 kilometers across",
+                            "@input": "Map:CityData__25000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "Map:CityData__Non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=42.6287%2C-88.9438&q=42.6287%20N%2C%2088.9438%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Administrative regions",
+            "@scanner": "Data",
+            "@id": "AdministrativeRegions:CityData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCountyData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP437820936768i42eai970000130706i6358h5812?MSPStoreType=image/gif&s=40",
+                    "@alt": "county | Rock County state | Wisconsin country | United States",
+                    "@title": "county | Rock County state | Wisconsin country | United States",
+                    "@width": "186",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "county | Rock County\nstate | Wisconsin\ncountry | United States"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Current local time",
+            "@scanner": "Data",
+            "@id": "CurrentTime:CityData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP437920936768i42eai970000645611b72ich61i0?MSPStoreType=image/gif&s=40",
+                    "@alt": "11:20 pm CST | Saturday, January 18, 2020",
+                    "@title": "11:20 pm CST | Saturday, January 18, 2020",
+                    "@width": "301",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "11:20 pm CST | Saturday, January 18, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Current weather",
+            "@scanner": "Data",
+            "@id": "WeatherPod:CityData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "WeatherData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP438020936768i42eai9700001ea6g99da1i71h11?MSPStoreType=image/gif&s=40",
+                    "@alt": "-15 \u00b0C (wind chill: -25 \u00b0C) | relative humidity: 78% | wind: 7 m/s | overcast",
+                    "@title": "-15 \u00b0C (wind chill: -25 \u00b0C) | relative humidity: 78% | wind: 7 m/s | overcast",
+                    "@width": "527",
+                    "@height": "22",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "-15 \u00b0C (wind chill: -25 \u00b0C) | relative humidity: 78% | wind: 7 m/s | overcast"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show history",
+                        "@input": "WeatherPod:CityData__Show history"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "WeatherPod:CityData__Show non-metric"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Demographics",
+            "@scanner": "Data",
+            "@id": "ACSPercentageEntrainments:ACSData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "ACSData"
+                },
+                "datasources": {
+                    "datasource": [
+                        "CensusAmericanCommunitySurvey5YearsRace",
+                        "CensusAmericanCommunitySurvey5YearsHispanicOrigin",
+                        "CensusAmericanCommunitySurvey5YearsCitizenship"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP438120936768i42eai97000021iddbcddihha8ag?MSPStoreType=image/gif&s=40",
+                    "@alt": "race | white: 98.1% | two or more races: 1% | American Indian/Alaska native: 0.5% | other: 0.4% Hispanic origin | 5.9% US citizens | 98.5%",
+                    "@title": "race | white: 98.1% | two or more races: 1% | American Indian/Alaska native: 0.5% | other: 0.4% Hispanic origin | 5.9% US citizens | 98.5%",
+                    "@width": "546",
+                    "@height": "117",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "race | white: 98.1% | two or more races: 1% | American Indian/Alaska native: 0.5% | other: 0.4%\nHispanic origin | 5.9%\nUS citizens | 98.5%"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "More",
+                    "@input": "ACSPercentageEntrainments:ACSData__More"
+                }
+            }
+        },
+        {
+            "@title": "Educational attainment",
+            "@scanner": "Data",
+            "@id": "ACSEducationEntrainments:ACSData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "ACSData"
+                },
+                "datasources": {
+                    "datasource": "CensusAmericanCommunitySurvey5YearsEducation"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP438220936768i42eai97000063dc463814ea9b9b?MSPStoreType=image/gif&s=40",
+                    "@alt": "college degree and above | 29% (0.766 \u00d7 national average) high school diploma | 40.4% (1.46 \u00d7 national average) less than high school diploma | 7.9% (0.591 \u00d7 national average) (for population age 25 and older)",
+                    "@title": "college degree and above | 29% (0.766 \u00d7 national average) high school diploma | 40.4% (1.46 \u00d7 national average) less than high school diploma | 7.9% (0.591 \u00d7 national average) (for population age 25 and older)",
+                    "@width": "430",
+                    "@height": "121",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "college degree and above | 29% (0.766 \u00d7 national average)\nhigh school diploma | 40.4% (1.46 \u00d7 national average)\nless than high school diploma | 7.9% (0.591 \u00d7 national average)\n(for population age 25 and older)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show enrollment",
+                    "@input": "ACSEducationEntrainments:ACSData__Show enrollment"
+                }
+            }
+        },
+        {
+            "@title": "Income statistics",
+            "@scanner": "Data",
+            "@id": "ACSIncomeEntrainments:ACSData",
+            "@position": "1000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "ACSData"
+                },
+                "datasources": {
+                    "datasource": [
+                        "CensusAmericanCommunitySurvey5YearsMedianIncome",
+                        "CensusAmericanCommunitySurvey5YearsPerCapitaIncome",
+                        "CensusAmericanCommunitySurvey5YearsPoverty"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP438320936768i42eai9700002e35d2754aigf7ib?MSPStoreType=image/gif&s=40",
+                    "@alt": "median household income | $61250 per year (US dollars per year) (\u2248 national average) per capita income | $30703 per year per person (US dollars per year per person) (\u2248 national average) population below poverty line | 3.3% (0.218 \u00d7 national average)",
+                    "@title": "median household income | $61250 per year (US dollars per year) (\u2248 national average) per capita income | $30703 per year per person (US dollars per year per person) (\u2248 national average) population below poverty line | 3.3% (0.218 \u00d7 national average)",
+                    "@width": "546",
+                    "@height": "151",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "median household income | $61250 per year (US dollars per year) (\u2248 national average)\nper capita income | $30703 per year per person (US dollars per year per person) (\u2248 national average)\npopulation below poverty line | 3.3% (0.218 \u00d7 national average)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show distribution",
+                    "@input": "ACSIncomeEntrainments:ACSData__Show distribution"
+                }
+            }
+        },
+        {
+            "@title": "Nearby cities",
+            "@scanner": "Data",
+            "@id": "CityHierarchyInfo:CityData",
+            "@position": "1100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP438420936768i42eai9700002f5h0a4g5d8bde3c?MSPStoreType=image/gif&s=40",
+                    "@alt": "Janesville, Wisconsin | 8 km (kilometers) northwest | 63588 people Beloit, Wisconsin | 13 km (kilometers) south-southwest | 36842 people Rockford, Illinois | 42 km (kilometers) south-southwest | 150843 people Madison, Wisconsin | 65 km (kilometers) northwest | 240323 people Milwaukee, Wisconsin | 93 km (kilometers) east-northeast | 598916 people Chicago, Illinois | 136 km (kilometers) southeast | 2.715 million people (straight-line distances between city centers)",
+                    "@title": "Janesville, Wisconsin | 8 km (kilometers) northwest | 63588 people Beloit, Wisconsin | 13 km (kilometers) south-southwest | 36842 people Rockford, Illinois | 42 km (kilometers) south-southwest | 150843 people Madison, Wisconsin | 65 km (kilometers) northwest | 240323 people Milwaukee, Wisconsin | 93 km (kilometers) east-northeast | 598916 people Chicago, Illinois | 136 km (kilometers) southeast | 2.715 million people (straight-line distances between city centers)",
+                    "@width": "546",
+                    "@height": "260",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Janesville, Wisconsin | 8 km (kilometers) northwest | 63588 people\nBeloit, Wisconsin | 13 km (kilometers) south-southwest | 36842 people\nRockford, Illinois | 42 km (kilometers) south-southwest | 150843 people\nMadison, Wisconsin | 65 km (kilometers) northwest | 240323 people\nMilwaukee, Wisconsin | 93 km (kilometers) east-northeast | 598916 people\nChicago, Illinois | 136 km (kilometers) southeast | 2.715 million people\n(straight-line distances between city centers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "CityHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "CityHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby airport",
+            "@scanner": "Data",
+            "@id": "AirportHierarchyInfo:CityData",
+            "@position": "1200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP438520936768i42eai9700001c78822gh47857i3?MSPStoreType=image/gif&s=40",
+                    "@alt": "Southern Wisconsin Regional Airport | 8 km (kilometers) west (straight-line distances between city center and airport)",
+                    "@title": "Southern Wisconsin Regional Airport | 8 km (kilometers) west (straight-line distances between city center and airport)",
+                    "@width": "439",
+                    "@height": "58",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Southern Wisconsin Regional Airport | 8 km (kilometers) west\n(straight-line distances between city center and airport)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "AirportHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "AirportHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby hospital",
+            "@scanner": "Data",
+            "@id": "HospitalHierarchyInfo:CityData",
+            "@position": "1300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP438620936768i42eai97000025d5d41ed3c6ddf0?MSPStoreType=image/gif&s=40",
+                    "@alt": "Beloit Memorial Hospital | 10 km (kilometers) south-southwest (straight-line distances between city center and hospital)",
+                    "@title": "Beloit Memorial Hospital | 10 km (kilometers) south-southwest (straight-line distances between city center and hospital)",
+                    "@width": "444",
+                    "@height": "58",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Beloit Memorial Hospital | 10 km (kilometers) south-southwest\n(straight-line distances between city center and hospital)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "HospitalHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "HospitalHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:CityData",
+            "@position": "1400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP438720936768i42eai9700004c40ce3bcfea9d79?MSPStoreType=image/gif&s=40",
+                    "@alt": "elevation | 274 m area | 89.399 km^2 population density | 9.62 people per square kilometer",
+                    "@title": "elevation | 274 m area | 89.399 km^2 population density | 9.62 people per square kilometer",
+                    "@width": "382",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "elevation | 274 m\narea | 89.399 km^2\npopulation density | 9.62 people per square kilometer"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:CityData__Show non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "units": {
+                        "@count": "2",
+                        "unit": [
+                            {
+                                "@short": "km^2",
+                                "@long": "square kilometers"
+                            },
+                            {
+                                "@short": "m",
+                                "@long": "meters"
+                            }
+                        ],
+                        "img": {
+                            "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP438820936768i42eai9700005546g6e005a20gfe?MSPStoreType=image/gif&s=40",
+                            "@width": "171",
+                            "@height": "48"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Nearby feature",
+            "@scanner": "Data",
+            "@id": "FeaturesHierarchyInfo:CityData",
+            "@position": "1500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "NuclearReactorData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "IAEAPowerReactorInformationSystem"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP438920936768i42eai9700004f77eb2db43307eg?MSPStoreType=image/gif&s=40",
+                    "@alt": "nuclear power site | Byron | 68 km (kilometers) south-southwest (straight-line distances between city center and feature coordinates)",
+                    "@title": "nuclear power site | Byron | 68 km (kilometers) south-southwest (straight-line distances between city center and feature coordinates)",
+                    "@width": "462",
+                    "@height": "58",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "nuclear power site | Byron | 68 km (kilometers) south-southwest\n(straight-line distances between city center and feature coordinates)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "FeaturesHierarchyInfo:CityData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Nearest sea",
+            "@scanner": "Data",
+            "@id": "OceansHierarchyInfo:CityData",
+            "@position": "1600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP439020936768i42eai970000463i0e8g15afd5a0?MSPStoreType=image/gif&s=40",
+                    "@alt": "Atlantic Ocean (1084 km (kilometers) east-southeast)  (straight-line distance between city center and shore)",
+                    "@title": "Atlantic Ocean (1084 km (kilometers) east-southeast)  (straight-line distance between city center and shore)",
+                    "@width": "347",
+                    "@height": "41",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Atlantic Ocean (1084 km (kilometers) east-southeast) \n(straight-line distance between city center and shore)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "3",
+                "state": [
+                    {
+                        "@name": "Show map",
+                        "@input": "OceansHierarchyInfo:CityData__Show map"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "OceansHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "OceansHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Notable people born in La Prairie",
+            "@scanner": "Data",
+            "@id": "NotablePeople:CityData",
+            "@position": "1700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "PeopleData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP439120936768i42eai970000479631184b1b886g?MSPStoreType=image/gif&s=40",
+                    "@alt": "(none known)",
+                    "@title": "(none known)",
+                    "@width": "92",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "(none known)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show dates",
+                        "@input": "NotablePeople:CityData__Show dates"
+                    },
+                    {
+                        "@name": "Show deaths",
+                        "@input": "NotablePeople:CityData__Show deaths"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Wikipedia page hits history",
+            "@scanner": "Data",
+            "@id": "PopularityPod:WikipediaStatsData",
+            "@position": "1800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP439220936768i42eai9700005a16836de0bfgd51?MSPStoreType=image/gif&s=40",
+                    "@alt": "Wikipedia page hits history",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "168",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopularityPod:WikipediaStatsData__Log scale"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "1",
+        "assumption": {
+            "@type": "SubCategory",
+            "@word": "La Prairie",
+            "@template": "Assuming ${desc1}. Use ${desc2} instead",
+            "@count": "3",
+            "value": [
+                {
+                    "@name": "{LaPrairie, Wisconsin, UnitedStates}",
+                    "@desc": "La Prairie (Wisconsin, USA)",
+                    "@input": "*DPClash.CityE.La+Prairie-_**LaPrairie.Wisconsin.UnitedStates--"
+                },
+                {
+                    "@name": "{LaPrairie, Minnesota, UnitedStates}",
+                    "@desc": "La Prairie (Minnesota, USA)",
+                    "@input": "*DPClash.CityE.La+Prairie-_**LaPrairie.Minnesota.UnitedStates--"
+                },
+                {
+                    "@name": "{LaPrairie, Illinois, UnitedStates}",
+                    "@desc": "La Prairie (Illinois, USA)",
+                    "@input": "*DPClash.CityE.La+Prairie-_**LaPrairie.Illinois.UnitedStates--"
+                }
+            ]
+        }
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "10",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/ACSDataSourceInformationNotes.html",
+                "@text": "ACS data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/MetropolitanAreaDataSourceInformationNotes.html",
+                "@text": "Metropolitan area data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/NuclearReactorDataSourceInformationNotes.html",
+                "@text": "Nuclear reactor data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html",
+                "@text": "People data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USCensusDataSourceInformationNotes.html",
+                "@text": "US census data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USCountyDataSourceInformationNotes.html",
+                "@text": "US county data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USStateDataSourceInformationNotes.html",
+                "@text": "US state data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html",
+                "@text": "Weather data"
+            }
+        ]
+    }
+}

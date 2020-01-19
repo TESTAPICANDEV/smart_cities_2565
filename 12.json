@@ -1,0 +1,750 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "14",
+    "@datatypes": "AdministrativeDivision,City,Person,WeatherStation",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "6.657",
+    "@parsetiming": "0.522",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP33471730gd03e5e9cdg70000274440b8e9b17544",
+    "@host": "https://www4f.wolframalpha.com",
+    "@server": "53",
+    "@related": "https://www4f.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa33481730gd03e5e9cdg7000043717eb9h776dh2i1494264905346578628",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP33491730gd03e5e9cdg7000069e613he094144ad?MSPStoreType=image/gif&s=53",
+                    "@alt": "Sudbury, Ontario",
+                    "@title": "Sudbury, Ontario",
+                    "@width": "115",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Sudbury, Ontario"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Population",
+            "@scanner": "Data",
+            "@id": "Population:CityData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCensusData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP33501730gd03e5e9cdg70000606cd7dc1d01dbhe?MSPStoreType=image/gif&s=53",
+                    "@alt": "city population | 161531 people (country rank: 30th) (2016 estimate)",
+                    "@title": "city population | 161531 people (country rank: 30th) (2016 estimate)",
+                    "@width": "460",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "city population | 161531 people (country rank: 30th) (2016 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show history",
+                    "@input": "Population:CityData__Show history"
+                }
+            }
+        },
+        {
+            "@title": "Location",
+            "@scanner": "Data",
+            "@id": "Location:CityData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "2",
+            "subpod": [
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP33511730gd03e5e9cdg700002hi6933e2a97ag11?MSPStoreType=image/gif&s=53",
+                        "@alt": "Ontario, Canada",
+                        "@title": "Ontario, Canada",
+                        "@width": "109",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "Ontario, Canada"
+                },
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData",
+                            "CountryData"
+                        ]
+                    },
+                    "datasources": {
+                        "datasource": "CIAFactbook"
+                    },
+                    "img": {
+                        "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP33521730gd03e5e9cdg70000178ig053ihd2f1cd?MSPStoreType=image/gif&s=53",
+                        "@alt": "Location",
+                        "@title": "",
+                        "@width": "328",
+                        "@height": "214",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                }
+            ],
+            "expressiontypes": {
+                "@count": "2",
+                "expressiontype": [
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    }
+                ]
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "World map",
+                        "@input": "Location:CityData__World map"
+                    },
+                    {
+                        "@name": "Show coordinates",
+                        "@input": "Location:CityData__Show coordinates"
+                    }
+                ]
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=46.49%2C-81.01&q=46.49%20N%2C%2081.01%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "Map:CityData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP33531730gd03e5e9cdg700005c022d692a629d77?MSPStoreType=image/gif&s=53",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "60 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "7 kilometers across",
+                            "@input": "Map:CityData__7 kilometers across"
+                        },
+                        {
+                            "@name": "10 kilometers across",
+                            "@input": "Map:CityData__10 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "Map:CityData__30 kilometers across"
+                        },
+                        {
+                            "@name": "60 kilometers across",
+                            "@input": "Map:CityData__60 kilometers across"
+                        },
+                        {
+                            "@name": "120 kilometers across",
+                            "@input": "Map:CityData__120 kilometers across"
+                        },
+                        {
+                            "@name": "230 kilometers across",
+                            "@input": "Map:CityData__230 kilometers across"
+                        },
+                        {
+                            "@name": "470 kilometers across",
+                            "@input": "Map:CityData__470 kilometers across"
+                        },
+                        {
+                            "@name": "940 kilometers across",
+                            "@input": "Map:CityData__940 kilometers across"
+                        },
+                        {
+                            "@name": "1900 kilometers across",
+                            "@input": "Map:CityData__1900 kilometers across"
+                        },
+                        {
+                            "@name": "3700 kilometers across",
+                            "@input": "Map:CityData__3700 kilometers across"
+                        },
+                        {
+                            "@name": "7200 kilometers across",
+                            "@input": "Map:CityData__7200 kilometers across"
+                        },
+                        {
+                            "@name": "12000 kilometers across",
+                            "@input": "Map:CityData__12000 kilometers across"
+                        },
+                        {
+                            "@name": "23000 kilometers across",
+                            "@input": "Map:CityData__23000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "Map:CityData__Non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=46.49%2C-81.01&q=46.49%20N%2C%2081.01%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Administrative regions",
+            "@scanner": "Data",
+            "@id": "AdministrativeRegions:CityData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP33541730gd03e5e9cdg70000196gc0aec661di6i?MSPStoreType=image/gif&s=53",
+                    "@alt": "region | Ontario country | Canada",
+                    "@title": "region | Ontario country | Canada",
+                    "@width": "151",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "region | Ontario\ncountry | Canada"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Current local time",
+            "@scanner": "Data",
+            "@id": "CurrentTime:CityData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP33551730gd03e5e9cdg700005hgh8c9gf5g72255?MSPStoreType=image/gif&s=53",
+                    "@alt": "11:35 pm EST | Saturday, January 18, 2020",
+                    "@title": "11:35 pm EST | Saturday, January 18, 2020",
+                    "@width": "301",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "11:35 pm EST | Saturday, January 18, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Current weather",
+            "@scanner": "Data",
+            "@id": "WeatherPod:CityData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "WeatherData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP33561730gd03e5e9cdg700003ifi8hi3055hb660?MSPStoreType=image/gif&s=53",
+                    "@alt": "-13 \u00b0C (wind chill: -22 \u00b0C) | relative humidity: 78% | wind: 6 m/s | snow, overcast",
+                    "@title": "-13 \u00b0C (wind chill: -22 \u00b0C) | relative humidity: 78% | wind: 6 m/s | snow, overcast",
+                    "@width": "516",
+                    "@height": "39",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "-13 \u00b0C (wind chill: -22 \u00b0C) | relative humidity: 78% | wind: 6 m/s | snow, overcast"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show history",
+                        "@input": "WeatherPod:CityData__Show history"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "WeatherPod:CityData__Show non-metric"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby cities",
+            "@scanner": "Data",
+            "@id": "CityHierarchyInfo:CityData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP33571730gd03e5e9cdg7000036cbdd2cb00dh4e9?MSPStoreType=image/gif&s=53",
+                    "@alt": "North Bay, Ontario | 122 km (kilometers) east | 53100 people Mississauga, Ontario | 339 km (kilometers) south-southeast | 668549 people Toronto, Ontario | 341 km (kilometers) south-southeast | 2.615 million people (straight-line distances between city centers)",
+                    "@title": "North Bay, Ontario | 122 km (kilometers) east | 53100 people Mississauga, Ontario | 339 km (kilometers) south-southeast | 668549 people Toronto, Ontario | 341 km (kilometers) south-southeast | 2.615 million people (straight-line distances between city centers)",
+                    "@width": "546",
+                    "@height": "156",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "North Bay, Ontario | 122 km (kilometers) east | 53100 people\nMississauga, Ontario | 339 km (kilometers) south-southeast | 668549 people\nToronto, Ontario | 341 km (kilometers) south-southeast | 2.615 million people\n(straight-line distances between city centers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "CityHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "CityHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby airport",
+            "@scanner": "Data",
+            "@id": "AirportHierarchyInfo:CityData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP33581730gd03e5e9cdg700000cc9i9ahbh21ib6c?MSPStoreType=image/gif&s=53",
+                    "@alt": "Sudbury Airport | 22 km (kilometers) northeast (straight-line distances between city center and airport)",
+                    "@title": "Sudbury Airport | 22 km (kilometers) northeast (straight-line distances between city center and airport)",
+                    "@width": "341",
+                    "@height": "58",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Sudbury Airport | 22 km (kilometers) northeast\n(straight-line distances between city center and airport)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "AirportHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "AirportHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:CityData",
+            "@position": "1000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP33591730gd03e5e9cdg70000302g9a73bhf373f6?MSPStoreType=image/gif&s=53",
+                    "@alt": "elevation | 261 m",
+                    "@title": "elevation | 261 m",
+                    "@width": "147",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "elevation | 261 m"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:CityData__Show non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "units": {
+                        "@count": "1",
+                        "unit": {
+                            "@short": "m",
+                            "@long": "meters"
+                        },
+                        "img": {
+                            "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP33601730gd03e5e9cdg700006001g3hb5if9374g?MSPStoreType=image/gif&s=53",
+                            "@width": "96",
+                            "@height": "26"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Nearby features",
+            "@scanner": "Data",
+            "@id": "FeaturesHierarchyInfo:CityData",
+            "@position": "1100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP33611730gd03e5e9cdg700000ghc1ff2cbe54238?MSPStoreType=image/gif&s=53",
+                    "@alt": "earth impact | Sudbury Crater (250 km (kilometers)) | 18 km (kilometers) northwest dam | DeCew Falls II (15 meters) | 141 km (kilometers) east-southeast (straight-line distances between city center and feature coordinates)",
+                    "@title": "earth impact | Sudbury Crater (250 km (kilometers)) | 18 km (kilometers) northwest dam | DeCew Falls II (15 meters) | 141 km (kilometers) east-southeast (straight-line distances between city center and feature coordinates)",
+                    "@width": "545",
+                    "@height": "128",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "earth impact | Sudbury Crater (250 km (kilometers)) | 18 km (kilometers) northwest\ndam | DeCew Falls II (15 meters) | 141 km (kilometers) east-southeast\n(straight-line distances between city center and feature coordinates)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "FeaturesHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "FeaturesHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearest sea",
+            "@scanner": "Data",
+            "@id": "OceansHierarchyInfo:CityData",
+            "@position": "1200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP33621730gd03e5e9cdg70000259683g3f72bhf50?MSPStoreType=image/gif&s=53",
+                    "@alt": "Hudson Bay (488 km (kilometers) north-northeast)  (straight-line distance between city center and shore)",
+                    "@title": "Hudson Bay (488 km (kilometers) north-northeast)  (straight-line distance between city center and shore)",
+                    "@width": "332",
+                    "@height": "41",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Hudson Bay (488 km (kilometers) north-northeast) \n(straight-line distance between city center and shore)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "3",
+                "state": [
+                    {
+                        "@name": "Show map",
+                        "@input": "OceansHierarchyInfo:CityData__Show map"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "OceansHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "OceansHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Notable people born in Sudbury",
+            "@scanner": "Data",
+            "@id": "NotablePeople:CityData",
+            "@position": "1300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "PeopleData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP33631730gd03e5e9cdg70000554e5d3i00135ibc?MSPStoreType=image/gif&s=53",
+                    "@alt": "Alex Trebek (game show host) (1940) Todd Bertuzzi (ice hockey player) (1975) David Johnston (lawyer, etc.) (1941) Kelley Armstrong (writer) (1968) Randy Carlyle (ice hockey player, etc.) (1956) Paul G. Desmarais (businessperson) (1927) Al Arbour (hockey player) (1932) Tessa Bonhomme (athlete) (1985) Eddie Giacomin (hockey player) (1939) Amy Miller (actor) (1980) ...",
+                    "@title": "Alex Trebek (game show host) (1940) Todd Bertuzzi (ice hockey player) (1975) David Johnston (lawyer, etc.) (1941) Kelley Armstrong (writer) (1968) Randy Carlyle (ice hockey player, etc.) (1956) Paul G. Desmarais (businessperson) (1927) Al Arbour (hockey player) (1932) Tessa Bonhomme (athlete) (1985) Eddie Giacomin (hockey player) (1939) Amy Miller (actor) (1980) ...",
+                    "@width": "301",
+                    "@height": "209",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Alex Trebek (game show host) (1940)\nTodd Bertuzzi (ice hockey player) (1975)\nDavid Johnston (lawyer, etc.) (1941)\nKelley Armstrong (writer) (1968)\nRandy Carlyle (ice hockey player, etc.) (1956)\nPaul G. Desmarais (businessperson) (1927)\nAl Arbour (hockey player) (1932)\nTessa Bonhomme (athlete) (1985)\nEddie Giacomin (hockey player) (1939)\nAmy Miller (actor) (1980)\n..."
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "3",
+                "state": [
+                    {
+                        "@name": "More",
+                        "@input": "NotablePeople:CityData__More"
+                    },
+                    {
+                        "@name": "Show dates",
+                        "@input": "NotablePeople:CityData__Show dates"
+                    },
+                    {
+                        "@name": "Show deaths",
+                        "@input": "NotablePeople:CityData__Show deaths"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Wikipedia page hits history",
+            "@scanner": "Data",
+            "@id": "PopularityPod:WikipediaStatsData",
+            "@position": "1400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP33641730gd03e5e9cdg700004a001h9h5332eigh?MSPStoreType=image/gif&s=53",
+                    "@alt": "Wikipedia page hits history",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "168",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopularityPod:WikipediaStatsData__Log scale"
+                }
+            }
+        }
+    ],
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "6",
+        "source": [
+            {
+                "@url": "https://www4f.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www4f.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www4f.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www4f.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html",
+                "@text": "People data"
+            },
+            {
+                "@url": "https://www4f.wolframalpha.com/sources/USCensusDataSourceInformationNotes.html",
+                "@text": "US census data"
+            },
+            {
+                "@url": "https://www4f.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html",
+                "@text": "Weather data"
+            }
+        ]
+    }
+}

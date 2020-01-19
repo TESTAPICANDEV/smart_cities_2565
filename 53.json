@@ -1,0 +1,1105 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "20",
+    "@datatypes": "ACS,City,Congestion,Crime,MetropolitanArea,NuclearReactor,Person,UrbanArea,USCounty,USHousing,USState,USTax,WeatherStation",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "8.453",
+    "@parsetiming": "0.145",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP16591c6eg7idg9g7id4h000053f572fhd1e5he9i",
+    "@host": "https://www5a.wolframalpha.com",
+    "@server": "53",
+    "@related": "https://www5a.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa16601c6eg7idg9g7id4h00003e3669a6dihga1g74970140347629816757",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP16611c6eg7idg9g7id4h000023bd70gd93ii57ce?MSPStoreType=image/gif&s=53",
+                    "@alt": "Montebello, California, United States",
+                    "@title": "Montebello, California, United States",
+                    "@width": "240",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Montebello, California, United States"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Populations",
+            "@scanner": "Data",
+            "@id": "Population:CityData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "MetropolitanAreaData",
+                        "UrbanAreaData",
+                        "USCensusData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP16621c6eg7idg9g7id4h00000d3a2a90bb5h2g84?MSPStoreType=image/gif&s=53",
+                    "@alt": "city population | 63192 people (country rank: \u2248632nd) (2017 estimate) urban area population | 11.79 million people (Los Angeles urban area) (country rank: 2nd) (2000 estimate) metro area population | 12.94 million people (Los Angeles metro area) (country rank: 2nd) (2011 estimate)",
+                    "@title": "city population | 63192 people (country rank: \u2248632nd) (2017 estimate) urban area population | 11.79 million people (Los Angeles urban area) (country rank: 2nd) (2000 estimate) metro area population | 12.94 million people (Los Angeles metro area) (country rank: 2nd) (2011 estimate)",
+                    "@width": "546",
+                    "@height": "134",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "city population | 63192 people (country rank: \u2248632nd) (2017 estimate)\nurban area population | 11.79 million people (Los Angeles urban area) (country rank: 2nd) (2000 estimate)\nmetro area population | 12.94 million people (Los Angeles metro area) (country rank: 2nd) (2011 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show history",
+                    "@input": "Population:CityData__Show history"
+                }
+            }
+        },
+        {
+            "@title": "Location",
+            "@scanner": "Data",
+            "@id": "Location:CityData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "2",
+            "subpod": [
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "CityData",
+                            "USCountyData",
+                            "USStateData"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP16631c6eg7idg9g7id4h00004e7ag32g5f2a82e2?MSPStoreType=image/gif&s=53",
+                        "@alt": "Los Angeles County, California",
+                        "@title": "Los Angeles County, California",
+                        "@width": "202",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "Los Angeles County, California"
+                },
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "CityData",
+                            "USCountyData",
+                            "USStateData",
+                            "CountryData"
+                        ]
+                    },
+                    "datasources": {
+                        "datasource": "CIAFactbook"
+                    },
+                    "img": {
+                        "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP16641c6eg7idg9g7id4h00001410h739h1e06ehg?MSPStoreType=image/gif&s=53",
+                        "@alt": "Location",
+                        "@title": "",
+                        "@width": "328",
+                        "@height": "177",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                }
+            ],
+            "expressiontypes": {
+                "@count": "2",
+                "expressiontype": [
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    }
+                ]
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "World map",
+                        "@input": "Location:CityData__World map"
+                    },
+                    {
+                        "@name": "Show coordinates",
+                        "@input": "Location:CityData__Show coordinates"
+                    }
+                ]
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=34.0154%2C-118.111&q=34.0154%20N%2C%20118.111%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "Map:CityData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP16651c6eg7idg9g7id4h00001955d608iccg6ah6?MSPStoreType=image/gif&s=53",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "30 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "9 kilometers across",
+                            "@input": "Map:CityData__9 kilometers across"
+                        },
+                        {
+                            "@name": "20 kilometers across",
+                            "@input": "Map:CityData__20 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "Map:CityData__30 kilometers across"
+                        },
+                        {
+                            "@name": "70 kilometers across",
+                            "@input": "Map:CityData__70 kilometers across"
+                        },
+                        {
+                            "@name": "140 kilometers across",
+                            "@input": "Map:CityData__140 kilometers across"
+                        },
+                        {
+                            "@name": "280 kilometers across",
+                            "@input": "Map:CityData__280 kilometers across"
+                        },
+                        {
+                            "@name": "560 kilometers across",
+                            "@input": "Map:CityData__560 kilometers across"
+                        },
+                        {
+                            "@name": "1100 kilometers across",
+                            "@input": "Map:CityData__1100 kilometers across"
+                        },
+                        {
+                            "@name": "2200 kilometers across",
+                            "@input": "Map:CityData__2200 kilometers across"
+                        },
+                        {
+                            "@name": "4400 kilometers across",
+                            "@input": "Map:CityData__4400 kilometers across"
+                        },
+                        {
+                            "@name": "8700 kilometers across",
+                            "@input": "Map:CityData__8700 kilometers across"
+                        },
+                        {
+                            "@name": "15000 kilometers across",
+                            "@input": "Map:CityData__15000 kilometers across"
+                        },
+                        {
+                            "@name": "29000 kilometers across",
+                            "@input": "Map:CityData__29000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "Map:CityData__Non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=34.0154%2C-118.111&q=34.0154%20N%2C%20118.111%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Administrative regions",
+            "@scanner": "Data",
+            "@id": "AdministrativeRegions:CityData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCountyData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP16661c6eg7idg9g7id4h0000390dc5i50c57366g?MSPStoreType=image/gif&s=53",
+                    "@alt": "county | Los Angeles County state | California country | United States",
+                    "@title": "county | Los Angeles County state | California country | United States",
+                    "@width": "229",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "county | Los Angeles County\nstate | California\ncountry | United States"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Current local time",
+            "@scanner": "Data",
+            "@id": "CurrentTime:CityData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP16671c6eg7idg9g7id4h000068edd6h893dbae69?MSPStoreType=image/gif&s=53",
+                    "@alt": "8:42 pm PST | Saturday, January 18, 2020",
+                    "@title": "8:42 pm PST | Saturday, January 18, 2020",
+                    "@width": "292",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "8:42 pm PST | Saturday, January 18, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Current weather",
+            "@scanner": "Data",
+            "@id": "WeatherPod:CityData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "WeatherData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP16681c6eg7idg9g7id4h0000423d5069bg9ee7c3?MSPStoreType=image/gif&s=53",
+                    "@alt": "15 \u00b0C | relative humidity: 51% | wind: 2 m/s | clear",
+                    "@title": "15 \u00b0C | relative humidity: 51% | wind: 2 m/s | clear",
+                    "@width": "366",
+                    "@height": "22",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "15 \u00b0C | relative humidity: 51% | wind: 2 m/s | clear"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show history",
+                        "@input": "WeatherPod:CityData__Show history"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "WeatherPod:CityData__Show non-metric"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Demographics",
+            "@scanner": "Data",
+            "@id": "ACSPercentageEntrainments:ACSData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "ACSData"
+                },
+                "datasources": {
+                    "datasource": [
+                        "CensusAmericanCommunitySurvey5YearsRace",
+                        "CensusAmericanCommunitySurvey5YearsHispanicOrigin",
+                        "CensusAmericanCommunitySurvey5YearsCitizenship"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP16691c6eg7idg9g7id4h00004eh5g127d6bf5g5i?MSPStoreType=image/gif&s=53",
+                    "@alt": "race | white: 59.4% | other: 22.3% | Asian: 13.2% | ... Hispanic origin | 77.6% US citizens | 82.6%",
+                    "@title": "race | white: 59.4% | other: 22.3% | Asian: 13.2% | ... Hispanic origin | 77.6% US citizens | 82.6%",
+                    "@width": "490",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "race | white: 59.4% | other: 22.3% | Asian: 13.2% | ...\nHispanic origin | 77.6%\nUS citizens | 82.6%"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "More",
+                    "@input": "ACSPercentageEntrainments:ACSData__More"
+                }
+            }
+        },
+        {
+            "@title": "Educational attainment",
+            "@scanner": "Data",
+            "@id": "ACSEducationEntrainments:ACSData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "ACSData"
+                },
+                "datasources": {
+                    "datasource": "CensusAmericanCommunitySurvey5YearsEducation"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP16701c6eg7idg9g7id4h000018b7a49342h78aff?MSPStoreType=image/gif&s=53",
+                    "@alt": "college degree and above | 26.9% (0.712 \u00d7 national average) high school diploma | 28.7% (\u2248 national average) less than high school diploma | 27% (2.02 \u00d7 national average) (for population age 25 and older)",
+                    "@title": "college degree and above | 26.9% (0.712 \u00d7 national average) high school diploma | 28.7% (\u2248 national average) less than high school diploma | 27% (2.02 \u00d7 national average) (for population age 25 and older)",
+                    "@width": "437",
+                    "@height": "121",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "college degree and above | 26.9% (0.712 \u00d7 national average)\nhigh school diploma | 28.7% (\u2248 national average)\nless than high school diploma | 27% (2.02 \u00d7 national average)\n(for population age 25 and older)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show enrollment",
+                    "@input": "ACSEducationEntrainments:ACSData__Show enrollment"
+                }
+            }
+        },
+        {
+            "@title": "Income statistics",
+            "@scanner": "Data",
+            "@id": "ACSIncomeEntrainments:ACSData",
+            "@position": "1000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "ACSData"
+                },
+                "datasources": {
+                    "datasource": [
+                        "CensusAmericanCommunitySurvey5YearsMedianIncome",
+                        "CensusAmericanCommunitySurvey5YearsPerCapitaIncome",
+                        "CensusAmericanCommunitySurvey5YearsPoverty"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP16711c6eg7idg9g7id4h00002cg76ea1dah7f1ec?MSPStoreType=image/gif&s=53",
+                    "@alt": "median household income | $50312 per year (US dollars per year) (0.909 \u00d7 national average) per capita income | $22298 per year per person (US dollars per year per person) (0.748 \u00d7 national average) population below poverty line | 13.8% (\u2248 national average)",
+                    "@title": "median household income | $50312 per year (US dollars per year) (0.909 \u00d7 national average) per capita income | $22298 per year per person (US dollars per year per person) (0.748 \u00d7 national average) population below poverty line | 13.8% (\u2248 national average)",
+                    "@width": "546",
+                    "@height": "151",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "median household income | $50312 per year (US dollars per year) (0.909 \u00d7 national average)\nper capita income | $22298 per year per person (US dollars per year per person) (0.748 \u00d7 national average)\npopulation below poverty line | 13.8% (\u2248 national average)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show distribution",
+                    "@input": "ACSIncomeEntrainments:ACSData__Show distribution"
+                }
+            }
+        },
+        {
+            "@title": "Economic properties",
+            "@scanner": "Data",
+            "@id": "EconomicProperties:CityData",
+            "@position": "1100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USEmploymentData",
+                        "USHousingData",
+                        "USTaxData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "RealtorsMetropolitanAreaMedianPrices"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP16721c6eg7idg9g7id4h00001i2gahhi25d1fda2?MSPStoreType=image/gif&s=53",
+                    "@alt": "median home price | $405600 (Los Angeles metro area) (annual change: +23.84%) (2013) unemployment rate | 4.6% (November 2019) total sales tax rate | 9.5% (2019 estimate)",
+                    "@title": "median home price | $405600 (Los Angeles metro area) (annual change: +23.84%) (2013) unemployment rate | 4.6% (November 2019) total sales tax rate | 9.5% (2019 estimate)",
+                    "@width": "546",
+                    "@height": "117",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "median home price | $405600 (Los Angeles metro area) (annual change: +23.84%) (2013)\nunemployment rate | 4.6% (November 2019)\ntotal sales tax rate | 9.5% (2019 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Other indicators",
+            "@scanner": "Data",
+            "@id": "QualityOfLife:CityData",
+            "@position": "1200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "CongestionData",
+                        "CrimeData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": [
+                        "TexasTransportationInstituteCongestionDataForYourCityUrbanMobilityInformation",
+                        "UnitedStatesDepartmentOfJusticeBureauOfJusticeStatisticsCrimeAndJusticeDataOnline"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP16731c6eg7idg9g7id4h00002f3984230ac4c05d?MSPStoreType=image/gif&s=53",
+                    "@alt": "total rate of violent crime | 0.84 \u00d7 national average (2017 estimate) total rate of property crime | 1.1 \u00d7 national average (2017 estimate) average daily traffic delay | 13 minutes per person per day",
+                    "@title": "total rate of violent crime | 0.84 \u00d7 national average (2017 estimate) total rate of property crime | 1.1 \u00d7 national average (2017 estimate) average daily traffic delay | 13 minutes per person per day",
+                    "@width": "483",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "total rate of violent crime | 0.84 \u00d7 national average (2017 estimate)\ntotal rate of property crime | 1.1 \u00d7 national average (2017 estimate)\naverage daily traffic delay | 13 minutes per person per day"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Nearby cities",
+            "@scanner": "Data",
+            "@id": "CityHierarchyInfo:CityData",
+            "@position": "1300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP16741c6eg7idg9g7id4h00003gc2a243ceeec8gi?MSPStoreType=image/gif&s=53",
+                    "@alt": "Long Beach, California | 23 km (kilometers) south | 467892 people Los Angeles, California | 28 km (kilometers) west | 3.858 million people Anaheim, California | 29 km (kilometers) southeast | 343248 people (straight-line distances between city centers)",
+                    "@title": "Long Beach, California | 23 km (kilometers) south | 467892 people Los Angeles, California | 28 km (kilometers) west | 3.858 million people Anaheim, California | 29 km (kilometers) southeast | 343248 people (straight-line distances between city centers)",
+                    "@width": "531",
+                    "@height": "114",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Long Beach, California | 23 km (kilometers) south | 467892 people\nLos Angeles, California | 28 km (kilometers) west | 3.858 million people\nAnaheim, California | 29 km (kilometers) southeast | 343248 people\n(straight-line distances between city centers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "CityHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "CityHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby airports",
+            "@scanner": "Data",
+            "@id": "AirportHierarchyInfo:CityData",
+            "@position": "1400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP16751c6eg7idg9g7id4h00002d2ca8425ga51a02?MSPStoreType=image/gif&s=53",
+                    "@alt": "Long Beach Airport | 22 km (kilometers) south Los Angeles International Airport | 29 km (kilometers) west-southwest (straight-line distances between city center and airport)",
+                    "@title": "Long Beach Airport | 22 km (kilometers) south Los Angeles International Airport | 29 km (kilometers) west-southwest (straight-line distances between city center and airport)",
+                    "@width": "493",
+                    "@height": "86",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Long Beach Airport | 22 km (kilometers) south\nLos Angeles International Airport | 29 km (kilometers) west-southwest\n(straight-line distances between city center and airport)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "AirportHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "AirportHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby hospital",
+            "@scanner": "Data",
+            "@id": "HospitalHierarchyInfo:CityData",
+            "@position": "1500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP16761c6eg7idg9g7id4h00002e2f6d0h5dbb24ff?MSPStoreType=image/gif&s=53",
+                    "@alt": "Beverly Hospital | 1 km (kilometer) east (straight-line distances between city center and hospital)",
+                    "@title": "Beverly Hospital | 1 km (kilometer) east (straight-line distances between city center and hospital)",
+                    "@width": "320",
+                    "@height": "58",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Beverly Hospital | 1 km (kilometer) east\n(straight-line distances between city center and hospital)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "HospitalHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "HospitalHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:CityData",
+            "@position": "1600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP16771c6eg7idg9g7id4h000015b51gc6022cdi55?MSPStoreType=image/gif&s=53",
+                    "@alt": "elevation | 61 m area | 21.581 km^2 population density | 2928 people per square kilometer",
+                    "@title": "elevation | 61 m area | 21.581 km^2 population density | 2928 people per square kilometer",
+                    "@width": "386",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "elevation | 61 m\narea | 21.581 km^2\npopulation density | 2928 people per square kilometer"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:CityData__Show non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "units": {
+                        "@count": "2",
+                        "unit": [
+                            {
+                                "@short": "km^2",
+                                "@long": "square kilometers"
+                            },
+                            {
+                                "@short": "m",
+                                "@long": "meters"
+                            }
+                        ],
+                        "img": {
+                            "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP16781c6eg7idg9g7id4h000034dba544g276c067?MSPStoreType=image/gif&s=53",
+                            "@width": "171",
+                            "@height": "48"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Nearby features",
+            "@scanner": "Data",
+            "@id": "FeaturesHierarchyInfo:CityData",
+            "@position": "1700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "NuclearReactorData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "IAEAPowerReactorInformationSystem"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP16791c6eg7idg9g7id4h00002c73d99dg5d099bb?MSPStoreType=image/gif&s=53",
+                    "@alt": "mountain | Mount San Antonio (3068 meters) | 53 km (kilometers) northeast waterfall | Bonita Falls (113 meters) | 61 km (kilometers) east-northeast nuclear power site | San Onofre | 88 km (kilometers) southeast dam | Seven Oaks Dam (168 meters) | 94 km (kilometers) east volcano | Golden Trout Creek (2886 meters) | 261 km (kilometers) north (straight-line distances between city center and feature coordinates)",
+                    "@title": "mountain | Mount San Antonio (3068 meters) | 53 km (kilometers) northeast waterfall | Bonita Falls (113 meters) | 61 km (kilometers) east-northeast nuclear power site | San Onofre | 88 km (kilometers) southeast dam | Seven Oaks Dam (168 meters) | 94 km (kilometers) east volcano | Golden Trout Creek (2886 meters) | 261 km (kilometers) north (straight-line distances between city center and feature coordinates)",
+                    "@width": "545",
+                    "@height": "274",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "mountain | Mount San Antonio (3068 meters) | 53 km (kilometers) northeast\nwaterfall | Bonita Falls (113 meters) | 61 km (kilometers) east-northeast\nnuclear power site | San Onofre | 88 km (kilometers) southeast\ndam | Seven Oaks Dam (168 meters) | 94 km (kilometers) east\nvolcano | Golden Trout Creek (2886 meters) | 261 km (kilometers) north\n(straight-line distances between city center and feature coordinates)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "FeaturesHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "FeaturesHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearest sea",
+            "@scanner": "Data",
+            "@id": "OceansHierarchyInfo:CityData",
+            "@position": "1800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP16801c6eg7idg9g7id4h0000446aa1f4g2bg1228?MSPStoreType=image/gif&s=53",
+                    "@alt": "Pacific Ocean (27 km (kilometers) south)  (straight-line distance between city center and shore)",
+                    "@title": "Pacific Ocean (27 km (kilometers) south)  (straight-line distance between city center and shore)",
+                    "@width": "301",
+                    "@height": "41",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Pacific Ocean (27 km (kilometers) south) \n(straight-line distance between city center and shore)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "OceansHierarchyInfo:CityData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Notable people born in Montebello",
+            "@scanner": "Data",
+            "@id": "NotablePeople:CityData",
+            "@position": "1900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "PeopleData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP16811c6eg7idg9g7id4h0000320fbecfeia1a0f4?MSPStoreType=image/gif&s=53",
+                    "@alt": "Jay Hernandez (actor) (1978) Gary Allan (singer-songwriter, etc.) (1967) Judi Evans (actor) (1964) Paul McDonald (football player) (1958) Jenny Oropeza (politician) (1957) Max Montoya (football player) (1956) Alan Bannister (baseball player) (1951) Mark Salas (baseball player) (1961) Mickey Klutts (baseball player) (1954) Glenn Cox (baseball player) (1931) ...",
+                    "@title": "Jay Hernandez (actor) (1978) Gary Allan (singer-songwriter, etc.) (1967) Judi Evans (actor) (1964) Paul McDonald (football player) (1958) Jenny Oropeza (politician) (1957) Max Montoya (football player) (1956) Alan Bannister (baseball player) (1951) Mark Salas (baseball player) (1961) Mickey Klutts (baseball player) (1954) Glenn Cox (baseball player) (1931) ...",
+                    "@width": "282",
+                    "@height": "209",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Jay Hernandez (actor) (1978)\nGary Allan (singer-songwriter, etc.) (1967)\nJudi Evans (actor) (1964)\nPaul McDonald (football player) (1958)\nJenny Oropeza (politician) (1957)\nMax Montoya (football player) (1956)\nAlan Bannister (baseball player) (1951)\nMark Salas (baseball player) (1961)\nMickey Klutts (baseball player) (1954)\nGlenn Cox (baseball player) (1931)\n..."
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "3",
+                "state": [
+                    {
+                        "@name": "More",
+                        "@input": "NotablePeople:CityData__More"
+                    },
+                    {
+                        "@name": "Show dates",
+                        "@input": "NotablePeople:CityData__Show dates"
+                    },
+                    {
+                        "@name": "Show deaths",
+                        "@input": "NotablePeople:CityData__Show deaths"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Wikipedia page hits history",
+            "@scanner": "Data",
+            "@id": "PopularityPod:WikipediaStatsData",
+            "@position": "2000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP16821c6eg7idg9g7id4h000010g8agbdicfhh0cb?MSPStoreType=image/gif&s=53",
+                    "@alt": "Wikipedia page hits history",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "167",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopularityPod:WikipediaStatsData__Log scale"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "2",
+        "assumption": [
+            {
+                "@type": "Clash",
+                "@word": "Montebello",
+                "@template": "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead",
+                "@count": "3",
+                "value": [
+                    {
+                        "@name": "City",
+                        "@desc": "a city",
+                        "@input": "*C.Montebello-_*City-"
+                    },
+                    {
+                        "@name": "AdministrativeDivision",
+                        "@desc": "an administrative division",
+                        "@input": "*C.Montebello-_*AdministrativeDivision-"
+                    },
+                    {
+                        "@name": "Species",
+                        "@desc": "a species specification",
+                        "@input": "*C.Montebello-_*Species-"
+                    }
+                ]
+            },
+            {
+                "@type": "SubCategory",
+                "@word": "Montebello",
+                "@template": "Assuming ${desc1}. Use ${desc2} instead",
+                "@count": "3",
+                "value": [
+                    {
+                        "@name": "{Montebello, California, UnitedStates}",
+                        "@desc": "Montebello (California, USA)",
+                        "@input": "*DPClash.CityE.Montebello-_**Montebello.California.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Montebello, NewYork, UnitedStates}",
+                        "@desc": "Montebello (New York, USA)",
+                        "@input": "*DPClash.CityE.Montebello-_**Montebello.NewYork.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Montebello, Antioquia, Colombia}",
+                        "@desc": "Montebello (Colombia)",
+                        "@input": "*DPClash.CityE.Montebello-_**Montebello.Antioquia.Colombia--"
+                    }
+                ]
+            }
+        ]
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "16",
+        "source": [
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/ACSDataSourceInformationNotes.html",
+                "@text": "ACS data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/CongestionDataSourceInformationNotes.html",
+                "@text": "Congestion data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/CrimeDataSourceInformationNotes.html",
+                "@text": "Crime data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/MetropolitanAreaDataSourceInformationNotes.html",
+                "@text": "Metropolitan area data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/NuclearReactorDataSourceInformationNotes.html",
+                "@text": "Nuclear reactor data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html",
+                "@text": "People data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/UrbanAreaDataSourceInformationNotes.html",
+                "@text": "Urban area data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/USCensusDataSourceInformationNotes.html",
+                "@text": "US census data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/USCountyDataSourceInformationNotes.html",
+                "@text": "US county data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/USEmploymentDataSourceInformationNotes.html",
+                "@text": "US employment data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/USHousingDataSourceInformationNotes.html",
+                "@text": "US housing data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/USStateDataSourceInformationNotes.html",
+                "@text": "US state data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/USTaxDataSourceInformationNotes.html",
+                "@text": "US tax data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html",
+                "@text": "Weather data"
+            }
+        ]
+    }
+}

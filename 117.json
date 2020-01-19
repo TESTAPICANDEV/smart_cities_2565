@@ -1,0 +1,708 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "14",
+    "@datatypes": "AdministrativeDivision,City,Person,WeatherStation",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "7.047",
+    "@parsetiming": "0.425",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP5355141001f5614d804b00002g3562hhf0e01if5",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "56",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa5356141001f5614d804b000015b1b11974fih0482586184755524934074",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP5357141001f5614d804b00001igdd5f30169ff49?MSPStoreType=image/gif&s=56",
+                    "@alt": "cities | in Antigonish, Nova Scotia, Canada (county)",
+                    "@title": "cities | in Antigonish, Nova Scotia, Canada (county)",
+                    "@width": "387",
+                    "@height": "32",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "cities | in Antigonish, Nova Scotia, Canada (county)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Result",
+            "@scanner": "Data",
+            "@id": "Result",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP5358141001f5614d804b000040e9a9d2c4gicdgi?MSPStoreType=image/gif&s=56",
+                    "@alt": "Antigonish",
+                    "@title": "Antigonish",
+                    "@width": "72",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Antigonish"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Population",
+            "@scanner": "Data",
+            "@id": "Population:CityData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCensusData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP5359141001f5614d804b00001df32293b69693d3?MSPStoreType=image/gif&s=56",
+                    "@alt": "city population | 4364 people (country rank: \u2248441st) (2016 estimate)",
+                    "@title": "city population | 4364 people (country rank: \u2248441st) (2016 estimate)",
+                    "@width": "460",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "city population | 4364 people (country rank: \u2248441st) (2016 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show history",
+                    "@input": "Population:CityData__Show history"
+                }
+            }
+        },
+        {
+            "@title": "Location",
+            "@scanner": "Data",
+            "@id": "Location:CityData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "2",
+            "subpod": [
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP5360141001f5614d804b0000536fh638f8de91ab?MSPStoreType=image/gif&s=56",
+                        "@alt": "Nova Scotia, Canada",
+                        "@title": "Nova Scotia, Canada",
+                        "@width": "137",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "Nova Scotia, Canada"
+                },
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData",
+                            "CountryData"
+                        ]
+                    },
+                    "datasources": {
+                        "datasource": "CIAFactbook"
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP5361141001f5614d804b000062i5e1093h2i3a14?MSPStoreType=image/gif&s=56",
+                        "@alt": "Location",
+                        "@title": "",
+                        "@width": "328",
+                        "@height": "214",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                }
+            ],
+            "expressiontypes": {
+                "@count": "2",
+                "expressiontype": [
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    }
+                ]
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "World map",
+                        "@input": "Location:CityData__World map"
+                    },
+                    {
+                        "@name": "Show coordinates",
+                        "@input": "Location:CityData__Show coordinates"
+                    }
+                ]
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=45.62%2C-61.97&q=45.62%20N%2C%2061.97%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "Map:CityData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP5362141001f5614d804b00002h1e5e9ci644g64a?MSPStoreType=image/gif&s=56",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "10 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "7 kilometers across",
+                            "@input": "Map:CityData__7 kilometers across"
+                        },
+                        {
+                            "@name": "10 kilometers across",
+                            "@input": "Map:CityData__10 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "Map:CityData__30 kilometers across"
+                        },
+                        {
+                            "@name": "60 kilometers across",
+                            "@input": "Map:CityData__60 kilometers across"
+                        },
+                        {
+                            "@name": "120 kilometers across",
+                            "@input": "Map:CityData__120 kilometers across"
+                        },
+                        {
+                            "@name": "240 kilometers across",
+                            "@input": "Map:CityData__240 kilometers across"
+                        },
+                        {
+                            "@name": "480 kilometers across",
+                            "@input": "Map:CityData__480 kilometers across"
+                        },
+                        {
+                            "@name": "950 kilometers across",
+                            "@input": "Map:CityData__950 kilometers across"
+                        },
+                        {
+                            "@name": "1900 kilometers across",
+                            "@input": "Map:CityData__1900 kilometers across"
+                        },
+                        {
+                            "@name": "3800 kilometers across",
+                            "@input": "Map:CityData__3800 kilometers across"
+                        },
+                        {
+                            "@name": "7300 kilometers across",
+                            "@input": "Map:CityData__7300 kilometers across"
+                        },
+                        {
+                            "@name": "12000 kilometers across",
+                            "@input": "Map:CityData__12000 kilometers across"
+                        },
+                        {
+                            "@name": "23000 kilometers across",
+                            "@input": "Map:CityData__23000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "Map:CityData__Non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=45.62%2C-61.97&q=45.62%20N%2C%2061.97%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Administrative regions",
+            "@scanner": "Data",
+            "@id": "AdministrativeRegions:CityData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP5363141001f5614d804b00000eg8i3170bc94c80?MSPStoreType=image/gif&s=56",
+                    "@alt": "region | Nova Scotia country | Canada",
+                    "@title": "region | Nova Scotia country | Canada",
+                    "@width": "179",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "region | Nova Scotia\ncountry | Canada"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Current local time",
+            "@scanner": "Data",
+            "@id": "CurrentTime:CityData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP5364141001f5614d804b00003c8663da04c11di6?MSPStoreType=image/gif&s=56",
+                    "@alt": "1:21 am AST | Sunday, January 19, 2020",
+                    "@title": "1:21 am AST | Sunday, January 19, 2020",
+                    "@width": "283",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "1:21 am AST | Sunday, January 19, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Current weather",
+            "@scanner": "Data",
+            "@id": "WeatherPod:CityData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "WeatherData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP5365141001f5614d804b000046hde6ia7de94df6?MSPStoreType=image/gif&s=56",
+                    "@alt": "-12 \u00b0C (wind chill: -17 \u00b0C) | relative humidity: 89% | wind: 3 m/s",
+                    "@title": "-12 \u00b0C (wind chill: -17 \u00b0C) | relative humidity: 89% | wind: 3 m/s",
+                    "@width": "448",
+                    "@height": "22",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "-12 \u00b0C (wind chill: -17 \u00b0C) | relative humidity: 89% | wind: 3 m/s"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show history",
+                        "@input": "WeatherPod:CityData__Show history"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "WeatherPod:CityData__Show non-metric"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby cities",
+            "@scanner": "Data",
+            "@id": "CityHierarchyInfo:CityData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP5366141001f5614d804b00001hda97fg8b8gef43?MSPStoreType=image/gif&s=56",
+                    "@alt": "New Glasgow, Nova Scotia | 53 km (kilometers) west | 20876 people Truro, Nova Scotia | 106 km (kilometers) west-southwest | 22376 people Charlottetown, Prince Edward Island | 114 km (kilometers) northwest | 58625 people Sydney, Nova Scotia | 152 km (kilometers) east-northeast | 33012 people Halifax, Nova Scotia | 167 km (kilometers) southwest | 297943 people Moncton, New Brunswick | 224 km (kilometers) west-northwest | 69074 people (straight-line distances between city centers)",
+                    "@title": "New Glasgow, Nova Scotia | 53 km (kilometers) west | 20876 people Truro, Nova Scotia | 106 km (kilometers) west-southwest | 22376 people Charlottetown, Prince Edward Island | 114 km (kilometers) northwest | 58625 people Sydney, Nova Scotia | 152 km (kilometers) east-northeast | 33012 people Halifax, Nova Scotia | 167 km (kilometers) southwest | 297943 people Moncton, New Brunswick | 224 km (kilometers) west-northwest | 69074 people (straight-line distances between city centers)",
+                    "@width": "545",
+                    "@height": "302",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "New Glasgow, Nova Scotia | 53 km (kilometers) west | 20876 people\nTruro, Nova Scotia | 106 km (kilometers) west-southwest | 22376 people\nCharlottetown, Prince Edward Island | 114 km (kilometers) northwest | 58625 people\nSydney, Nova Scotia | 152 km (kilometers) east-northeast | 33012 people\nHalifax, Nova Scotia | 167 km (kilometers) southwest | 297943 people\nMoncton, New Brunswick | 224 km (kilometers) west-northwest | 69074 people\n(straight-line distances between city centers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "CityHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "CityHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby airports",
+            "@scanner": "Data",
+            "@id": "AirportHierarchyInfo:CityData",
+            "@position": "1000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP5367141001f5614d804b00005935ifadc512cbaa?MSPStoreType=image/gif&s=56",
+                    "@alt": "Port Hawkesbury Airport | 47 km (kilometers) east Trenton Municipal Airport | 51 km (kilometers) west (straight-line distances between city center and airport)",
+                    "@title": "Port Hawkesbury Airport | 47 km (kilometers) east Trenton Municipal Airport | 51 km (kilometers) west (straight-line distances between city center and airport)",
+                    "@width": "377",
+                    "@height": "86",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Port Hawkesbury Airport | 47 km (kilometers) east\nTrenton Municipal Airport | 51 km (kilometers) west\n(straight-line distances between city center and airport)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "AirportHierarchyInfo:CityData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:CityData",
+            "@position": "1100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP5368141001f5614d804b0000387dh76aa8e9gh7e?MSPStoreType=image/gif&s=56",
+                    "@alt": "elevation | 10 m",
+                    "@title": "elevation | 10 m",
+                    "@width": "139",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "elevation | 10 m"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:CityData__Show non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "units": {
+                        "@count": "1",
+                        "unit": {
+                            "@short": "m",
+                            "@long": "meters"
+                        },
+                        "img": {
+                            "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP5369141001f5614d804b0000239ba4c4ea16id97?MSPStoreType=image/gif&s=56",
+                            "@width": "96",
+                            "@height": "26"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Nearest sea",
+            "@scanner": "Data",
+            "@id": "OceansHierarchyInfo:CityData",
+            "@position": "1200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP5370141001f5614d804b00001e97e7e58455505c?MSPStoreType=image/gif&s=56",
+                    "@alt": "Gulf of Saint Lawrence (10 km (kilometers) northeast)  (straight-line distance between city center and shore)",
+                    "@title": "Gulf of Saint Lawrence (10 km (kilometers) northeast)  (straight-line distance between city center and shore)",
+                    "@width": "355",
+                    "@height": "41",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Gulf of Saint Lawrence (10 km (kilometers) northeast) \n(straight-line distance between city center and shore)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "OceansHierarchyInfo:CityData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Notable people born in Antigonish",
+            "@scanner": "Data",
+            "@id": "NotablePeople:CityData",
+            "@position": "1300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "PeopleData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP5371141001f5614d804b00003cg7cgc637ad044h?MSPStoreType=image/gif&s=56",
+                    "@alt": "Stephen McHattie (actor) (1947) Ronald MacDonald (runner) (1874) John Benjamin Stewart (professor, etc.) (1924) Eric Gillis (athlete) (1980) Danny Graham (politician, etc.) Amy Cotton (athlete) (1980)",
+                    "@title": "Stephen McHattie (actor) (1947) Ronald MacDonald (runner) (1874) John Benjamin Stewart (professor, etc.) (1924) Eric Gillis (athlete) (1980) Danny Graham (politician, etc.) Amy Cotton (athlete) (1980)",
+                    "@width": "310",
+                    "@height": "114",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Stephen McHattie (actor) (1947)\nRonald MacDonald (runner) (1874)\nJohn Benjamin Stewart (professor, etc.) (1924)\nEric Gillis (athlete) (1980)\nDanny Graham (politician, etc.)\nAmy Cotton (athlete) (1980)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show dates",
+                        "@input": "NotablePeople:CityData__Show dates"
+                    },
+                    {
+                        "@name": "Show deaths",
+                        "@input": "NotablePeople:CityData__Show deaths"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Wikipedia page hits history",
+            "@scanner": "Data",
+            "@id": "PopularityPod:WikipediaStatsData",
+            "@position": "1400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP5372141001f5614d804b000053egi64026d4faf4?MSPStoreType=image/gif&s=56",
+                    "@alt": "Wikipedia page hits history",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "168",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopularityPod:WikipediaStatsData__Log scale"
+                }
+            }
+        }
+    ],
+    "sources": {
+        "@count": "6",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html",
+                "@text": "People data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USCensusDataSourceInformationNotes.html",
+                "@text": "US census data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html",
+                "@text": "Weather data"
+            }
+        ]
+    }
+}

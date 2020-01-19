@@ -1,0 +1,752 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "14",
+    "@datatypes": "AdministrativeDivision,City,NuclearReactor,Person,WeatherStation",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "5.698",
+    "@parsetiming": "0.096",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP345423681bfg351c3gd300002a9g87a6cfce3h3i",
+    "@host": "https://www5a.wolframalpha.com",
+    "@server": "51",
+    "@related": "https://www5a.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa345523681bfg351c3gd300004h53fc5bag2iagic7297982070693509567",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP345623681bfg351c3gd3000013dg2ag9995idabh?MSPStoreType=image/gif&s=51",
+                    "@alt": "Victoriaville, Quebec",
+                    "@title": "Victoriaville, Quebec",
+                    "@width": "134",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Victoriaville, Quebec"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Population",
+            "@scanner": "Data",
+            "@id": "Population:CityData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCensusData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP345723681bfg351c3gd300003hfehffg1bhh1i75?MSPStoreType=image/gif&s=51",
+                    "@alt": "city population | 46130 people (country rank: 93rd) (2016 estimate)",
+                    "@title": "city population | 46130 people (country rank: 93rd) (2016 estimate)",
+                    "@width": "452",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "city population | 46130 people (country rank: 93rd) (2016 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show history",
+                    "@input": "Population:CityData__Show history"
+                }
+            }
+        },
+        {
+            "@title": "Location",
+            "@scanner": "Data",
+            "@id": "Location:CityData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "2",
+            "subpod": [
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP345823681bfg351c3gd3000011c2d36i75cgde77?MSPStoreType=image/gif&s=51",
+                        "@alt": "Quebec, Canada",
+                        "@title": "Quebec, Canada",
+                        "@width": "107",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "Quebec, Canada"
+                },
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData",
+                            "CountryData"
+                        ]
+                    },
+                    "datasources": {
+                        "datasource": "CIAFactbook"
+                    },
+                    "img": {
+                        "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP345923681bfg351c3gd300001h033dg64gbcgiih?MSPStoreType=image/gif&s=51",
+                        "@alt": "Location",
+                        "@title": "",
+                        "@width": "328",
+                        "@height": "214",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                }
+            ],
+            "expressiontypes": {
+                "@count": "2",
+                "expressiontype": [
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    }
+                ]
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "World map",
+                        "@input": "Location:CityData__World map"
+                    },
+                    {
+                        "@name": "Show coordinates",
+                        "@input": "Location:CityData__Show coordinates"
+                    }
+                ]
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=46.06%2C-71.96&q=46.06%20N%2C%2071.96%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "Map:CityData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP346023681bfg351c3gd300003g61ha4gbfgf8070?MSPStoreType=image/gif&s=51",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "30 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "7 kilometers across",
+                            "@input": "Map:CityData__7 kilometers across"
+                        },
+                        {
+                            "@name": "10 kilometers across",
+                            "@input": "Map:CityData__10 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "Map:CityData__30 kilometers across"
+                        },
+                        {
+                            "@name": "60 kilometers across",
+                            "@input": "Map:CityData__60 kilometers across"
+                        },
+                        {
+                            "@name": "120 kilometers across",
+                            "@input": "Map:CityData__120 kilometers across"
+                        },
+                        {
+                            "@name": "240 kilometers across",
+                            "@input": "Map:CityData__240 kilometers across"
+                        },
+                        {
+                            "@name": "470 kilometers across",
+                            "@input": "Map:CityData__470 kilometers across"
+                        },
+                        {
+                            "@name": "940 kilometers across",
+                            "@input": "Map:CityData__940 kilometers across"
+                        },
+                        {
+                            "@name": "1900 kilometers across",
+                            "@input": "Map:CityData__1900 kilometers across"
+                        },
+                        {
+                            "@name": "3700 kilometers across",
+                            "@input": "Map:CityData__3700 kilometers across"
+                        },
+                        {
+                            "@name": "7300 kilometers across",
+                            "@input": "Map:CityData__7300 kilometers across"
+                        },
+                        {
+                            "@name": "12000 kilometers across",
+                            "@input": "Map:CityData__12000 kilometers across"
+                        },
+                        {
+                            "@name": "23000 kilometers across",
+                            "@input": "Map:CityData__23000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "Map:CityData__Non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=46.06%2C-71.96&q=46.06%20N%2C%2071.96%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Administrative regions",
+            "@scanner": "Data",
+            "@id": "AdministrativeRegions:CityData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP346123681bfg351c3gd300004237i3c64a61c72c?MSPStoreType=image/gif&s=51",
+                    "@alt": "region | Quebec country | Canada",
+                    "@title": "region | Quebec country | Canada",
+                    "@width": "150",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "region | Quebec\ncountry | Canada"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Current local time",
+            "@scanner": "Data",
+            "@id": "CurrentTime:CityData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP346223681bfg351c3gd3000056382ci67bddfbff?MSPStoreType=image/gif&s=51",
+                    "@alt": "11:48 pm EST | Saturday, January 18, 2020",
+                    "@title": "11:48 pm EST | Saturday, January 18, 2020",
+                    "@width": "301",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "11:48 pm EST | Saturday, January 18, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Current weather",
+            "@scanner": "Data",
+            "@id": "WeatherPod:CityData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "WeatherData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP346323681bfg351c3gd30000672g14achh951gce?MSPStoreType=image/gif&s=51",
+                    "@alt": "-13 \u00b0C (wind chill: -24 \u00b0C) | relative humidity: 91% | wind: 9 m/s",
+                    "@title": "-13 \u00b0C (wind chill: -24 \u00b0C) | relative humidity: 91% | wind: 9 m/s",
+                    "@width": "448",
+                    "@height": "22",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "-13 \u00b0C (wind chill: -24 \u00b0C) | relative humidity: 91% | wind: 9 m/s"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show history",
+                        "@input": "WeatherPod:CityData__Show history"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "WeatherPod:CityData__Show non-metric"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby cities",
+            "@scanner": "Data",
+            "@id": "CityHierarchyInfo:CityData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP346423681bfg351c3gd300005hci6b9beh3gcebg?MSPStoreType=image/gif&s=51",
+                    "@alt": "Trois-Rivieres, Quebec | 57 km (kilometers) northwest | 131338 people Quebec City, Quebec | 101 km (kilometers) north-northeast | 516622 people Montreal, Quebec | 139 km (kilometers) west-southwest | 1.65 million people (straight-line distances between city centers)",
+                    "@title": "Trois-Rivieres, Quebec | 57 km (kilometers) northwest | 131338 people Quebec City, Quebec | 101 km (kilometers) north-northeast | 516622 people Montreal, Quebec | 139 km (kilometers) west-southwest | 1.65 million people (straight-line distances between city centers)",
+                    "@width": "546",
+                    "@height": "156",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Trois-Rivieres, Quebec | 57 km (kilometers) northwest | 131338 people\nQuebec City, Quebec | 101 km (kilometers) north-northeast | 516622 people\nMontreal, Quebec | 139 km (kilometers) west-southwest | 1.65 million people\n(straight-line distances between city centers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "CityHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "CityHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby airport",
+            "@scanner": "Data",
+            "@id": "AirportHierarchyInfo:CityData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP346523681bfg351c3gd30000190670759234id9b?MSPStoreType=image/gif&s=51",
+                    "@alt": "Victoriaville Airport | 6 km (kilometers) north-northeast (straight-line distances between city center and airport)",
+                    "@title": "Victoriaville Airport | 6 km (kilometers) north-northeast (straight-line distances between city center and airport)",
+                    "@width": "396",
+                    "@height": "58",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Victoriaville Airport | 6 km (kilometers) north-northeast\n(straight-line distances between city center and airport)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "AirportHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "AirportHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:CityData",
+            "@position": "1000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP346623681bfg351c3gd300002g0acb2cha53g835?MSPStoreType=image/gif&s=51",
+                    "@alt": "elevation | 127 m",
+                    "@title": "elevation | 127 m",
+                    "@width": "147",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "elevation | 127 m"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:CityData__Show non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "units": {
+                        "@count": "1",
+                        "unit": {
+                            "@short": "m",
+                            "@long": "meters"
+                        },
+                        "img": {
+                            "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP346723681bfg351c3gd300001d8gfe941c710i8a?MSPStoreType=image/gif&s=51",
+                            "@width": "96",
+                            "@height": "26"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Nearby features",
+            "@scanner": "Data",
+            "@id": "FeaturesHierarchyInfo:CityData",
+            "@position": "1100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "NuclearReactorData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "IAEAPowerReactorInformationSystem"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP346823681bfg351c3gd300000i69138423gag6b7?MSPStoreType=image/gif&s=51",
+                    "@alt": "nuclear power site | Gentilly | 47 km (kilometers) northwest mountain | Mount Madison (1636 meters) | 200 km (kilometers) south-southeast mountain | Mount Washington (1917 meters) | 205 km (kilometers) south-southeast mountain | Mount Monroe (1641 meters) | 207 km (kilometers) south-southeast (straight-line distances between city center and feature coordinates)",
+                    "@title": "nuclear power site | Gentilly | 47 km (kilometers) northwest mountain | Mount Madison (1636 meters) | 200 km (kilometers) south-southeast mountain | Mount Washington (1917 meters) | 205 km (kilometers) south-southeast mountain | Mount Monroe (1641 meters) | 207 km (kilometers) south-southeast (straight-line distances between city center and feature coordinates)",
+                    "@width": "545",
+                    "@height": "226",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "nuclear power site | Gentilly | 47 km (kilometers) northwest\nmountain | Mount Madison (1636 meters) | 200 km (kilometers) south-southeast\nmountain | Mount Washington (1917 meters) | 205 km (kilometers) south-southeast\nmountain | Mount Monroe (1641 meters) | 207 km (kilometers) south-southeast\n(straight-line distances between city center and feature coordinates)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "FeaturesHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "FeaturesHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearest sea",
+            "@scanner": "Data",
+            "@id": "OceansHierarchyInfo:CityData",
+            "@position": "1200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP346923681bfg351c3gd300001i341760gc8h4993?MSPStoreType=image/gif&s=51",
+                    "@alt": "Gulf of Saint Lawrence (91 km (kilometers) north-northeast)  (straight-line distance between city center and shore)",
+                    "@title": "Gulf of Saint Lawrence (91 km (kilometers) north-northeast)  (straight-line distance between city center and shore)",
+                    "@width": "397",
+                    "@height": "41",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Gulf of Saint Lawrence (91 km (kilometers) north-northeast) \n(straight-line distance between city center and shore)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show map",
+                        "@input": "OceansHierarchyInfo:CityData__Show map"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "OceansHierarchyInfo:CityData__Show non-metric"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Notable people born in Victoriaville",
+            "@scanner": "Data",
+            "@id": "NotablePeople:CityData",
+            "@position": "1300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "PeopleData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP347023681bfg351c3gd30000250ifi5geh0ef95c?MSPStoreType=image/gif&s=51",
+                    "@alt": "Gil Perreault (hockey player) (1950) Sylvie Boucher (administrator, etc.) (1962)",
+                    "@title": "Gil Perreault (hockey player) (1950) Sylvie Boucher (administrator, etc.) (1962)",
+                    "@width": "280",
+                    "@height": "38",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Gil Perreault (hockey player) (1950)\nSylvie Boucher (administrator, etc.) (1962)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show dates",
+                        "@input": "NotablePeople:CityData__Show dates"
+                    },
+                    {
+                        "@name": "Show deaths",
+                        "@input": "NotablePeople:CityData__Show deaths"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Wikipedia page hits history",
+            "@scanner": "Data",
+            "@id": "PopularityPod:WikipediaStatsData",
+            "@position": "1400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP347123681bfg351c3gd300005ff9fcgdb052ee4a?MSPStoreType=image/gif&s=51",
+                    "@alt": "Wikipedia page hits history",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "169",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopularityPod:WikipediaStatsData__Log scale"
+                }
+            }
+        }
+    ],
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "7",
+        "source": [
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/NuclearReactorDataSourceInformationNotes.html",
+                "@text": "Nuclear reactor data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html",
+                "@text": "People data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/USCensusDataSourceInformationNotes.html",
+                "@text": "US census data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html",
+                "@text": "Weather data"
+            }
+        ]
+    }
+}

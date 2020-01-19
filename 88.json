@@ -1,0 +1,538 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "7",
+    "@datatypes": "AdministrativeDivision,Lake",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "5.798",
+    "@parsetiming": "0.298",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP771236820dah2718ic300004051ae3f9bad4e3f",
+    "@host": "https://www5a.wolframalpha.com",
+    "@server": "51",
+    "@related": "https://www5a.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa772236820dah2718ic300001i0937775eb8g7247297982070693509567",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP773236820dah2718ic300002hfg5hd1a33594cg?MSPStoreType=image/gif&s=51",
+                    "@alt": "Williams Lake",
+                    "@title": "Williams Lake",
+                    "@width": "92",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Williams Lake"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Basic information",
+            "@scanner": "Data",
+            "@id": "Properties:LakeData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "LakeData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": [
+                        "ILECWorldLakeDatabase",
+                        "TheWikimediaFoundationIncWikipedia"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP774236820dah2718ic30000656i19h3982510ba?MSPStoreType=image/gif&s=51",
+                    "@alt": "location | Halifax, Nova Scotia, Canada",
+                    "@title": "location | Halifax, Nova Scotia, Canada",
+                    "@width": "294",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "location | Halifax, Nova Scotia, Canada"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "Properties:LakeData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Location",
+            "@scanner": "Data",
+            "@id": "Location:LakeData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "LakeData",
+                        "CountryData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": [
+                        "ILECWorldLakeDatabase",
+                        "TheWikimediaFoundationIncWikipedia",
+                        "CIAFactbook"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP775236820dah2718ic300005848ddhc970d50fh?MSPStoreType=image/gif&s=51",
+                    "@alt": "Location",
+                    "@title": "",
+                    "@width": "328",
+                    "@height": "215",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show coordinates",
+                    "@input": "Location:LakeData__Show coordinates"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=44.62%2C-63.5953&q=44.62%20N%2C%2063.5953%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "WolframMap:LakeData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "LakeData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "datasources": {
+                    "datasource": [
+                        "ILECWorldLakeDatabase",
+                        "TheWikimediaFoundationIncWikipedia"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP776236820dah2718ic300001b2a14hc44643ef0?MSPStoreType=image/gif&s=51",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "240 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "8 kilometers across",
+                            "@input": "WolframMap:LakeData__8 kilometers across"
+                        },
+                        {
+                            "@name": "20 kilometers across",
+                            "@input": "WolframMap:LakeData__20 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "WolframMap:LakeData__30 kilometers across"
+                        },
+                        {
+                            "@name": "60 kilometers across",
+                            "@input": "WolframMap:LakeData__60 kilometers across"
+                        },
+                        {
+                            "@name": "120 kilometers across",
+                            "@input": "WolframMap:LakeData__120 kilometers across"
+                        },
+                        {
+                            "@name": "240 kilometers across",
+                            "@input": "WolframMap:LakeData__240 kilometers across"
+                        },
+                        {
+                            "@name": "480 kilometers across",
+                            "@input": "WolframMap:LakeData__480 kilometers across"
+                        },
+                        {
+                            "@name": "970 kilometers across",
+                            "@input": "WolframMap:LakeData__970 kilometers across"
+                        },
+                        {
+                            "@name": "1900 kilometers across",
+                            "@input": "WolframMap:LakeData__1900 kilometers across"
+                        },
+                        {
+                            "@name": "3800 kilometers across",
+                            "@input": "WolframMap:LakeData__3800 kilometers across"
+                        },
+                        {
+                            "@name": "7500 kilometers across",
+                            "@input": "WolframMap:LakeData__7500 kilometers across"
+                        },
+                        {
+                            "@name": "12000 kilometers across",
+                            "@input": "WolframMap:LakeData__12000 kilometers across"
+                        },
+                        {
+                            "@name": "24000 kilometers across",
+                            "@input": "WolframMap:LakeData__24000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "WolframMap:LakeData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Local elevation",
+            "@scanner": "Data",
+            "@id": "DefaultElevationProfile:LakeData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "4",
+            "subpod": [
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": "LakeData"
+                    },
+                    "datasources": {
+                        "datasource": [
+                            "ILECWorldLakeDatabase",
+                            "TheWikimediaFoundationIncWikipedia"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP777236820dah2718ic300002d983h1ic4fh4276?MSPStoreType=image/gif&s=51",
+                        "@alt": "30 meters",
+                        "@title": "30 meters",
+                        "@width": "65",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "30 meters"
+                },
+                {
+                    "@title": "Elevation map",
+                    "microsources": {
+                        "microsource": "LakeData"
+                    },
+                    "datasources": {
+                        "datasource": [
+                            "ILECWorldLakeDatabase",
+                            "TheWikimediaFoundationIncWikipedia"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP778236820dah2718ic300002heb7agc15i5ffa8?MSPStoreType=image/gif&s=51",
+                        "@alt": "   ",
+                        "@title": "   ",
+                        "@width": "286",
+                        "@height": "255",
+                        "@type": "2DMathPlot_2",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "false"
+                    },
+                    "plaintext": null
+                },
+                {
+                    "@title": "East-west profile",
+                    "microsources": {
+                        "microsource": "LakeData"
+                    },
+                    "datasources": {
+                        "datasource": [
+                            "ILECWorldLakeDatabase",
+                            "TheWikimediaFoundationIncWikipedia"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP779236820dah2718ic3000028hhe7h00d0eecc2?MSPStoreType=image/gif&s=51",
+                        "@alt": "Local elevation East-west profile",
+                        "@title": "",
+                        "@width": "240",
+                        "@height": "106",
+                        "@type": "2DMathPlot_1",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                },
+                {
+                    "@title": "North-south profile",
+                    "microsources": {
+                        "microsource": "LakeData"
+                    },
+                    "datasources": {
+                        "datasource": [
+                            "ILECWorldLakeDatabase",
+                            "TheWikimediaFoundationIncWikipedia"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP780236820dah2718ic3000050edh055hg93h4b7?MSPStoreType=image/gif&s=51",
+                        "@alt": "Local elevation North-south profile",
+                        "@title": "",
+                        "@width": "240",
+                        "@height": "106",
+                        "@type": "2DMathPlot_1",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                }
+            ],
+            "expressiontypes": {
+                "@count": "4",
+                "expressiontype": [
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    }
+                ]
+            },
+            "states": {
+                "@count": "3",
+                "state": [
+                    {
+                        "@name": "Show coordinates",
+                        "@input": "DefaultElevationProfile:LakeData__Show coordinates"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "DefaultElevationProfile:LakeData__Show non-metric"
+                    },
+                    {
+                        "@name": "Hide topography",
+                        "@input": "DefaultElevationProfile:LakeData__Hide topography"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Wikipedia summary",
+            "@scanner": "Character",
+            "@id": "WikipediaSummary:LakeData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP781236820dah2718ic3000034993ei9c5555f11?MSPStoreType=image/gif&s=51",
+                    "@alt": "Williams Lake, Halifax is a lake of the Halifax Regional Municipality, in Spryfield, Nova Scotia, Canada.",
+                    "@title": "Williams Lake, Halifax is a lake of the Halifax Regional Municipality, in Spryfield, Nova Scotia, Canada.",
+                    "@width": "536",
+                    "@height": "36",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Williams Lake, Halifax is a lake of the Halifax Regional Municipality, in Spryfield, Nova Scotia, Canada.",
+                "infos": {
+                    "@count": "1",
+                    "info": {
+                        "link": {
+                            "@url": "http://en.wikipedia.org/wiki?curid=23570496",
+                            "@text": "Full entry"
+                        }
+                    }
+                }
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Wikipedia page hits history",
+            "@scanner": "Data",
+            "@id": "PopularityPod:WikipediaStatsData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP782236820dah2718ic30000232g7fa82b630h8g?MSPStoreType=image/gif&s=51",
+                    "@alt": "Wikipedia page hits history",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "169",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopularityPod:WikipediaStatsData__Log scale"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "2",
+        "assumption": [
+            {
+                "@type": "Clash",
+                "@word": "Williams Lake",
+                "@template": "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead",
+                "@count": "2",
+                "value": [
+                    {
+                        "@name": "Lake",
+                        "@desc": "a lake",
+                        "@input": "*C.Williams+Lake-_*Lake-"
+                    },
+                    {
+                        "@name": "City",
+                        "@desc": "a city",
+                        "@input": "*C.Williams+Lake-_*City-"
+                    }
+                ]
+            },
+            {
+                "@type": "SubCategory",
+                "@word": "Williams Lake",
+                "@template": "Assuming ${desc1}. Use ${desc2} instead",
+                "@count": "5",
+                "value": [
+                    {
+                        "@name": "WilliamsLake::53wfx",
+                        "@desc": "Williams Lake (Canada)",
+                        "@input": "*DPClash.LakeE.Williams+Lake-_*WilliamsLake%3A%3A53wfx-"
+                    },
+                    {
+                        "@name": "WilliamsLake::f9jb8",
+                        "@desc": "Williams Lake (Canada)",
+                        "@input": "*DPClash.LakeE.Williams+Lake-_*WilliamsLake%3A%3Af9jb8-"
+                    },
+                    {
+                        "@name": "WilliamsLake::fmrj9",
+                        "@desc": "Williams Lake (Canada)",
+                        "@input": "*DPClash.LakeE.Williams+Lake-_*WilliamsLake%3A%3Afmrj9-"
+                    },
+                    {
+                        "@name": "WilliamsLake::x5ft3",
+                        "@desc": "Williams Lake (Canada)",
+                        "@input": "*DPClash.LakeE.Williams+Lake-_*WilliamsLake%3A%3Ax5ft3-"
+                    },
+                    {
+                        "@name": "WilliamsLake::xj688",
+                        "@desc": "Williams Lake (Canada)",
+                        "@input": "*DPClash.LakeE.Williams+Lake-_*WilliamsLake%3A%3Axj688-"
+                    }
+                ]
+            }
+        ]
+    },
+    "sources": {
+        "@count": "3",
+        "source": [
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/LakeDataSourceInformationNotes.html",
+                "@text": "Lake data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            }
+        ]
+    }
+}

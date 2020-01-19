@@ -1,0 +1,374 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "6",
+    "@datatypes": "AdministrativeDivision,City",
+    "@timedout": "Data,Character",
+    "@timedoutpods": "",
+    "@timing": "5.433",
+    "@parsetiming": "0.08700000000000001",
+    "@parsetimedout": "false",
+    "@recalculate": "https://www5a.wolframalpha.com/api/v1/recalc.jsp?id=MSPa10686145217d4bb4c718a00006806bg194if5ibah6763155028757663219",
+    "@id": "MSP10687145217d4bb4c718a000029f1cc8dd7145g24",
+    "@host": "https://www5a.wolframalpha.com",
+    "@server": "43",
+    "@related": "https://www5a.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa10688145217d4bb4c718a00006112g07a9iffg03b6763155028757663219",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP10689145217d4bb4c718a0000138c832geea7492d?MSPStoreType=image/gif&s=43",
+                    "@alt": "Yellowknife, Northwest Territories",
+                    "@title": "Yellowknife, Northwest Territories",
+                    "@width": "226",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Yellowknife, Northwest Territories"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Population",
+            "@scanner": "Data",
+            "@id": "Population:CityData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCensusData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP10690145217d4bb4c718a00002e74af2bf87gc4hd?MSPStoreType=image/gif&s=43",
+                    "@alt": "city population | 17863 people (country rank: \u2248166th) (2006 estimate)",
+                    "@title": "city population | 17863 people (country rank: \u2248166th) (2006 estimate)",
+                    "@width": "471",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "city population | 17863 people (country rank: \u2248166th) (2006 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show history",
+                    "@input": "Population:CityData__Show history"
+                }
+            }
+        },
+        {
+            "@title": "Location",
+            "@scanner": "Data",
+            "@id": "Location:CityData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "2",
+            "subpod": [
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP10691145217d4bb4c718a0000179hhbhh5237fda7?MSPStoreType=image/gif&s=43",
+                        "@alt": "Northwest Territories, Canada",
+                        "@title": "Northwest Territories, Canada",
+                        "@width": "199",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "Northwest Territories, Canada"
+                },
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData",
+                            "CountryData"
+                        ]
+                    },
+                    "datasources": {
+                        "datasource": "CIAFactbook"
+                    },
+                    "img": {
+                        "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP10692145217d4bb4c718a000031g30aei4b81eba3?MSPStoreType=image/gif&s=43",
+                        "@alt": "Location",
+                        "@title": "",
+                        "@width": "328",
+                        "@height": "214",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                }
+            ],
+            "expressiontypes": {
+                "@count": "2",
+                "expressiontype": [
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    }
+                ]
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "World map",
+                        "@input": "Location:CityData__World map"
+                    },
+                    {
+                        "@name": "Show coordinates",
+                        "@input": "Location:CityData__Show coordinates"
+                    }
+                ]
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=62.46%2C-114.36&q=62.46%20N%2C%20114.36%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "Map:CityData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP10693145217d4bb4c718a000030473faechd59d90?MSPStoreType=image/gif&s=43",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "10 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "5 kilometers across",
+                            "@input": "Map:CityData__5 kilometers across"
+                        },
+                        {
+                            "@name": "10 kilometers across",
+                            "@input": "Map:CityData__10 kilometers across"
+                        },
+                        {
+                            "@name": "20 kilometers across",
+                            "@input": "Map:CityData__20 kilometers across"
+                        },
+                        {
+                            "@name": "40 kilometers across",
+                            "@input": "Map:CityData__40 kilometers across"
+                        },
+                        {
+                            "@name": "80 kilometers across",
+                            "@input": "Map:CityData__80 kilometers across"
+                        },
+                        {
+                            "@name": "160 kilometers across",
+                            "@input": "Map:CityData__160 kilometers across"
+                        },
+                        {
+                            "@name": "320 kilometers across",
+                            "@input": "Map:CityData__320 kilometers across"
+                        },
+                        {
+                            "@name": "630 kilometers across",
+                            "@input": "Map:CityData__630 kilometers across"
+                        },
+                        {
+                            "@name": "1300 kilometers across",
+                            "@input": "Map:CityData__1300 kilometers across"
+                        },
+                        {
+                            "@name": "2500 kilometers across",
+                            "@input": "Map:CityData__2500 kilometers across"
+                        },
+                        {
+                            "@name": "4800 kilometers across",
+                            "@input": "Map:CityData__4800 kilometers across"
+                        },
+                        {
+                            "@name": "7300 kilometers across",
+                            "@input": "Map:CityData__7300 kilometers across"
+                        },
+                        {
+                            "@name": "14000 kilometers across",
+                            "@input": "Map:CityData__14000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "Map:CityData__Non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=62.46%2C-114.36&q=62.46%20N%2C%20114.36%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Administrative regions",
+            "@scanner": "Data",
+            "@id": "AdministrativeRegions:CityData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP10694145217d4bb4c718a000036h7ih7h1i65i93f?MSPStoreType=image/gif&s=43",
+                    "@alt": "region | Northwest Territories country | Canada",
+                    "@title": "region | Northwest Territories country | Canada",
+                    "@width": "241",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "region | Northwest Territories\ncountry | Canada"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Current local time",
+            "@scanner": "Data",
+            "@id": "CurrentTime:CityData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP10695145217d4bb4c718a00000d8313513847349e?MSPStoreType=image/gif&s=43",
+                    "@alt": "9:52 pm MST | Saturday, January 18, 2020",
+                    "@title": "9:52 pm MST | Saturday, January 18, 2020",
+                    "@width": "297",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "9:52 pm MST | Saturday, January 18, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        }
+    ],
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "4",
+        "source": [
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/USCensusDataSourceInformationNotes.html",
+                "@text": "US census data"
+            }
+        ]
+    }
+}

@@ -1,0 +1,495 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "7",
+    "@datatypes": "AdministrativeDivision,Island",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "7.611",
+    "@parsetiming": "0.23700000000000002",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP265115a1cbh437b155f400003ib66hh74i9357e5",
+    "@host": "https://www4f.wolframalpha.com",
+    "@server": "49",
+    "@related": "https://www4f.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa265215a1cbh437b155f4000023gbeciicb2ibi4h8047663225140514531",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP265315a1cbh437b155f400005bd02c7h1diha2g6?MSPStoreType=image/gif&s=49",
+                    "@alt": "Bowen Island",
+                    "@title": "Bowen Island",
+                    "@width": "89",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Bowen Island"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Properties",
+            "@scanner": "Data",
+            "@id": "Properties:IslandData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "IslandData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": [
+                        "UNEPIslandDirectory",
+                        "TheWikimediaFoundationIncWikipedia"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP265415a1cbh437b155f400001e4c5b39hdf95281?MSPStoreType=image/gif&s=49",
+                    "@alt": "population | 3360 people location | Greater Vancouver, British Columbia, Canada total area | 50 km^2 (square kilometers)",
+                    "@title": "population | 3360 people location | Greater Vancouver, British Columbia, Canada total area | 50 km^2 (square kilometers)",
+                    "@width": "419",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "population | 3360 people\nlocation | Greater Vancouver, British Columbia, Canada\ntotal area | 50 km^2 (square kilometers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "Properties:IslandData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "Properties:IslandData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Location",
+            "@scanner": "Data",
+            "@id": "Location:IslandData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "IslandData",
+                        "CountryData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": [
+                        "UNEPIslandDirectory",
+                        "TheWikimediaFoundationIncWikipedia",
+                        "CIAFactbook"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP265515a1cbh437b155f400003ede91be78e4984h?MSPStoreType=image/gif&s=49",
+                    "@alt": "Location",
+                    "@title": "",
+                    "@width": "328",
+                    "@height": "215",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show coordinates",
+                    "@input": "Location:IslandData__Show coordinates"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=49.3833%2C-123.383&q=49.3833%20N%2C%20123.383%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "WolframMap:IslandData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "IslandData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "datasources": {
+                    "datasource": [
+                        "UNEPIslandDirectory",
+                        "TheWikimediaFoundationIncWikipedia"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP265615a1cbh437b155f4000034b93b07h0d7b081?MSPStoreType=image/gif&s=49",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "60 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "7 kilometers across",
+                            "@input": "WolframMap:IslandData__7 kilometers across"
+                        },
+                        {
+                            "@name": "10 kilometers across",
+                            "@input": "WolframMap:IslandData__10 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "WolframMap:IslandData__30 kilometers across"
+                        },
+                        {
+                            "@name": "60 kilometers across",
+                            "@input": "WolframMap:IslandData__60 kilometers across"
+                        },
+                        {
+                            "@name": "110 kilometers across",
+                            "@input": "WolframMap:IslandData__110 kilometers across"
+                        },
+                        {
+                            "@name": "220 kilometers across",
+                            "@input": "WolframMap:IslandData__220 kilometers across"
+                        },
+                        {
+                            "@name": "440 kilometers across",
+                            "@input": "WolframMap:IslandData__440 kilometers across"
+                        },
+                        {
+                            "@name": "890 kilometers across",
+                            "@input": "WolframMap:IslandData__890 kilometers across"
+                        },
+                        {
+                            "@name": "1800 kilometers across",
+                            "@input": "WolframMap:IslandData__1800 kilometers across"
+                        },
+                        {
+                            "@name": "3500 kilometers across",
+                            "@input": "WolframMap:IslandData__3500 kilometers across"
+                        },
+                        {
+                            "@name": "6800 kilometers across",
+                            "@input": "WolframMap:IslandData__6800 kilometers across"
+                        },
+                        {
+                            "@name": "11000 kilometers across",
+                            "@input": "WolframMap:IslandData__11000 kilometers across"
+                        },
+                        {
+                            "@name": "21000 kilometers across",
+                            "@input": "WolframMap:IslandData__21000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "WolframMap:IslandData__Non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Local elevation",
+            "@scanner": "Data",
+            "@id": "DefaultElevationProfile:IslandData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "4",
+            "subpod": [
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": "IslandData"
+                    },
+                    "datasources": {
+                        "datasource": [
+                            "UNEPIslandDirectory",
+                            "TheWikimediaFoundationIncWikipedia"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP265715a1cbh437b155f400003ief79b7cab47de6?MSPStoreType=image/gif&s=49",
+                        "@alt": "428 meters",
+                        "@title": "428 meters",
+                        "@width": "73",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "428 meters"
+                },
+                {
+                    "@title": "Elevation map",
+                    "microsources": {
+                        "microsource": "IslandData"
+                    },
+                    "datasources": {
+                        "datasource": [
+                            "UNEPIslandDirectory",
+                            "TheWikimediaFoundationIncWikipedia"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP265815a1cbh437b155f4000029hf6b0hhbfcaf67?MSPStoreType=image/gif&s=49",
+                        "@alt": "   ",
+                        "@title": "   ",
+                        "@width": "264",
+                        "@height": "255",
+                        "@type": "2DMathPlot_2",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "false"
+                    },
+                    "plaintext": null
+                },
+                {
+                    "@title": "East-west profile",
+                    "microsources": {
+                        "microsource": "IslandData"
+                    },
+                    "datasources": {
+                        "datasource": [
+                            "UNEPIslandDirectory",
+                            "TheWikimediaFoundationIncWikipedia"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP265915a1cbh437b155f400004a28e4921bc4i8b0?MSPStoreType=image/gif&s=49",
+                        "@alt": "Local elevation East-west profile",
+                        "@title": "",
+                        "@width": "240",
+                        "@height": "107",
+                        "@type": "2DMathPlot_1",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                },
+                {
+                    "@title": "North-south profile",
+                    "microsources": {
+                        "microsource": "IslandData"
+                    },
+                    "datasources": {
+                        "datasource": [
+                            "UNEPIslandDirectory",
+                            "TheWikimediaFoundationIncWikipedia"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP266015a1cbh437b155f40000542ib6c2d842a026?MSPStoreType=image/gif&s=49",
+                        "@alt": "Local elevation North-south profile",
+                        "@title": "",
+                        "@width": "240",
+                        "@height": "107",
+                        "@type": "2DMathPlot_1",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                }
+            ],
+            "expressiontypes": {
+                "@count": "4",
+                "expressiontype": [
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    }
+                ]
+            },
+            "states": {
+                "@count": "3",
+                "state": [
+                    {
+                        "@name": "Show coordinates",
+                        "@input": "DefaultElevationProfile:IslandData__Show coordinates"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "DefaultElevationProfile:IslandData__Show non-metric"
+                    },
+                    {
+                        "@name": "Hide topography",
+                        "@input": "DefaultElevationProfile:IslandData__Hide topography"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Wikipedia summary",
+            "@scanner": "Character",
+            "@id": "WikipediaSummary:IslandData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP266115a1cbh437b155f4000041gfgh1105c917gg?MSPStoreType=image/gif&s=49",
+                    "@alt": "Bowen Island (originally Nex\u0331wl\u00e9lex\u0331m in S\u1e35wx\u0331w\u00fa7mesh Sn\u00edchim), British Columbia, is an island municipality that is part of Metro Vancouver. In addition, Bowen Island is within the jurisdiction of the Islands Trust. Located in Howe Sound, Bowen Island is approximately 6 kilometres (3.7 mi) wide by 12 kilometres (7.5 mi) long, with the island at its closest point about 3 kilometres ...",
+                    "@title": "Bowen Island (originally Nex\u0331wl\u00e9lex\u0331m in S\u1e35wx\u0331w\u00fa7mesh Sn\u00edchim), British Columbia, is an island municipality that is part of Metro Vancouver. In addition, Bowen Island is within the jurisdiction of the Islands Trust. Located in Howe Sound, Bowen Island is approximately 6 kilometres (3.7 mi) wide by 12 kilometres (7.5 mi) long, with the island at its closest point about 3 kilometres ...",
+                    "@width": "529",
+                    "@height": "91",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Bowen Island (originally Nex\u0331wl\u00e9lex\u0331m in S\u1e35wx\u0331w\u00fa7mesh Sn\u00edchim), British Columbia, is an island municipality that is part of Metro Vancouver. In addition, Bowen Island is within the jurisdiction of the Islands Trust. Located in Howe Sound, Bowen Island is approximately 6 kilometres (3.7 mi) wide by 12 kilometres (7.5 mi) long, with the island at its closest point about 3 kilometres ...",
+                "infos": {
+                    "@count": "1",
+                    "info": {
+                        "link": {
+                            "@url": "http://en.wikipedia.org/wiki?curid=305346",
+                            "@text": "Full entry"
+                        }
+                    }
+                }
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "More",
+                    "@input": "WikipediaSummary:IslandData__More"
+                }
+            }
+        },
+        {
+            "@title": "Wikipedia page hits history",
+            "@scanner": "Data",
+            "@id": "PopularityPod:WikipediaStatsData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP266215a1cbh437b155f400004ca5g0g885dg4a05?MSPStoreType=image/gif&s=49",
+                    "@alt": "Wikipedia page hits history",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "167",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopularityPod:WikipediaStatsData__Log scale"
+                }
+            }
+        }
+    ],
+    "sources": {
+        "@count": "3",
+        "source": [
+            {
+                "@url": "https://www4f.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www4f.wolframalpha.com/sources/IslandDataSourceInformationNotes.html",
+                "@text": "Island data"
+            },
+            {
+                "@url": "https://www4f.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            }
+        ]
+    }
+}

@@ -1,0 +1,469 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "9",
+    "@datatypes": "AdministrativeDivision,City,HistoricalSite",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "5.276",
+    "@parsetiming": "0.632",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP34171hb644f3f7bg8ih7000069i396a7hdaeifch",
+    "@host": "https://www5a.wolframalpha.com",
+    "@server": "31",
+    "@related": "https://www5a.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa34181hb644f3f7bg8ih7000057a7h3iia93f5h392433495843949992771",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP34191hb644f3f7bg8ih7000027i8e31d59400bi3?MSPStoreType=image/gif&s=31",
+                    "@alt": "Frog Lake, Alberta (historic site)",
+                    "@title": "Frog Lake, Alberta (historic site)",
+                    "@width": "212",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Frog Lake, Alberta (historic site)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Basic information",
+            "@scanner": "Data",
+            "@id": "Basic:HistoricalSiteData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "HistoricalSiteData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "Freebase"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP34201hb644f3f7bg8ih700003fahg99h4f8b211g?MSPStoreType=image/gif&s=31",
+                    "@alt": "historic preservation status | National Historic Site (Canada) location | Division No. 12, Alberta, Canada",
+                    "@title": "historic preservation status | National Historic Site (Canada) location | Division No. 12, Alberta, Canada",
+                    "@width": "440",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "historic preservation status | National Historic Site (Canada)\nlocation | Division No. 12, Alberta, Canada"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Image",
+            "@scanner": "Data",
+            "@id": "Image:HistoricalSiteData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "imagesource": "http://en.wikipedia.org/wiki/File:Frog_Lake_National_Historic_Site.JPG",
+                "microsources": {
+                    "microsource": "HistoricalSiteData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP34211hb644f3f7bg8ih700002cd1fid2349b4c2i?MSPStoreType=image/gif&s=31",
+                    "@alt": "Image",
+                    "@title": "",
+                    "@width": "150",
+                    "@height": "113",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Location",
+            "@scanner": "Data",
+            "@id": "CountryMap:HistoricalSiteData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "HistoricalSiteData",
+                        "CountryData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": [
+                        "Freebase",
+                        "CIAFactbook"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP34221hb644f3f7bg8ih700006054c1019312gaf5?MSPStoreType=image/gif&s=31",
+                    "@alt": "Location",
+                    "@title": "",
+                    "@width": "328",
+                    "@height": "215",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show coordinates",
+                    "@input": "CountryMap:HistoricalSiteData__Show coordinates"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=53.8317%2C-110.417&q=53.8317%20N%2C%20110.417%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "WolframMap:HistoricalSiteData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "HistoricalSiteData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "Freebase"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP34231hb644f3f7bg8ih700005c61geccaabeic2c?MSPStoreType=image/gif&s=31",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "100 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "6 kilometers across",
+                            "@input": "WolframMap:HistoricalSiteData__6 kilometers across"
+                        },
+                        {
+                            "@name": "10 kilometers across",
+                            "@input": "WolframMap:HistoricalSiteData__10 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "WolframMap:HistoricalSiteData__30 kilometers across"
+                        },
+                        {
+                            "@name": "50 kilometers across",
+                            "@input": "WolframMap:HistoricalSiteData__50 kilometers across"
+                        },
+                        {
+                            "@name": "100 kilometers across",
+                            "@input": "WolframMap:HistoricalSiteData__100 kilometers across"
+                        },
+                        {
+                            "@name": "200 kilometers across",
+                            "@input": "WolframMap:HistoricalSiteData__200 kilometers across"
+                        },
+                        {
+                            "@name": "400 kilometers across",
+                            "@input": "WolframMap:HistoricalSiteData__400 kilometers across"
+                        },
+                        {
+                            "@name": "810 kilometers across",
+                            "@input": "WolframMap:HistoricalSiteData__810 kilometers across"
+                        },
+                        {
+                            "@name": "1600 kilometers across",
+                            "@input": "WolframMap:HistoricalSiteData__1600 kilometers across"
+                        },
+                        {
+                            "@name": "3200 kilometers across",
+                            "@input": "WolframMap:HistoricalSiteData__3200 kilometers across"
+                        },
+                        {
+                            "@name": "6200 kilometers across",
+                            "@input": "WolframMap:HistoricalSiteData__6200 kilometers across"
+                        },
+                        {
+                            "@name": "9800 kilometers across",
+                            "@input": "WolframMap:HistoricalSiteData__9800 kilometers across"
+                        },
+                        {
+                            "@name": "19000 kilometers across",
+                            "@input": "WolframMap:HistoricalSiteData__19000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "WolframMap:HistoricalSiteData__Non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Nearby historic sites",
+            "@scanner": "Data",
+            "@id": "NearbyEntities:HistoricalSiteData:HistoricalSiteData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "HistoricalSiteData"
+                },
+                "datasources": {
+                    "datasource": "Freebase"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP34241hb644f3f7bg8ih70000452875hbb6dh50cd?MSPStoreType=image/gif&s=31",
+                    "@alt": "Frog Lake National Historical Site | | 4 km (kilometers) east Fort Pitt Provincial Park | park | 50 km (kilometers) southeast Vegreville egg | sculpture | 113 km (kilometers) west-southwest Ukrainian Cultural Heritage Village | church | 159 km (kilometers) west",
+                    "@title": "Frog Lake National Historical Site | | 4 km (kilometers) east Fort Pitt Provincial Park | park | 50 km (kilometers) southeast Vegreville egg | sculpture | 113 km (kilometers) west-southwest Ukrainian Cultural Heritage Village | church | 159 km (kilometers) west",
+                    "@width": "546",
+                    "@height": "179",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Frog Lake National Historical Site | | 4 km (kilometers) east\nFort Pitt Provincial Park | park | 50 km (kilometers) southeast\nVegreville egg | sculpture | 113 km (kilometers) west-southwest\nUkrainian Cultural Heritage Village | church | 159 km (kilometers) west"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show map",
+                        "@input": "NearbyEntities:HistoricalSiteData:HistoricalSiteData__Show map"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "NearbyEntities:HistoricalSiteData:HistoricalSiteData__Show non-metric"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby cities",
+            "@scanner": "Data",
+            "@id": "NearbyEntities:HistoricalSiteData:CityData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "HistoricalSiteData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "Freebase"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP34251hb644f3f7bg8ih70000408d0f8bh064eeai?MSPStoreType=image/gif&s=31",
+                    "@alt": "Elk Point, Alberta | 33 km (kilometers) west-northwest | 1452 people Bonnyville, Alberta | 53 km (kilometers) north-northwest | 6216 people Saint Paul, Alberta | 59 km (kilometers) west-northwest | 5827 people",
+                    "@title": "Elk Point, Alberta | 33 km (kilometers) west-northwest | 1452 people Bonnyville, Alberta | 53 km (kilometers) north-northwest | 6216 people Saint Paul, Alberta | 59 km (kilometers) west-northwest | 5827 people",
+                    "@width": "503",
+                    "@height": "88",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Elk Point, Alberta | 33 km (kilometers) west-northwest | 1452 people\nBonnyville, Alberta | 53 km (kilometers) north-northwest | 6216 people\nSaint Paul, Alberta | 59 km (kilometers) west-northwest | 5827 people"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "3",
+                "state": [
+                    {
+                        "@name": "Show map",
+                        "@input": "NearbyEntities:HistoricalSiteData:CityData__Show map"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "NearbyEntities:HistoricalSiteData:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "NearbyEntities:HistoricalSiteData:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Wikipedia summary",
+            "@scanner": "Character",
+            "@id": "WikipediaSummary:HistoricalSiteData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP34261hb644f3f7bg8ih700005cdaa0e47gc2hgfa?MSPStoreType=image/gif&s=31",
+                    "@alt": "Frog Lake is a Cree community approximately 207 km (129 mi) east of Edmonton, Alberta, Canada. It is located 11 km (6.8 mi) northeast of the Hamlet of Heinsburg and 13 km (8.1 mi) southwest of the Fishing Lake Metis Settlement.",
+                    "@title": "Frog Lake is a Cree community approximately 207 km (129 mi) east of Edmonton, Alberta, Canada. It is located 11 km (6.8 mi) northeast of the Hamlet of Heinsburg and 13 km (8.1 mi) southwest of the Fishing Lake Metis Settlement.",
+                    "@width": "524",
+                    "@height": "55",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Frog Lake is a Cree community approximately 207 km (129 mi) east of Edmonton, Alberta, Canada. It is located 11 km (6.8 mi) northeast of the Hamlet of Heinsburg and 13 km (8.1 mi) southwest of the Fishing Lake Metis Settlement.",
+                "infos": {
+                    "@count": "1",
+                    "info": {
+                        "link": {
+                            "@url": "http://en.wikipedia.org/wiki?curid=5342357",
+                            "@text": "Full entry"
+                        }
+                    }
+                }
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Wikipedia page hits history",
+            "@scanner": "Data",
+            "@id": "PopularityPod:WikipediaStatsData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP34271hb644f3f7bg8ih700001c51be0i4e86b3ed?MSPStoreType=image/gif&s=31",
+                    "@alt": "Wikipedia page hits history",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "168",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopularityPod:WikipediaStatsData__Log scale"
+                }
+            }
+        }
+    ],
+    "sources": {
+        "@count": "4",
+        "source": [
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/HistoricalSiteDataSourceInformationNotes.html",
+                "@text": "Historical site data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            }
+        ]
+    }
+}

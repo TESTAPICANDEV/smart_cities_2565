@@ -1,0 +1,423 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "8",
+    "@datatypes": "AdministrativeDivision,City,Country,WeatherStation",
+    "@timedout": "",
+    "@timedoutpods": "Location",
+    "@timing": "7.242",
+    "@parsetiming": "0.324",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP779213cgae3bb60i2ii7000016d03607g236371g",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "53",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa779313cgae3bb60i2ii700000cbeg6g1gbia3ade6807070643161599741",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP779413cgae3bb60i2ii700001a74631a49652637?MSPStoreType=image/gif&s=53",
+                    "@alt": "Wellington, Ontario, Canada (county)",
+                    "@title": "Wellington, Ontario, Canada (county)",
+                    "@width": "251",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Wellington, Ontario, Canada (county)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "WolframReliefMap",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP779713cgae3bb60i2ii700002ie7g68i93adf358?MSPStoreType=image/gif&s=53",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "3",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "490 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "8 kilometers across",
+                            "@input": "WolframReliefMap__8 kilometers across"
+                        },
+                        {
+                            "@name": "20 kilometers across",
+                            "@input": "WolframReliefMap__20 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "WolframReliefMap__30 kilometers across"
+                        },
+                        {
+                            "@name": "60 kilometers across",
+                            "@input": "WolframReliefMap__60 kilometers across"
+                        },
+                        {
+                            "@name": "120 kilometers across",
+                            "@input": "WolframReliefMap__120 kilometers across"
+                        },
+                        {
+                            "@name": "250 kilometers across",
+                            "@input": "WolframReliefMap__250 kilometers across"
+                        },
+                        {
+                            "@name": "490 kilometers across",
+                            "@input": "WolframReliefMap__490 kilometers across"
+                        },
+                        {
+                            "@name": "980 kilometers across",
+                            "@input": "WolframReliefMap__980 kilometers across"
+                        },
+                        {
+                            "@name": "2000 kilometers across",
+                            "@input": "WolframReliefMap__2000 kilometers across"
+                        },
+                        {
+                            "@name": "3900 kilometers across",
+                            "@input": "WolframReliefMap__3900 kilometers across"
+                        },
+                        {
+                            "@name": "7600 kilometers across",
+                            "@input": "WolframReliefMap__7600 kilometers across"
+                        },
+                        {
+                            "@name": "13000 kilometers across",
+                            "@input": "WolframReliefMap__13000 kilometers across"
+                        },
+                        {
+                            "@name": "24000 kilometers across",
+                            "@input": "WolframReliefMap__24000 kilometers across"
+                        }
+                    ]
+                },
+                "state": [
+                    {
+                        "@name": "Non-metric",
+                        "@input": "WolframReliefMap__Non-metric"
+                    },
+                    {
+                        "@name": "Show relief",
+                        "@input": "WolframReliefMap__Show relief"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Population",
+            "@scanner": "Data",
+            "@id": "Population:AdministrativeDivisionData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CountryData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "Statoids"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP779813cgae3bb60i2ii70000565bb437bcdi1019?MSPStoreType=image/gif&s=53",
+                    "@alt": "159609 people (0.49% of total for Canada)",
+                    "@title": "159609 people (0.49% of total for Canada)",
+                    "@width": "252",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "159609 people (0.49% of total for Canada)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Largest cities",
+            "@scanner": "Data",
+            "@id": "LargerCities:AdministrativeDivisionData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP779913cgae3bb60i2ii70000179bde59feb6305f?MSPStoreType=image/gif&s=53",
+                    "@alt": "Guelph (121688 people) | Centre Wellington Township (26693 people) | Fergus (20767 people) | Mount Forest (4842 people) | Erin (10770 people) | ...",
+                    "@title": "Guelph (121688 people) | Centre Wellington Township (26693 people) | Fergus (20767 people) | Mount Forest (4842 people) | Erin (10770 people) | ...",
+                    "@width": "517",
+                    "@height": "38",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Guelph (121688 people) | Centre Wellington Township (26693 people) | Fergus (20767 people) | Mount Forest (4842 people) | Erin (10770 people) | ..."
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "More",
+                    "@input": "LargerCities:AdministrativeDivisionData__More"
+                }
+            }
+        },
+        {
+            "@title": "Area",
+            "@scanner": "Data",
+            "@id": "Area:AdministrativeDivisionData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CountryData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "CIAFactbook"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP780013cgae3bb60i2ii700000edid33gb7ae6ee3?MSPStoreType=image/gif&s=53",
+                    "@alt": "2639 km^2 (square kilometers) (0.026% of total for Canada)",
+                    "@title": "2639 km^2 (square kilometers) (0.026% of total for Canada)",
+                    "@width": "355",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "2639 km^2 (square kilometers) (0.026% of total for Canada)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Bordering entities",
+            "@scanner": "Data",
+            "@id": "BorderingEntities:AdministrativeDivisionData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "AdministrativeDivisionData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP780113cgae3bb60i2ii7000040393f908323bei7?MSPStoreType=image/gif&s=53",
+                    "@alt": "divisions: | Bruce | Dufferin | Grey | Halton | Hamilton | Huron | Peel | Perth | Waterloo",
+                    "@title": "divisions: | Bruce | Dufferin | Grey | Halton | Hamilton | Huron | Peel | Perth | Waterloo",
+                    "@width": "546",
+                    "@height": "37",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "divisions: | Bruce | Dufferin | Grey | Halton | Hamilton | Huron | Peel | Perth | Waterloo"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Current local time",
+            "@scanner": "Data",
+            "@id": "CurrentLocalTimeNoCoord:AdministrativeDivisionData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "AdministrativeDivisionData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP780213cgae3bb60i2ii700006a5bi533hfg03f69?MSPStoreType=image/gif&s=53",
+                    "@alt": "12:25:31 am EST | Sunday, January 19, 2020",
+                    "@title": "12:25:31 am EST | Sunday, January 19, 2020",
+                    "@width": "311",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "12:25:31 am EST | Sunday, January 19, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Current weather at center of Wellington",
+            "@scanner": "Data",
+            "@id": "WeatherPod:AdministrativeDivisionData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "WeatherData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP780313cgae3bb60i2ii7000034e7bg59d484a1a4?MSPStoreType=image/gif&s=53",
+                    "@alt": "-2 \u00b0C | relative humidity: 93%",
+                    "@title": "-2 \u00b0C | relative humidity: 93%",
+                    "@width": "208",
+                    "@height": "22",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "-2 \u00b0C | relative humidity: 93%"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show history",
+                        "@input": "WeatherPod:AdministrativeDivisionData__Show history"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "WeatherPod:AdministrativeDivisionData__Show non-metric"
+                    }
+                ]
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "1",
+        "assumption": {
+            "@type": "Clash",
+            "@word": "Wellington",
+            "@template": "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead",
+            "@count": "2",
+            "value": [
+                {
+                    "@name": "AdministrativeDivision",
+                    "@desc": "an administrative division",
+                    "@input": "*C.Wellington-_*AdministrativeDivision-"
+                },
+                {
+                    "@name": "City",
+                    "@desc": "a city",
+                    "@input": "*C.Wellington-_*City-"
+                }
+            ]
+        }
+    },
+    "sources": {
+        "@count": "5",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CountryDataSourceInformationNotes.html",
+                "@text": "Country data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html",
+                "@text": "Weather data"
+            }
+        ]
+    }
+}

@@ -1,0 +1,198 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "3",
+    "@datatypes": "City,USCounty",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "1.297",
+    "@parsetiming": "0.522",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP14861hgdaee13b5g3d4h00001d7f70hg592fb646",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "54",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa14871hgdaee13b5g3d4h000046bbg2d6060f7eaf2137842930739718529",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP14881hgdaee13b5g3d4h00005de6119ae126ga17?MSPStoreType=image/gif&s=54",
+                    "@alt": "Blandford, Massachusetts, United States | Blenheim, Ontario | Oxford County, Maine (US county)",
+                    "@title": "Blandford, Massachusetts, United States | Blenheim, Ontario | Oxford County, Maine (US county)",
+                    "@width": "533",
+                    "@height": "38",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Blandford, Massachusetts, United States | Blenheim, Ontario | Oxford County, Maine (US county)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Demographics",
+            "@scanner": "Data",
+            "@id": "DemographicProperties:MultipleData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCountyData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "USCensusQuickfacts"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP14891hgdaee13b5g3d4h00002ab9c6g7f2e024ab?MSPStoreType=image/gif&s=54",
+                    "@alt": " | Blandford, Massachusetts, United States | Blenheim, Ontario | Oxford County, Maine population | 1255 people | 4563 people | 57439 people",
+                    "@title": " | Blandford, Massachusetts, United States | Blenheim, Ontario | Oxford County, Maine population | 1255 people | 4563 people | 57439 people",
+                    "@width": "546",
+                    "@height": "102",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Blandford, Massachusetts, United States | Blenheim, Ontario | Oxford County, Maine\npopulation | 1255 people | 4563 people | 57439 people"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:MultipleData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCountyData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "USCensusQuickfacts"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP14901hgdaee13b5g3d4h000069aachgg52c60e8g?MSPStoreType=image/gif&s=54",
+                    "@alt": " | Blandford | Blenheim | Oxford County area | | | 5635 km^2 (square kilometers) average elevation | 345 meters | 207 meters | ",
+                    "@title": " | Blandford | Blenheim | Oxford County area | | | 5635 km^2 (square kilometers) average elevation | 345 meters | 207 meters | ",
+                    "@width": "542",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Blandford | Blenheim | Oxford County\narea | | | 5635 km^2 (square kilometers)\naverage elevation | 345 meters | 207 meters |"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:MultipleData__Show non-metric"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "2",
+        "assumption": [
+            {
+                "@type": "SubCategory",
+                "@word": "Blandford",
+                "@template": "Assuming ${desc1}. Use ${desc2} instead",
+                "@count": "2",
+                "value": [
+                    {
+                        "@name": "{Blandford, Massachusetts, UnitedStates}",
+                        "@desc": "Blandford (United States)",
+                        "@input": "*DPClash.CityE.Blandford-_**Blandford.Massachusetts.UnitedStates--"
+                    },
+                    {
+                        "@name": "{BlandfordForum, Dorset, UnitedKingdom}",
+                        "@desc": "Blandford Forum (United Kingdom)",
+                        "@input": "*DPClash.CityE.Blandford-_**BlandfordForum.Dorset.UnitedKingdom--"
+                    }
+                ]
+            },
+            {
+                "@type": "SubCategory",
+                "@word": "Blenheim",
+                "@template": "Assuming ${desc1}. Use ${desc2} instead",
+                "@count": "4",
+                "value": [
+                    {
+                        "@name": "{Blenheim, Ontario, Canada}",
+                        "@desc": "Blenheim (Canada)",
+                        "@input": "*DPClash.CityE.Blenheim-_**Blenheim.Ontario.Canada--"
+                    },
+                    {
+                        "@name": "{Blenheim, Marlborough, NewZealand}",
+                        "@desc": "Blenheim (New Zealand)",
+                        "@input": "*DPClash.CityE.Blenheim-_**Blenheim.Marlborough.NewZealand--"
+                    },
+                    {
+                        "@name": "{Blenheim, NewYork, UnitedStates}",
+                        "@desc": "Blenheim (New York, USA)",
+                        "@input": "*DPClash.CityE.Blenheim-_**Blenheim.NewYork.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Blenheim, SouthCarolina, UnitedStates}",
+                        "@desc": "Blenheim (South Carolina, USA)",
+                        "@input": "*DPClash.CityE.Blenheim-_**Blenheim.SouthCarolina.UnitedStates--"
+                    }
+                ]
+            }
+        ]
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "2",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USCountyDataSourceInformationNotes.html",
+                "@text": "US county data"
+            }
+        ]
+    }
+}

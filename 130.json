@@ -1,0 +1,208 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "4",
+    "@datatypes": "AdministrativeDivision,City",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "1.93",
+    "@parsetiming": "1.17",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP6459140iiidd47ah5hdg000064ahgb2b2ha5bc75",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "56",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa6460140iiidd47ah5hdg00001229i3b53cbib9732586184755524934074",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6461140iiidd47ah5hdg00000i5if2g19e1e0g58?MSPStoreType=image/gif&s=56",
+                    "@alt": "Fort Erie, Ontario | Niagara, Ontario, Canada (regional municipality)",
+                    "@title": "Fort Erie, Ontario | Niagara, Ontario, Canada (regional municipality)",
+                    "@width": "470",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Fort Erie, Ontario | Niagara, Ontario, Canada (regional municipality)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Distances",
+            "@scanner": "Data",
+            "@id": "Distances:MultipleData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6462140iiidd47ah5hdg00006ag3h9eic5166abf?MSPStoreType=image/gif&s=56",
+                    "@alt": "Fort Erie to Niagara, Ontario, Canada | 34 km (kilometers)",
+                    "@title": "Fort Erie to Niagara, Ontario, Canada | 34 km (kilometers)",
+                    "@width": "425",
+                    "@height": "32",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Fort Erie to Niagara, Ontario, Canada | 34 km (kilometers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "Distances:MultipleData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Demographics",
+            "@scanner": "Data",
+            "@id": "DemographicProperties:MultipleData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "Statoids"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6463140iiidd47ah5hdg00001df922b2i93cdfaa?MSPStoreType=image/gif&s=56",
+                    "@alt": " | Fort Erie, Ontario | Niagara, Ontario, Canada population | 30710 people | 393936 people",
+                    "@title": " | Fort Erie, Ontario | Niagara, Ontario, Canada population | 30710 people | 393936 people",
+                    "@width": "428",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Fort Erie, Ontario | Niagara, Ontario, Canada\npopulation | 30710 people | 393936 people"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:MultipleData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6464140iiidd47ah5hdg000039408hb14ag920c7?MSPStoreType=image/gif&s=56",
+                    "@alt": " | Fort Erie | Niagara, Ontario, Canada area | | 1862 km^2 (square kilometers) average elevation | 188 meters | ",
+                    "@title": " | Fort Erie | Niagara, Ontario, Canada area | | 1862 km^2 (square kilometers) average elevation | 188 meters | ",
+                    "@width": "448",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Fort Erie | Niagara, Ontario, Canada\narea | | 1862 km^2 (square kilometers)\naverage elevation | 188 meters |"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:MultipleData__Show non-metric"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "1",
+        "assumption": {
+            "@type": "MultiClash",
+            "@word": "",
+            "@template": "Assuming ${word1} is referring to ${desc1}. Use \"${word2}\" as ${desc2}.",
+            "@count": "2",
+            "value": [
+                {
+                    "@name": "AdministrativeDivision",
+                    "@word": "Niagara Region",
+                    "@desc": "an administrative division",
+                    "@input": "*MC.Niagara+Region-_*AdministrativeDivision-"
+                },
+                {
+                    "@name": "City",
+                    "@word": "Niagara",
+                    "@desc": "a city",
+                    "@input": "*MC.Niagara+Region-_*City-"
+                }
+            ]
+        }
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "2",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            }
+        ]
+    }
+}

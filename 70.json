@@ -1,0 +1,783 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "15",
+    "@datatypes": "AdministrativeDivision,City,Person,WeatherStation",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "7.046",
+    "@parsetiming": "0.87",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP3631hgdaee13b5g3d4h00000i77cf2d5d054407",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "54",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa3641hgdaee13b5g3d4h00001ed1bi7577813d752137842930739718529",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3651hgdaee13b5g3d4h00006a1422f7229811ha?MSPStoreType=image/gif&s=54",
+                    "@alt": "Red Deer, Alberta",
+                    "@title": "Red Deer, Alberta",
+                    "@width": "115",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Red Deer, Alberta"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Population",
+            "@scanner": "Data",
+            "@id": "Population:CityData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCensusData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3661hgdaee13b5g3d4h00001hc07c0978d65957?MSPStoreType=image/gif&s=54",
+                    "@alt": "city population | 100418 people (country rank: 46th) (2016 estimate)",
+                    "@title": "city population | 100418 people (country rank: 46th) (2016 estimate)",
+                    "@width": "460",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "city population | 100418 people (country rank: 46th) (2016 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show history",
+                    "@input": "Population:CityData__Show history"
+                }
+            }
+        },
+        {
+            "@title": "Location",
+            "@scanner": "Data",
+            "@id": "Location:CityData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "2",
+            "subpod": [
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3671hgdaee13b5g3d4h0000249cbb7f36g729i9?MSPStoreType=image/gif&s=54",
+                        "@alt": "Alberta, Canada",
+                        "@title": "Alberta, Canada",
+                        "@width": "106",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "Alberta, Canada"
+                },
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData",
+                            "CountryData"
+                        ]
+                    },
+                    "datasources": {
+                        "datasource": "CIAFactbook"
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3681hgdaee13b5g3d4h00004bgfhg1i34i408cc?MSPStoreType=image/gif&s=54",
+                        "@alt": "Location",
+                        "@title": "",
+                        "@width": "328",
+                        "@height": "214",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                }
+            ],
+            "expressiontypes": {
+                "@count": "2",
+                "expressiontype": [
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    }
+                ]
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "World map",
+                        "@input": "Location:CityData__World map"
+                    },
+                    {
+                        "@name": "Show coordinates",
+                        "@input": "Location:CityData__Show coordinates"
+                    }
+                ]
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=52.27%2C-113.83&q=52.27%20N%2C%20113.83%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "Map:CityData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3691hgdaee13b5g3d4h00003d68c710gfh22c6g?MSPStoreType=image/gif&s=54",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "30 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "7 kilometers across",
+                            "@input": "Map:CityData__7 kilometers across"
+                        },
+                        {
+                            "@name": "10 kilometers across",
+                            "@input": "Map:CityData__10 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "Map:CityData__30 kilometers across"
+                        },
+                        {
+                            "@name": "50 kilometers across",
+                            "@input": "Map:CityData__50 kilometers across"
+                        },
+                        {
+                            "@name": "100 kilometers across",
+                            "@input": "Map:CityData__100 kilometers across"
+                        },
+                        {
+                            "@name": "210 kilometers across",
+                            "@input": "Map:CityData__210 kilometers across"
+                        },
+                        {
+                            "@name": "420 kilometers across",
+                            "@input": "Map:CityData__420 kilometers across"
+                        },
+                        {
+                            "@name": "840 kilometers across",
+                            "@input": "Map:CityData__840 kilometers across"
+                        },
+                        {
+                            "@name": "1700 kilometers across",
+                            "@input": "Map:CityData__1700 kilometers across"
+                        },
+                        {
+                            "@name": "3300 kilometers across",
+                            "@input": "Map:CityData__3300 kilometers across"
+                        },
+                        {
+                            "@name": "6400 kilometers across",
+                            "@input": "Map:CityData__6400 kilometers across"
+                        },
+                        {
+                            "@name": "10000 kilometers across",
+                            "@input": "Map:CityData__10000 kilometers across"
+                        },
+                        {
+                            "@name": "20000 kilometers across",
+                            "@input": "Map:CityData__20000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "Map:CityData__Non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=52.27%2C-113.83&q=52.27%20N%2C%20113.83%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Administrative regions",
+            "@scanner": "Data",
+            "@id": "AdministrativeRegions:CityData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3701hgdaee13b5g3d4h0000440a99f777197787?MSPStoreType=image/gif&s=54",
+                    "@alt": "region | Alberta country | Canada",
+                    "@title": "region | Alberta country | Canada",
+                    "@width": "150",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "region | Alberta\ncountry | Canada"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Current local time",
+            "@scanner": "Data",
+            "@id": "CurrentTime:CityData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3711hgdaee13b5g3d4h00003i963f97a02e35ec?MSPStoreType=image/gif&s=54",
+                    "@alt": "9:45 pm MST | Saturday, January 18, 2020",
+                    "@title": "9:45 pm MST | Saturday, January 18, 2020",
+                    "@width": "297",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "9:45 pm MST | Saturday, January 18, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Current weather",
+            "@scanner": "Data",
+            "@id": "WeatherPod:CityData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "WeatherData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3721hgdaee13b5g3d4h000015e9i19ec1if1c0h?MSPStoreType=image/gif&s=54",
+                    "@alt": "-24 \u00b0C (wind chill: -32 \u00b0C) | relative humidity: 69% | wind: 3 m/s | partly cloudy",
+                    "@title": "-24 \u00b0C (wind chill: -32 \u00b0C) | relative humidity: 69% | wind: 3 m/s | partly cloudy",
+                    "@width": "517",
+                    "@height": "39",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "-24 \u00b0C (wind chill: -32 \u00b0C) | relative humidity: 69% | wind: 3 m/s | partly cloudy"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show history",
+                        "@input": "WeatherPod:CityData__Show history"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "WeatherPod:CityData__Show non-metric"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby cities",
+            "@scanner": "Data",
+            "@id": "CityHierarchyInfo:CityData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3731hgdaee13b5g3d4h0000102e78g5fea3e2a5?MSPStoreType=image/gif&s=54",
+                    "@alt": "Lacombe, Alberta | 23 km (kilometers) north-northeast | 10886 people Calgary, Alberta | 137 km (kilometers) south | 1.15 million people Edmonton, Alberta | 146 km (kilometers) north | 812201 people (straight-line distances between city centers)",
+                    "@title": "Lacombe, Alberta | 23 km (kilometers) north-northeast | 10886 people Calgary, Alberta | 137 km (kilometers) south | 1.15 million people Edmonton, Alberta | 146 km (kilometers) north | 812201 people (straight-line distances between city centers)",
+                    "@width": "540",
+                    "@height": "114",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Lacombe, Alberta | 23 km (kilometers) north-northeast | 10886 people\nCalgary, Alberta | 137 km (kilometers) south | 1.15 million people\nEdmonton, Alberta | 146 km (kilometers) north | 812201 people\n(straight-line distances between city centers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "CityHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "CityHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby airport",
+            "@scanner": "Data",
+            "@id": "AirportHierarchyInfo:CityData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3741hgdaee13b5g3d4h000067g588cfd68fd5e4?MSPStoreType=image/gif&s=54",
+                    "@alt": "Regional | 11 km (kilometers) south-southwest (straight-line distances between city center and airport)",
+                    "@title": "Regional | 11 km (kilometers) south-southwest (straight-line distances between city center and airport)",
+                    "@width": "339",
+                    "@height": "58",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Regional | 11 km (kilometers) south-southwest\n(straight-line distances between city center and airport)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "AirportHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "AirportHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Notable company headquarters",
+            "@scanner": "Data",
+            "@id": "CompaniesInCity:CityData",
+            "@position": "1000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "datasources": {
+                    "datasource": [
+                        "ForbesAmericasLargestPrivateCompanies",
+                        "CrunchBase"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3751hgdaee13b5g3d4h00006959h98861ahiaie?MSPStoreType=image/gif&s=54",
+                    "@alt": "Parkland Fuel Corp | 4363 employees (Quarter 4 2017) | $7.604 billion per year (Quarter 4 2017) High Arctic Energy | 711 employees (Quarter 4 2017) | $167.2 million per year (Quarter 4 2017) CWC Energy Services Corp | 768 employees (Quarter 4 2017) | $89.25 million per year (Quarter 4 2017) Gamehost Inc | 647 employees (Quarter 4 2017) | $54.16 million per year (Quarter 4 2017) RIFCO Inc | 41 employees (Quarter 1 2012) | $19.77 million per year (Quarter 4 2017)",
+                    "@title": "Parkland Fuel Corp | 4363 employees (Quarter 4 2017) | $7.604 billion per year (Quarter 4 2017) High Arctic Energy | 711 employees (Quarter 4 2017) | $167.2 million per year (Quarter 4 2017) CWC Energy Services Corp | 768 employees (Quarter 4 2017) | $89.25 million per year (Quarter 4 2017) Gamehost Inc | 647 employees (Quarter 4 2017) | $54.16 million per year (Quarter 4 2017) RIFCO Inc | 41 employees (Quarter 1 2012) | $19.77 million per year (Quarter 4 2017)",
+                    "@width": "546",
+                    "@height": "249",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Parkland Fuel Corp | 4363 employees (Quarter 4 2017) | $7.604 billion per year (Quarter 4 2017)\nHigh Arctic Energy | 711 employees (Quarter 4 2017) | $167.2 million per year (Quarter 4 2017)\nCWC Energy Services Corp | 768 employees (Quarter 4 2017) | $89.25 million per year (Quarter 4 2017)\nGamehost Inc | 647 employees (Quarter 4 2017) | $54.16 million per year (Quarter 4 2017)\nRIFCO Inc | 41 employees (Quarter 1 2012) | $19.77 million per year (Quarter 4 2017)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:CityData",
+            "@position": "1100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3761hgdaee13b5g3d4h00002e1daih6fb493a13?MSPStoreType=image/gif&s=54",
+                    "@alt": "elevation | 857 m",
+                    "@title": "elevation | 857 m",
+                    "@width": "147",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "elevation | 857 m"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:CityData__Show non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "units": {
+                        "@count": "1",
+                        "unit": {
+                            "@short": "m",
+                            "@long": "meters"
+                        },
+                        "img": {
+                            "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3771hgdaee13b5g3d4h000021485h0f2b3d2fg2?MSPStoreType=image/gif&s=54",
+                            "@width": "96",
+                            "@height": "26"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Nearby features",
+            "@scanner": "Data",
+            "@id": "FeaturesHierarchyInfo:CityData",
+            "@position": "1200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3781hgdaee13b5g3d4h00004i2bdabfd961c8e4?MSPStoreType=image/gif&s=54",
+                    "@alt": "mountain | Mount Hector (3394 meters) | 184 km (kilometers) west-southwest mountain | Mount Temple (3544 meters) | 194 km (kilometers) west-southwest mountain | Mount Assiniboine (3618 meters) | 201 km (kilometers) southwest (straight-line distances between city center and feature coordinates)",
+                    "@title": "mountain | Mount Hector (3394 meters) | 184 km (kilometers) west-southwest mountain | Mount Temple (3544 meters) | 194 km (kilometers) west-southwest mountain | Mount Assiniboine (3618 meters) | 201 km (kilometers) southwest (straight-line distances between city center and feature coordinates)",
+                    "@width": "546",
+                    "@height": "176",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "mountain | Mount Hector (3394 meters) | 184 km (kilometers) west-southwest\nmountain | Mount Temple (3544 meters) | 194 km (kilometers) west-southwest\nmountain | Mount Assiniboine (3618 meters) | 201 km (kilometers) southwest\n(straight-line distances between city center and feature coordinates)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "FeaturesHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "FeaturesHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearest sea",
+            "@scanner": "Data",
+            "@id": "OceansHierarchyInfo:CityData",
+            "@position": "1300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3791hgdaee13b5g3d4h000060dg17e18db8caad?MSPStoreType=image/gif&s=54",
+                    "@alt": "Coastal Waters Of Southeast Alaska and British Columbia (709 km (kilometers) west-southwest)  (straight-line distance between city center and shore)",
+                    "@title": "Coastal Waters Of Southeast Alaska and British Columbia (709 km (kilometers) west-southwest)  (straight-line distance between city center and shore)",
+                    "@width": "379",
+                    "@height": "64",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Coastal Waters Of Southeast Alaska and British Columbia (709 km (kilometers) west-southwest) \n(straight-line distance between city center and shore)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "3",
+                "state": [
+                    {
+                        "@name": "Show map",
+                        "@input": "OceansHierarchyInfo:CityData__Show map"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "OceansHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "OceansHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Notable people born in Red Deer",
+            "@scanner": "Data",
+            "@id": "NotablePeople:CityData",
+            "@position": "1400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "PeopleData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3801hgdaee13b5g3d4h00004707ib03f65ag9aa?MSPStoreType=image/gif&s=54",
+                    "@alt": "Amanda Lindhout (journalist) (1981) Leonidas Alaoglu (mathematician) (1914) Zina Kocher (athlete) (1982) Steven Elm (athlete) (1975) William Hector Payne (politician) (1914)",
+                    "@title": "Amanda Lindhout (journalist) (1981) Leonidas Alaoglu (mathematician) (1914) Zina Kocher (athlete) (1982) Steven Elm (athlete) (1975) William Hector Payne (politician) (1914)",
+                    "@width": "276",
+                    "@height": "95",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Amanda Lindhout (journalist) (1981)\nLeonidas Alaoglu (mathematician) (1914)\nZina Kocher (athlete) (1982)\nSteven Elm (athlete) (1975)\nWilliam Hector Payne (politician) (1914)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show dates",
+                        "@input": "NotablePeople:CityData__Show dates"
+                    },
+                    {
+                        "@name": "Show deaths",
+                        "@input": "NotablePeople:CityData__Show deaths"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Wikipedia page hits history",
+            "@scanner": "Data",
+            "@id": "PopularityPod:WikipediaStatsData",
+            "@position": "1500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3811hgdaee13b5g3d4h00004fb071di38de581a?MSPStoreType=image/gif&s=54",
+                    "@alt": "Wikipedia page hits history",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "168",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopularityPod:WikipediaStatsData__Log scale"
+                }
+            }
+        }
+    ],
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "6",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html",
+                "@text": "People data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USCensusDataSourceInformationNotes.html",
+                "@text": "US census data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html",
+                "@text": "Weather data"
+            }
+        ]
+    }
+}

@@ -1,0 +1,785 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "15",
+    "@datatypes": "AdministrativeDivision,City,Country,Person,WeatherStation",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "6.2490000000000006",
+    "@parsetiming": "0.09",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP6380140iiidd47ah5hdg00002e2dc4gh7h1fh1i7",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "56",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa6381140iiidd47ah5hdg00004h7fbfe80f06c3742586184755524934074",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6382140iiidd47ah5hdg000069i2fd62e6891had?MSPStoreType=image/gif&s=56",
+                    "@alt": "Rossland, British Columbia",
+                    "@title": "Rossland, British Columbia",
+                    "@width": "177",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Rossland, British Columbia"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Population",
+            "@scanner": "Data",
+            "@id": "Population:CityData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCensusData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6383140iiidd47ah5hdg0000179400495064a1g3?MSPStoreType=image/gif&s=56",
+                    "@alt": "city population | 3556 people (country rank: \u2248500th) (2011 estimate)",
+                    "@title": "city population | 3556 people (country rank: \u2248500th) (2011 estimate)",
+                    "@width": "461",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "city population | 3556 people (country rank: \u2248500th) (2011 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Location",
+            "@scanner": "Data",
+            "@id": "Location:CityData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "2",
+            "subpod": [
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6384140iiidd47ah5hdg00004a9cdeig1d7b4hhc?MSPStoreType=image/gif&s=56",
+                        "@alt": "British Columbia, Canada",
+                        "@title": "British Columbia, Canada",
+                        "@width": "168",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "British Columbia, Canada"
+                },
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData",
+                            "CountryData"
+                        ]
+                    },
+                    "datasources": {
+                        "datasource": "CIAFactbook"
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6385140iiidd47ah5hdg0000114ife2a0fe4fcba?MSPStoreType=image/gif&s=56",
+                        "@alt": "Location",
+                        "@title": "",
+                        "@width": "328",
+                        "@height": "214",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                }
+            ],
+            "expressiontypes": {
+                "@count": "2",
+                "expressiontype": [
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    }
+                ]
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "World map",
+                        "@input": "Location:CityData__World map"
+                    },
+                    {
+                        "@name": "Show coordinates",
+                        "@input": "Location:CityData__Show coordinates"
+                    }
+                ]
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=49.08%2C-117.82&q=49.08%20N%2C%20117.82%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "Map:CityData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6386140iiidd47ah5hdg00002e610hcb356ig2df?MSPStoreType=image/gif&s=56",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "10 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "7 kilometers across",
+                            "@input": "Map:CityData__7 kilometers across"
+                        },
+                        {
+                            "@name": "10 kilometers across",
+                            "@input": "Map:CityData__10 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "Map:CityData__30 kilometers across"
+                        },
+                        {
+                            "@name": "60 kilometers across",
+                            "@input": "Map:CityData__60 kilometers across"
+                        },
+                        {
+                            "@name": "110 kilometers across",
+                            "@input": "Map:CityData__110 kilometers across"
+                        },
+                        {
+                            "@name": "220 kilometers across",
+                            "@input": "Map:CityData__220 kilometers across"
+                        },
+                        {
+                            "@name": "450 kilometers across",
+                            "@input": "Map:CityData__450 kilometers across"
+                        },
+                        {
+                            "@name": "890 kilometers across",
+                            "@input": "Map:CityData__890 kilometers across"
+                        },
+                        {
+                            "@name": "1800 kilometers across",
+                            "@input": "Map:CityData__1800 kilometers across"
+                        },
+                        {
+                            "@name": "3500 kilometers across",
+                            "@input": "Map:CityData__3500 kilometers across"
+                        },
+                        {
+                            "@name": "6900 kilometers across",
+                            "@input": "Map:CityData__6900 kilometers across"
+                        },
+                        {
+                            "@name": "11000 kilometers across",
+                            "@input": "Map:CityData__11000 kilometers across"
+                        },
+                        {
+                            "@name": "22000 kilometers across",
+                            "@input": "Map:CityData__22000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "Map:CityData__Non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=49.08%2C-117.82&q=49.08%20N%2C%20117.82%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Administrative regions",
+            "@scanner": "Data",
+            "@id": "AdministrativeRegions:CityData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6387140iiidd47ah5hdg00002h1hca63h8ai4g2a?MSPStoreType=image/gif&s=56",
+                    "@alt": "region | British Columbia country | Canada",
+                    "@title": "region | British Columbia country | Canada",
+                    "@width": "210",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "region | British Columbia\ncountry | Canada"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Current local time",
+            "@scanner": "Data",
+            "@id": "CurrentTime:CityData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6388140iiidd47ah5hdg00002e63e1bf5efede5b?MSPStoreType=image/gif&s=56",
+                    "@alt": "9:21 pm PST | Saturday, January 18, 2020",
+                    "@title": "9:21 pm PST | Saturday, January 18, 2020",
+                    "@width": "292",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "9:21 pm PST | Saturday, January 18, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Current weather",
+            "@scanner": "Data",
+            "@id": "WeatherPod:CityData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "CountryData",
+                        "WeatherData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "UNData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6389140iiidd47ah5hdg00001e9ei677652iefi2?MSPStoreType=image/gif&s=56",
+                    "@alt": "-3 \u00b0C (wind chill: -5 \u00b0C) | relative humidity: 93% | wind: 2 m/s | snow, overcast using weather station CYCG: 28 km NNE and 620 meters below Rossland, Canada",
+                    "@title": "-3 \u00b0C (wind chill: -5 \u00b0C) | relative humidity: 93% | wind: 2 m/s | snow, overcast using weather station CYCG: 28 km NNE and 620 meters below Rossland, Canada",
+                    "@width": "542",
+                    "@height": "59",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "-3 \u00b0C (wind chill: -5 \u00b0C) | relative humidity: 93% | wind: 2 m/s | snow, overcast\nusing weather station CYCG: 28 km NNE and 620 meters below Rossland, Canada"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show history",
+                        "@input": "WeatherPod:CityData__Show history"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "WeatherPod:CityData__Show non-metric"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby cities",
+            "@scanner": "Data",
+            "@id": "CityHierarchyInfo:CityData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6390140iiidd47ah5hdg00004ghgc8f2g46ei1fg?MSPStoreType=image/gif&s=56",
+                    "@alt": "Trail, British Columbia | 7 km (kilometers) east-northeast | 9707 people Castlegar, British Columbia | 29 km (kilometers) north-northeast | 8354 people Kelowna, British Columbia | 149 km (kilometers) northwest | 117312 people Spokane, Washington | 159 km (kilometers) south | 209525 people Calgary, Alberta | 347 km (kilometers) northeast | 1.15 million people (straight-line distances between city centers)",
+                    "@title": "Trail, British Columbia | 7 km (kilometers) east-northeast | 9707 people Castlegar, British Columbia | 29 km (kilometers) north-northeast | 8354 people Kelowna, British Columbia | 149 km (kilometers) northwest | 117312 people Spokane, Washington | 159 km (kilometers) south | 209525 people Calgary, Alberta | 347 km (kilometers) northeast | 1.15 million people (straight-line distances between city centers)",
+                    "@width": "546",
+                    "@height": "254",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Trail, British Columbia | 7 km (kilometers) east-northeast | 9707 people\nCastlegar, British Columbia | 29 km (kilometers) north-northeast | 8354 people\nKelowna, British Columbia | 149 km (kilometers) northwest | 117312 people\nSpokane, Washington | 159 km (kilometers) south | 209525 people\nCalgary, Alberta | 347 km (kilometers) northeast | 1.15 million people\n(straight-line distances between city centers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "CityHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "CityHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby airports",
+            "@scanner": "Data",
+            "@id": "AirportHierarchyInfo:CityData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6391140iiidd47ah5hdg000034011ibcdeidgc1f?MSPStoreType=image/gif&s=56",
+                    "@alt": "Trail Airport | 16 km (kilometers) east Castlegar Airport | 28 km (kilometers) north-northeast Grand Forks Airport | 45 km (kilometers) west Ione Municipal Airport | 51 km (kilometers) southeast Nelson Airport | 60 km (kilometers) northeast (straight-line distances between city center and airport)",
+                    "@title": "Trail Airport | 16 km (kilometers) east Castlegar Airport | 28 km (kilometers) north-northeast Grand Forks Airport | 45 km (kilometers) west Ione Municipal Airport | 51 km (kilometers) southeast Nelson Airport | 60 km (kilometers) northeast (straight-line distances between city center and airport)",
+                    "@width": "427",
+                    "@height": "170",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Trail Airport | 16 km (kilometers) east\nCastlegar Airport | 28 km (kilometers) north-northeast\nGrand Forks Airport | 45 km (kilometers) west\nIone Municipal Airport | 51 km (kilometers) southeast\nNelson Airport | 60 km (kilometers) northeast\n(straight-line distances between city center and airport)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "AirportHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "AirportHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby hospital",
+            "@scanner": "Data",
+            "@id": "HospitalHierarchyInfo:CityData",
+            "@position": "1000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6392140iiidd47ah5hdg00001605ie241586157e?MSPStoreType=image/gif&s=56",
+                    "@alt": "Mount Carmel Hospital | 60 km (kilometers) south (straight-line distances between city center and hospital)",
+                    "@title": "Mount Carmel Hospital | 60 km (kilometers) south (straight-line distances between city center and hospital)",
+                    "@width": "364",
+                    "@height": "58",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Mount Carmel Hospital | 60 km (kilometers) south\n(straight-line distances between city center and hospital)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "HospitalHierarchyInfo:CityData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:CityData",
+            "@position": "1100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6393140iiidd47ah5hdg00001de1i81hge38270g?MSPStoreType=image/gif&s=56",
+                    "@alt": "elevation | 1114 m",
+                    "@title": "elevation | 1114 m",
+                    "@width": "155",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "elevation | 1114 m"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:CityData__Show non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "units": {
+                        "@count": "1",
+                        "unit": {
+                            "@short": "m",
+                            "@long": "meters"
+                        },
+                        "img": {
+                            "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6394140iiidd47ah5hdg00005b41bi979c4ie4g5?MSPStoreType=image/gif&s=56",
+                            "@width": "96",
+                            "@height": "26"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Nearby features",
+            "@scanner": "Data",
+            "@id": "FeaturesHierarchyInfo:CityData",
+            "@position": "1200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6395140iiidd47ah5hdg0000305c985gdg51i9fc?MSPStoreType=image/gif&s=56",
+                    "@alt": "dam | Seven Mile Dam (65 meters) | 24 km (kilometers) east-southeast mountain | Abercrombie Mountain (2228 meters) | 31 km (kilometers) east-southeast volcano | Lightning Peak (2139 meters) | 102 km (kilometers) north-northwest waterfall | Fletcher Falls (305 meters) | 107 km (kilometers) northeast dam | Grand Coulee Dam (167 meters) | 152 km (kilometers) southwest (straight-line distances between city center and feature coordinates)",
+                    "@title": "dam | Seven Mile Dam (65 meters) | 24 km (kilometers) east-southeast mountain | Abercrombie Mountain (2228 meters) | 31 km (kilometers) east-southeast volcano | Lightning Peak (2139 meters) | 102 km (kilometers) north-northwest waterfall | Fletcher Falls (305 meters) | 107 km (kilometers) northeast dam | Grand Coulee Dam (167 meters) | 152 km (kilometers) southwest (straight-line distances between city center and feature coordinates)",
+                    "@width": "546",
+                    "@height": "254",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "dam | Seven Mile Dam (65 meters) | 24 km (kilometers) east-southeast\nmountain | Abercrombie Mountain (2228 meters) | 31 km (kilometers) east-southeast\nvolcano | Lightning Peak (2139 meters) | 102 km (kilometers) north-northwest\nwaterfall | Fletcher Falls (305 meters) | 107 km (kilometers) northeast\ndam | Grand Coulee Dam (167 meters) | 152 km (kilometers) southwest\n(straight-line distances between city center and feature coordinates)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "FeaturesHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "FeaturesHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearest sea",
+            "@scanner": "Data",
+            "@id": "OceansHierarchyInfo:CityData",
+            "@position": "1300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6396140iiidd47ah5hdg000063f5d9f38dghi7dh?MSPStoreType=image/gif&s=56",
+                    "@alt": "Coastal Waters Of Southeast Alaska and British Columbia (343 km (kilometers) west)  (straight-line distance between city center and shore)",
+                    "@title": "Coastal Waters Of Southeast Alaska and British Columbia (343 km (kilometers) west)  (straight-line distance between city center and shore)",
+                    "@width": "379",
+                    "@height": "64",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Coastal Waters Of Southeast Alaska and British Columbia (343 km (kilometers) west) \n(straight-line distance between city center and shore)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "3",
+                "state": [
+                    {
+                        "@name": "Show map",
+                        "@input": "OceansHierarchyInfo:CityData__Show map"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "OceansHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "OceansHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Notable people born in Rossland",
+            "@scanner": "Data",
+            "@id": "NotablePeople:CityData",
+            "@position": "1400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "PeopleData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6397140iiidd47ah5hdg000056bah296i5fafb6e?MSPStoreType=image/gif&s=56",
+                    "@alt": "Joy Langan (representative, etc.) (1943)",
+                    "@title": "Joy Langan (representative, etc.) (1943)",
+                    "@width": "264",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Joy Langan (representative, etc.) (1943)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show dates",
+                        "@input": "NotablePeople:CityData__Show dates"
+                    },
+                    {
+                        "@name": "Show deaths",
+                        "@input": "NotablePeople:CityData__Show deaths"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Wikipedia page hits history",
+            "@scanner": "Data",
+            "@id": "PopularityPod:WikipediaStatsData",
+            "@position": "1500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6398140iiidd47ah5hdg000033ef632d2b85e915?MSPStoreType=image/gif&s=56",
+                    "@alt": "Wikipedia page hits history",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "169",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopularityPod:WikipediaStatsData__Log scale"
+                }
+            }
+        }
+    ],
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "7",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CountryDataSourceInformationNotes.html",
+                "@text": "Country data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html",
+                "@text": "People data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USCensusDataSourceInformationNotes.html",
+                "@text": "US census data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html",
+                "@text": "Weather data"
+            }
+        ]
+    }
+}

@@ -1,0 +1,286 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "7",
+    "@datatypes": "GivenName,Person",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "3.017",
+    "@parsetiming": "0.105",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP85991caa433i58fgeh66000033c70e66g5bib9a2",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "42",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa86001caa433i58fgeh66000052ca4ac18dh6g0181974172802644588749",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP86011caa433i58fgeh66000057ec997gb0hfagi8?MSPStoreType=image/gif&s=42",
+                    "@alt": "Rosemarie (female given name)",
+                    "@title": "Rosemarie (female given name)",
+                    "@width": "209",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Rosemarie (female given name)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Information for US births",
+            "@scanner": "Data",
+            "@id": "BasicInformation:GivenNameData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "GivenNameData"
+                },
+                "datasources": {
+                    "datasource": "USSSABabyNames"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP86021caa433i58fgeh6600001edihff1hcfa7d0f?MSPStoreType=image/gif&s=42",
+                    "@alt": "rank | 1685th fraction | 1 in 13828 people (0.0072%) number | 122 people per year (US data based on 2018 births and other SSA registrations in the US)",
+                    "@title": "rank | 1685th fraction | 1 in 13828 people (0.0072%) number | 122 people per year (US data based on 2018 births and other SSA registrations in the US)",
+                    "@width": "546",
+                    "@height": "126",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "rank | 1685th\nfraction | 1 in 13828 people (0.0072%)\nnumber | 122 people per year\n(US data based on 2018 births and other SSA registrations in the US)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "History for US births",
+            "@scanner": "Data",
+            "@id": "History:GivenNameData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "Fraction",
+                "microsources": {
+                    "microsource": "GivenNameData"
+                },
+                "datasources": {
+                    "datasource": "USSSABabyNames"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP86031caa433i58fgeh660000697b8ada58465ic3?MSPStoreType=image/gif&s=42",
+                    "@alt": "History for US births Fraction",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "216",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Log scale",
+                        "@input": "History:GivenNameData__Log scale"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "History:GivenNameData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Estimates for current US population",
+            "@scanner": "Data",
+            "@id": "CurrentEstimates:GivenNameData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "GivenNameData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP86041caa433i58fgeh660000561fd729bea090fe?MSPStoreType=image/gif&s=42",
+                    "@alt": "expected total number alive today | 41526 people expected population fraction | 1 in 6334 people (0.016%) expected rank | 919th most common age | 68 years (using standard US mortality data)",
+                    "@title": "expected total number alive today | 41526 people expected population fraction | 1 in 6334 people (0.016%) expected rank | 919th most common age | 68 years (using standard US mortality data)",
+                    "@width": "546",
+                    "@height": "158",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "expected total number alive today | 41526 people\nexpected population fraction | 1 in 6334 people (0.016%)\nexpected rank | 919th\nmost common age | 68 years\n(using standard US mortality data)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Estimated current age distribution",
+            "@scanner": "Data",
+            "@id": "AgeDistribution:GivenNameData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "GivenNameData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP86051caa433i58fgeh660000108b3hec21b443b1?MSPStoreType=image/gif&s=42",
+                    "@alt": "Estimated current age distribution",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "242",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            }
+        },
+        {
+            "@title": "Notable people named Rosemarie",
+            "@scanner": "Data",
+            "@id": "NotablePeopleWithName:GivenNameData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "GivenNameData",
+                        "PeopleData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP86061caa433i58fgeh660000601a1g0eb369h2d3?MSPStoreType=image/gif&s=42",
+                    "@alt": "Rosemarie DeWitt (actor) (born 1974) (age: 45 years) Rosemarie Bowe (actor) (born 1932) (age: 87 years) Rosemarie Frankland (actor) (1943 to 2000) Rosemarie Ackermann (athlete) (born 1952) Rosemarie Whyte (athlete) (born 1986) Rosemarie Gabriel (athlete) (born 1956) Rosemarie Schuder (writer) (1928 to 2018) Rosemarie Wright (pianist) (born 1931) (age: 89 years)",
+                    "@title": "Rosemarie DeWitt (actor) (born 1974) (age: 45 years) Rosemarie Bowe (actor) (born 1932) (age: 87 years) Rosemarie Frankland (actor) (1943 to 2000) Rosemarie Ackermann (athlete) (born 1952) Rosemarie Whyte (athlete) (born 1986) Rosemarie Gabriel (athlete) (born 1956) Rosemarie Schuder (writer) (1928 to 2018) Rosemarie Wright (pianist) (born 1931) (age: 89 years)",
+                    "@width": "343",
+                    "@height": "152",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Rosemarie DeWitt (actor) (born 1974) (age: 45 years)\nRosemarie Bowe (actor) (born 1932) (age: 87 years)\nRosemarie Frankland (actor) (1943 to 2000)\nRosemarie Ackermann (athlete) (born 1952)\nRosemarie Whyte (athlete) (born 1986)\nRosemarie Gabriel (athlete) (born 1956)\nRosemarie Schuder (writer) (1928 to 2018)\nRosemarie Wright (pianist) (born 1931) (age: 89 years)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show dates",
+                    "@input": "NotablePeopleWithName:GivenNameData__Show dates"
+                }
+            }
+        },
+        {
+            "@title": "Etymology",
+            "@scanner": "Data",
+            "@id": "NameMeaning:GivenNameData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "GivenNameData"
+                },
+                "datasources": {
+                    "datasource": "BehindTheName"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP86071caa433i58fgeh66000060i951dh532800e7?MSPStoreType=image/gif&s=42",
+                    "@alt": "Combination of Rose and Marie",
+                    "@title": "Combination of Rose and Marie",
+                    "@width": "209",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Combination of Rose and Marie"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        }
+    ],
+    "warnings": {
+        "@count": "1",
+        "spellcheck": {
+            "@word": "Rosem\u00e8re",
+            "@suggestion": "rosemarie",
+            "@text": "Interpreting \"Rosem\u00e8re\" as \"rosemarie\""
+        }
+    },
+    "sources": {
+        "@count": "2",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/GivenNameDataSourceInformationNotes.html",
+                "@text": "Given name data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html",
+                "@text": "People data"
+            }
+        ]
+    }
+}

@@ -1,0 +1,451 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "8",
+    "@datatypes": "City,MetropolitanArea,UrbanArea",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "4.483",
+    "@parsetiming": "1.095",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP463817143284c17621a3000017a9eefi70b1029d",
+    "@host": "https://www4f.wolframalpha.com",
+    "@server": "42",
+    "@related": "https://www4f.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa463917143284c17621a300001gc6db11iif5cbb14086047748590067375",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP464017143284c17621a3000046ce68a70136gcdg?MSPStoreType=image/gif&s=42",
+                    "@alt": "Clarence, New York, United States to Rockland, Ontario",
+                    "@title": "Clarence, New York, United States to Rockland, Ontario",
+                    "@width": "373",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Clarence, New York, United States to Rockland, Ontario"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Distance",
+            "@scanner": "Traveling",
+            "@id": "Distance",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP464117143284c17621a300000f5fig6g10329933?MSPStoreType=image/gif&s=42",
+                    "@alt": "388.7 km (kilometers)",
+                    "@title": "388.7 km (kilometers)",
+                    "@width": "140",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "388.7 km (kilometers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric units",
+                    "@input": "Distance__Show non-metric units"
+                }
+            }
+        },
+        {
+            "@title": "Direct travel times",
+            "@scanner": "Traveling",
+            "@id": "TravelTimes",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP464217143284c17621a30000627ih42ii3a73gaf?MSPStoreType=image/gif&s=42",
+                    "@alt": "aircraft (550 mph) | 26 minutes sound | 19 minutes light in fiber | 2 ms (milliseconds) light in vacuum | 1 ms (millisecond) (assuming constant-speed great-circle path)",
+                    "@title": "aircraft (550 mph) | 26 minutes sound | 19 minutes light in fiber | 2 ms (milliseconds) light in vacuum | 1 ms (millisecond) (assuming constant-speed great-circle path)",
+                    "@width": "277",
+                    "@height": "153",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "aircraft (550 mph) | 26 minutes\nsound | 19 minutes\nlight in fiber | 2 ms (milliseconds)\nlight in vacuum | 1 ms (millisecond)\n(assuming constant-speed great-circle path)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "More",
+                    "@input": "TravelTimes__More"
+                }
+            }
+        },
+        {
+            "@title": "Map",
+            "@scanner": "Traveling",
+            "@id": "Map",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP464317143284c17621a30000493h507537fe2cb2?MSPStoreType=image/gif&s=42",
+                    "@alt": "Map",
+                    "@title": "",
+                    "@width": "328",
+                    "@height": "234",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Traveling",
+            "@id": "TourMap",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP464417143284c17621a300002iae26ef6h79b977?MSPStoreType=image/gif&s=42",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "256",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "3",
+                "statelist": {
+                    "@count": "5",
+                    "@value": "890 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "890 kilometers across",
+                            "@input": "TourMap__890 kilometers across"
+                        },
+                        {
+                            "@name": "1800 kilometers across",
+                            "@input": "TourMap__1800 kilometers across"
+                        },
+                        {
+                            "@name": "3500 kilometers across",
+                            "@input": "TourMap__3500 kilometers across"
+                        },
+                        {
+                            "@name": "6000 kilometers across",
+                            "@input": "TourMap__6000 kilometers across"
+                        },
+                        {
+                            "@name": "11000 kilometers across",
+                            "@input": "TourMap__11000 kilometers across"
+                        }
+                    ]
+                },
+                "state": [
+                    {
+                        "@name": "Non-metric",
+                        "@input": "TourMap__Non-metric"
+                    },
+                    {
+                        "@name": "Larger",
+                        "@input": "TourMap__Larger"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Current local times",
+            "@scanner": "Traveling",
+            "@id": "CurrentTime",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP464517143284c17621a30000343439h7dh2c9672?MSPStoreType=image/gif&s=42",
+                    "@alt": "Clarence | 11:35 pm EST | Saturday, January 18, 2020 Rockland | 11:35 pm EST | Saturday, January 18, 2020",
+                    "@title": "Clarence | 11:35 pm EST | Saturday, January 18, 2020 Rockland | 11:35 pm EST | Saturday, January 18, 2020",
+                    "@width": "411",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Clarence | 11:35 pm EST | Saturday, January 18, 2020\nRockland | 11:35 pm EST | Saturday, January 18, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Populations",
+            "@scanner": "Traveling",
+            "@id": "Population",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "MetropolitanAreaData",
+                        "UrbanAreaData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP464617143284c17621a3000060da5ibg3h60i913?MSPStoreType=image/gif&s=42",
+                    "@alt": " | Clarence | Rockland city population | 28084 people (country rank: \u22481637th) (2009) | 11099 people (country rank: \u2248240th) (2011) urban area population | 976703 people (Buffalo (NY) urban area) (country rank: 38th) (2000) |  metro area population | 1.134 million people (Buffalo metro area) (country rank: 49th) (2011) | ",
+                    "@title": " | Clarence | Rockland city population | 28084 people (country rank: \u22481637th) (2009) | 11099 people (country rank: \u2248240th) (2011) urban area population | 976703 people (Buffalo (NY) urban area) (country rank: 38th) (2000) |  metro area population | 1.134 million people (Buffalo metro area) (country rank: 49th) (2011) | ",
+                    "@width": "545",
+                    "@height": "234",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Clarence | Rockland\ncity population | 28084 people (country rank: \u22481637th) (2009) | 11099 people (country rank: \u2248240th) (2011)\nurban area population | 976703 people (Buffalo (NY) urban area) (country rank: 38th) (2000) | \nmetro area population | 1.134 million people (Buffalo metro area) (country rank: 49th) (2011) |"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Traveling",
+            "@id": "GeographicProperties",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP464717143284c17621a300001i6362g7ad8083hh?MSPStoreType=image/gif&s=42",
+                    "@alt": " | Clarence | Rockland elevation | 194 m | 62 m",
+                    "@title": " | Clarence | Rockland elevation | 194 m | 62 m",
+                    "@width": "247",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Clarence | Rockland\nelevation | 194 m | 62 m"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties__Show non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "units": {
+                        "@count": "1",
+                        "unit": {
+                            "@short": "m",
+                            "@long": "meters"
+                        },
+                        "img": {
+                            "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP464817143284c17621a300006952h8ifg2idheh3?MSPStoreType=image/gif&s=42",
+                            "@width": "96",
+                            "@height": "26"
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "2",
+        "assumption": [
+            {
+                "@type": "SubCategory",
+                "@word": "City of Clarence",
+                "@template": "Assuming ${desc1}. Use ${desc2} instead",
+                "@count": "5",
+                "value": [
+                    {
+                        "@name": "{Clarence, NewYork, UnitedStates}",
+                        "@desc": "Clarence (New York, USA)",
+                        "@input": "*DPClash.CityE.City+of+Clarence-_**Clarence.NewYork.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Clarence, Pennsylvania, UnitedStates}",
+                        "@desc": "Clarence (Pennsylvania, USA)",
+                        "@input": "*DPClash.CityE.City+of+Clarence-_**Clarence.Pennsylvania.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Clarence, Iowa, UnitedStates}",
+                        "@desc": "Clarence (Iowa, USA)",
+                        "@input": "*DPClash.CityE.City+of+Clarence-_**Clarence.Iowa.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Clarence, Missouri, UnitedStates}",
+                        "@desc": "Clarence (Missouri, USA)",
+                        "@input": "*DPClash.CityE.City+of+Clarence-_**Clarence.Missouri.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Clarence, Louisiana, UnitedStates}",
+                        "@desc": "Clarence (Louisiana, USA)",
+                        "@input": "*DPClash.CityE.City+of+Clarence-_**Clarence.Louisiana.UnitedStates--"
+                    }
+                ]
+            },
+            {
+                "@type": "SubCategory",
+                "@word": "Rockland",
+                "@template": "Assuming ${desc1}. Use ${desc2} instead",
+                "@count": "8",
+                "value": [
+                    {
+                        "@name": "{Rockland, Ontario, Canada}",
+                        "@desc": "Rockland (Canada)",
+                        "@input": "*DPClash.CityE.Rockland-_**Rockland.Ontario.Canada--"
+                    },
+                    {
+                        "@name": "{Rockland, Massachusetts, UnitedStates}",
+                        "@desc": "Rockland (Massachusetts, USA)",
+                        "@input": "*DPClash.CityE.Rockland-_**Rockland.Massachusetts.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Rockland, Maine, UnitedStates}",
+                        "@desc": "Rockland (Maine, USA)",
+                        "@input": "*DPClash.CityE.Rockland-_**Rockland.Maine.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Rockland, NewYork, UnitedStates}",
+                        "@desc": "Rockland (New York, USA)",
+                        "@input": "*DPClash.CityE.Rockland-_**Rockland.NewYork.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Rockland, Wisconsin, UnitedStates}",
+                        "@desc": "Rockland (Wisconsin, USA)",
+                        "@input": "*DPClash.CityE.Rockland-_**Rockland.Wisconsin.UnitedStates--"
+                    },
+                    {
+                        "@name": "{RocklandManitowoc, Wisconsin, UnitedStates}",
+                        "@desc": "Rockland (Wisconsin, USA)",
+                        "@input": "*DPClash.CityE.Rockland-_**RocklandManitowoc.Wisconsin.UnitedStates--"
+                    },
+                    {
+                        "@name": "{RocklandLaCrosse, Wisconsin, UnitedStates}",
+                        "@desc": "Rockland (Wisconsin, USA)",
+                        "@input": "*DPClash.CityE.Rockland-_**RocklandLaCrosse.Wisconsin.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Rockland, Idaho, UnitedStates}",
+                        "@desc": "Rockland (Idaho, USA)",
+                        "@input": "*DPClash.CityE.Rockland-_**Rockland.Idaho.UnitedStates--"
+                    }
+                ]
+            }
+        ]
+    },
+    "sources": {
+        "@count": "4",
+        "source": [
+            {
+                "@url": "https://www4f.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www4f.wolframalpha.com/sources/MetropolitanAreaDataSourceInformationNotes.html",
+                "@text": "Metropolitan area data"
+            },
+            {
+                "@url": "https://www4f.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www4f.wolframalpha.com/sources/UrbanAreaDataSourceInformationNotes.html",
+                "@text": "Urban area data"
+            }
+        ]
+    }
+}

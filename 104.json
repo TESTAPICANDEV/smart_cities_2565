@@ -1,0 +1,228 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "4",
+    "@datatypes": "AdministrativeDivision,City",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "2.343",
+    "@parsetiming": "1.569",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP385120936768i3i357e6000051d37a143c7hg6bi",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "40",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa385220936768i3i357e6000010900287e3cci1c93354538778751843049",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP385320936768i3i357e600000d67917df04fdf4c?MSPStoreType=image/gif&s=40",
+                    "@alt": "Niagara Falls, Ontario | Niagara, Ontario, Canada (regional municipality)",
+                    "@title": "Niagara Falls, Ontario | Niagara, Ontario, Canada (regional municipality)",
+                    "@width": "501",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Niagara Falls, Ontario | Niagara, Ontario, Canada (regional municipality)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Distances",
+            "@scanner": "Data",
+            "@id": "Distances:MultipleData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP385420936768i3i357e600005bg1db7fagi746ih?MSPStoreType=image/gif&s=40",
+                    "@alt": "Niagara Falls to Niagara, Ontario, Canada | 21 km (kilometers)",
+                    "@title": "Niagara Falls to Niagara, Ontario, Canada | 21 km (kilometers)",
+                    "@width": "456",
+                    "@height": "32",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Niagara Falls to Niagara, Ontario, Canada | 21 km (kilometers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "Distances:MultipleData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Demographics",
+            "@scanner": "Data",
+            "@id": "DemographicProperties:MultipleData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "Statoids"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP385520936768i3i357e6000048f0i8c51i785ice?MSPStoreType=image/gif&s=40",
+                    "@alt": " | Niagara Falls, Ontario | Niagara, Ontario, Canada population | 82997 people | 393936 people",
+                    "@title": " | Niagara Falls, Ontario | Niagara, Ontario, Canada population | 82997 people | 393936 people",
+                    "@width": "459",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Niagara Falls, Ontario | Niagara, Ontario, Canada\npopulation | 82997 people | 393936 people"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:MultipleData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP385620936768i3i357e600003218ed7ddi8f1121?MSPStoreType=image/gif&s=40",
+                    "@alt": " | Niagara Falls | Niagara, Ontario, Canada area | | 1862 km^2 (square kilometers) average elevation | 184 meters | ",
+                    "@title": " | Niagara Falls | Niagara, Ontario, Canada area | | 1862 km^2 (square kilometers) average elevation | 184 meters | ",
+                    "@width": "463",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Niagara Falls | Niagara, Ontario, Canada\narea | | 1862 km^2 (square kilometers)\naverage elevation | 184 meters |"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:MultipleData__Show non-metric"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "2",
+        "assumption": [
+            {
+                "@type": "MultiClash",
+                "@word": "",
+                "@template": "Assuming ${word1} is referring to ${desc1}. Use \"${word2}\" as ${desc2}.",
+                "@count": "2",
+                "value": [
+                    {
+                        "@name": "AdministrativeDivision",
+                        "@word": "Niagara Region",
+                        "@desc": "an administrative division",
+                        "@input": "*MC.Niagara+Region-_*AdministrativeDivision-"
+                    },
+                    {
+                        "@name": "City",
+                        "@word": "Niagara",
+                        "@desc": "a city",
+                        "@input": "*MC.Niagara+Region-_*City-"
+                    }
+                ]
+            },
+            {
+                "@type": "SubCategory",
+                "@word": "City of Niagara Falls",
+                "@template": "Assuming ${desc1}. Use ${desc2} instead",
+                "@count": "2",
+                "value": [
+                    {
+                        "@name": "{NiagaraFalls, Ontario, Canada}",
+                        "@desc": "Niagara Falls (Canada)",
+                        "@input": "*DPClash.CityE.City+of+Niagara+Falls-_**NiagaraFalls.Ontario.Canada--"
+                    },
+                    {
+                        "@name": "{NiagaraFalls, NewYork, UnitedStates}",
+                        "@desc": "Niagara Falls (United States)",
+                        "@input": "*DPClash.CityE.City+of+Niagara+Falls-_**NiagaraFalls.NewYork.UnitedStates--"
+                    }
+                ]
+            }
+        ]
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "2",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            }
+        ]
+    }
+}

@@ -1,0 +1,208 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "4",
+    "@datatypes": "AdministrativeDivision,City",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "2.027",
+    "@parsetiming": "1.27",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP77261g2e76628h1idcd5000012fba17350fc4bce",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "50",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa77271g2e76628h1idcd5000033e8eeif513729ge3545779640047213222",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP77281g2e76628h1idcd5000030fg8baf5h7bb607?MSPStoreType=image/gif&s=50",
+                    "@alt": "Niagara-on-the-Lake, Ontario | Niagara, Ontario, Canada (regional municipality)",
+                    "@title": "Niagara-on-the-Lake, Ontario | Niagara, Ontario, Canada (regional municipality)",
+                    "@width": "463",
+                    "@height": "38",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Niagara-on-the-Lake, Ontario | Niagara, Ontario, Canada (regional municipality)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Distances",
+            "@scanner": "Data",
+            "@id": "Distances:MultipleData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP77291g2e76628h1idcd50000163a8hie025604a5?MSPStoreType=image/gif&s=50",
+                    "@alt": "Niagara-on-the-Lake to Niagara, Ontario, Canada | 30 km (kilometers)",
+                    "@title": "Niagara-on-the-Lake to Niagara, Ontario, Canada | 30 km (kilometers)",
+                    "@width": "505",
+                    "@height": "32",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Niagara-on-the-Lake to Niagara, Ontario, Canada | 30 km (kilometers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "Distances:MultipleData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Demographics",
+            "@scanner": "Data",
+            "@id": "DemographicProperties:MultipleData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "Statoids"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP77301g2e76628h1idcd500001igcc720g4ia02eh?MSPStoreType=image/gif&s=50",
+                    "@alt": " | Niagara-on-the-Lake, Ontario | Niagara, Ontario, Canada population | 17511 people | 393936 people",
+                    "@title": " | Niagara-on-the-Lake, Ontario | Niagara, Ontario, Canada population | 17511 people | 393936 people",
+                    "@width": "508",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Niagara-on-the-Lake, Ontario | Niagara, Ontario, Canada\npopulation | 17511 people | 393936 people"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:MultipleData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP77311g2e76628h1idcd5000017g49a460ei2g791?MSPStoreType=image/gif&s=50",
+                    "@alt": " | Niagara-on-the-Lake | Niagara, Ontario, Canada area | | 1862 km^2 (square kilometers) average elevation | 82.3 meters | ",
+                    "@title": " | Niagara-on-the-Lake | Niagara, Ontario, Canada area | | 1862 km^2 (square kilometers) average elevation | 82.3 meters | ",
+                    "@width": "512",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Niagara-on-the-Lake | Niagara, Ontario, Canada\narea | | 1862 km^2 (square kilometers)\naverage elevation | 82.3 meters |"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:MultipleData__Show non-metric"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "1",
+        "assumption": {
+            "@type": "MultiClash",
+            "@word": "",
+            "@template": "Assuming ${word1} is referring to ${desc1}. Use \"${word2}\" as ${desc2}.",
+            "@count": "2",
+            "value": [
+                {
+                    "@name": "AdministrativeDivision",
+                    "@word": "Niagara Region",
+                    "@desc": "an administrative division",
+                    "@input": "*MC.Niagara+Region-_*AdministrativeDivision-"
+                },
+                {
+                    "@name": "City",
+                    "@word": "Niagara",
+                    "@desc": "a city",
+                    "@input": "*MC.Niagara+Region-_*City-"
+                }
+            ]
+        }
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "2",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            }
+        ]
+    }
+}

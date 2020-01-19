@@ -1,0 +1,170 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "3",
+    "@datatypes": "City,USCounty",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "1.063",
+    "@parsetiming": "0.428",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP436620936768i42eai97000034i1ad83h584bci6",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "40",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa436720936768i42eai97000046dg3gh4i7ab0d1i3354538778751843049",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP436820936768i42eai9700000d82bd625cbcbe2g?MSPStoreType=image/gif&s=40",
+                    "@alt": "Ingersoll, Ontario | Oxford County, Maine (US county)",
+                    "@title": "Ingersoll, Ontario | Oxford County, Maine (US county)",
+                    "@width": "362",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Ingersoll, Ontario | Oxford County, Maine (US county)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Demographics",
+            "@scanner": "Data",
+            "@id": "DemographicProperties:MultipleData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCountyData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "USCensusQuickfacts"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP436920936768i42eai97000037ba13d6e5e7ga72?MSPStoreType=image/gif&s=40",
+                    "@alt": " | Ingersoll, Ontario | Oxford County, Maine population | 12757 people | 57439 people",
+                    "@title": " | Ingersoll, Ontario | Oxford County, Maine population | 12757 people | 57439 people",
+                    "@width": "405",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Ingersoll, Ontario | Oxford County, Maine\npopulation | 12757 people | 57439 people"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:MultipleData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCountyData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "USCensusQuickfacts"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP437020936768i42eai97000041eea9e1f8d915ch?MSPStoreType=image/gif&s=40",
+                    "@alt": " | Ingersoll | Oxford County area | | 5635 km^2 (square kilometers) average elevation | 289 meters | ",
+                    "@title": " | Ingersoll | Oxford County area | | 5635 km^2 (square kilometers) average elevation | 289 meters | ",
+                    "@width": "448",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Ingersoll | Oxford County\narea | | 5635 km^2 (square kilometers)\naverage elevation | 289 meters |"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:MultipleData__Show non-metric"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "1",
+        "assumption": {
+            "@type": "MultiClash",
+            "@word": "",
+            "@template": "Assuming ${word1} is referring to ${desc1}. Use \"${word2}\" as ${desc2}.",
+            "@count": "2",
+            "value": [
+                {
+                    "@name": "USCounty",
+                    "@word": "Oxford County",
+                    "@desc": "a US county",
+                    "@input": "*MC.Oxford+County-_*USCounty-"
+                },
+                {
+                    "@name": "AdministrativeDivision",
+                    "@word": "Oxford",
+                    "@desc": "an administrative division",
+                    "@input": "*MC.Oxford+County-_*AdministrativeDivision-"
+                }
+            ]
+        }
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "2",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USCountyDataSourceInformationNotes.html",
+                "@text": "US county data"
+            }
+        ]
+    }
+}

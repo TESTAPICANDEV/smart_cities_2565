@@ -1,0 +1,530 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "10",
+    "@datatypes": "AdministrativeDivision,City,Country,WeatherStation",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "7.752",
+    "@parsetiming": "0.20500000000000002",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP6651ai3196g2g33ddf400005162b8990521h7bf",
+    "@host": "https://www5a.wolframalpha.com",
+    "@server": "36",
+    "@related": "https://www5a.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa6661ai3196g2g33ddf40000681557f8hb5h343g2574324192558130273",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP6671ai3196g2g33ddf4000033f9b62bha7c1dgh?MSPStoreType=image/gif&s=36",
+                    "@alt": "Halifax, Nova Scotia, Canada (county)",
+                    "@title": "Halifax, Nova Scotia, Canada (county)",
+                    "@width": "255",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Halifax, Nova Scotia, Canada (county)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Location",
+            "@scanner": "Data",
+            "@id": "RegionMap:AdministrativeDivisionData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "2",
+            "subpod": [
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": "AdministrativeDivisionData"
+                    },
+                    "img": {
+                        "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP6681ai3196g2g33ddf400004h0a9d144hdahee4?MSPStoreType=image/gif&s=36",
+                        "@alt": "Location",
+                        "@title": "",
+                        "@width": "421",
+                        "@height": "337",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                },
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CountryData"
+                        ]
+                    },
+                    "datasources": {
+                        "datasource": "CIAFactbook"
+                    },
+                    "img": {
+                        "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP6691ai3196g2g33ddf40000377gb9d7igg885b2?MSPStoreType=image/gif&s=36",
+                        "@alt": "Location",
+                        "@title": "",
+                        "@width": "376",
+                        "@height": "166",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                }
+            ],
+            "expressiontypes": {
+                "@count": "2",
+                "expressiontype": [
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    }
+                ]
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=44.8745%2C-63.1606&q=44.8745%20N%2C%2063.1606%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "WolframReliefMap",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP6701ai3196g2g33ddf40000673d38ba14dcd21d?MSPStoreType=image/gif&s=36",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "3",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "960 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "8 kilometers across",
+                            "@input": "WolframReliefMap__8 kilometers across"
+                        },
+                        {
+                            "@name": "20 kilometers across",
+                            "@input": "WolframReliefMap__20 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "WolframReliefMap__30 kilometers across"
+                        },
+                        {
+                            "@name": "60 kilometers across",
+                            "@input": "WolframReliefMap__60 kilometers across"
+                        },
+                        {
+                            "@name": "120 kilometers across",
+                            "@input": "WolframReliefMap__120 kilometers across"
+                        },
+                        {
+                            "@name": "240 kilometers across",
+                            "@input": "WolframReliefMap__240 kilometers across"
+                        },
+                        {
+                            "@name": "480 kilometers across",
+                            "@input": "WolframReliefMap__480 kilometers across"
+                        },
+                        {
+                            "@name": "960 kilometers across",
+                            "@input": "WolframReliefMap__960 kilometers across"
+                        },
+                        {
+                            "@name": "1900 kilometers across",
+                            "@input": "WolframReliefMap__1900 kilometers across"
+                        },
+                        {
+                            "@name": "3800 kilometers across",
+                            "@input": "WolframReliefMap__3800 kilometers across"
+                        },
+                        {
+                            "@name": "7400 kilometers across",
+                            "@input": "WolframReliefMap__7400 kilometers across"
+                        },
+                        {
+                            "@name": "12000 kilometers across",
+                            "@input": "WolframReliefMap__12000 kilometers across"
+                        },
+                        {
+                            "@name": "24000 kilometers across",
+                            "@input": "WolframReliefMap__24000 kilometers across"
+                        }
+                    ]
+                },
+                "state": [
+                    {
+                        "@name": "Non-metric",
+                        "@input": "WolframReliefMap__Non-metric"
+                    },
+                    {
+                        "@name": "Show relief",
+                        "@input": "WolframReliefMap__Show relief"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Population",
+            "@scanner": "Data",
+            "@id": "Population:AdministrativeDivisionData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CountryData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "Statoids"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP6711ai3196g2g33ddf400004bde1fdgh38d0afe?MSPStoreType=image/gif&s=36",
+                    "@alt": "417868 people (1.3% of total for Canada)",
+                    "@title": "417868 people (1.3% of total for Canada)",
+                    "@width": "245",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "417868 people (1.3% of total for Canada)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Population history",
+            "@scanner": "Data",
+            "@id": "PopulationHistory:AdministrativeDivisionData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "AdministrativeDivisionData"
+                },
+                "datasources": {
+                    "datasource": "Statoids"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP6721ai3196g2g33ddf4000026i8bi6hibe55cb3?MSPStoreType=image/gif&s=36",
+                    "@alt": "Population history",
+                    "@title": "",
+                    "@width": "396",
+                    "@height": "160",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopulationHistory:AdministrativeDivisionData__Log scale"
+                }
+            }
+        },
+        {
+            "@title": "Largest cities",
+            "@scanner": "Data",
+            "@id": "LargerCities:AdministrativeDivisionData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP6731ai3196g2g33ddf400003a76ab8d2cbhadhf?MSPStoreType=image/gif&s=36",
+                    "@alt": "Halifax (297943 people) | Lake Echo (3527 people) | Hammonds Plains Road (1687 people) | Brookside (1380 people) | Waverley (966 people)",
+                    "@title": "Halifax (297943 people) | Lake Echo (3527 people) | Hammonds Plains Road (1687 people) | Brookside (1380 people) | Waverley (966 people)",
+                    "@width": "536",
+                    "@height": "38",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Halifax (297943 people) | Lake Echo (3527 people) | Hammonds Plains Road (1687 people) | Brookside (1380 people) | Waverley (966 people)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Area",
+            "@scanner": "Data",
+            "@id": "Area:AdministrativeDivisionData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CountryData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "CIAFactbook"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP6741ai3196g2g33ddf400000h15fba4034a6462?MSPStoreType=image/gif&s=36",
+                    "@alt": "5343 km^2 (square kilometers) (0.054% of total for Canada)",
+                    "@title": "5343 km^2 (square kilometers) (0.054% of total for Canada)",
+                    "@width": "355",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "5343 km^2 (square kilometers) (0.054% of total for Canada)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Bordering entities",
+            "@scanner": "Data",
+            "@id": "BorderingEntities:AdministrativeDivisionData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "2",
+            "subpod": [
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": "AdministrativeDivisionData"
+                    },
+                    "img": {
+                        "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP6751ai3196g2g33ddf400002ai2g7a7c80fba8g?MSPStoreType=image/gif&s=36",
+                        "@alt": "divisions: | Colchester | Guysborough | Hants | Lunenburg",
+                        "@title": "divisions: | Colchester | Guysborough | Hants | Lunenburg",
+                        "@width": "441",
+                        "@height": "22",
+                        "@type": "Grid",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "divisions: | Colchester | Guysborough | Hants | Lunenburg"
+                },
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": "AdministrativeDivisionData"
+                    },
+                    "img": {
+                        "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP6761ai3196g2g33ddf400003ic76d2d8aihd6i3?MSPStoreType=image/gif&s=36",
+                        "@alt": "sea: | Atlantic Ocean",
+                        "@title": "sea: | Atlantic Ocean",
+                        "@width": "197",
+                        "@height": "20",
+                        "@type": "Grid",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "sea: | Atlantic Ocean"
+                }
+            ],
+            "expressiontypes": {
+                "@count": "2",
+                "expressiontype": [
+                    {
+                        "@name": "Grid"
+                    },
+                    {
+                        "@name": "Grid"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Current local time",
+            "@scanner": "Data",
+            "@id": "CurrentLocalTimeNoCoord:AdministrativeDivisionData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "AdministrativeDivisionData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP6771ai3196g2g33ddf400000ggdcbcbcifg24f5?MSPStoreType=image/gif&s=36",
+                    "@alt": "12:40:48 am AST | Sunday, January 19, 2020",
+                    "@title": "12:40:48 am AST | Sunday, January 19, 2020",
+                    "@width": "312",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "12:40:48 am AST | Sunday, January 19, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Current weather at center of Halifax",
+            "@scanner": "Data",
+            "@id": "WeatherPod:AdministrativeDivisionData",
+            "@position": "1000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "WeatherData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP6781ai3196g2g33ddf4000063cg294hc1bg7bhg?MSPStoreType=image/gif&s=36",
+                    "@alt": "-15 \u00b0C (wind chill: -22 \u00b0C) | relative humidity: 85% | wind: 4 m/s | 120\u00b0 ESE | overcast",
+                    "@title": "-15 \u00b0C (wind chill: -22 \u00b0C) | relative humidity: 85% | wind: 4 m/s | 120\u00b0 ESE | overcast",
+                    "@width": "535",
+                    "@height": "41",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "-15 \u00b0C (wind chill: -22 \u00b0C) | relative humidity: 85% | wind: 4 m/s | 120\u00b0 ESE | overcast"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show history",
+                        "@input": "WeatherPod:AdministrativeDivisionData__Show history"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "WeatherPod:AdministrativeDivisionData__Show non-metric"
+                    }
+                ]
+            }
+        }
+    ],
+    "sources": {
+        "@count": "5",
+        "source": [
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/CountryDataSourceInformationNotes.html",
+                "@text": "Country data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html",
+                "@text": "Weather data"
+            }
+        ]
+    }
+}

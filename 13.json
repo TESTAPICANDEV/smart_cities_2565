@@ -1,0 +1,787 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "15",
+    "@datatypes": "AdministrativeDivision,City,Person,WeatherStation",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "7.187",
+    "@parsetiming": "0.461",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP31291h4674268gg5057h00004a40557d716i87if",
+    "@host": "https://www4f.wolframalpha.com",
+    "@server": "48",
+    "@related": "https://www4f.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa31301h4674268gg5057h00000d3cb4f212iicdde8130123784979259853",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP31311h4674268gg5057h000031eb61h2ad4ad9c6?MSPStoreType=image/gif&s=48",
+                    "@alt": "Kelowna, British Columbia",
+                    "@title": "Kelowna, British Columbia",
+                    "@width": "175",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Kelowna, British Columbia"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Population",
+            "@scanner": "Data",
+            "@id": "Population:CityData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCensusData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP31321h4674268gg5057h00005532i7eicc7083a5?MSPStoreType=image/gif&s=48",
+                    "@alt": "city population | 117312 people (country rank: 41st) (2011 estimate)",
+                    "@title": "city population | 117312 people (country rank: 41st) (2011 estimate)",
+                    "@width": "459",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "city population | 117312 people (country rank: 41st) (2011 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show history",
+                    "@input": "Population:CityData__Show history"
+                }
+            }
+        },
+        {
+            "@title": "Location",
+            "@scanner": "Data",
+            "@id": "Location:CityData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "2",
+            "subpod": [
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP31331h4674268gg5057h00006078da1fa59eac3f?MSPStoreType=image/gif&s=48",
+                        "@alt": "British Columbia, Canada",
+                        "@title": "British Columbia, Canada",
+                        "@width": "168",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "British Columbia, Canada"
+                },
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData",
+                            "CountryData"
+                        ]
+                    },
+                    "datasources": {
+                        "datasource": "CIAFactbook"
+                    },
+                    "img": {
+                        "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP31341h4674268gg5057h00002f41haah0310e030?MSPStoreType=image/gif&s=48",
+                        "@alt": "Location",
+                        "@title": "",
+                        "@width": "328",
+                        "@height": "214",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                }
+            ],
+            "expressiontypes": {
+                "@count": "2",
+                "expressiontype": [
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    }
+                ]
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "World map",
+                        "@input": "Location:CityData__World map"
+                    },
+                    {
+                        "@name": "Show coordinates",
+                        "@input": "Location:CityData__Show coordinates"
+                    }
+                ]
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=49.89%2C-119.46&q=49.89%20N%2C%20119.46%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "Map:CityData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP31351h4674268gg5057h000022e8053h6d308g69?MSPStoreType=image/gif&s=48",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "30 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "7 kilometers across",
+                            "@input": "Map:CityData__7 kilometers across"
+                        },
+                        {
+                            "@name": "10 kilometers across",
+                            "@input": "Map:CityData__10 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "Map:CityData__30 kilometers across"
+                        },
+                        {
+                            "@name": "50 kilometers across",
+                            "@input": "Map:CityData__50 kilometers across"
+                        },
+                        {
+                            "@name": "110 kilometers across",
+                            "@input": "Map:CityData__110 kilometers across"
+                        },
+                        {
+                            "@name": "220 kilometers across",
+                            "@input": "Map:CityData__220 kilometers across"
+                        },
+                        {
+                            "@name": "440 kilometers across",
+                            "@input": "Map:CityData__440 kilometers across"
+                        },
+                        {
+                            "@name": "880 kilometers across",
+                            "@input": "Map:CityData__880 kilometers across"
+                        },
+                        {
+                            "@name": "1800 kilometers across",
+                            "@input": "Map:CityData__1800 kilometers across"
+                        },
+                        {
+                            "@name": "3500 kilometers across",
+                            "@input": "Map:CityData__3500 kilometers across"
+                        },
+                        {
+                            "@name": "6700 kilometers across",
+                            "@input": "Map:CityData__6700 kilometers across"
+                        },
+                        {
+                            "@name": "11000 kilometers across",
+                            "@input": "Map:CityData__11000 kilometers across"
+                        },
+                        {
+                            "@name": "21000 kilometers across",
+                            "@input": "Map:CityData__21000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "Map:CityData__Non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=49.89%2C-119.46&q=49.89%20N%2C%20119.46%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Administrative regions",
+            "@scanner": "Data",
+            "@id": "AdministrativeRegions:CityData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP31361h4674268gg5057h00000g2fh4245fa22i92?MSPStoreType=image/gif&s=48",
+                    "@alt": "region | British Columbia country | Canada",
+                    "@title": "region | British Columbia country | Canada",
+                    "@width": "210",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "region | British Columbia\ncountry | Canada"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Current local time",
+            "@scanner": "Data",
+            "@id": "CurrentTime:CityData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP31371h4674268gg5057h00001f0ca97d420eb28e?MSPStoreType=image/gif&s=48",
+                    "@alt": "8:35 pm PST | Saturday, January 18, 2020",
+                    "@title": "8:35 pm PST | Saturday, January 18, 2020",
+                    "@width": "292",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "8:35 pm PST | Saturday, January 18, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Current weather",
+            "@scanner": "Data",
+            "@id": "WeatherPod:CityData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "WeatherData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP31381h4674268gg5057h00003egab3c1i96547d4?MSPStoreType=image/gif&s=48",
+                    "@alt": "-4 \u00b0C (wind chill: -6 \u00b0C) | relative humidity: 86% | wind: 2 m/s | overcast",
+                    "@title": "-4 \u00b0C (wind chill: -6 \u00b0C) | relative humidity: 86% | wind: 2 m/s | overcast",
+                    "@width": "511",
+                    "@height": "22",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "-4 \u00b0C (wind chill: -6 \u00b0C) | relative humidity: 86% | wind: 2 m/s | overcast"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show history",
+                        "@input": "WeatherPod:CityData__Show history"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "WeatherPod:CityData__Show non-metric"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby cities",
+            "@scanner": "Data",
+            "@id": "CityHierarchyInfo:CityData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP31391h4674268gg5057h0000642b3gc5342fa4d7?MSPStoreType=image/gif&s=48",
+                    "@alt": "Central Okanagan, British Columbia | 33 km (kilometers) west-northwest | 35391 people Vernon, British Columbia | 44 km (kilometers) north-northeast | 35944 people Penticton, British Columbia | 44 km (kilometers) south-southwest | 43313 people Kamloops, British Columbia | 108 km (kilometers) northwest | 92882 people Surrey, British Columbia | 258 km (kilometers) west-southwest | 394976 people Vancouver, British Columbia | 274 km (kilometers) west-southwest | 603502 people (straight-line distances between city centers)",
+                    "@title": "Central Okanagan, British Columbia | 33 km (kilometers) west-northwest | 35391 people Vernon, British Columbia | 44 km (kilometers) north-northeast | 35944 people Penticton, British Columbia | 44 km (kilometers) south-southwest | 43313 people Kamloops, British Columbia | 108 km (kilometers) northwest | 92882 people Surrey, British Columbia | 258 km (kilometers) west-southwest | 394976 people Vancouver, British Columbia | 274 km (kilometers) west-southwest | 603502 people (straight-line distances between city centers)",
+                    "@width": "545",
+                    "@height": "324",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Central Okanagan, British Columbia | 33 km (kilometers) west-northwest | 35391 people\nVernon, British Columbia | 44 km (kilometers) north-northeast | 35944 people\nPenticton, British Columbia | 44 km (kilometers) south-southwest | 43313 people\nKamloops, British Columbia | 108 km (kilometers) northwest | 92882 people\nSurrey, British Columbia | 258 km (kilometers) west-southwest | 394976 people\nVancouver, British Columbia | 274 km (kilometers) west-southwest | 603502 people\n(straight-line distances between city centers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "CityHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "CityHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby airport",
+            "@scanner": "Data",
+            "@id": "AirportHierarchyInfo:CityData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP31401h4674268gg5057h000050h9b3cgeb5a4232?MSPStoreType=image/gif&s=48",
+                    "@alt": "Kelowna Airport | 9 km (kilometers) northeast (straight-line distances between city center and airport)",
+                    "@title": "Kelowna Airport | 9 km (kilometers) northeast (straight-line distances between city center and airport)",
+                    "@width": "334",
+                    "@height": "58",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Kelowna Airport | 9 km (kilometers) northeast\n(straight-line distances between city center and airport)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "AirportHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "AirportHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Notable company headquarters",
+            "@scanner": "Data",
+            "@id": "CompaniesInCity:CityData",
+            "@position": "1000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "datasources": {
+                    "datasource": [
+                        "ForbesAmericasLargestPrivateCompanies",
+                        "CrunchBase"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP31411h4674268gg5057h00002d913d2d3d24dagd?MSPStoreType=image/gif&s=48",
+                    "@alt": "Globus Wireless, Ltd. | 8 employees (Quarter 4 2001) | $989700 per year (Quarter 3 2002)",
+                    "@title": "Globus Wireless, Ltd. | 8 employees (Quarter 4 2001) | $989700 per year (Quarter 3 2002)",
+                    "@width": "545",
+                    "@height": "53",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Globus Wireless, Ltd. | 8 employees (Quarter 4 2001) | $989700 per year (Quarter 3 2002)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:CityData",
+            "@position": "1100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP31421h4674268gg5057h000026fdi06f79ib0b9i?MSPStoreType=image/gif&s=48",
+                    "@alt": "elevation | 366 m",
+                    "@title": "elevation | 366 m",
+                    "@width": "147",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "elevation | 366 m"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:CityData__Show non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "units": {
+                        "@count": "1",
+                        "unit": {
+                            "@short": "m",
+                            "@long": "meters"
+                        },
+                        "img": {
+                            "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP31431h4674268gg5057h00004559d5e0babg49h0?MSPStoreType=image/gif&s=48",
+                            "@width": "96",
+                            "@height": "26"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Nearby features",
+            "@scanner": "Data",
+            "@id": "FeaturesHierarchyInfo:CityData",
+            "@position": "1200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP31441h4674268gg5057h000014f0i3fa8af6ci99?MSPStoreType=image/gif&s=48",
+                    "@alt": "mountain | Mount Atkinson (1741 meters) | 30 km (kilometers) south volcano | Lightning Peak (2139 meters) | 67 km (kilometers) east mountain | Mount Remmel (2647 meters) | 120 km (kilometers) south-southwest dam | Revelstoke Dam (174 meters) | 157 km (kilometers) northeast volcano | Baker (3286 meters) | 211 km (kilometers) southwest (straight-line distances between city center and feature coordinates)",
+                    "@title": "mountain | Mount Atkinson (1741 meters) | 30 km (kilometers) south volcano | Lightning Peak (2139 meters) | 67 km (kilometers) east mountain | Mount Remmel (2647 meters) | 120 km (kilometers) south-southwest dam | Revelstoke Dam (174 meters) | 157 km (kilometers) northeast volcano | Baker (3286 meters) | 211 km (kilometers) southwest (straight-line distances between city center and feature coordinates)",
+                    "@width": "546",
+                    "@height": "190",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "mountain | Mount Atkinson (1741 meters) | 30 km (kilometers) south\nvolcano | Lightning Peak (2139 meters) | 67 km (kilometers) east\nmountain | Mount Remmel (2647 meters) | 120 km (kilometers) south-southwest\ndam | Revelstoke Dam (174 meters) | 157 km (kilometers) northeast\nvolcano | Baker (3286 meters) | 211 km (kilometers) southwest\n(straight-line distances between city center and feature coordinates)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "FeaturesHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "FeaturesHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearest sea",
+            "@scanner": "Data",
+            "@id": "OceansHierarchyInfo:CityData",
+            "@position": "1300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP31451h4674268gg5057h000065acg71a9bic9076?MSPStoreType=image/gif&s=48",
+                    "@alt": "Coastal Waters Of Southeast Alaska and British Columbia (250 km (kilometers) west)  (straight-line distance between city center and shore)",
+                    "@title": "Coastal Waters Of Southeast Alaska and British Columbia (250 km (kilometers) west)  (straight-line distance between city center and shore)",
+                    "@width": "379",
+                    "@height": "64",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Coastal Waters Of Southeast Alaska and British Columbia (250 km (kilometers) west) \n(straight-line distance between city center and shore)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "3",
+                "state": [
+                    {
+                        "@name": "Show map",
+                        "@input": "OceansHierarchyInfo:CityData__Show map"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "OceansHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "OceansHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Notable people born in Kelowna",
+            "@scanner": "Data",
+            "@id": "NotablePeople:CityData",
+            "@position": "1400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "PeopleData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP31461h4674268gg5057h000024213789egcc638d?MSPStoreType=image/gif&s=48",
+                    "@alt": "Taylor Kitsch (actor) (1981) Datsik (disc jockey, etc.) (1988) Danny Watkins (football player) (1984) Chad Brownlee (singer, etc.) (1984) Kristi Angus (actor, etc.) (1971) Jordan Zimmerman (baseball player) (1975) Jeff Zimmerman (baseball player) (1972) Dave Barr (golfer) (1952) Kelsey Serwa (athlete) (1989) Paul Spoljaric (baseball player) (1970) Ryan Peters (singer/songwriter, etc.)",
+                    "@title": "Taylor Kitsch (actor) (1981) Datsik (disc jockey, etc.) (1988) Danny Watkins (football player) (1984) Chad Brownlee (singer, etc.) (1984) Kristi Angus (actor, etc.) (1971) Jordan Zimmerman (baseball player) (1975) Jeff Zimmerman (baseball player) (1972) Dave Barr (golfer) (1952) Kelsey Serwa (athlete) (1989) Paul Spoljaric (baseball player) (1970) Ryan Peters (singer/songwriter, etc.)",
+                    "@width": "296",
+                    "@height": "209",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Taylor Kitsch (actor) (1981)\nDatsik (disc jockey, etc.) (1988)\nDanny Watkins (football player) (1984)\nChad Brownlee (singer, etc.) (1984)\nKristi Angus (actor, etc.) (1971)\nJordan Zimmerman (baseball player) (1975)\nJeff Zimmerman (baseball player) (1972)\nDave Barr (golfer) (1952)\nKelsey Serwa (athlete) (1989)\nPaul Spoljaric (baseball player) (1970)\nRyan Peters (singer/songwriter, etc.)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "3",
+                "state": [
+                    {
+                        "@name": "More",
+                        "@input": "NotablePeople:CityData__More"
+                    },
+                    {
+                        "@name": "Show dates",
+                        "@input": "NotablePeople:CityData__Show dates"
+                    },
+                    {
+                        "@name": "Show deaths",
+                        "@input": "NotablePeople:CityData__Show deaths"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Wikipedia page hits history",
+            "@scanner": "Data",
+            "@id": "PopularityPod:WikipediaStatsData",
+            "@position": "1500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www4f.wolframalpha.com/Calculate/MSP/MSP31471h4674268gg5057h00002cid64a1fh4fe74g?MSPStoreType=image/gif&s=48",
+                    "@alt": "Wikipedia page hits history",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "167",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopularityPod:WikipediaStatsData__Log scale"
+                }
+            }
+        }
+    ],
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "6",
+        "source": [
+            {
+                "@url": "https://www4f.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www4f.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www4f.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www4f.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html",
+                "@text": "People data"
+            },
+            {
+                "@url": "https://www4f.wolframalpha.com/sources/USCensusDataSourceInformationNotes.html",
+                "@text": "US census data"
+            },
+            {
+                "@url": "https://www4f.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html",
+                "@text": "Weather data"
+            }
+        ]
+    }
+}

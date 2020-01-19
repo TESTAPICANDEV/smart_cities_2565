@@ -1,0 +1,298 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "4",
+    "@datatypes": "AdministrativeDivision,City",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "2.557",
+    "@parsetiming": "1.742",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP119841eccdhab8e9i6b6h0000612i4degie5a40ia",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "36",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa119851eccdhab8e9i6b6h00004cec9ac727a4df893163323455734918590",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP119861eccdhab8e9i6b6h0000323b8h47ad53g576?MSPStoreType=image/gif&s=36",
+                    "@alt": "Waterloo, Ontario | Waterloo, Ontario, Canada (regional municipality)",
+                    "@title": "Waterloo, Ontario | Waterloo, Ontario, Canada (regional municipality)",
+                    "@width": "479",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Waterloo, Ontario | Waterloo, Ontario, Canada (regional municipality)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Distances",
+            "@scanner": "Data",
+            "@id": "Distances:MultipleData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP119871eccdhab8e9i6b6h000048g769574ghi92f8?MSPStoreType=image/gif&s=36",
+                    "@alt": "Waterloo to Waterloo, Ontario, Canada | 2 km (kilometers)",
+                    "@title": "Waterloo to Waterloo, Ontario, Canada | 2 km (kilometers)",
+                    "@width": "426",
+                    "@height": "32",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Waterloo to Waterloo, Ontario, Canada | 2 km (kilometers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "Distances:MultipleData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Demographics",
+            "@scanner": "Data",
+            "@id": "DemographicProperties:MultipleData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "Statoids"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP119881eccdhab8e9i6b6h00005fh14h59f57cb61g?MSPStoreType=image/gif&s=36",
+                    "@alt": " | Waterloo, Ontario | Waterloo, Ontario, Canada population | 98780 people | 377762 people",
+                    "@title": " | Waterloo, Ontario | Waterloo, Ontario, Canada population | 98780 people | 377762 people",
+                    "@width": "437",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Waterloo, Ontario | Waterloo, Ontario, Canada\npopulation | 98780 people | 377762 people"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:MultipleData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP119891eccdhab8e9i6b6h00003f48h673609gib2g?MSPStoreType=image/gif&s=36",
+                    "@alt": " | Waterloo | Waterloo, Ontario, Canada area | | 1336 km^2 (square kilometers) average elevation | 329 meters | ",
+                    "@title": " | Waterloo | Waterloo, Ontario, Canada area | | 1336 km^2 (square kilometers) average elevation | 329 meters | ",
+                    "@width": "448",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Waterloo | Waterloo, Ontario, Canada\narea | | 1336 km^2 (square kilometers)\naverage elevation | 329 meters |"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:MultipleData__Show non-metric"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "2",
+        "assumption": [
+            {
+                "@type": "MultiClash",
+                "@word": "",
+                "@template": "Assuming ${word1} is referring to ${desc1}. Use \"${word2}\" as ${desc2}.",
+                "@count": "2",
+                "value": [
+                    {
+                        "@name": "AdministrativeDivision",
+                        "@word": "Waterloo Region",
+                        "@desc": "an administrative division",
+                        "@input": "*MC.Waterloo+Region-_*AdministrativeDivision-"
+                    },
+                    {
+                        "@name": "City",
+                        "@word": "Waterloo",
+                        "@desc": "a city",
+                        "@input": "*MC.Waterloo+Region-_*City-"
+                    }
+                ]
+            },
+            {
+                "@type": "SubCategory",
+                "@word": "City of Waterloo",
+                "@template": "Assuming ${desc1}. Use ${desc2} instead",
+                "@count": "16",
+                "value": [
+                    {
+                        "@name": "{Waterloo, Ontario, Canada}",
+                        "@desc": "Waterloo (Ontario, Canada)",
+                        "@input": "*DPClash.CityE.City+of+Waterloo-_**Waterloo.Ontario.Canada--"
+                    },
+                    {
+                        "@name": "{Waterloo, Iowa, UnitedStates}",
+                        "@desc": "Waterloo (Iowa, USA)",
+                        "@input": "*DPClash.CityE.City+of+Waterloo-_**Waterloo.Iowa.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Waterloo, Quebec, Canada}",
+                        "@desc": "Waterloo (Quebec, Canada)",
+                        "@input": "*DPClash.CityE.City+of+Waterloo-_**Waterloo.Quebec.Canada--"
+                    },
+                    {
+                        "@name": "{Waterloo, NewYork, UnitedStates}",
+                        "@desc": "Waterloo (New York, USA)",
+                        "@input": "*DPClash.CityE.City+of+Waterloo-_**Waterloo.NewYork.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Waterlooville, Hampshire, UnitedKingdom}",
+                        "@desc": "Waterlooville (United Kingdom)",
+                        "@input": "*DPClash.CityE.City+of+Waterloo-_**Waterlooville.Hampshire.UnitedKingdom--"
+                    },
+                    {
+                        "@name": "{Waterloo, Illinois, UnitedStates}",
+                        "@desc": "Waterloo (Illinois, USA)",
+                        "@input": "*DPClash.CityE.City+of+Waterloo-_**Waterloo.Illinois.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Waterloo, BrabantWallon, Belgium}",
+                        "@desc": "Waterloo (Belgium)",
+                        "@input": "*DPClash.CityE.City+of+Waterloo-_**Waterloo.BrabantWallon.Belgium--"
+                    },
+                    {
+                        "@name": "{Waterloo, Western, SierraLeone}",
+                        "@desc": "Waterloo (Sierra Leone)",
+                        "@input": "*DPClash.CityE.City+of+Waterloo-_**Waterloo.Western.SierraLeone--"
+                    },
+                    {
+                        "@name": "{Waterloo, Wisconsin, UnitedStates}",
+                        "@desc": "Waterloo (Jefferson County) (Wisconsin, USA)",
+                        "@input": "*DPClash.CityE.City+of+Waterloo-_**Waterloo.Wisconsin.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Waterloo, Indiana, UnitedStates}",
+                        "@desc": "Waterloo (Indiana, USA)",
+                        "@input": "*DPClash.CityE.City+of+Waterloo-_**Waterloo.Indiana.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Waterloo, Nebraska, UnitedStates}",
+                        "@desc": "Waterloo (Nebraska, USA)",
+                        "@input": "*DPClash.CityE.City+of+Waterloo-_**Waterloo.Nebraska.UnitedStates--"
+                    },
+                    {
+                        "@name": "{WaterlooGrant, Wisconsin, UnitedStates}",
+                        "@desc": "Waterloo (Grant County) (Wisconsin, USA)",
+                        "@input": "*DPClash.CityE.City+of+Waterloo-_**WaterlooGrant.Wisconsin.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Waterloo, Alabama, UnitedStates}",
+                        "@desc": "Waterloo (Alabama, USA)",
+                        "@input": "*DPClash.CityE.City+of+Waterloo-_**Waterloo.Alabama.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Waterloo, SouthCarolina, UnitedStates}",
+                        "@desc": "Waterloo (South Carolina, USA)",
+                        "@input": "*DPClash.CityE.City+of+Waterloo-_**Waterloo.SouthCarolina.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Waterloo, Oregon, UnitedStates}",
+                        "@desc": "Waterloo (Oregon, USA)",
+                        "@input": "*DPClash.CityE.City+of+Waterloo-_**Waterloo.Oregon.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Waterloo, TurksCaicosIslands, TurksCaicosIslands}",
+                        "@desc": "Waterloo (Turks and Caicos Islands)",
+                        "@input": "*DPClash.CityE.City+of+Waterloo-_**Waterloo.TurksCaicosIslands.TurksCaicosIslands--"
+                    }
+                ]
+            }
+        ]
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "2",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            }
+        ]
+    }
+}

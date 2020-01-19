@@ -1,0 +1,109 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "2",
+    "@datatypes": "Math,MusicAct",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "2.161",
+    "@parsetiming": "1.659",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP23751g2e7e2204a5ef7f000052138g2a2470e438",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "50",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa23761g2e7e2204a5ef7f00002gddg59g3bgi82e73545779640047213222",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP23771g2e7e2204a5ef7f000030c6hi9d9ig764fi?MSPStoreType=image/gif&s=50",
+                    "@alt": "The Essex (music act) | place of origin/The Essex (music act) | place of origin",
+                    "@title": "The Essex (music act) | place of origin/The Essex (music act) | place of origin",
+                    "@width": "274",
+                    "@height": "51",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "The Essex (music act) | place of origin/The Essex (music act) | place of origin"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Result",
+            "@scanner": "Data",
+            "@id": "Result",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "MusicActData"
+                },
+                "datasources": {
+                    "datasource": "MusicBrainz"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP23781g2e7e2204a5ef7f00002d0ged06bda17596?MSPStoreType=image/gif&s=50",
+                    "@alt": "(insufficient data available)",
+                    "@title": "(insufficient data available)",
+                    "@width": "177",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "(insufficient data available)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "1",
+        "assumption": {
+            "@type": "ListOrTimes",
+            "@template": "Assuming ${desc1}. Use ${desc2} instead",
+            "@count": "2",
+            "value": [
+                {
+                    "@name": "Times",
+                    "@desc": "multiplication",
+                    "@input": "ListOrTimes_Times"
+                },
+                {
+                    "@name": "List",
+                    "@desc": "a list",
+                    "@input": "ListOrTimes_List"
+                }
+            ]
+        }
+    },
+    "sources": {
+        "@count": "1",
+        "source": {
+            "@url": "https://www5b.wolframalpha.com/sources/MusicActDataSourceInformationNotes.html",
+            "@text": "Music act data"
+        }
+    }
+}

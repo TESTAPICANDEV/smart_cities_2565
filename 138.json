@@ -1,0 +1,243 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "4",
+    "@datatypes": "AdministrativeDivision,City",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "1.879",
+    "@parsetiming": "0.9490000000000001",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP110082365h7bhaa4ic13200003g6if1i74250c99e",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "51",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa110092365h7bhaa4ic13200004e91fddgih66ef275606516680789693320",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP110102365h7bhaa4ic132000041g102e55a348a69?MSPStoreType=image/gif&s=51",
+                    "@alt": "Pelham, New Hampshire, United States | Niagara, Ontario, Canada (regional municipality)",
+                    "@title": "Pelham, New Hampshire, United States | Niagara, Ontario, Canada (regional municipality)",
+                    "@width": "523",
+                    "@height": "38",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Pelham, New Hampshire, United States | Niagara, Ontario, Canada (regional municipality)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Distances",
+            "@scanner": "Data",
+            "@id": "Distances:MultipleData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP110112365h7bhaa4ic132000036hd9970fe0hc9ih?MSPStoreType=image/gif&s=51",
+                    "@alt": " | distance | flight time Pelham to Niagara, Ontario, Canada | 652 km (kilometers) | 45 minutes (assuming direct flight path at 890 km/h)",
+                    "@title": " | distance | flight time Pelham to Niagara, Ontario, Canada | 652 km (kilometers) | 45 minutes (assuming direct flight path at 890 km/h)",
+                    "@width": "516",
+                    "@height": "89",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| distance | flight time\nPelham to Niagara, Ontario, Canada | 652 km (kilometers) | 45 minutes\n(assuming direct flight path at 890 km/h)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "Distances:MultipleData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Demographics",
+            "@scanner": "Data",
+            "@id": "DemographicProperties:MultipleData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "Statoids"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP110122365h7bhaa4ic132000057g4b1b14ad30e2h?MSPStoreType=image/gif&s=51",
+                    "@alt": " | Pelham, New Hampshire, United States | Niagara, Ontario, Canada population | 13681 people | 393936 people",
+                    "@title": " | Pelham, New Hampshire, United States | Niagara, Ontario, Canada population | 13681 people | 393936 people",
+                    "@width": "546",
+                    "@height": "85",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Pelham, New Hampshire, United States | Niagara, Ontario, Canada\npopulation | 13681 people | 393936 people"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:MultipleData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP110132365h7bhaa4ic13200003ic60a6fhaa09c1e?MSPStoreType=image/gif&s=51",
+                    "@alt": " | Pelham | Niagara, Ontario, Canada area | 68.3 km^2 (square kilometers) | 1862 km^2 (square kilometers) average elevation | 46 meters | ",
+                    "@title": " | Pelham | Niagara, Ontario, Canada area | 68.3 km^2 (square kilometers) | 1862 km^2 (square kilometers) average elevation | 46 meters | ",
+                    "@width": "545",
+                    "@height": "117",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Pelham | Niagara, Ontario, Canada\narea | 68.3 km^2 (square kilometers) | 1862 km^2 (square kilometers)\naverage elevation | 46 meters |"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:MultipleData__Show non-metric"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "2",
+        "assumption": [
+            {
+                "@type": "MultiClash",
+                "@word": "",
+                "@template": "Assuming ${word1} is referring to ${desc1}. Use \"${word2}\" as ${desc2}.",
+                "@count": "2",
+                "value": [
+                    {
+                        "@name": "AdministrativeDivision",
+                        "@word": "Niagara Region",
+                        "@desc": "an administrative division",
+                        "@input": "*MC.Niagara+Region-_*AdministrativeDivision-"
+                    },
+                    {
+                        "@name": "City",
+                        "@word": "Niagara",
+                        "@desc": "a city",
+                        "@input": "*MC.Niagara+Region-_*City-"
+                    }
+                ]
+            },
+            {
+                "@type": "SubCategory",
+                "@word": "Town of Pelham",
+                "@template": "Assuming ${desc1}. Use ${desc2} instead",
+                "@count": "5",
+                "value": [
+                    {
+                        "@name": "{Pelham, NewHampshire, UnitedStates}",
+                        "@desc": "Pelham (New Hampshire, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Pelham-_**Pelham.NewHampshire.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Pelham, Alabama, UnitedStates}",
+                        "@desc": "Pelham (Alabama, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Pelham-_**Pelham.Alabama.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Pelham, NewYork, UnitedStates}",
+                        "@desc": "Pelham (New York, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Pelham-_**Pelham.NewYork.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Pelham, Massachusetts, UnitedStates}",
+                        "@desc": "Pelham (Massachusetts, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Pelham-_**Pelham.Massachusetts.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Pelham, Georgia, UnitedStates}",
+                        "@desc": "Pelham (Georgia, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Pelham-_**Pelham.Georgia.UnitedStates--"
+                    }
+                ]
+            }
+        ]
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "2",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            }
+        ]
+    }
+}

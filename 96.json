@@ -1,0 +1,1158 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "22",
+    "@datatypes": "ACS,AdministrativeDivision,City,Congestion,Country,Crime,MetropolitanArea,NuclearReactor,Person,University,UrbanArea,USCounty,USHousing,USState,USTax,WeatherStation",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "8.868",
+    "@parsetiming": "0.615",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP178410g1gch7c18cf5720000400dc6ed133369b7",
+    "@host": "https://www5a.wolframalpha.com",
+    "@server": "56",
+    "@related": "https://www5a.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa178510g1gch7c18cf5720000169g1a06h690h9ae1335321721000003642",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP178610g1gch7c18cf572000068i7d97e1hb3b603?MSPStoreType=image/gif&s=56",
+                    "@alt": "Bridgewater State College | location",
+                    "@title": "Bridgewater State College | location",
+                    "@width": "251",
+                    "@height": "23",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Bridgewater State College | location"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Result",
+            "@scanner": "Data",
+            "@id": "Result",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP178710g1gch7c18cf572000066968h133819931a?MSPStoreType=image/gif&s=56",
+                    "@alt": "Bridgewater, Massachusetts, United States (population: 7841 people)",
+                    "@title": "Bridgewater, Massachusetts, United States (population: 7841 people)",
+                    "@width": "420",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Bridgewater, Massachusetts, United States (population: 7841 people)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Populations",
+            "@scanner": "Data",
+            "@id": "Population:CityData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "MetropolitanAreaData",
+                        "UrbanAreaData",
+                        "USCensusData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP178810g1gch7c18cf572000044454h7gd3b8a982?MSPStoreType=image/gif&s=56",
+                    "@alt": "city population | 7841 people (2010 estimate) urban area population | 4.032 million people (Boston urban area) (country rank: 7th) (2000 estimate) metro area population | 4.591 million people (Boston metro area) (country rank: 10th) (2011 estimate)",
+                    "@title": "city population | 7841 people (2010 estimate) urban area population | 4.032 million people (Boston urban area) (country rank: 7th) (2000 estimate) metro area population | 4.591 million people (Boston metro area) (country rank: 10th) (2011 estimate)",
+                    "@width": "546",
+                    "@height": "134",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "city population | 7841 people (2010 estimate)\nurban area population | 4.032 million people (Boston urban area) (country rank: 7th) (2000 estimate)\nmetro area population | 4.591 million people (Boston metro area) (country rank: 10th) (2011 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show history",
+                    "@input": "Population:CityData__Show history"
+                }
+            }
+        },
+        {
+            "@title": "Location",
+            "@scanner": "Data",
+            "@id": "Location:CityData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "2",
+            "subpod": [
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "CityData",
+                            "USCountyData",
+                            "USStateData"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP178910g1gch7c18cf57200003igbahha0c9e6b59?MSPStoreType=image/gif&s=56",
+                        "@alt": "Plymouth County, Massachusetts",
+                        "@title": "Plymouth County, Massachusetts",
+                        "@width": "217",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "Plymouth County, Massachusetts"
+                },
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "CityData",
+                            "USCountyData",
+                            "USStateData",
+                            "CountryData"
+                        ]
+                    },
+                    "datasources": {
+                        "datasource": "CIAFactbook"
+                    },
+                    "img": {
+                        "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP179010g1gch7c18cf57200005c8332bf64igh27c?MSPStoreType=image/gif&s=56",
+                        "@alt": "Location",
+                        "@title": "",
+                        "@width": "328",
+                        "@height": "177",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                }
+            ],
+            "expressiontypes": {
+                "@count": "2",
+                "expressiontype": [
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    }
+                ]
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "World map",
+                        "@input": "Location:CityData__World map"
+                    },
+                    {
+                        "@name": "Show coordinates",
+                        "@input": "Location:CityData__Show coordinates"
+                    }
+                ]
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=41.9863%2C-70.9682&q=41.9863%20N%2C%2070.9682%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "Map:CityData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP179110g1gch7c18cf57200005f53778a88a644e6?MSPStoreType=image/gif&s=56",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "20 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "8 kilometers across",
+                            "@input": "Map:CityData__8 kilometers across"
+                        },
+                        {
+                            "@name": "20 kilometers across",
+                            "@input": "Map:CityData__20 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "Map:CityData__30 kilometers across"
+                        },
+                        {
+                            "@name": "60 kilometers across",
+                            "@input": "Map:CityData__60 kilometers across"
+                        },
+                        {
+                            "@name": "130 kilometers across",
+                            "@input": "Map:CityData__130 kilometers across"
+                        },
+                        {
+                            "@name": "250 kilometers across",
+                            "@input": "Map:CityData__250 kilometers across"
+                        },
+                        {
+                            "@name": "500 kilometers across",
+                            "@input": "Map:CityData__500 kilometers across"
+                        },
+                        {
+                            "@name": "1000 kilometers across",
+                            "@input": "Map:CityData__1000 kilometers across"
+                        },
+                        {
+                            "@name": "2000 kilometers across",
+                            "@input": "Map:CityData__2000 kilometers across"
+                        },
+                        {
+                            "@name": "4000 kilometers across",
+                            "@input": "Map:CityData__4000 kilometers across"
+                        },
+                        {
+                            "@name": "7800 kilometers across",
+                            "@input": "Map:CityData__7800 kilometers across"
+                        },
+                        {
+                            "@name": "13000 kilometers across",
+                            "@input": "Map:CityData__13000 kilometers across"
+                        },
+                        {
+                            "@name": "25000 kilometers across",
+                            "@input": "Map:CityData__25000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "Map:CityData__Non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=41.9863%2C-70.9682&q=41.9863%20N%2C%2070.9682%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Administrative regions",
+            "@scanner": "Data",
+            "@id": "AdministrativeRegions:CityData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCountyData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP179210g1gch7c18cf57200004iic5c4ec6fbc421?MSPStoreType=image/gif&s=56",
+                    "@alt": "county | Plymouth County state | Massachusetts country | United States",
+                    "@title": "county | Plymouth County state | Massachusetts country | United States",
+                    "@width": "215",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "county | Plymouth County\nstate | Massachusetts\ncountry | United States"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Current local time",
+            "@scanner": "Data",
+            "@id": "CurrentTime:CityData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP179310g1gch7c18cf57200001hdi14id5i7ai1c1?MSPStoreType=image/gif&s=56",
+                    "@alt": "11:51 pm EST | Saturday, January 18, 2020",
+                    "@title": "11:51 pm EST | Saturday, January 18, 2020",
+                    "@width": "301",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "11:51 pm EST | Saturday, January 18, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Current weather",
+            "@scanner": "Data",
+            "@id": "WeatherPod:CityData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "WeatherData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP179410g1gch7c18cf57200002f4giea8i495i9d3?MSPStoreType=image/gif&s=56",
+                    "@alt": "1 \u00b0C (wind chill: -2 \u00b0C) | relative humidity: 92% | wind: 2 m/s | snow, fog, overcast",
+                    "@title": "1 \u00b0C (wind chill: -2 \u00b0C) | relative humidity: 92% | wind: 2 m/s | snow, fog, overcast",
+                    "@width": "520",
+                    "@height": "39",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "1 \u00b0C (wind chill: -2 \u00b0C) | relative humidity: 92% | wind: 2 m/s | snow, fog, overcast"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show history",
+                        "@input": "WeatherPod:CityData__Show history"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "WeatherPod:CityData__Show non-metric"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Demographics",
+            "@scanner": "Data",
+            "@id": "ACSPercentageEntrainments:ACSData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "ACSData"
+                },
+                "datasources": {
+                    "datasource": [
+                        "CensusAmericanCommunitySurvey5YearsRace",
+                        "CensusAmericanCommunitySurvey5YearsHispanicOrigin",
+                        "CensusAmericanCommunitySurvey5YearsCitizenship"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP179510g1gch7c18cf5720000574h11d0dh0h7158?MSPStoreType=image/gif&s=56",
+                    "@alt": "race | white: 82.3% | black/African American: 11.2% | two or more races: 2.8% | ... Hispanic origin | 3.7% US citizens | 96.9%",
+                    "@title": "race | white: 82.3% | black/African American: 11.2% | two or more races: 2.8% | ... Hispanic origin | 3.7% US citizens | 96.9%",
+                    "@width": "546",
+                    "@height": "117",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "race | white: 82.3% | black/African American: 11.2% | two or more races: 2.8% | ...\nHispanic origin | 3.7%\nUS citizens | 96.9%"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "More",
+                    "@input": "ACSPercentageEntrainments:ACSData__More"
+                }
+            }
+        },
+        {
+            "@title": "Educational attainment",
+            "@scanner": "Data",
+            "@id": "ACSEducationEntrainments:ACSData",
+            "@position": "1000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "ACSData"
+                },
+                "datasources": {
+                    "datasource": "CensusAmericanCommunitySurvey5YearsEducation"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP179610g1gch7c18cf572000039dffh8g5a759g55?MSPStoreType=image/gif&s=56",
+                    "@alt": "college degree and above | 44.1% (\u2248 national average) high school diploma | 32.4% (\u2248 national average) less than high school diploma | 4.3% (0.324 \u00d7 national average) (for population age 25 and older)",
+                    "@title": "college degree and above | 44.1% (\u2248 national average) high school diploma | 32.4% (\u2248 national average) less than high school diploma | 4.3% (0.324 \u00d7 national average) (for population age 25 and older)",
+                    "@width": "429",
+                    "@height": "121",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "college degree and above | 44.1% (\u2248 national average)\nhigh school diploma | 32.4% (\u2248 national average)\nless than high school diploma | 4.3% (0.324 \u00d7 national average)\n(for population age 25 and older)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show enrollment",
+                    "@input": "ACSEducationEntrainments:ACSData__Show enrollment"
+                }
+            }
+        },
+        {
+            "@title": "Income statistics",
+            "@scanner": "Data",
+            "@id": "ACSIncomeEntrainments:ACSData",
+            "@position": "1100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "ACSData"
+                },
+                "datasources": {
+                    "datasource": [
+                        "CensusAmericanCommunitySurvey5YearsMedianIncome",
+                        "CensusAmericanCommunitySurvey5YearsPerCapitaIncome",
+                        "CensusAmericanCommunitySurvey5YearsPoverty"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP179710g1gch7c18cf572000059ffgi03dc4f7he7?MSPStoreType=image/gif&s=56",
+                    "@alt": "median household income | $62979 per year (US dollars per year) (\u2248 national average) per capita income | $22082 per year per person (US dollars per year per person) (0.74 \u00d7 national average) population below poverty line | 22.2% (\u2248 national average)",
+                    "@title": "median household income | $62979 per year (US dollars per year) (\u2248 national average) per capita income | $22082 per year per person (US dollars per year per person) (0.74 \u00d7 national average) population below poverty line | 22.2% (\u2248 national average)",
+                    "@width": "546",
+                    "@height": "151",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "median household income | $62979 per year (US dollars per year) (\u2248 national average)\nper capita income | $22082 per year per person (US dollars per year per person) (0.74 \u00d7 national average)\npopulation below poverty line | 22.2% (\u2248 national average)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show distribution",
+                    "@input": "ACSIncomeEntrainments:ACSData__Show distribution"
+                }
+            }
+        },
+        {
+            "@title": "Economic properties",
+            "@scanner": "Data",
+            "@id": "EconomicProperties:CityData",
+            "@position": "1200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USEmploymentData",
+                        "USHousingData",
+                        "USTaxData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "RealtorsMetropolitanAreaMedianPrices"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP179810g1gch7c18cf572000057962a754130e902?MSPStoreType=image/gif&s=56",
+                    "@alt": "median home price | $375900 (Boston metro area) (annual change: +7.03%) (2013) unemployment rate | 2.1% (November 2019) total sales tax rate | 6.25% (2019 estimate)",
+                    "@title": "median home price | $375900 (Boston metro area) (annual change: +7.03%) (2013) unemployment rate | 2.1% (November 2019) total sales tax rate | 6.25% (2019 estimate)",
+                    "@width": "546",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "median home price | $375900 (Boston metro area) (annual change: +7.03%) (2013)\nunemployment rate | 2.1% (November 2019)\ntotal sales tax rate | 6.25% (2019 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Other indicators",
+            "@scanner": "Data",
+            "@id": "QualityOfLife:CityData",
+            "@position": "1300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "CongestionData",
+                        "CrimeData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": [
+                        "TexasTransportationInstituteCongestionDataForYourCityUrbanMobilityInformation",
+                        "UnitedStatesDepartmentOfJusticeBureauOfJusticeStatisticsCrimeAndJusticeDataOnline"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP179910g1gch7c18cf57200006a1d10b3i85g2053?MSPStoreType=image/gif&s=56",
+                    "@alt": "average daily traffic delay | 11 minutes per person per day",
+                    "@title": "average daily traffic delay | 11 minutes per person per day",
+                    "@width": "415",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "average daily traffic delay | 11 minutes per person per day"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Nearby cities",
+            "@scanner": "Data",
+            "@id": "CityHierarchyInfo:CityData",
+            "@position": "1400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP180010g1gch7c18cf57200006774e08bi55b4604?MSPStoreType=image/gif&s=56",
+                    "@alt": "Brockton, Massachusetts | 12 km (kilometers) north-northwest | 94094 people Boston, Massachusetts | 39 km (kilometers) north | 636479 people Providence, Rhode Island | 42 km (kilometers) west-southwest | 178432 people New York City, New York | 289 km (kilometers) west-southwest | 8.337 million people (straight-line distances between city centers)",
+                    "@title": "Brockton, Massachusetts | 12 km (kilometers) north-northwest | 94094 people Boston, Massachusetts | 39 km (kilometers) north | 636479 people Providence, Rhode Island | 42 km (kilometers) west-southwest | 178432 people New York City, New York | 289 km (kilometers) west-southwest | 8.337 million people (straight-line distances between city centers)",
+                    "@width": "546",
+                    "@height": "204",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Brockton, Massachusetts | 12 km (kilometers) north-northwest | 94094 people\nBoston, Massachusetts | 39 km (kilometers) north | 636479 people\nProvidence, Rhode Island | 42 km (kilometers) west-southwest | 178432 people\nNew York City, New York | 289 km (kilometers) west-southwest | 8.337 million people\n(straight-line distances between city centers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "CityHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "CityHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby airport",
+            "@scanner": "Data",
+            "@id": "AirportHierarchyInfo:CityData",
+            "@position": "1500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP180110g1gch7c18cf57200001dg0cb6aai87bffd?MSPStoreType=image/gif&s=56",
+                    "@alt": "Logan Airport | 42 km (kilometers) north (straight-line distances between city center and airport)",
+                    "@title": "Logan Airport | 42 km (kilometers) north (straight-line distances between city center and airport)",
+                    "@width": "313",
+                    "@height": "58",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Logan Airport | 42 km (kilometers) north\n(straight-line distances between city center and airport)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "AirportHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "AirportHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby hospitals",
+            "@scanner": "Data",
+            "@id": "HospitalHierarchyInfo:CityData",
+            "@position": "1600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP180210g1gch7c18cf572000050d245fgf17f9475?MSPStoreType=image/gif&s=56",
+                    "@alt": "Signature Healthcare Brockton Hospital | 11 km (kilometers) north Morton Hospital | 14 km (kilometers) southwest Good Samaritan Medical Center | 15 km (kilometers) north-northwest South Shore Hospital (Weymouth) | 21 km (kilometers) north Sturdy Memorial Hospital | 26 km (kilometers) west (straight-line distances between city center and hospital)",
+                    "@title": "Signature Healthcare Brockton Hospital | 11 km (kilometers) north Morton Hospital | 14 km (kilometers) southwest Good Samaritan Medical Center | 15 km (kilometers) north-northwest South Shore Hospital (Weymouth) | 21 km (kilometers) north Sturdy Memorial Hospital | 26 km (kilometers) west (straight-line distances between city center and hospital)",
+                    "@width": "542",
+                    "@height": "170",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Signature Healthcare Brockton Hospital | 11 km (kilometers) north\nMorton Hospital | 14 km (kilometers) southwest\nGood Samaritan Medical Center | 15 km (kilometers) north-northwest\nSouth Shore Hospital (Weymouth) | 21 km (kilometers) north\nSturdy Memorial Hospital | 26 km (kilometers) west\n(straight-line distances between city center and hospital)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "HospitalHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "HospitalHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Notable company headquarters",
+            "@scanner": "Data",
+            "@id": "CompaniesInCity:CityData",
+            "@position": "1700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "datasources": {
+                    "datasource": [
+                        "ForbesAmericasLargestPrivateCompanies",
+                        "CrunchBase"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP180310g1gch7c18cf57200004f31dh0c84ibh769?MSPStoreType=image/gif&s=56",
+                    "@alt": "Chase | 695 employees (2017) | $252.6 million per year (2017)",
+                    "@title": "Chase | 695 employees (2017) | $252.6 million per year (2017)",
+                    "@width": "437",
+                    "@height": "32",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Chase | 695 employees (2017) | $252.6 million per year (2017)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:CityData",
+            "@position": "1800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP180410g1gch7c18cf572000034g84g915hcb968g?MSPStoreType=image/gif&s=56",
+                    "@alt": "elevation | 21 m area | 5.8959 km^2 population density | 1330 people per square kilometer",
+                    "@title": "elevation | 21 m area | 5.8959 km^2 population density | 1330 people per square kilometer",
+                    "@width": "386",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "elevation | 21 m\narea | 5.8959 km^2\npopulation density | 1330 people per square kilometer"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:CityData__Show non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "units": {
+                        "@count": "2",
+                        "unit": [
+                            {
+                                "@short": "km^2",
+                                "@long": "square kilometers"
+                            },
+                            {
+                                "@short": "m",
+                                "@long": "meters"
+                            }
+                        ],
+                        "img": {
+                            "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP180510g1gch7c18cf5720000661h96geb7g4f1g0?MSPStoreType=image/gif&s=56",
+                            "@width": "171",
+                            "@height": "48"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Nearby features",
+            "@scanner": "Data",
+            "@id": "FeaturesHierarchyInfo:CityData",
+            "@position": "1900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "NuclearReactorData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "IAEAPowerReactorInformationSystem"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP180610g1gch7c18cf57200003c9ihih2g9cc59ab?MSPStoreType=image/gif&s=56",
+                    "@alt": "nuclear power site | Pilgrim | 33 km (kilometers) east mountain | Mount Monroe (1641 meters) | 254 km (kilometers) north mountain | Mount Washington (1917 meters) | 255 km (kilometers) north mountain | Mount Madison (1636 meters) | 261 km (kilometers) north (straight-line distances between city center and feature coordinates)",
+                    "@title": "nuclear power site | Pilgrim | 33 km (kilometers) east mountain | Mount Monroe (1641 meters) | 254 km (kilometers) north mountain | Mount Washington (1917 meters) | 255 km (kilometers) north mountain | Mount Madison (1636 meters) | 261 km (kilometers) north (straight-line distances between city center and feature coordinates)",
+                    "@width": "546",
+                    "@height": "204",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "nuclear power site | Pilgrim | 33 km (kilometers) east\nmountain | Mount Monroe (1641 meters) | 254 km (kilometers) north\nmountain | Mount Washington (1917 meters) | 255 km (kilometers) north\nmountain | Mount Madison (1636 meters) | 261 km (kilometers) north\n(straight-line distances between city center and feature coordinates)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "FeaturesHierarchyInfo:CityData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Nearest sea",
+            "@scanner": "Data",
+            "@id": "OceansHierarchyInfo:CityData",
+            "@position": "2000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP180710g1gch7c18cf57200003a29d775e4cc37fa?MSPStoreType=image/gif&s=56",
+                    "@alt": "Atlantic Ocean (24 km (kilometers) east)  (straight-line distance between city center and shore)",
+                    "@title": "Atlantic Ocean (24 km (kilometers) east)  (straight-line distance between city center and shore)",
+                    "@width": "301",
+                    "@height": "41",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Atlantic Ocean (24 km (kilometers) east) \n(straight-line distance between city center and shore)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "OceansHierarchyInfo:CityData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Notable people born in Bridgewater",
+            "@scanner": "Data",
+            "@id": "NotablePeople:CityData",
+            "@position": "2100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "PeopleData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP180810g1gch7c18cf57200002db0ei4fc0a08e3b?MSPStoreType=image/gif&s=56",
+                    "@alt": "Mickey Cochrane (baseball player) (1903) Marc Colombo (football player) (1978) George Leonard Andrews (civil engineer, etc.) (1828)",
+                    "@title": "Mickey Cochrane (baseball player) (1903) Marc Colombo (football player) (1978) George Leonard Andrews (civil engineer, etc.) (1828)",
+                    "@width": "349",
+                    "@height": "57",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Mickey Cochrane (baseball player) (1903)\nMarc Colombo (football player) (1978)\nGeorge Leonard Andrews (civil engineer, etc.) (1828)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show dates",
+                        "@input": "NotablePeople:CityData__Show dates"
+                    },
+                    {
+                        "@name": "Show deaths",
+                        "@input": "NotablePeople:CityData__Show deaths"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Wikipedia page hits history",
+            "@scanner": "Data",
+            "@id": "PopularityPod:WikipediaStatsData",
+            "@position": "2200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP180910g1gch7c18cf57200006a068833d1d488i7?MSPStoreType=image/gif&s=56",
+                    "@alt": "Wikipedia page hits history",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "167",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopularityPod:WikipediaStatsData__Log scale"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "2",
+        "assumption": [
+            {
+                "@type": "MultiClash",
+                "@word": "",
+                "@template": "Assuming ${word1} is referring to ${desc1}. Use \"${word2}\" as ${desc2}.",
+                "@count": "2",
+                "value": [
+                    {
+                        "@name": "University",
+                        "@word": "Bridgewater",
+                        "@desc": "a university",
+                        "@input": "*MC.%7E-_*University-"
+                    },
+                    {
+                        "@name": "City",
+                        "@word": "",
+                        "@desc": "a city",
+                        "@input": "*MC.%7E-_*City-"
+                    }
+                ]
+            },
+            {
+                "@type": "SubCategory",
+                "@word": "Bridgewater",
+                "@template": "Assuming ${desc1}. Use ${desc2} instead",
+                "@count": "2",
+                "value": [
+                    {
+                        "@name": "BridgewaterStateUniversity::h775y",
+                        "@desc": "Bridgewater State College",
+                        "@input": "*DPClash.UniversityE.Bridgewater-_*BridgewaterStateUniversity%3A%3Ah775y-"
+                    },
+                    {
+                        "@name": "BridgewaterCollege::474s3",
+                        "@desc": "Bridgewater College",
+                        "@input": "*DPClash.UniversityE.Bridgewater-_*BridgewaterCollege%3A%3A474s3-"
+                    }
+                ]
+            }
+        ]
+    },
+    "sources": {
+        "@count": "19",
+        "source": [
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/ACSDataSourceInformationNotes.html",
+                "@text": "ACS data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/CongestionDataSourceInformationNotes.html",
+                "@text": "Congestion data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/CountryDataSourceInformationNotes.html",
+                "@text": "Country data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/CrimeDataSourceInformationNotes.html",
+                "@text": "Crime data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/MetropolitanAreaDataSourceInformationNotes.html",
+                "@text": "Metropolitan area data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/NuclearReactorDataSourceInformationNotes.html",
+                "@text": "Nuclear reactor data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html",
+                "@text": "People data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/UniversityDataSourceInformationNotes.html",
+                "@text": "University data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/UrbanAreaDataSourceInformationNotes.html",
+                "@text": "Urban area data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/USCensusDataSourceInformationNotes.html",
+                "@text": "US census data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/USCountyDataSourceInformationNotes.html",
+                "@text": "US county data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/USEmploymentDataSourceInformationNotes.html",
+                "@text": "US employment data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/USHousingDataSourceInformationNotes.html",
+                "@text": "US housing data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/USStateDataSourceInformationNotes.html",
+                "@text": "US state data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/USTaxDataSourceInformationNotes.html",
+                "@text": "US tax data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html",
+                "@text": "Weather data"
+            }
+        ]
+    }
+}

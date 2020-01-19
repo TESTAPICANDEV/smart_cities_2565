@@ -1,0 +1,231 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "3",
+    "@datatypes": "City,USCounty",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "1.554",
+    "@parsetiming": "0.856",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP109922365h7bhaa4ic13200006795d97g2eb1b9ca",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "51",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa109932365h7bhaa4ic132000047c6gbf030f4f8595606516680789693320",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP109942365h7bhaa4ic13200002c30eiie0ehd54f6?MSPStoreType=image/gif&s=51",
+                    "@alt": "Lake Shore, Maryland, United States | Essex County, Massachusetts (US county)",
+                    "@title": "Lake Shore, Maryland, United States | Essex County, Massachusetts (US county)",
+                    "@width": "525",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Lake Shore, Maryland, United States | Essex County, Massachusetts (US county)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Demographics",
+            "@scanner": "Data",
+            "@id": "DemographicProperties:MultipleData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCountyData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "USCensusQuickfacts"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP109952365h7bhaa4ic13200001ib854176gac7g69?MSPStoreType=image/gif&s=51",
+                    "@alt": " | Lake Shore, Maryland, United States | Essex County, Massachusetts population | 19477 people | 785205 people",
+                    "@title": " | Lake Shore, Maryland, United States | Essex County, Massachusetts population | 19477 people | 785205 people",
+                    "@width": "546",
+                    "@height": "85",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Lake Shore, Maryland, United States | Essex County, Massachusetts\npopulation | 19477 people | 785205 people"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:MultipleData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCountyData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "USCensusQuickfacts"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP109962365h7bhaa4ic13200005a007857351ih090?MSPStoreType=image/gif&s=51",
+                    "@alt": " | Lake Shore | Essex County area | 34.84 km^2 (square kilometers) | 2146 km^2 (square kilometers) average elevation | 18 meters | ",
+                    "@title": " | Lake Shore | Essex County area | 34.84 km^2 (square kilometers) | 2146 km^2 (square kilometers) average elevation | 18 meters | ",
+                    "@width": "545",
+                    "@height": "117",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Lake Shore | Essex County\narea | 34.84 km^2 (square kilometers) | 2146 km^2 (square kilometers)\naverage elevation | 18 meters |"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:MultipleData__Show non-metric"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "3",
+        "assumption": [
+            {
+                "@type": "Clash",
+                "@word": "County of Essex",
+                "@template": "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead",
+                "@count": "2",
+                "value": [
+                    {
+                        "@name": "USCounty",
+                        "@desc": "a US county",
+                        "@input": "*C.County+of+Essex-_*USCounty-"
+                    },
+                    {
+                        "@name": "AdministrativeDivision",
+                        "@desc": "an administrative division",
+                        "@input": "*C.County+of+Essex-_*AdministrativeDivision-"
+                    }
+                ]
+            },
+            {
+                "@type": "SubCategory",
+                "@word": "Town of Lakeshore",
+                "@template": "Assuming ${desc1}. Use ${desc2} instead",
+                "@count": "4",
+                "value": [
+                    {
+                        "@name": "{LakeShore, Maryland, UnitedStates}",
+                        "@desc": "Lake Shore (Maryland, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lakeshore-_**LakeShore.Maryland.UnitedStates--"
+                    },
+                    {
+                        "@name": "{LakeShore, Washington, UnitedStates}",
+                        "@desc": "Lake Shore (Washington, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lakeshore-_**LakeShore.Washington.UnitedStates--"
+                    },
+                    {
+                        "@name": "{LakeShore, Minnesota, UnitedStates}",
+                        "@desc": "Lake Shore (Minnesota, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lakeshore-_**LakeShore.Minnesota.UnitedStates--"
+                    },
+                    {
+                        "@name": "{LakeShore, Utah, UnitedStates}",
+                        "@desc": "Lake Shore (Utah, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Lakeshore-_**LakeShore.Utah.UnitedStates--"
+                    }
+                ]
+            },
+            {
+                "@type": "SubCategory",
+                "@word": "County of Essex",
+                "@template": "Assuming ${desc1}. Use ${desc2} instead",
+                "@count": "5",
+                "value": [
+                    {
+                        "@name": "EssexMA",
+                        "@desc": "Essex County (MA)",
+                        "@input": "*DPClash.USCountyE.County+of+Essex-_*EssexMA-"
+                    },
+                    {
+                        "@name": "EssexNJ",
+                        "@desc": "Essex County (NJ)",
+                        "@input": "*DPClash.USCountyE.County+of+Essex-_*EssexNJ-"
+                    },
+                    {
+                        "@name": "EssexNY",
+                        "@desc": "Essex County (NY)",
+                        "@input": "*DPClash.USCountyE.County+of+Essex-_*EssexNY-"
+                    },
+                    {
+                        "@name": "EssexVT",
+                        "@desc": "Essex County (VT)",
+                        "@input": "*DPClash.USCountyE.County+of+Essex-_*EssexVT-"
+                    },
+                    {
+                        "@name": "EssexVA",
+                        "@desc": "Essex County (VA)",
+                        "@input": "*DPClash.USCountyE.County+of+Essex-_*EssexVA-"
+                    }
+                ]
+            }
+        ]
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "2",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USCountyDataSourceInformationNotes.html",
+                "@text": "US county data"
+            }
+        ]
+    }
+}

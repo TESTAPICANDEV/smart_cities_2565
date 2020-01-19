@@ -1,0 +1,245 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "3",
+    "@datatypes": "City,USCounty",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "1.189",
+    "@parsetiming": "0.523",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP1304714gi2i666h5d3c0500005hgfd648h0254e66",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "38",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa1304814gi2i666h5d3c0500005b60g7igdhcbab4d1769287577686057616",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1304914gi2i666h5d3c0500005479a40394e8c2fb?MSPStoreType=image/gif&s=38",
+                    "@alt": "Woodstock, Ontario | Oxford County, Maine (US county)",
+                    "@title": "Woodstock, Ontario | Oxford County, Maine (US county)",
+                    "@width": "376",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Woodstock, Ontario | Oxford County, Maine (US county)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Demographics",
+            "@scanner": "Data",
+            "@id": "DemographicProperties:MultipleData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCountyData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "USCensusQuickfacts"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1305014gi2i666h5d3c05000030569190889a9753?MSPStoreType=image/gif&s=38",
+                    "@alt": " | Woodstock, Ontario | Oxford County, Maine population | 40902 people | 57439 people",
+                    "@title": " | Woodstock, Ontario | Oxford County, Maine population | 40902 people | 57439 people",
+                    "@width": "419",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Woodstock, Ontario | Oxford County, Maine\npopulation | 40902 people | 57439 people"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:MultipleData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCountyData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "USCensusQuickfacts"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1305114gi2i666h5d3c050000395ah4db2i5806ef?MSPStoreType=image/gif&s=38",
+                    "@alt": " | Woodstock | Oxford County area | | 5635 km^2 (square kilometers) average elevation | 301 meters | ",
+                    "@title": " | Woodstock | Oxford County area | | 5635 km^2 (square kilometers) average elevation | 301 meters | ",
+                    "@width": "448",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Woodstock | Oxford County\narea | | 5635 km^2 (square kilometers)\naverage elevation | 301 meters |"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:MultipleData__Show non-metric"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "2",
+        "assumption": [
+            {
+                "@type": "MultiClash",
+                "@word": "",
+                "@template": "Assuming ${word1} is referring to ${desc1}. Use \"${word2}\" as ${desc2}.",
+                "@count": "2",
+                "value": [
+                    {
+                        "@name": "USCounty",
+                        "@word": "Oxford County",
+                        "@desc": "a US county",
+                        "@input": "*MC.Oxford+County-_*USCounty-"
+                    },
+                    {
+                        "@name": "AdministrativeDivision",
+                        "@word": "Oxford",
+                        "@desc": "an administrative division",
+                        "@input": "*MC.Oxford+County-_*AdministrativeDivision-"
+                    }
+                ]
+            },
+            {
+                "@type": "SubCategory",
+                "@word": "Woodstock",
+                "@template": "Assuming ${desc1}. Use ${desc2} instead",
+                "@count": "13",
+                "value": [
+                    {
+                        "@name": "{Woodstock, Ontario, Canada}",
+                        "@desc": "Woodstock (Ontario, Canada)",
+                        "@input": "*DPClash.CityE.Woodstock-_**Woodstock.Ontario.Canada--"
+                    },
+                    {
+                        "@name": "{Woodstock, Illinois, UnitedStates}",
+                        "@desc": "Woodstock (Illinois, USA)",
+                        "@input": "*DPClash.CityE.Woodstock-_**Woodstock.Illinois.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Woodstock, Georgia, UnitedStates}",
+                        "@desc": "Woodstock (Georgia, USA)",
+                        "@input": "*DPClash.CityE.Woodstock-_**Woodstock.Georgia.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Woodstock, NewBrunswick, Canada}",
+                        "@desc": "Woodstock (New Brunswick, Canada)",
+                        "@input": "*DPClash.CityE.Woodstock-_**Woodstock.NewBrunswick.Canada--"
+                    },
+                    {
+                        "@name": "{Woodstock, Connecticut, UnitedStates}",
+                        "@desc": "Woodstock (Connecticut, USA)",
+                        "@input": "*DPClash.CityE.Woodstock-_**Woodstock.Connecticut.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Woodstock, Virginia, UnitedStates}",
+                        "@desc": "Woodstock (Virginia, USA)",
+                        "@input": "*DPClash.CityE.Woodstock-_**Woodstock.Virginia.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Woodstock, NewYork, UnitedStates}",
+                        "@desc": "Woodstock (New York, USA)",
+                        "@input": "*DPClash.CityE.Woodstock-_**Woodstock.NewYork.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Woodstock, NewHampshire, UnitedStates}",
+                        "@desc": "Woodstock (New Hampshire, USA)",
+                        "@input": "*DPClash.CityE.Woodstock-_**Woodstock.NewHampshire.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Woodstock, Maine, UnitedStates}",
+                        "@desc": "Woodstock (Maine, USA)",
+                        "@input": "*DPClash.CityE.Woodstock-_**Woodstock.Maine.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Woodstock, Vermont, UnitedStates}",
+                        "@desc": "Woodstock (Vermont, USA)",
+                        "@input": "*DPClash.CityE.Woodstock-_**Woodstock.Vermont.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Woodstock, Oxfordshire, UnitedKingdom}",
+                        "@desc": "Woodstock (United Kingdom)",
+                        "@input": "*DPClash.CityE.Woodstock-_**Woodstock.Oxfordshire.UnitedKingdom--"
+                    },
+                    {
+                        "@name": "{Woodstock, Ohio, UnitedStates}",
+                        "@desc": "Woodstock (Ohio, USA)",
+                        "@input": "*DPClash.CityE.Woodstock-_**Woodstock.Ohio.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Woodstock, Minnesota, UnitedStates}",
+                        "@desc": "Woodstock (Minnesota, USA)",
+                        "@input": "*DPClash.CityE.Woodstock-_**Woodstock.Minnesota.UnitedStates--"
+                    }
+                ]
+            }
+        ]
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "2",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USCountyDataSourceInformationNotes.html",
+                "@text": "US county data"
+            }
+        ]
+    }
+}

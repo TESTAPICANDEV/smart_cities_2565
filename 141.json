@@ -1,0 +1,1116 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "20",
+    "@datatypes": "AdministrativeDivision,Book,Bridge,Building,City,Company,Country,GivenName,HistoricalPeriod,Internet,Lake,Language,Mountain,Movie,Ocean,River,Surname,Translation,Word",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "7.665",
+    "@parsetiming": "0.152",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP1302014gi2i666h5d3c05000011bd57dc9f51f62f",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "38",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa1302114gi2i666h5d3c050000149439bbgc8fd6gd1769287577686057616",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1302214gi2i666h5d3c0500004df0addgi4e6ehf8?MSPStoreType=image/gif&s=38",
+                    "@alt": "trail (English word)",
+                    "@title": "trail (English word)",
+                    "@width": "131",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "trail (English word)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Definitions",
+            "@scanner": "Data",
+            "@id": "Definition:WordData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1302314gi2i666h5d3c050000208h812g6ibhi6a9?MSPStoreType=image/gif&s=38",
+                    "@alt": "1 | verb | to lag or linger behind 2 | verb | go after with the intent to catch 3 | verb | move, proceed, or walk draggingly or slowly 4 | verb | hang down so as to drag along the ground 5 | verb | drag loosely along a surface; allow to sweep the ground 6 | noun | a track or mark left by something that has passed 7 | noun | a path or track roughly blazed through wild or hilly country 8 | noun | evidence pointing to a possible solution (8 meanings)",
+                    "@title": "1 | verb | to lag or linger behind 2 | verb | go after with the intent to catch 3 | verb | move, proceed, or walk draggingly or slowly 4 | verb | hang down so as to drag along the ground 5 | verb | drag loosely along a surface; allow to sweep the ground 6 | noun | a track or mark left by something that has passed 7 | noun | a path or track roughly blazed through wild or hilly country 8 | noun | evidence pointing to a possible solution (8 meanings)",
+                    "@width": "460",
+                    "@height": "238",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "1 | verb | to lag or linger behind\n2 | verb | go after with the intent to catch\n3 | verb | move, proceed, or walk draggingly or slowly\n4 | verb | hang down so as to drag along the ground\n5 | verb | drag loosely along a surface; allow to sweep the ground\n6 | noun | a track or mark left by something that has passed\n7 | noun | a path or track roughly blazed through wild or hilly country\n8 | noun | evidence pointing to a possible solution\n(8 meanings)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "American pronunciation",
+            "@scanner": "Data",
+            "@id": "Pronunciation:WordData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1302414gi2i666h5d3c0500003dc2c8630ba4iehd?MSPStoreType=image/gif&s=38",
+                    "@alt": "tr'eyl (IPA: tr\u02c8e\u026al)",
+                    "@title": "tr'eyl (IPA: tr\u02c8e\u026al)",
+                    "@width": "99",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "tr'eyl (IPA: tr\u02c8e\u026al)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Hyphenation",
+            "@scanner": "Data",
+            "@id": "Hyphenation:WordData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1302514gi2i666h5d3c0500004897i5g99h2a5586?MSPStoreType=image/gif&s=38",
+                    "@alt": "trail (no hyphenation) (5 letters | 1 syllable)",
+                    "@title": "trail (no hyphenation) (5 letters | 1 syllable)",
+                    "@width": "290",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "trail (no hyphenation) (5 letters | 1 syllable)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Image",
+            "@scanner": "Data",
+            "@id": "Image:WordData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "imagesource": "http://www.faqs.org/photo-dict/phrase/877/trail.html",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1302614gi2i666h5d3c0500001i1a22h581f7h4a8?MSPStoreType=image/gif&s=38",
+                    "@alt": "Image",
+                    "@title": "",
+                    "@width": "150",
+                    "@height": "113",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "First known use in English",
+            "@scanner": "Data",
+            "@id": "FirstRecordYear:WordData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "2",
+            "subpod": [
+                {
+                    "@title": "Noun",
+                    "microsources": {
+                        "microsource": [
+                            "HistoricalPeriodData",
+                            "WordData"
+                        ]
+                    },
+                    "datasources": {
+                        "datasource": "TheWikimediaFoundationIncWikipedia"
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1302714gi2i666h5d3c05000055cb25c64bfbdcbh?MSPStoreType=image/gif&s=38",
+                        "@alt": "1300 (High Middle ages) (720 years ago)",
+                        "@title": "1300 (High Middle ages) (720 years ago)",
+                        "@width": "248",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "1300 (High Middle ages) (720 years ago)"
+                },
+                {
+                    "@title": "Verb",
+                    "microsources": {
+                        "microsource": [
+                            "HistoricalPeriodData",
+                            "WordData"
+                        ]
+                    },
+                    "datasources": {
+                        "datasource": "TheWikimediaFoundationIncWikipedia"
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1302814gi2i666h5d3c05000060f785d85h64dh38?MSPStoreType=image/gif&s=38",
+                        "@alt": "1303 (High Middle ages) (717 years ago)",
+                        "@title": "1303 (High Middle ages) (717 years ago)",
+                        "@width": "248",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "1303 (High Middle ages) (717 years ago)"
+                }
+            ],
+            "expressiontypes": {
+                "@count": "2",
+                "expressiontype": [
+                    {
+                        "@name": "Grid"
+                    },
+                    {
+                        "@name": "Grid"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Word origins",
+            "@scanner": "Data",
+            "@id": "LanguageOrigin:WordData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1302914gi2i666h5d3c05000027ff808i470g6d3b?MSPStoreType=image/gif&s=38",
+                    "@alt": "Old French | Vulgar Latin | Latin",
+                    "@title": "Old French | Vulgar Latin | Latin",
+                    "@width": "239",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Old French | Vulgar Latin | Latin"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Word frequency history",
+            "@scanner": "Data",
+            "@id": "BookMatchFrequency:WordData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1303014gi2i666h5d3c05000042e2f52bb9cf108b?MSPStoreType=image/gif&s=38",
+                    "@alt": "Word frequency history",
+                    "@title": "",
+                    "@width": "410",
+                    "@height": "122",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": [
+                    {
+                        "@count": "2",
+                        "@value": "Linear scale",
+                        "@delimiters": "",
+                        "state": [
+                            {
+                                "@name": "Linear scale",
+                                "@input": "BookMatchFrequency:WordData__Linear scale"
+                            },
+                            {
+                                "@name": "Log scale",
+                                "@input": "BookMatchFrequency:WordData__Log scale"
+                            }
+                        ]
+                    },
+                    {
+                        "@count": "2",
+                        "@value": "Binned",
+                        "@delimiters": "",
+                        "state": [
+                            {
+                                "@name": "Binned",
+                                "@input": "BookMatchFrequency:WordData__Binned"
+                            },
+                            {
+                                "@name": "Raw",
+                                "@input": "BookMatchFrequency:WordData__Raw"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "definitions": {
+                "@count": "1",
+                "definition": {
+                    "@word": "Word frequency history",
+                    "@desc": "based on a Google Books sample of one million books in English; Michel, J.-B., Y. K. Shen, A. P. Aiden, A. Veres, M. K. Gray, The Google Books Team, J. P. Pickett, D. Hoiberg, D. Clancy, P. Norvig, J. Orwant, S. Pinker, M. A. Nowak, and E. L. Aiden. \"Quantitative Analysis of Culture Using Millions of Digitized Books.\" Science 331 (2011)"
+                }
+            }
+        },
+        {
+            "@title": "Inflected forms",
+            "@scanner": "Data",
+            "@id": "InflectedForms:WordData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1303114gi2i666h5d3c050000209c8afdgeec0i3a?MSPStoreType=image/gif&s=38",
+                    "@alt": "trails | trailed | trailing",
+                    "@title": "trails | trailed | trailing",
+                    "@width": "173",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "trails | trailed | trailing"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Synonyms",
+            "@scanner": "Data",
+            "@id": "Synonyms:WordData",
+            "@position": "1000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1303214gi2i666h5d3c050000177bc3iedb0h515h?MSPStoreType=image/gif&s=38",
+                    "@alt": "lead | track | drag | drop back | drop behind | get behind | hang back | chase | chase after | give chase | go after | tag | tail | shack | train (total: 15)",
+                    "@title": "lead | track | drag | drop back | drop behind | get behind | hang back | chase | chase after | give chase | go after | tag | tail | shack | train (total: 15)",
+                    "@width": "538",
+                    "@height": "57",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "lead | track | drag | drop back | drop behind | get behind | hang back | chase | chase after | give chase | go after | tag | tail | shack | train (total: 15)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": {
+                    "@name": "Show synonym network",
+                    "@input": "Synonyms:WordData__Show synonym network"
+                },
+                "statelist": {
+                    "@count": "2",
+                    "@value": "Meanings combined",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "Meanings divided",
+                            "@input": "Synonyms:WordData__Meanings divided"
+                        },
+                        {
+                            "@name": "Meanings combined",
+                            "@input": "Synonyms:WordData__Meanings combined"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "@title": "Narrower terms",
+            "@scanner": "Data",
+            "@id": "Hyponym:WordData",
+            "@position": "1100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1303314gi2i666h5d3c0500004e1ahd87446e281h?MSPStoreType=image/gif&s=38",
+                    "@alt": "slot | spoor | cattle trail | deer trail | horse-trail | Iditarod Trail | Indian trail | mountain trail | Santa Fe Trail | ski run | ski trail | hound | hunt | quest | run down | ... (total: 17)",
+                    "@title": "slot | spoor | cattle trail | deer trail | horse-trail | Iditarod Trail | Indian trail | mountain trail | Santa Fe Trail | ski run | ski trail | hound | hunt | quest | run down | ... (total: 17)",
+                    "@width": "541",
+                    "@height": "57",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "slot | spoor | cattle trail | deer trail | horse-trail | Iditarod Trail | Indian trail | mountain trail | Santa Fe Trail | ski run | ski trail | hound | hunt | quest | run down | ... (total: 17)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "2",
+                    "@value": "Meanings combined",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "Meanings divided",
+                            "@input": "Hyponym:WordData__Meanings divided"
+                        },
+                        {
+                            "@name": "Meanings combined",
+                            "@input": "Hyponym:WordData__Meanings combined"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "More",
+                    "@input": "Hyponym:WordData__More"
+                }
+            }
+        },
+        {
+            "@title": "Broader terms",
+            "@scanner": "Data",
+            "@id": "Hypernym:WordData",
+            "@position": "1200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1303414gi2i666h5d3c050000639e56fceh6696c1?MSPStoreType=image/gif&s=38",
+                    "@alt": "course | path | track | cartroad | cart track | evidence | grounds | dawdle | fall back | fall behind | lag | follow | pursue | go | locomote | ... (total: 18)",
+                    "@title": "course | path | track | cartroad | cart track | evidence | grounds | dawdle | fall back | fall behind | lag | follow | pursue | go | locomote | ... (total: 18)",
+                    "@width": "513",
+                    "@height": "57",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "course | path | track | cartroad | cart track | evidence | grounds | dawdle | fall back | fall behind | lag | follow | pursue | go | locomote | ... (total: 18)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "2",
+                    "@value": "Meanings combined",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "Meanings divided",
+                            "@input": "Hypernym:WordData__Meanings divided"
+                        },
+                        {
+                            "@name": "Meanings combined",
+                            "@input": "Hypernym:WordData__Meanings combined"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "More",
+                    "@input": "Hypernym:WordData__More"
+                }
+            }
+        },
+        {
+            "@title": "Rhymes",
+            "@scanner": "Data",
+            "@id": "Rhyme:WordData",
+            "@position": "1300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1303514gi2i666h5d3c05000042fea30f72dfifh0?MSPStoreType=image/gif&s=38",
+                    "@alt": "assail | avail | bail | bale | braille | carrell | curtail | dale | derail | detail | entail | exhale | fail | flail | frail | ... (total: 49) (based on typical American pronunciation)",
+                    "@title": "assail | avail | bail | bale | braille | carrell | curtail | dale | derail | detail | entail | exhale | fail | flail | frail | ... (total: 49) (based on typical American pronunciation)",
+                    "@width": "542",
+                    "@height": "64",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "assail | avail | bail | bale | braille | carrell | curtail | dale | derail | detail | entail | exhale | fail | flail | frail | ... (total: 49)\n(based on typical American pronunciation)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "4",
+                    "@value": "Sorted alphabetically",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "Sorted alphabetically",
+                            "@input": "Rhyme:WordData__Sorted alphabetically"
+                        },
+                        {
+                            "@name": "Sorted by length",
+                            "@input": "Rhyme:WordData__Sorted by length"
+                        },
+                        {
+                            "@name": "Sorted by syllables",
+                            "@input": "Rhyme:WordData__Sorted by syllables"
+                        },
+                        {
+                            "@name": "Sorted by frequency",
+                            "@input": "Rhyme:WordData__Sorted by frequency"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "More",
+                    "@input": "Rhyme:WordData__More"
+                }
+            }
+        },
+        {
+            "@title": "Lexically close words",
+            "@scanner": "Data",
+            "@id": "LexicallyCloseWords:WordData",
+            "@position": "1400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1303614gi2i666h5d3c0500004h2314hg48g016c9?MSPStoreType=image/gif&s=38",
+                    "@alt": "frail | grail | Grail | train | trait | trawl (total: 6)",
+                    "@title": "frail | grail | Grail | train | trait | trawl (total: 6)",
+                    "@width": "377",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "frail | grail | Grail | train | trait | trawl (total: 6)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "statelist": {
+                    "@count": "2",
+                    "@value": "1-letter difference",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "1-letter difference",
+                            "@input": "LexicallyCloseWords:WordData__1-letter difference"
+                        },
+                        {
+                            "@name": "Up to 2-letter difference",
+                            "@input": "LexicallyCloseWords:WordData__Up to 2-letter difference"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "@title": "Anagram",
+            "@scanner": "Data",
+            "@id": "Anagram:WordData",
+            "@position": "1500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1303714gi2i666h5d3c0500005aabacaa5igc02af?MSPStoreType=image/gif&s=38",
+                    "@alt": "trial",
+                    "@title": "trial",
+                    "@width": "28",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "trial"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Phrases",
+            "@scanner": "Data",
+            "@id": "Phrase:WordData",
+            "@position": "1600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1303814gi2i666h5d3c05000050gefb74gha3f012?MSPStoreType=image/gif&s=38",
+                    "@alt": "condensation trail | paper trail | trail bike | trail boss | trail head | trail riding (total: 6)",
+                    "@title": "condensation trail | paper trail | trail bike | trail boss | trail head | trail riding (total: 6)",
+                    "@width": "532",
+                    "@height": "38",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "condensation trail | paper trail | trail bike | trail boss | trail head | trail riding (total: 6)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Translations",
+            "@scanner": "Data",
+            "@id": "ManyTranslations:TranslationData",
+            "@position": "1700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CountryData",
+                        "LanguageData",
+                        "TranslationData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "Ethnologue"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1303914gi2i666h5d3c0500001af51di5fd6e595g?MSPStoreType=image/gif&s=38",
+                    "@alt": "French: | trace (footsteps) | piste (walking) | \u00eatre en retard sur (competition) | \u00eatre en retard de (competition) | laisser tra\u00eener (movement) | tra\u00eener (action) | suivre la trace (person) | pister (person) German: | Spur (footsteps) | Pfad (walking) | zur\u00fcckliegen (competition) | im R\u00fcckstand sein mit (competition) | herabh\u00e4ngen (movement) | baumeln lassen (movement) | hinter sich herziehen (action) | verfolgen (person) Mandarin Chinese: | \u5c0f\u9053 (noun) Hindi: | \u092a\u0925 (noun) Spanish: | rastro (footsteps) | huella (footsteps) | camino (walking) | sendero (walking) | perseguir (competition) | seguir a (competition) | arrastrar (movement) | arrastrar (action) | rastrear (person) | seguir la pista de (person)",
+                    "@title": "French: | trace (footsteps) | piste (walking) | \u00eatre en retard sur (competition) | \u00eatre en retard de (competition) | laisser tra\u00eener (movement) | tra\u00eener (action) | suivre la trace (person) | pister (person) German: | Spur (footsteps) | Pfad (walking) | zur\u00fcckliegen (competition) | im R\u00fcckstand sein mit (competition) | herabh\u00e4ngen (movement) | baumeln lassen (movement) | hinter sich herziehen (action) | verfolgen (person) Mandarin Chinese: | \u5c0f\u9053 (noun) Hindi: | \u092a\u0925 (noun) Spanish: | rastro (footsteps) | huella (footsteps) | camino (walking) | sendero (walking) | perseguir (competition) | seguir a (competition) | arrastrar (movement) | arrastrar (action) | rastrear (person) | seguir la pista de (person)",
+                    "@width": "546",
+                    "@height": "285",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "French: | trace (footsteps) | piste (walking) | \u00eatre en retard sur (competition) | \u00eatre en retard de (competition) | laisser tra\u00eener (movement) | tra\u00eener (action) | suivre la trace (person) | pister (person)\nGerman: | Spur (footsteps) | Pfad (walking) | zur\u00fcckliegen (competition) | im R\u00fcckstand sein mit (competition) | herabh\u00e4ngen (movement) | baumeln lassen (movement) | hinter sich herziehen (action) | verfolgen (person)\nMandarin Chinese: | \u5c0f\u9053 (noun)\nHindi: | \u092a\u0925 (noun)\nSpanish: | rastro (footsteps) | huella (footsteps) | camino (walking) | sendero (walking) | perseguir (competition) | seguir a (competition) | arrastrar (movement) | arrastrar (action) | rastrear (person) | seguir la pista de (person)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "More",
+                    "@input": "ManyTranslations:TranslationData__More"
+                }
+            }
+        },
+        {
+            "@title": "Other notable uses",
+            "@scanner": "Data",
+            "@id": "Entities:WordData",
+            "@position": "1800",
+            "@error": "false",
+            "@numsubpods": "5",
+            "subpod": [
+                {
+                    "@title": "Surnames",
+                    "microsources": {
+                        "microsource": [
+                            "SurnameData",
+                            "WordData"
+                        ]
+                    },
+                    "datasources": {
+                        "datasource": "USCensusSurnames"
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1304014gi2i666h5d3c0500004hi68100h9g4630g?MSPStoreType=image/gif&s=38",
+                        "@alt": "Trail (US population: 3640 people, white: 90%)",
+                        "@title": "Trail (US population: 3640 people, white: 90%)",
+                        "@width": "257",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "Trail (US population: 3640 people, white: 90%)"
+                },
+                {
+                    "@title": "Cities",
+                    "microsources": {
+                        "microsource": [
+                            "CityData",
+                            "WordData"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1304114gi2i666h5d3c0500001eidc80dfda39a86?MSPStoreType=image/gif&s=38",
+                        "@alt": "Trail (Canada, 7681 people) | Trail (Minnesota, United States, 46 people) | Indian Trail (North Carolina, United States, 38980 people) | Trail Creek (Indiana, United States, 2003 people) | Deer Trail (Colorado, United States, 700 people) | ... (total: 7)",
+                        "@title": "Trail (Canada, 7681 people) | Trail (Minnesota, United States, 46 people) | Indian Trail (North Carolina, United States, 38980 people) | Trail Creek (Indiana, United States, 2003 people) | Deer Trail (Colorado, United States, 700 people) | ... (total: 7)",
+                        "@width": "529",
+                        "@height": "57",
+                        "@type": "Grid",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "Trail (Canada, 7681 people) | Trail (Minnesota, United States, 46 people) | Indian Trail (North Carolina, United States, 38980 people) | Trail Creek (Indiana, United States, 2003 people) | Deer Trail (Colorado, United States, 700 people) | ... (total: 7)"
+                },
+                {
+                    "@title": "Books",
+                    "microsources": {
+                        "microsource": [
+                            "BookData",
+                            "WordData"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1304214gi2i666h5d3c0500005fd0ad292gb77304?MSPStoreType=image/gif&s=38",
+                        "@alt": "Jubilee Trail (Gwen Bristow) | Moccasin Trail (Eloise Jarvis McGraw) | The U.P. Trail (Zane Grey) | The Trail of the Lonesome Pine (John Fox, Jr.)",
+                        "@title": "Jubilee Trail (Gwen Bristow) | Moccasin Trail (Eloise Jarvis McGraw) | The U.P. Trail (Zane Grey) | The Trail of the Lonesome Pine (John Fox, Jr.)",
+                        "@width": "544",
+                        "@height": "38",
+                        "@type": "Grid",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "Jubilee Trail (Gwen Bristow) | Moccasin Trail (Eloise Jarvis McGraw) | The U.P. Trail (Zane Grey) | The Trail of the Lonesome Pine (John Fox, Jr.)"
+                },
+                {
+                    "@title": "Movies",
+                    "microsources": {
+                        "microsource": [
+                            "MovieData",
+                            "WordData"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1304314gi2i666h5d3c0500002g66eb7b5843a4if?MSPStoreType=image/gif&s=38",
+                        "@alt": "Trail of the Pink Panther | The Trail of the Lonesome Pine | The Trail Beyond | The Hallelujah Trail | The Divided Trail: A Native American Odyssey | ... (total: 10)",
+                        "@title": "Trail of the Pink Panther | The Trail of the Lonesome Pine | The Trail Beyond | The Hallelujah Trail | The Divided Trail: A Native American Odyssey | ... (total: 10)",
+                        "@width": "482",
+                        "@height": "57",
+                        "@type": "Grid",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "Trail of the Pink Panther | The Trail of the Lonesome Pine | The Trail Beyond | The Hallelujah Trail | The Divided Trail: A Native American Odyssey | ... (total: 10)"
+                },
+                {
+                    "@title": "Internet domains",
+                    "microsources": {
+                        "microsource": [
+                            "InternetData",
+                            "WordData"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1304414gi2i666h5d3c0500004ci8g45g69hea7e2?MSPStoreType=image/gif&s=38",
+                        "@alt": "trail.com | trail.org | trail.info",
+                        "@title": "trail.com | trail.org | trail.info",
+                        "@width": "222",
+                        "@height": "18",
+                        "@type": "Grid",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "trail.com | trail.org | trail.info"
+                }
+            ],
+            "expressiontypes": {
+                "@count": "15",
+                "expressiontype": [
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    }
+                ]
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "More",
+                    "@input": "Entities:WordData__More"
+                }
+            }
+        },
+        {
+            "@title": "Crossword puzzle clues",
+            "@scanner": "Data",
+            "@id": "NYTCrosswordPuzzleClues:WordData",
+            "@position": "1900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "datasources": {
+                    "datasource": "XWordInfo"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1304514gi2i666h5d3c0500003bh4i57ga2fe3h3h?MSPStoreType=image/gif&s=38",
+                    "@alt": "Be behind | Bridle path | Bring up the rear | Come in second | Finish behind | Follow | Hiker's path | Hiker's spot | Lag | Lag behind | Not lead | Park way | Path | Pursue | Put a bloodhound on | Winding way (total: 16) (based on all New York Times crossword puzzles 1994 to 2009)",
+                    "@title": "Be behind | Bridle path | Bring up the rear | Come in second | Finish behind | Follow | Hiker's path | Hiker's spot | Lag | Lag behind | Not lead | Park way | Path | Pursue | Put a bloodhound on | Winding way (total: 16) (based on all New York Times crossword puzzles 1994 to 2009)",
+                    "@width": "526",
+                    "@height": "102",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Be behind | Bridle path | Bring up the rear | Come in second | Finish behind | Follow | Hiker's path | Hiker's spot | Lag | Lag behind | Not lead | Park way | Path | Pursue | Put a bloodhound on | Winding way (total: 16)\n(based on all New York Times crossword puzzles 1994 to 2009)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Less",
+                        "@input": "NYTCrosswordPuzzleClues:WordData__Less"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "NYTCrosswordPuzzleClues:WordData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Scrabble score",
+            "@scanner": "Data",
+            "@id": "ScrabbleScore:WordData",
+            "@position": "2000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1304614gi2i666h5d3c0500006464hibd71eia8h6?MSPStoreType=image/gif&s=38",
+                    "@alt": "5 (International English) | 5 (North American English)",
+                    "@title": "5 (International English) | 5 (North American English)",
+                    "@width": "375",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "5 (International English) | 5 (North American English)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "1",
+        "assumption": {
+            "@type": "Clash",
+            "@word": "Trail",
+            "@template": "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead",
+            "@count": "5",
+            "value": [
+                {
+                    "@name": "Word",
+                    "@desc": "a word",
+                    "@input": "*C.Trail-_*Word-"
+                },
+                {
+                    "@name": "MathWorld",
+                    "@desc": " referring to a mathematical definition",
+                    "@input": "*C.Trail-_*MathWorld-"
+                },
+                {
+                    "@name": "Movie",
+                    "@desc": "a movie",
+                    "@input": "*C.Trail-_*Movie-"
+                },
+                {
+                    "@name": "City",
+                    "@desc": "a city",
+                    "@input": "*C.Trail-_*City-"
+                },
+                {
+                    "@name": "FutureTopic",
+                    "@desc": "a biology topic",
+                    "@input": "*C.Trail-_*FutureTopic-"
+                }
+            ]
+        }
+    },
+    "sources": {
+        "@count": "19",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/BookDataSourceInformationNotes.html",
+                "@text": "Book data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/BridgeDataSourceInformationNotes.html",
+                "@text": "Bridge data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/BuildingDataSourceInformationNotes.html",
+                "@text": "Building data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CompanyDataSourceInformationNotes.html",
+                "@text": "Company data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CountryDataSourceInformationNotes.html",
+                "@text": "Country data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/GivenNameDataSourceInformationNotes.html",
+                "@text": "Given name data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/HistoricalPeriodDataSourceInformationNotes.html",
+                "@text": "Historical period data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/InternetDataSourceInformationNotes.html",
+                "@text": "Internet data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/LakeDataSourceInformationNotes.html",
+                "@text": "Lake data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/LanguageDataSourceInformationNotes.html",
+                "@text": "Language data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/MountainDataSourceInformationNotes.html",
+                "@text": "Mountain data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/MovieDataSourceInformationNotes.html",
+                "@text": "Movie data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/OceanDataSourceInformationNotes.html",
+                "@text": "Ocean data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/RiverDataSourceInformationNotes.html",
+                "@text": "River data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/SurnameDataSourceInformationNotes.html",
+                "@text": "Surname data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/TranslationDataSourceInformationNotes.html",
+                "@text": "Translation data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/WordDataSourceInformationNotes.html",
+                "@text": "Word data"
+            }
+        ]
+    }
+}

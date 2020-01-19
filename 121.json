@@ -1,0 +1,1050 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "20",
+    "@datatypes": "ACS,City,Congestion,Crime,MetropolitanArea,NuclearReactor,Person,UrbanArea,USCounty,USHousing,USState,USTax,WeatherStation",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "7.672000000000001",
+    "@parsetiming": "0.10400000000000001",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP45361hgda8bba2hhf4b0000062ef04g0ddgcgc0h",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "54",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa45371hgda8bba2hhf4b0000052588845bcb03f932137842930739718529",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP45381hgda8bba2hhf4b0000023ih50ch277aie12?MSPStoreType=image/gif&s=54",
+                    "@alt": "Riverhead, New York, United States",
+                    "@title": "Riverhead, New York, United States",
+                    "@width": "233",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Riverhead, New York, United States"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Populations",
+            "@scanner": "Data",
+            "@id": "Population:CityData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "MetropolitanAreaData",
+                        "UrbanAreaData",
+                        "USCensusData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP45391hgda8bba2hhf4b000000h3aah04hc86701d?MSPStoreType=image/gif&s=54",
+                    "@alt": "city population | 13299 people (country rank: \u22483411th) (2010 estimate) urban area population | 21315 people (Riverhead urban area) (country rank: 779th) (2000 estimate) metro area population | 19.02 million people (New York metro area) (country rank: 1st) (2011 estimate)",
+                    "@title": "city population | 13299 people (country rank: \u22483411th) (2010 estimate) urban area population | 21315 people (Riverhead urban area) (country rank: 779th) (2000 estimate) metro area population | 19.02 million people (New York metro area) (country rank: 1st) (2011 estimate)",
+                    "@width": "546",
+                    "@height": "134",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "city population | 13299 people (country rank: \u22483411th) (2010 estimate)\nurban area population | 21315 people (Riverhead urban area) (country rank: 779th) (2000 estimate)\nmetro area population | 19.02 million people (New York metro area) (country rank: 1st) (2011 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show history",
+                    "@input": "Population:CityData__Show history"
+                }
+            }
+        },
+        {
+            "@title": "Location",
+            "@scanner": "Data",
+            "@id": "Location:CityData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "2",
+            "subpod": [
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "CityData",
+                            "USCountyData",
+                            "USStateData"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP45401hgda8bba2hhf4b000003hdefb2319d5d836?MSPStoreType=image/gif&s=54",
+                        "@alt": "Suffolk County, New York",
+                        "@title": "Suffolk County, New York",
+                        "@width": "173",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "Suffolk County, New York"
+                },
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "CityData",
+                            "USCountyData",
+                            "USStateData",
+                            "CountryData"
+                        ]
+                    },
+                    "datasources": {
+                        "datasource": "CIAFactbook"
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP45411hgda8bba2hhf4b000004ccadgb96i0e6hfd?MSPStoreType=image/gif&s=54",
+                        "@alt": "Location",
+                        "@title": "",
+                        "@width": "328",
+                        "@height": "177",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                }
+            ],
+            "expressiontypes": {
+                "@count": "2",
+                "expressiontype": [
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    }
+                ]
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "World map",
+                        "@input": "Location:CityData__World map"
+                    },
+                    {
+                        "@name": "Show coordinates",
+                        "@input": "Location:CityData__Show coordinates"
+                    }
+                ]
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=40.9495%2C-72.6752&q=40.9495%20N%2C%2072.6752%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "Map:CityData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP45421hgda8bba2hhf4b0000055beb91i0d51f9ee?MSPStoreType=image/gif&s=54",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "30 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "8 kilometers across",
+                            "@input": "Map:CityData__8 kilometers across"
+                        },
+                        {
+                            "@name": "20 kilometers across",
+                            "@input": "Map:CityData__20 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "Map:CityData__30 kilometers across"
+                        },
+                        {
+                            "@name": "60 kilometers across",
+                            "@input": "Map:CityData__60 kilometers across"
+                        },
+                        {
+                            "@name": "130 kilometers across",
+                            "@input": "Map:CityData__130 kilometers across"
+                        },
+                        {
+                            "@name": "260 kilometers across",
+                            "@input": "Map:CityData__260 kilometers across"
+                        },
+                        {
+                            "@name": "510 kilometers across",
+                            "@input": "Map:CityData__510 kilometers across"
+                        },
+                        {
+                            "@name": "1000 kilometers across",
+                            "@input": "Map:CityData__1000 kilometers across"
+                        },
+                        {
+                            "@name": "2000 kilometers across",
+                            "@input": "Map:CityData__2000 kilometers across"
+                        },
+                        {
+                            "@name": "4100 kilometers across",
+                            "@input": "Map:CityData__4100 kilometers across"
+                        },
+                        {
+                            "@name": "7900 kilometers across",
+                            "@input": "Map:CityData__7900 kilometers across"
+                        },
+                        {
+                            "@name": "13000 kilometers across",
+                            "@input": "Map:CityData__13000 kilometers across"
+                        },
+                        {
+                            "@name": "26000 kilometers across",
+                            "@input": "Map:CityData__26000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "Map:CityData__Non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=40.9495%2C-72.6752&q=40.9495%20N%2C%2072.6752%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Administrative regions",
+            "@scanner": "Data",
+            "@id": "AdministrativeRegions:CityData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCountyData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP45431hgda8bba2hhf4b0000016fg6a01006367g1?MSPStoreType=image/gif&s=54",
+                    "@alt": "county | Suffolk County state | New York country | United States",
+                    "@title": "county | Suffolk County state | New York country | United States",
+                    "@width": "199",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "county | Suffolk County\nstate | New York\ncountry | United States"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Current local time",
+            "@scanner": "Data",
+            "@id": "CurrentTime:CityData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP45441hgda8bba2hhf4b000005ac55ia69dc058hg?MSPStoreType=image/gif&s=54",
+                    "@alt": "12:21 am EST | Sunday, January 19, 2020",
+                    "@title": "12:21 am EST | Sunday, January 19, 2020",
+                    "@width": "290",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "12:21 am EST | Sunday, January 19, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Current weather",
+            "@scanner": "Data",
+            "@id": "WeatherPod:CityData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "WeatherData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP45451hgda8bba2hhf4b000004863d8876d94gi81?MSPStoreType=image/gif&s=54",
+                    "@alt": "4 \u00b0C (wind chill: -1 \u00b0C) | relative humidity: 93% | wind: 9 m/s | overcast",
+                    "@title": "4 \u00b0C (wind chill: -1 \u00b0C) | relative humidity: 93% | wind: 9 m/s | overcast",
+                    "@width": "502",
+                    "@height": "22",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "4 \u00b0C (wind chill: -1 \u00b0C) | relative humidity: 93% | wind: 9 m/s | overcast"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show history",
+                        "@input": "WeatherPod:CityData__Show history"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "WeatherPod:CityData__Show non-metric"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Demographics",
+            "@scanner": "Data",
+            "@id": "ACSPercentageEntrainments:ACSData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "ACSData"
+                },
+                "datasources": {
+                    "datasource": [
+                        "CensusAmericanCommunitySurvey5YearsRace",
+                        "CensusAmericanCommunitySurvey5YearsHispanicOrigin",
+                        "CensusAmericanCommunitySurvey5YearsCitizenship"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP45461hgda8bba2hhf4b000003ica3b21i9341295?MSPStoreType=image/gif&s=54",
+                    "@alt": "race | white: 72.9% | black/African American: 21.4% | American Indian/Alaska native: 2% | ... Hispanic origin | 20.3% US citizens | 87.2%",
+                    "@title": "race | white: 72.9% | black/African American: 21.4% | American Indian/Alaska native: 2% | ... Hispanic origin | 20.3% US citizens | 87.2%",
+                    "@width": "546",
+                    "@height": "117",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "race | white: 72.9% | black/African American: 21.4% | American Indian/Alaska native: 2% | ...\nHispanic origin | 20.3%\nUS citizens | 87.2%"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "More",
+                    "@input": "ACSPercentageEntrainments:ACSData__More"
+                }
+            }
+        },
+        {
+            "@title": "Educational attainment",
+            "@scanner": "Data",
+            "@id": "ACSEducationEntrainments:ACSData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "ACSData"
+                },
+                "datasources": {
+                    "datasource": "CensusAmericanCommunitySurvey5YearsEducation"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP45471hgda8bba2hhf4b000004551d224eee77hf5?MSPStoreType=image/gif&s=54",
+                    "@alt": "college degree and above | 25.2% (0.666 \u00d7 national average) high school diploma | 35.9% (1.29 \u00d7 national average) less than high school diploma | 20.5% (1.53 \u00d7 national average) (for population age 25 and older)",
+                    "@title": "college degree and above | 25.2% (0.666 \u00d7 national average) high school diploma | 35.9% (1.29 \u00d7 national average) less than high school diploma | 20.5% (1.53 \u00d7 national average) (for population age 25 and older)",
+                    "@width": "437",
+                    "@height": "121",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "college degree and above | 25.2% (0.666 \u00d7 national average)\nhigh school diploma | 35.9% (1.29 \u00d7 national average)\nless than high school diploma | 20.5% (1.53 \u00d7 national average)\n(for population age 25 and older)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show enrollment",
+                    "@input": "ACSEducationEntrainments:ACSData__Show enrollment"
+                }
+            }
+        },
+        {
+            "@title": "Income statistics",
+            "@scanner": "Data",
+            "@id": "ACSIncomeEntrainments:ACSData",
+            "@position": "1000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "ACSData"
+                },
+                "datasources": {
+                    "datasource": [
+                        "CensusAmericanCommunitySurvey5YearsMedianIncome",
+                        "CensusAmericanCommunitySurvey5YearsPerCapitaIncome",
+                        "CensusAmericanCommunitySurvey5YearsPoverty"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP45481hgda8bba2hhf4b0000031a9fb1584i0f5ge?MSPStoreType=image/gif&s=54",
+                    "@alt": "median household income | $53882 per year (US dollars per year) (\u2248 national average) per capita income | $29824 per year per person (US dollars per year per person) (\u2248 national average) population below poverty line | 15.7% (\u2248 national average)",
+                    "@title": "median household income | $53882 per year (US dollars per year) (\u2248 national average) per capita income | $29824 per year per person (US dollars per year per person) (\u2248 national average) population below poverty line | 15.7% (\u2248 national average)",
+                    "@width": "546",
+                    "@height": "151",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "median household income | $53882 per year (US dollars per year) (\u2248 national average)\nper capita income | $29824 per year per person (US dollars per year per person) (\u2248 national average)\npopulation below poverty line | 15.7% (\u2248 national average)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show distribution",
+                    "@input": "ACSIncomeEntrainments:ACSData__Show distribution"
+                }
+            }
+        },
+        {
+            "@title": "Economic properties",
+            "@scanner": "Data",
+            "@id": "EconomicProperties:CityData",
+            "@position": "1100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USEmploymentData",
+                        "USHousingData",
+                        "USTaxData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "RealtorsMetropolitanAreaMedianPrices"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP45491hgda8bba2hhf4b000001a0dbgda2c7be6c5?MSPStoreType=image/gif&s=54",
+                    "@alt": "median home price | $396800 (New York metro area) (annual change: +3.68%) (2013) unemployment rate | 3.6% (November 2019) total sales tax rate | 8.625% (2019 estimate)",
+                    "@title": "median home price | $396800 (New York metro area) (annual change: +3.68%) (2013) unemployment rate | 3.6% (November 2019) total sales tax rate | 8.625% (2019 estimate)",
+                    "@width": "546",
+                    "@height": "117",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "median home price | $396800 (New York metro area) (annual change: +3.68%) (2013)\nunemployment rate | 3.6% (November 2019)\ntotal sales tax rate | 8.625% (2019 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Other indicators",
+            "@scanner": "Data",
+            "@id": "QualityOfLife:CityData",
+            "@position": "1200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "CongestionData",
+                        "CrimeData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": [
+                        "TexasTransportationInstituteCongestionDataForYourCityUrbanMobilityInformation",
+                        "UnitedStatesDepartmentOfJusticeBureauOfJusticeStatisticsCrimeAndJusticeDataOnline"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP45501hgda8bba2hhf4b00000569fd1c18084e5hd?MSPStoreType=image/gif&s=54",
+                    "@alt": "total rate of violent crime | 0.73 \u00d7 national average (2009 estimate) total rate of property crime | 1.2 \u00d7 national average (2009 estimate)",
+                    "@title": "total rate of violent crime | 0.73 \u00d7 national average (2009 estimate) total rate of property crime | 1.2 \u00d7 national average (2009 estimate)",
+                    "@width": "483",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "total rate of violent crime | 0.73 \u00d7 national average (2009 estimate)\ntotal rate of property crime | 1.2 \u00d7 national average (2009 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Nearby cities",
+            "@scanner": "Data",
+            "@id": "CityHierarchyInfo:CityData",
+            "@position": "1300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP45511hgda8bba2hhf4b0000031gi275a76d6ada6?MSPStoreType=image/gif&s=54",
+                    "@alt": "New Haven, Connecticut | 45 km (kilometers) north-northwest | 130741 people Bridgeport, Connecticut | 51 km (kilometers) west-northwest | 146425 people New York City, New York | 111 km (kilometers) west-southwest | 8.337 million people (straight-line distances between city centers)",
+                    "@title": "New Haven, Connecticut | 45 km (kilometers) north-northwest | 130741 people Bridgeport, Connecticut | 51 km (kilometers) west-northwest | 146425 people New York City, New York | 111 km (kilometers) west-southwest | 8.337 million people (straight-line distances between city centers)",
+                    "@width": "546",
+                    "@height": "176",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "New Haven, Connecticut | 45 km (kilometers) north-northwest | 130741 people\nBridgeport, Connecticut | 51 km (kilometers) west-northwest | 146425 people\nNew York City, New York | 111 km (kilometers) west-southwest | 8.337 million people\n(straight-line distances between city centers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "CityHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "CityHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby airport",
+            "@scanner": "Data",
+            "@id": "AirportHierarchyInfo:CityData",
+            "@position": "1400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP45521hgda8bba2hhf4b000003g12iec701iic52c?MSPStoreType=image/gif&s=54",
+                    "@alt": "Francis S. Gabreski Airport | 12 km (kilometers) south-southeast (straight-line distances between city center and airport)",
+                    "@title": "Francis S. Gabreski Airport | 12 km (kilometers) south-southeast (straight-line distances between city center and airport)",
+                    "@width": "452",
+                    "@height": "58",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Francis S. Gabreski Airport | 12 km (kilometers) south-southeast\n(straight-line distances between city center and airport)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "AirportHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "AirportHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby hospital",
+            "@scanner": "Data",
+            "@id": "HospitalHierarchyInfo:CityData",
+            "@position": "1500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP45531hgda8bba2hhf4b0000063fhcdc93hi0a6d7?MSPStoreType=image/gif&s=54",
+                    "@alt": "Peconic Bay Medical Center | 2 km (kilometers) south (straight-line distances between city center and hospital)",
+                    "@title": "Peconic Bay Medical Center | 2 km (kilometers) south (straight-line distances between city center and hospital)",
+                    "@width": "383",
+                    "@height": "58",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Peconic Bay Medical Center | 2 km (kilometers) south\n(straight-line distances between city center and hospital)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "HospitalHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "HospitalHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:CityData",
+            "@position": "1600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP45541hgda8bba2hhf4b000004e9fc0ee15h5i9ca?MSPStoreType=image/gif&s=54",
+                    "@alt": "elevation | 0 m area | 39.063 km^2 population density | 340 people per square kilometer",
+                    "@title": "elevation | 0 m area | 39.063 km^2 population density | 340 people per square kilometer",
+                    "@width": "378",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "elevation | 0 m\narea | 39.063 km^2\npopulation density | 340 people per square kilometer"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:CityData__Show non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "units": {
+                        "@count": "2",
+                        "unit": [
+                            {
+                                "@short": "km^2",
+                                "@long": "square kilometers"
+                            },
+                            {
+                                "@short": "m",
+                                "@long": "meters"
+                            }
+                        ],
+                        "img": {
+                            "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP45551hgda8bba2hhf4b0000041f6b5ab4g1a6471?MSPStoreType=image/gif&s=54",
+                            "@width": "171",
+                            "@height": "48"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Nearby features",
+            "@scanner": "Data",
+            "@id": "FeaturesHierarchyInfo:CityData",
+            "@position": "1700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "NuclearReactorData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "IAEAPowerReactorInformationSystem"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP45561hgda8bba2hhf4b0000052c08gh84a900d08?MSPStoreType=image/gif&s=54",
+                    "@alt": "nuclear power site | Shoreham (permanent shutdown) | 16 km (kilometers) west waterfall | Roaring Brook Falls (99 meters) | 63 km (kilometers) north-northwest (straight-line distances between city center and feature coordinates)",
+                    "@title": "nuclear power site | Shoreham (permanent shutdown) | 16 km (kilometers) west waterfall | Roaring Brook Falls (99 meters) | 63 km (kilometers) north-northwest (straight-line distances between city center and feature coordinates)",
+                    "@width": "545",
+                    "@height": "128",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "nuclear power site | Shoreham (permanent shutdown) | 16 km (kilometers) west\nwaterfall | Roaring Brook Falls (99 meters) | 63 km (kilometers) north-northwest\n(straight-line distances between city center and feature coordinates)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "FeaturesHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "FeaturesHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearest sea",
+            "@scanner": "Data",
+            "@id": "OceansHierarchyInfo:CityData",
+            "@position": "1800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP45571hgda8bba2hhf4b000005i09806d03a43c59?MSPStoreType=image/gif&s=54",
+                    "@alt": "Atlantic Ocean (<5 km (kilometers))  (straight-line distance between city center and shore)",
+                    "@title": "Atlantic Ocean (<5 km (kilometers))  (straight-line distance between city center and shore)",
+                    "@width": "301",
+                    "@height": "41",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Atlantic Ocean (<5 km (kilometers)) \n(straight-line distance between city center and shore)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "OceansHierarchyInfo:CityData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Notable people born in Riverhead",
+            "@scanner": "Data",
+            "@id": "NotablePeople:CityData",
+            "@position": "1900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "PeopleData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP45581hgda8bba2hhf4b000003637deagh9bg2aie?MSPStoreType=image/gif&s=54",
+                    "@alt": "Michael Forbes (politician) (1952) Scott Mersereau (football player) (1965) Wade Rowdon (baseball player) (1960)",
+                    "@title": "Michael Forbes (politician) (1952) Scott Mersereau (football player) (1965) Wade Rowdon (baseball player) (1960)",
+                    "@width": "266",
+                    "@height": "57",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Michael Forbes (politician) (1952)\nScott Mersereau (football player) (1965)\nWade Rowdon (baseball player) (1960)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show dates",
+                        "@input": "NotablePeople:CityData__Show dates"
+                    },
+                    {
+                        "@name": "Show deaths",
+                        "@input": "NotablePeople:CityData__Show deaths"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Wikipedia page hits history",
+            "@scanner": "Data",
+            "@id": "PopularityPod:WikipediaStatsData",
+            "@position": "2000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP45591hgda8bba2hhf4b0000026522932i2eechi8?MSPStoreType=image/gif&s=54",
+                    "@alt": "Wikipedia page hits history",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "168",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopularityPod:WikipediaStatsData__Log scale"
+                }
+            }
+        }
+    ],
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "16",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/ACSDataSourceInformationNotes.html",
+                "@text": "ACS data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CongestionDataSourceInformationNotes.html",
+                "@text": "Congestion data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CrimeDataSourceInformationNotes.html",
+                "@text": "Crime data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/MetropolitanAreaDataSourceInformationNotes.html",
+                "@text": "Metropolitan area data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/NuclearReactorDataSourceInformationNotes.html",
+                "@text": "Nuclear reactor data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html",
+                "@text": "People data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/UrbanAreaDataSourceInformationNotes.html",
+                "@text": "Urban area data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USCensusDataSourceInformationNotes.html",
+                "@text": "US census data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USCountyDataSourceInformationNotes.html",
+                "@text": "US county data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USEmploymentDataSourceInformationNotes.html",
+                "@text": "US employment data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USHousingDataSourceInformationNotes.html",
+                "@text": "US housing data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USStateDataSourceInformationNotes.html",
+                "@text": "US state data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USTaxDataSourceInformationNotes.html",
+                "@text": "US tax data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html",
+                "@text": "Weather data"
+            }
+        ]
+    }
+}

@@ -1,0 +1,120 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "2",
+    "@datatypes": "City",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "0.634",
+    "@parsetiming": "0.256",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP110192365h7bhaa4ic13200002g0696c0c58bfd61",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "51",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa110202365h7bhaa4ic132000015be1220c2ah9i645606516680789693320",
+    "@version": "2.6",
+    "@nodata": "true",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP110212365h7bhaa4ic13200002g897da0hg2b633e?MSPStoreType=image/gif&s=51",
+                    "@alt": "convert Langley, British Columbia | area to townships",
+                    "@title": "convert Langley, British Columbia | area to townships",
+                    "@width": "366",
+                    "@height": "23",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "convert Langley, British Columbia | area to townships"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Result",
+            "@scanner": "Data",
+            "@id": "Result",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "@nodata": "true",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP110222365h7bhaa4ic132000011b3016ef7fe0b22?MSPStoreType=image/gif&s=51",
+                    "@alt": "(data not available)",
+                    "@title": "(data not available)",
+                    "@width": "125",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "(data not available)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "1",
+        "assumption": {
+            "@type": "SubCategory",
+            "@word": "Langley",
+            "@template": "Assuming ${desc1}. Use ${desc2} instead",
+            "@count": "3",
+            "value": [
+                {
+                    "@name": "{Langley, BritishColumbia, Canada}",
+                    "@desc": "Langley (British Columbia, Canada)",
+                    "@input": "*DPClash.CityE.Langley-_**Langley.BritishColumbia.Canada--"
+                },
+                {
+                    "@name": "{FortLangley, BritishColumbia, Canada}",
+                    "@desc": "Fort Langley (British Columbia, Canada)",
+                    "@input": "*DPClash.CityE.Langley-_**FortLangley.BritishColumbia.Canada--"
+                },
+                {
+                    "@name": "{Langley, Washington, UnitedStates}",
+                    "@desc": "Langley (United States)",
+                    "@input": "*DPClash.CityE.Langley-_**Langley.Washington.UnitedStates--"
+                }
+            ]
+        }
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "1",
+        "source": {
+            "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+            "@text": "City data"
+        }
+    }
+}

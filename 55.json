@@ -1,0 +1,94 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "2",
+    "@datatypes": "AdministrativeDivision,City",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "1.891",
+    "@parsetiming": "0.712",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP18641b97ieb86e656aa5000014537a322bi3a928",
+    "@host": "https://www5a.wolframalpha.com",
+    "@server": "42",
+    "@related": "https://www5a.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa18651b97ieb86e656aa500004egh74ahd11d4hh53773634836471742935",
+    "@version": "2.6",
+    "@nodata": "true",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP18661b97ieb86e656aa5000038f501a4i7gicibg?MSPStoreType=image/gif&s=42",
+                    "@alt": "cities | in Hope Town, Bahamas (district)",
+                    "@title": "cities | in Hope Town, Bahamas (district)",
+                    "@width": "313",
+                    "@height": "32",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "cities | in Hope Town, Bahamas (district)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Result",
+            "@scanner": "Data",
+            "@id": "Result",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "@nodata": "true",
+                "microsources": {
+                    "microsource": "AdministrativeDivisionData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP18671b97ieb86e656aa5000044f2bb1ef1a8b4if?MSPStoreType=image/gif&s=42",
+                    "@alt": "(data not available)",
+                    "@title": "(data not available)",
+                    "@width": "125",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "(data not available)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        }
+    ],
+    "sources": {
+        "@count": "2",
+        "source": [
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            }
+        ]
+    }
+}

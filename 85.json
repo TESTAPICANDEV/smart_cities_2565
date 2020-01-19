@@ -1,0 +1,389 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "8",
+    "@datatypes": "AdministrativeDivision,City,Country,WeatherStation",
+    "@timedout": "",
+    "@timedoutpods": "Location",
+    "@timing": "7.21",
+    "@parsetiming": "0.14100000000000001",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP5157236817928gh7i27h00005hgh61g08083af1i",
+    "@host": "https://www5a.wolframalpha.com",
+    "@server": "51",
+    "@related": "https://www5a.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa5158236817928gh7i27h00001557a01gi2c37e677297982070693509567",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP5159236817928gh7i27h00003c449gh47h755590?MSPStoreType=image/gif&s=51",
+                    "@alt": "Vaudreuil-Soulanges, Quebec, Canada (regional county municipality)",
+                    "@title": "Vaudreuil-Soulanges, Quebec, Canada (regional county municipality)",
+                    "@width": "460",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Vaudreuil-Soulanges, Quebec, Canada (regional county municipality)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "WolframMap",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP5161236817928gh7i27h000028iha60dg61a8292?MSPStoreType=image/gif&s=51",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "240 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "7 kilometers across",
+                            "@input": "WolframMap__7 kilometers across"
+                        },
+                        {
+                            "@name": "10 kilometers across",
+                            "@input": "WolframMap__10 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "WolframMap__30 kilometers across"
+                        },
+                        {
+                            "@name": "60 kilometers across",
+                            "@input": "WolframMap__60 kilometers across"
+                        },
+                        {
+                            "@name": "120 kilometers across",
+                            "@input": "WolframMap__120 kilometers across"
+                        },
+                        {
+                            "@name": "240 kilometers across",
+                            "@input": "WolframMap__240 kilometers across"
+                        },
+                        {
+                            "@name": "480 kilometers across",
+                            "@input": "WolframMap__480 kilometers across"
+                        },
+                        {
+                            "@name": "960 kilometers across",
+                            "@input": "WolframMap__960 kilometers across"
+                        },
+                        {
+                            "@name": "1900 kilometers across",
+                            "@input": "WolframMap__1900 kilometers across"
+                        },
+                        {
+                            "@name": "3800 kilometers across",
+                            "@input": "WolframMap__3800 kilometers across"
+                        },
+                        {
+                            "@name": "7400 kilometers across",
+                            "@input": "WolframMap__7400 kilometers across"
+                        },
+                        {
+                            "@name": "12000 kilometers across",
+                            "@input": "WolframMap__12000 kilometers across"
+                        },
+                        {
+                            "@name": "23000 kilometers across",
+                            "@input": "WolframMap__23000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "WolframMap__Non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Population",
+            "@scanner": "Data",
+            "@id": "Population:AdministrativeDivisionData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CountryData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "Statoids"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP5162236817928gh7i27h00001ihhbc3cheee94ef?MSPStoreType=image/gif&s=51",
+                    "@alt": "84503 people (0.26% of total for Canada)",
+                    "@title": "84503 people (0.26% of total for Canada)",
+                    "@width": "244",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "84503 people (0.26% of total for Canada)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Largest cities",
+            "@scanner": "Data",
+            "@id": "LargerCities:AdministrativeDivisionData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP5163236817928gh7i27h00001i3b9ie0i0d825bg?MSPStoreType=image/gif&s=51",
+                    "@alt": "Pincourt (14558 people) | Les Coteaux (13104 people) | Rigaud (2728 people) | Les Cedres (1875 people)",
+                    "@title": "Pincourt (14558 people) | Les Coteaux (13104 people) | Rigaud (2728 people) | Les Cedres (1875 people)",
+                    "@width": "534",
+                    "@height": "38",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Pincourt (14558 people) | Les Coteaux (13104 people) | Rigaud (2728 people) | Les Cedres (1875 people)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Area",
+            "@scanner": "Data",
+            "@id": "Area:AdministrativeDivisionData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CountryData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "CIAFactbook"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP5164236817928gh7i27h000064fh03c18b29g9f1?MSPStoreType=image/gif&s=51",
+                    "@alt": "852 km^2 (square kilometers) (0.0085% of total for Canada)",
+                    "@title": "852 km^2 (square kilometers) (0.0085% of total for Canada)",
+                    "@width": "354",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "852 km^2 (square kilometers) (0.0085% of total for Canada)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Bordering entities",
+            "@scanner": "Data",
+            "@id": "BorderingEntities:AdministrativeDivisionData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "AdministrativeDivisionData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP5165236817928gh7i27h00004e71b9gbf38eg09d?MSPStoreType=image/gif&s=51",
+                    "@alt": "divisions: | Argenteuil | Deux-Montagnes | Prescott and Russell | Stormont, Dundas and Glengarry",
+                    "@title": "divisions: | Argenteuil | Deux-Montagnes | Prescott and Russell | Stormont, Dundas and Glengarry",
+                    "@width": "546",
+                    "@height": "37",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "divisions: | Argenteuil | Deux-Montagnes | Prescott and Russell | Stormont, Dundas and Glengarry"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Current local time",
+            "@scanner": "Data",
+            "@id": "CurrentLocalTimeNoCoord:AdministrativeDivisionData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "AdministrativeDivisionData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP5166236817928gh7i27h000026e6dae6501if7c8?MSPStoreType=image/gif&s=51",
+                    "@alt": "11:48:48 pm EST | Saturday, January 18, 2020",
+                    "@title": "11:48:48 pm EST | Saturday, January 18, 2020",
+                    "@width": "322",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "11:48:48 pm EST | Saturday, January 18, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Current weather at center of Vaudreuil-Soulanges",
+            "@scanner": "Data",
+            "@id": "WeatherPod:AdministrativeDivisionData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "WeatherData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP5167236817928gh7i27h0000113a5gi2bbe40g16?MSPStoreType=image/gif&s=51",
+                    "@alt": "-14 \u00b0C (wind chill: -23 \u00b0C) | relative humidity: 91% | wind: 5 m/s | 40\u00b0 NE ",
+                    "@title": "-14 \u00b0C (wind chill: -23 \u00b0C) | relative humidity: 91% | wind: 5 m/s | 40\u00b0 NE ",
+                    "@width": "532",
+                    "@height": "41",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "-14 \u00b0C (wind chill: -23 \u00b0C) | relative humidity: 91% | wind: 5 m/s | 40\u00b0 NE"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show history",
+                        "@input": "WeatherPod:AdministrativeDivisionData__Show history"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "WeatherPod:AdministrativeDivisionData__Show non-metric"
+                    }
+                ]
+            }
+        }
+    ],
+    "sources": {
+        "@count": "5",
+        "source": [
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/CountryDataSourceInformationNotes.html",
+                "@text": "Country data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html",
+                "@text": "Weather data"
+            }
+        ]
+    }
+}

@@ -1,0 +1,115 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "2",
+    "@datatypes": "University",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "1.197",
+    "@parsetiming": "0.874",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP51241h45912768f1a0fd000016gfcc8bg088ii06",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "31",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa51251h45912768f1a0fd000044c0e50h31c6h1e95282741642789771482",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP51261h45912768f1a0fd00004ag4g80h8iaafd2b?MSPStoreType=image/gif&s=31",
+                    "@alt": "St Marys University | type",
+                    "@title": "St Marys University | type",
+                    "@width": "184",
+                    "@height": "23",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "St Marys University | type"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Result",
+            "@scanner": "Data",
+            "@id": "Result",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "UniversityData"
+                },
+                "datasources": {
+                    "datasource": "IntegratedPostsecondaryEducationDataSystem"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP51271h45912768f1a0fd00003040ec86h7b6134e?MSPStoreType=image/gif&s=31",
+                    "@alt": "large master's-granting university",
+                    "@title": "large master's-granting university",
+                    "@width": "226",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "large master's-granting university"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "1",
+        "assumption": {
+            "@type": "SubCategory",
+            "@word": "St. Mary's",
+            "@template": "Assuming ${desc1}. Use ${desc2} instead",
+            "@count": "3",
+            "value": [
+                {
+                    "@name": "StMarysUniversity::4fh6b",
+                    "@desc": "St Marys University",
+                    "@input": "*DPClash.UniversityE.St%21.+Mary%27s-_*StMarysUniversity%3A%3A4fh6b-"
+                },
+                {
+                    "@name": "StMarysSeminary&University::gmr5d",
+                    "@desc": "St. Mary's Seminary & University",
+                    "@input": "*DPClash.UniversityE.St%21.+Mary%27s-_*StMarysSeminary%26University%3A%3Agmr5d-"
+                },
+                {
+                    "@name": "StMarysCollegeOfMaryland::f62m2",
+                    "@desc": "St Mary's College of Maryland",
+                    "@input": "*DPClash.UniversityE.St%21.+Mary%27s-_*StMarysCollegeOfMaryland%3A%3Af62m2-"
+                }
+            ]
+        }
+    },
+    "sources": {
+        "@count": "1",
+        "source": {
+            "@url": "https://www5b.wolframalpha.com/sources/UniversityDataSourceInformationNotes.html",
+            "@text": "University data"
+        }
+    }
+}

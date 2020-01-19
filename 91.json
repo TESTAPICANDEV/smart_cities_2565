@@ -1,0 +1,102 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "2",
+    "@datatypes": "AdministrativeDivision,Country,Lake",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "1.31",
+    "@parsetiming": "0.793",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP215110g1gc7273c10fa200004ib47193e88308gi",
+    "@host": "https://www5a.wolframalpha.com",
+    "@server": "56",
+    "@related": "https://www5a.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa215210g1gc7273c10fa200002e6aed7871i73ga81335321721000003642",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP215310g1gc7273c10fa2000058ah56d0ge6gbh18?MSPStoreType=image/gif&s=56",
+                    "@alt": "Lac Ste. Anne | administrative region | Lac Ste. Anne | type",
+                    "@title": "Lac Ste. Anne | administrative region | Lac Ste. Anne | type",
+                    "@width": "441",
+                    "@height": "23",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Lac Ste. Anne | administrative region | Lac Ste. Anne | type"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Results",
+            "@scanner": "Data",
+            "@id": "Result",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "LakeData"
+                },
+                "datasources": {
+                    "datasource": [
+                        "ILECWorldLakeDatabase",
+                        "TheWikimediaFoundationIncWikipedia"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP215410g1gc7273c10fa2000024h0e3g78f487h7h?MSPStoreType=image/gif&s=56",
+                    "@alt": "administrative region | Division No. 13, Alberta, Canada type | eutrophic",
+                    "@title": "administrative region | Division No. 13, Alberta, Canada type | eutrophic",
+                    "@width": "402",
+                    "@height": "69",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "administrative region | Division No. 13, Alberta, Canada\ntype | eutrophic"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        }
+    ],
+    "sources": {
+        "@count": "3",
+        "source": [
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/CountryDataSourceInformationNotes.html",
+                "@text": "Country data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/LakeDataSourceInformationNotes.html",
+                "@text": "Lake data"
+            }
+        ]
+    }
+}

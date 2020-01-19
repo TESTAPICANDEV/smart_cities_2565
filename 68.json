@@ -1,0 +1,871 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "18",
+    "@datatypes": "ACS,City,USCounty,USState",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "8.961",
+    "@parsetiming": "0.188",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP35401hgda8bba2hhf4b000000ea3996gbd57ge5e",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "54",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa35411hgda8bba2hhf4b000002a4i72dcg8g5ae672137842930739718529",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP35421hgda8bba2hhf4b000006a789bc1668c7505?MSPStoreType=image/gif&s=54",
+                    "@alt": "Strathcona, Minnesota, United States | county",
+                    "@title": "Strathcona, Minnesota, United States | county",
+                    "@width": "319",
+                    "@height": "23",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Strathcona, Minnesota, United States | county"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Result",
+            "@scanner": "Data",
+            "@id": "Result",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "USCountyData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP35431hgda8bba2hhf4b00000134dhg22f3308c99?MSPStoreType=image/gif&s=54",
+                    "@alt": "Roseau County, Minnesota",
+                    "@title": "Roseau County, Minnesota",
+                    "@width": "177",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Roseau County, Minnesota"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Basic information",
+            "@scanner": "Data",
+            "@id": "BasicInformation:USCountyData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "USCountyData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP35441hgda8bba2hhf4b000005802ig9a54ia1g11?MSPStoreType=image/gif&s=54",
+                    "@alt": "name | Roseau County county seat | Roseau, Minnesota",
+                    "@title": "name | Roseau County county seat | Roseau, Minnesota",
+                    "@width": "249",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "name | Roseau County\ncounty seat | Roseau, Minnesota"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "More",
+                    "@input": "BasicInformation:USCountyData__More"
+                }
+            }
+        },
+        {
+            "@title": "Cities",
+            "@scanner": "Data",
+            "@id": "Cities:USCountyData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCountyData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "USCensusQuickfacts"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP35451hgda8bba2hhf4b000004449816fa10hae69?MSPStoreType=image/gif&s=54",
+                    "@alt": "Roseau (2693 people) | Warroad (1763 people) | Greenbush (709 people) | Badger (360 people) | Southeast Roseau (223 people) | ... (total: 9)",
+                    "@title": "Roseau (2693 people) | Warroad (1763 people) | Greenbush (709 people) | Badger (360 people) | Southeast Roseau (223 people) | ... (total: 9)",
+                    "@width": "526",
+                    "@height": "38",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Roseau (2693 people) | Warroad (1763 people) | Greenbush (709 people) | Badger (360 people) | Southeast Roseau (223 people) | ... (total: 9)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "More",
+                        "@input": "Cities:USCountyData__More"
+                    },
+                    {
+                        "@name": "Show population fractions",
+                        "@input": "Cities:USCountyData__Show population fractions"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Location",
+            "@scanner": "Data",
+            "@id": "Location:USCountyData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "USCountyData",
+                        "USStateData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP35461hgda8bba2hhf4b0000029g188e8g19g6b0d?MSPStoreType=image/gif&s=54",
+                    "@alt": "Location",
+                    "@title": "",
+                    "@width": "238",
+                    "@height": "250",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "WolframMap:USCountyData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "OpenStreetMap",
+                        "USCountyData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP35471hgda8bba2hhf4b00000533a58bi8730b4cc?MSPStoreType=image/gif&s=54",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "220 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "7 kilometers across",
+                            "@input": "WolframMap:USCountyData__7 kilometers across"
+                        },
+                        {
+                            "@name": "10 kilometers across",
+                            "@input": "WolframMap:USCountyData__10 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "WolframMap:USCountyData__30 kilometers across"
+                        },
+                        {
+                            "@name": "60 kilometers across",
+                            "@input": "WolframMap:USCountyData__60 kilometers across"
+                        },
+                        {
+                            "@name": "110 kilometers across",
+                            "@input": "WolframMap:USCountyData__110 kilometers across"
+                        },
+                        {
+                            "@name": "220 kilometers across",
+                            "@input": "WolframMap:USCountyData__220 kilometers across"
+                        },
+                        {
+                            "@name": "450 kilometers across",
+                            "@input": "WolframMap:USCountyData__450 kilometers across"
+                        },
+                        {
+                            "@name": "900 kilometers across",
+                            "@input": "WolframMap:USCountyData__900 kilometers across"
+                        },
+                        {
+                            "@name": "1800 kilometers across",
+                            "@input": "WolframMap:USCountyData__1800 kilometers across"
+                        },
+                        {
+                            "@name": "3600 kilometers across",
+                            "@input": "WolframMap:USCountyData__3600 kilometers across"
+                        },
+                        {
+                            "@name": "6900 kilometers across",
+                            "@input": "WolframMap:USCountyData__6900 kilometers across"
+                        },
+                        {
+                            "@name": "11000 kilometers across",
+                            "@input": "WolframMap:USCountyData__11000 kilometers across"
+                        },
+                        {
+                            "@name": "22000 kilometers across",
+                            "@input": "WolframMap:USCountyData__22000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "WolframMap:USCountyData__Non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=48.7727%2C-95.5568&q=48.7727%20N%2C%2095.5568%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Bordering counties",
+            "@scanner": "Data",
+            "@id": "BorderingCounties:USCountyData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "USCountyData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP35481hgda8bba2hhf4b000005368i24148fbc3gd?MSPStoreType=image/gif&s=54",
+                    "@alt": "Beltrami County, Minnesota | Kittson County, Minnesota | Lake of the Woods County, Minnesota | Marshall County, Minnesota",
+                    "@title": "Beltrami County, Minnesota | Kittson County, Minnesota | Lake of the Woods County, Minnesota | Marshall County, Minnesota",
+                    "@width": "535",
+                    "@height": "38",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Beltrami County, Minnesota | Kittson County, Minnesota | Lake of the Woods County, Minnesota | Marshall County, Minnesota"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Population",
+            "@scanner": "Data",
+            "@id": "Demographics:USCountyData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "USCountyData"
+                },
+                "datasources": {
+                    "datasource": "USCensusQuickfacts"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP35491hgda8bba2hhf4b000006805ahc5d33b0i03?MSPStoreType=image/gif&s=54",
+                    "@alt": "population | 15327 people population growth | -0.43% per year (2000-10) population density | 3.526 people/km^2 annual deaths | 130 people/yr annual births | 181 people/yr (2017)",
+                    "@title": "population | 15327 people population growth | -0.43% per year (2000-10) population density | 3.526 people/km^2 annual deaths | 130 people/yr annual births | 181 people/yr (2017)",
+                    "@width": "340",
+                    "@height": "190",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "population | 15327 people\npopulation growth | -0.43% per year (2000-10)\npopulation density | 3.526 people/km^2\nannual deaths | 130 people/yr\nannual births | 181 people/yr\n(2017)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "units": {
+                        "@count": "2",
+                        "unit": [
+                            {
+                                "@short": "people/km^2",
+                                "@long": "people per square kilometer"
+                            },
+                            {
+                                "@short": "people/yr",
+                                "@long": "people per year"
+                            }
+                        ],
+                        "img": {
+                            "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP35501hgda8bba2hhf4b000003bb7e168aab791dd?MSPStoreType=image/gif&s=54",
+                            "@width": "262",
+                            "@height": "48"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Population history",
+            "@scanner": "Data",
+            "@id": "PopulationHistory:USCountyData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "USCountyData"
+                },
+                "datasources": {
+                    "datasource": "USCensusQuickfacts"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP35511hgda8bba2hhf4b0000021f6fbgi847g14cc?MSPStoreType=image/gif&s=54",
+                    "@alt": "Population history",
+                    "@title": "",
+                    "@width": "371",
+                    "@height": "154",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopulationHistory:USCountyData__Log scale"
+                }
+            }
+        },
+        {
+            "@title": "Demographics",
+            "@scanner": "Data",
+            "@id": "ACSPercentageEntrainments:ACSData",
+            "@position": "1000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "ACSData"
+                },
+                "datasources": {
+                    "datasource": [
+                        "CensusAmericanCommunitySurvey5YearsRace",
+                        "CensusAmericanCommunitySurvey5YearsHispanicOrigin",
+                        "CensusAmericanCommunitySurvey5YearsCitizenship"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP35521hgda8bba2hhf4b0000039a7e10cd957f0ea?MSPStoreType=image/gif&s=54",
+                    "@alt": "race | white: 93% | Asian: 2.7% | two or more races: 2.1% | ... Hispanic origin | 1.2% US citizens | 98.5%",
+                    "@title": "race | white: 93% | Asian: 2.7% | two or more races: 2.1% | ... Hispanic origin | 1.2% US citizens | 98.5%",
+                    "@width": "546",
+                    "@height": "117",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "race | white: 93% | Asian: 2.7% | two or more races: 2.1% | ...\nHispanic origin | 1.2%\nUS citizens | 98.5%"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "More",
+                    "@input": "ACSPercentageEntrainments:ACSData__More"
+                }
+            }
+        },
+        {
+            "@title": "Educational attainment",
+            "@scanner": "Data",
+            "@id": "ACSEducationEntrainments:ACSData",
+            "@position": "1100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "ACSData"
+                },
+                "datasources": {
+                    "datasource": "CensusAmericanCommunitySurvey5YearsEducation"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP35531hgda8bba2hhf4b000001896c3g5614ahga6?MSPStoreType=image/gif&s=54",
+                    "@alt": "college degree and above | 30.2% (0.799 \u00d7 national average) high school diploma | 34.9% (1.26 \u00d7 national average) less than high school diploma | 7.8% (0.588 \u00d7 national average) (for population age 25 and older)",
+                    "@title": "college degree and above | 30.2% (0.799 \u00d7 national average) high school diploma | 34.9% (1.26 \u00d7 national average) less than high school diploma | 7.8% (0.588 \u00d7 national average) (for population age 25 and older)",
+                    "@width": "437",
+                    "@height": "121",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "college degree and above | 30.2% (0.799 \u00d7 national average)\nhigh school diploma | 34.9% (1.26 \u00d7 national average)\nless than high school diploma | 7.8% (0.588 \u00d7 national average)\n(for population age 25 and older)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show enrollment",
+                    "@input": "ACSEducationEntrainments:ACSData__Show enrollment"
+                }
+            }
+        },
+        {
+            "@title": "Income statistics",
+            "@scanner": "Data",
+            "@id": "ACSIncomeEntrainments:ACSData",
+            "@position": "1200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "ACSData"
+                },
+                "datasources": {
+                    "datasource": [
+                        "CensusAmericanCommunitySurvey5YearsMedianIncome",
+                        "CensusAmericanCommunitySurvey5YearsPerCapitaIncome",
+                        "CensusAmericanCommunitySurvey5YearsPoverty"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP35541hgda8bba2hhf4b0000062b83dfbb1fdd4e0?MSPStoreType=image/gif&s=54",
+                    "@alt": "median household income | $56273 per year (US dollars per year) (\u2248 national average) per capita income | $27935 per year per person (US dollars per year per person) (0.937 \u00d7 national average) population below poverty line | 9.2% (0.612 \u00d7 national average)",
+                    "@title": "median household income | $56273 per year (US dollars per year) (\u2248 national average) per capita income | $27935 per year per person (US dollars per year per person) (0.937 \u00d7 national average) population below poverty line | 9.2% (0.612 \u00d7 national average)",
+                    "@width": "546",
+                    "@height": "151",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "median household income | $56273 per year (US dollars per year) (\u2248 national average)\nper capita income | $27935 per year per person (US dollars per year per person) (0.937 \u00d7 national average)\npopulation below poverty line | 9.2% (0.612 \u00d7 national average)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show distribution",
+                    "@input": "ACSIncomeEntrainments:ACSData__Show distribution"
+                }
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:USCountyData",
+            "@position": "1300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "USCountyData"
+                },
+                "datasources": {
+                    "datasource": "USCensusQuickfacts"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP35551hgda8bba2hhf4b000004005c7dc3d52gbbg?MSPStoreType=image/gif&s=54",
+                    "@alt": "total area | 4346 km^2 land area | 4329 km^2 water area | 16.93 km^2 farmland area | 2390 km^2 (2002)",
+                    "@title": "total area | 4346 km^2 land area | 4329 km^2 water area | 16.93 km^2 farmland area | 2390 km^2 (2002)",
+                    "@width": "209",
+                    "@height": "158",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "total area | 4346 km^2\nland area | 4329 km^2\nwater area | 16.93 km^2\nfarmland area | 2390 km^2\n(2002)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:USCountyData__Show non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "units": {
+                        "@count": "1",
+                        "unit": {
+                            "@short": "km^2",
+                            "@long": "square kilometers"
+                        },
+                        "img": {
+                            "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP35561hgda8bba2hhf4b0000044e5303gbi0e879d?MSPStoreType=image/gif&s=54",
+                            "@width": "171",
+                            "@height": "27"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Fair market rent prices",
+            "@scanner": "Data",
+            "@id": "RentPrices:USFairMarketRentData",
+            "@position": "1400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "USCountyData"
+                },
+                "datasources": {
+                    "datasource": "FairMarketRents"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP35571hgda8bba2hhf4b000004cgdh2f3e68g64af?MSPStoreType=image/gif&s=54",
+                    "@alt": "studio | $424 per month (US dollars per month) 1 bedroom | $471 per month (US dollars per month) 2 bedroom | $637 per month (US dollars per month) 3 bedroom | $793 per month (US dollars per month) 4 bedroom | $949 per month (US dollars per month) (2014 estimate)",
+                    "@title": "studio | $424 per month (US dollars per month) 1 bedroom | $471 per month (US dollars per month) 2 bedroom | $637 per month (US dollars per month) 3 bedroom | $793 per month (US dollars per month) 4 bedroom | $949 per month (US dollars per month) (2014 estimate)",
+                    "@width": "372",
+                    "@height": "190",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "studio | $424 per month (US dollars per month)\n1 bedroom | $471 per month (US dollars per month)\n2 bedroom | $637 per month (US dollars per month)\n3 bedroom | $793 per month (US dollars per month)\n4 bedroom | $949 per month (US dollars per month)\n(2014 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "definitions": {
+                "@count": "1",
+                "definition": {
+                    "@word": "Fair market rent",
+                    "@desc": "Gross rent estimates, including shelter rent plus the cost of all tenant-paid utilities, except telephones, cable or satellite television service, and internet service; for most areas, the Fair Market Rent price is defined as the 40th percentile rent, the dollar amount below which 40 percent of the standard-quality rental housing units are rented."
+                }
+            }
+        },
+        {
+            "@title": "Housing",
+            "@scanner": "Data",
+            "@id": "Housing:USCountyData",
+            "@position": "1500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "USCountyData"
+                },
+                "datasources": {
+                    "datasource": "USCensusQuickfacts"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP35581hgda8bba2hhf4b000004igh60i2248gdb48?MSPStoreType=image/gif&s=54",
+                    "@alt": "housing units | 7447 (2011) housing units change | +374 (2000-07) housing units change rate | +0.76% per year (2000-07) households | 6357 (2011) people per household | 2.469 people (2010)",
+                    "@title": "housing units | 7447 (2011) housing units change | +374 (2000-07) housing units change rate | +0.76% per year (2000-07) households | 6357 (2011) people per household | 2.469 people (2010)",
+                    "@width": "388",
+                    "@height": "164",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "housing units | 7447 (2011)\nhousing units change | +374 (2000-07)\nhousing units change rate | +0.76% per year (2000-07)\nhouseholds | 6357 (2011)\npeople per household | 2.469 people (2010)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "More",
+                    "@input": "Housing:USCountyData__More"
+                }
+            }
+        },
+        {
+            "@title": "Economic properties",
+            "@scanner": "Data",
+            "@id": "Economy:USCountyData",
+            "@position": "1600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "USCountyData"
+                },
+                "datasources": {
+                    "datasource": "USCensusQuickfacts"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP35591hgda8bba2hhf4b0000013c6ab96h2gd515e?MSPStoreType=image/gif&s=54",
+                    "@alt": "number of businesses | 1434 (2007) nonemployer businesses | 1130 (2010) private non-farm businesses | 416 (2010)",
+                    "@title": "number of businesses | 1434 (2007) nonemployer businesses | 1130 (2010) private non-farm businesses | 416 (2010)",
+                    "@width": "313",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "number of businesses | 1434 (2007)\nnonemployer businesses | 1130 (2010)\nprivate non-farm businesses | 416 (2010)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "4",
+                "state": [
+                    {
+                        "@name": "Business ownership",
+                        "@input": "Economy:USCountyData__Business ownership"
+                    },
+                    {
+                        "@name": "Labor",
+                        "@input": "Economy:USCountyData__Labor"
+                    },
+                    {
+                        "@name": "Sales",
+                        "@input": "Economy:USCountyData__Sales"
+                    },
+                    {
+                        "@name": "Earnings",
+                        "@input": "Economy:USCountyData__Earnings"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Wikipedia summary",
+            "@scanner": "Character",
+            "@id": "WikipediaSummary:USCountyData",
+            "@position": "1700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP35601hgda8bba2hhf4b0000024a9f11c023ic4g5?MSPStoreType=image/gif&s=54",
+                    "@alt": "Roseau County is a county in the U.S. state of Minnesota, along the Canada-US border. As of the 2010 United States Census, the population was 15, 629. Its county seat is Roseau. It is south of the border with Manitoba.",
+                    "@title": "Roseau County is a county in the U.S. state of Minnesota, along the Canada-US border. As of the 2010 United States Census, the population was 15, 629. Its county seat is Roseau. It is south of the border with Manitoba.",
+                    "@width": "533",
+                    "@height": "54",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Roseau County is a county in the U.S. state of Minnesota, along the Canada-US border. As of the 2010 United States Census, the population was 15, 629. Its county seat is Roseau. It is south of the border with Manitoba.",
+                "infos": {
+                    "@count": "1",
+                    "info": {
+                        "link": {
+                            "@url": "http://en.wikipedia.org/wiki?curid=94910",
+                            "@text": "Full entry"
+                        }
+                    }
+                }
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Wikipedia page hits history",
+            "@scanner": "Data",
+            "@id": "PopularityPod:WikipediaStatsData",
+            "@position": "1800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "USCountyData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP35611hgda8bba2hhf4b000002471hb2792f5521a?MSPStoreType=image/gif&s=54",
+                    "@alt": "Wikipedia page hits history",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "168",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopularityPod:WikipediaStatsData__Log scale"
+                }
+            }
+        }
+    ],
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "5",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/ACSDataSourceInformationNotes.html",
+                "@text": "ACS data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USCountyDataSourceInformationNotes.html",
+                "@text": "US county data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USStateDataSourceInformationNotes.html",
+                "@text": "US state data"
+            }
+        ]
+    }
+}

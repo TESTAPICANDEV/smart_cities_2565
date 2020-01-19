@@ -1,0 +1,428 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "8",
+    "@datatypes": "AdministrativeDivision,City,Country,WeatherStation",
+    "@timedout": "",
+    "@timedoutpods": "Location",
+    "@timing": "7.394",
+    "@parsetiming": "0.329",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP96711gdbabgg91a4f10700004da1987ecca2id07",
+    "@host": "https://www5a.wolframalpha.com",
+    "@server": "55",
+    "@related": "https://www5a.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa96721gdbabgg91a4f10700003479670ai4iead701470601768739347399",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP96731gdbabgg91a4f10700003ch053hg829aab9e?MSPStoreType=image/gif&s=55",
+                    "@alt": "Simcoe, Ontario, Canada (county)",
+                    "@title": "Simcoe, Ontario, Canada (county)",
+                    "@width": "226",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Simcoe, Ontario, Canada (county)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "WolframReliefMap",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP96751gdbabgg91a4f10700000fg092a618fc868f?MSPStoreType=image/gif&s=55",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "3",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "490 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "8 kilometers across",
+                            "@input": "WolframReliefMap__8 kilometers across"
+                        },
+                        {
+                            "@name": "20 kilometers across",
+                            "@input": "WolframReliefMap__20 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "WolframReliefMap__30 kilometers across"
+                        },
+                        {
+                            "@name": "60 kilometers across",
+                            "@input": "WolframReliefMap__60 kilometers across"
+                        },
+                        {
+                            "@name": "120 kilometers across",
+                            "@input": "WolframReliefMap__120 kilometers across"
+                        },
+                        {
+                            "@name": "240 kilometers across",
+                            "@input": "WolframReliefMap__240 kilometers across"
+                        },
+                        {
+                            "@name": "490 kilometers across",
+                            "@input": "WolframReliefMap__490 kilometers across"
+                        },
+                        {
+                            "@name": "970 kilometers across",
+                            "@input": "WolframReliefMap__970 kilometers across"
+                        },
+                        {
+                            "@name": "1900 kilometers across",
+                            "@input": "WolframReliefMap__1900 kilometers across"
+                        },
+                        {
+                            "@name": "3800 kilometers across",
+                            "@input": "WolframReliefMap__3800 kilometers across"
+                        },
+                        {
+                            "@name": "7500 kilometers across",
+                            "@input": "WolframReliefMap__7500 kilometers across"
+                        },
+                        {
+                            "@name": "12000 kilometers across",
+                            "@input": "WolframReliefMap__12000 kilometers across"
+                        },
+                        {
+                            "@name": "24000 kilometers across",
+                            "@input": "WolframReliefMap__24000 kilometers across"
+                        }
+                    ]
+                },
+                "state": [
+                    {
+                        "@name": "Non-metric",
+                        "@input": "WolframReliefMap__Non-metric"
+                    },
+                    {
+                        "@name": "Show relief",
+                        "@input": "WolframReliefMap__Show relief"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Population",
+            "@scanner": "Data",
+            "@id": "Population:AdministrativeDivisionData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CountryData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "Statoids"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP96761gdbabgg91a4f107000064a81h0g0h201787?MSPStoreType=image/gif&s=55",
+                    "@alt": "288684 people (0.88% of total for Canada)",
+                    "@title": "288684 people (0.88% of total for Canada)",
+                    "@width": "252",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "288684 people (0.88% of total for Canada)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Largest cities",
+            "@scanner": "Data",
+            "@id": "LargerCities:AdministrativeDivisionData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP96771gdbabgg91a4f1070000497f4h3bd0e7bae2?MSPStoreType=image/gif&s=55",
+                    "@alt": "Barrie (141434 people) | Orillia (30546 people) | Bradford (18624 people) | Wasaga Beach (17537 people) | Midland (16864 people) | ...",
+                    "@title": "Barrie (141434 people) | Orillia (30546 people) | Bradford (18624 people) | Wasaga Beach (17537 people) | Midland (16864 people) | ...",
+                    "@width": "538",
+                    "@height": "38",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Barrie (141434 people) | Orillia (30546 people) | Bradford (18624 people) | Wasaga Beach (17537 people) | Midland (16864 people) | ..."
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "More",
+                    "@input": "LargerCities:AdministrativeDivisionData__More"
+                }
+            }
+        },
+        {
+            "@title": "Area",
+            "@scanner": "Data",
+            "@id": "Area:AdministrativeDivisionData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CountryData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "CIAFactbook"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP96781gdbabgg91a4f10700003b0b8dghg7h4ag80?MSPStoreType=image/gif&s=55",
+                    "@alt": "4307 km^2 (square kilometers) (0.043% of total for Canada)",
+                    "@title": "4307 km^2 (square kilometers) (0.043% of total for Canada)",
+                    "@width": "355",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "4307 km^2 (square kilometers) (0.043% of total for Canada)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Bordering entities",
+            "@scanner": "Data",
+            "@id": "BorderingEntities:AdministrativeDivisionData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "AdministrativeDivisionData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP96791gdbabgg91a4f1070000676h2d3ia967h6i7?MSPStoreType=image/gif&s=55",
+                    "@alt": "divisions: | Dufferin | Durham | Grey | Muskoka | Peel | Kawartha Lakes | York",
+                    "@title": "divisions: | Dufferin | Durham | Grey | Muskoka | Peel | Kawartha Lakes | York",
+                    "@width": "546",
+                    "@height": "37",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "divisions: | Dufferin | Durham | Grey | Muskoka | Peel | Kawartha Lakes | York"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Current local time",
+            "@scanner": "Data",
+            "@id": "CurrentLocalTimeNoCoord:AdministrativeDivisionData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "AdministrativeDivisionData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP96801gdbabgg91a4f10700003613bg9ia0a37531?MSPStoreType=image/gif&s=55",
+                    "@alt": "11:39:54 pm EST | Saturday, January 18, 2020",
+                    "@title": "11:39:54 pm EST | Saturday, January 18, 2020",
+                    "@width": "322",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "11:39:54 pm EST | Saturday, January 18, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Current weather at center of Simcoe",
+            "@scanner": "Data",
+            "@id": "WeatherPod:AdministrativeDivisionData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "WeatherData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP96811gdbabgg91a4f10700002be090i6agbd7g28?MSPStoreType=image/gif&s=55",
+                    "@alt": "-8 \u00b0C | relative humidity: 92% | wind: 0 m/s",
+                    "@title": "-8 \u00b0C | relative humidity: 92% | wind: 0 m/s",
+                    "@width": "310",
+                    "@height": "22",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "-8 \u00b0C | relative humidity: 92% | wind: 0 m/s"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show history",
+                        "@input": "WeatherPod:AdministrativeDivisionData__Show history"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "WeatherPod:AdministrativeDivisionData__Show non-metric"
+                    }
+                ]
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "1",
+        "assumption": {
+            "@type": "Clash",
+            "@word": "Simcoe",
+            "@template": "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead",
+            "@count": "3",
+            "value": [
+                {
+                    "@name": "AdministrativeDivision",
+                    "@desc": "an administrative division",
+                    "@input": "*C.Simcoe-_*AdministrativeDivision-"
+                },
+                {
+                    "@name": "City",
+                    "@desc": "a city",
+                    "@input": "*C.Simcoe-_*City-"
+                },
+                {
+                    "@name": "Lake",
+                    "@desc": "a lake",
+                    "@input": "*C.Simcoe-_*Lake-"
+                }
+            ]
+        }
+    },
+    "sources": {
+        "@count": "5",
+        "source": [
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/CountryDataSourceInformationNotes.html",
+                "@text": "Country data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html",
+                "@text": "Weather data"
+            }
+        ]
+    }
+}

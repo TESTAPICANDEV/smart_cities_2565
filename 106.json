@@ -1,0 +1,208 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "4",
+    "@datatypes": "AdministrativeDivision,City",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "1.822",
+    "@parsetiming": "1.046",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP13539202b6fdhi93627b200006220a6ici3418i08",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "33",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa13540202b6fdhi93627b200001dac9337741h69g22238166350363152732",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP13541202b6fdhi93627b200006a2857a70d2aa9h4?MSPStoreType=image/gif&s=33",
+                    "@alt": "Thorold, Ontario | Niagara, Ontario, Canada (regional municipality)",
+                    "@title": "Thorold, Ontario | Niagara, Ontario, Canada (regional municipality)",
+                    "@width": "464",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Thorold, Ontario | Niagara, Ontario, Canada (regional municipality)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Distances",
+            "@scanner": "Data",
+            "@id": "Distances:MultipleData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP13542202b6fdhi93627b200005d48h8ai3cgi5agc?MSPStoreType=image/gif&s=33",
+                    "@alt": "Thorold to Niagara, Ontario, Canada | 12 km (kilometers)",
+                    "@title": "Thorold to Niagara, Ontario, Canada | 12 km (kilometers)",
+                    "@width": "419",
+                    "@height": "32",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Thorold to Niagara, Ontario, Canada | 12 km (kilometers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "Distances:MultipleData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Demographics",
+            "@scanner": "Data",
+            "@id": "DemographicProperties:MultipleData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "Statoids"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP13543202b6fdhi93627b200004ecd95f2028fddd2?MSPStoreType=image/gif&s=33",
+                    "@alt": " | Thorold, Ontario | Niagara, Ontario, Canada population | 18801 people | 393936 people",
+                    "@title": " | Thorold, Ontario | Niagara, Ontario, Canada population | 18801 people | 393936 people",
+                    "@width": "422",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Thorold, Ontario | Niagara, Ontario, Canada\npopulation | 18801 people | 393936 people"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:MultipleData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP13544202b6fdhi93627b200002c5g2223145h3386?MSPStoreType=image/gif&s=33",
+                    "@alt": " | Thorold | Niagara, Ontario, Canada area | | 1862 km^2 (square kilometers) average elevation | 166 meters | ",
+                    "@title": " | Thorold | Niagara, Ontario, Canada area | | 1862 km^2 (square kilometers) average elevation | 166 meters | ",
+                    "@width": "448",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Thorold | Niagara, Ontario, Canada\narea | | 1862 km^2 (square kilometers)\naverage elevation | 166 meters |"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:MultipleData__Show non-metric"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "1",
+        "assumption": {
+            "@type": "MultiClash",
+            "@word": "",
+            "@template": "Assuming ${word1} is referring to ${desc1}. Use \"${word2}\" as ${desc2}.",
+            "@count": "2",
+            "value": [
+                {
+                    "@name": "AdministrativeDivision",
+                    "@word": "Niagara Region",
+                    "@desc": "an administrative division",
+                    "@input": "*MC.Niagara+Region-_*AdministrativeDivision-"
+                },
+                {
+                    "@name": "City",
+                    "@word": "Niagara",
+                    "@desc": "a city",
+                    "@input": "*MC.Niagara+Region-_*City-"
+                }
+            ]
+        }
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "2",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            }
+        ]
+    }
+}

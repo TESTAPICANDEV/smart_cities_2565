@@ -1,0 +1,532 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "11",
+    "@datatypes": "AdministrativeDivision,City,Country",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "6.377",
+    "@parsetiming": "0.446",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP6344140iiidd47ah5hdg00001i043d6c6af3375f",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "56",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa6345140iiidd47ah5hdg00002ga81if4e8f74f692586184755524934074",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6346140iiidd47ah5hdg00002163gha68dc20i86?MSPStoreType=image/gif&s=56",
+                    "@alt": "cities | in Annapolis, Nova Scotia, Canada (county)",
+                    "@title": "cities | in Annapolis, Nova Scotia, Canada (county)",
+                    "@width": "381",
+                    "@height": "32",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "cities | in Annapolis, Nova Scotia, Canada (county)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Result",
+            "@scanner": "Data",
+            "@id": "Result",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6347140iiidd47ah5hdg000046045i17hd48ggag?MSPStoreType=image/gif&s=56",
+                    "@alt": "Middleton Bridgetown",
+                    "@title": "Middleton Bridgetown",
+                    "@width": "76",
+                    "@height": "42",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Middleton\nBridgetown"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Populations",
+            "@scanner": "Data",
+            "@id": "Population:CityData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6348140iiidd47ah5hdg0000103cf4172i4e8bgc?MSPStoreType=image/gif&s=56",
+                    "@alt": " | Middleton | Bridgetown city population | 1832 people (country rank: \u2248757th) (2016) | 949 people (country rank: \u2248976th) (2011)",
+                    "@title": " | Middleton | Bridgetown city population | 1832 people (country rank: \u2248757th) (2016) | 949 people (country rank: \u2248976th) (2011)",
+                    "@width": "545",
+                    "@height": "85",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Middleton | Bridgetown\ncity population | 1832 people (country rank: \u2248757th) (2016) | 949 people (country rank: \u2248976th) (2011)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Path",
+            "@scanner": "Data",
+            "@id": "Path:CityData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "CountryData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "CIAFactbook"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6349140iiidd47ah5hdg00001e8d243f0i8fa781?MSPStoreType=image/gif&s=56",
+                    "@alt": "Path",
+                    "@title": "",
+                    "@width": "328",
+                    "@height": "214",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show coordinates",
+                    "@input": "Path:CityData__Show coordinates"
+                }
+            }
+        },
+        {
+            "@title": "Distance",
+            "@scanner": "Data",
+            "@id": "Distances:CityData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6350140iiidd47ah5hdg0000438f90cbbb3c4745?MSPStoreType=image/gif&s=56",
+                    "@alt": "Middleton to Bridgetown | 13 km (kilometers)",
+                    "@title": "Middleton to Bridgetown | 13 km (kilometers)",
+                    "@width": "339",
+                    "@height": "32",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Middleton to Bridgetown | 13 km (kilometers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "Distances:CityData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "Map:CityData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6351140iiidd47ah5hdg00002993ggcdh5c0f3aa?MSPStoreType=image/gif&s=56",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "60 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "8 kilometers across",
+                            "@input": "Map:CityData__8 kilometers across"
+                        },
+                        {
+                            "@name": "20 kilometers across",
+                            "@input": "Map:CityData__20 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "Map:CityData__30 kilometers across"
+                        },
+                        {
+                            "@name": "60 kilometers across",
+                            "@input": "Map:CityData__60 kilometers across"
+                        },
+                        {
+                            "@name": "120 kilometers across",
+                            "@input": "Map:CityData__120 kilometers across"
+                        },
+                        {
+                            "@name": "240 kilometers across",
+                            "@input": "Map:CityData__240 kilometers across"
+                        },
+                        {
+                            "@name": "480 kilometers across",
+                            "@input": "Map:CityData__480 kilometers across"
+                        },
+                        {
+                            "@name": "960 kilometers across",
+                            "@input": "Map:CityData__960 kilometers across"
+                        },
+                        {
+                            "@name": "1900 kilometers across",
+                            "@input": "Map:CityData__1900 kilometers across"
+                        },
+                        {
+                            "@name": "3800 kilometers across",
+                            "@input": "Map:CityData__3800 kilometers across"
+                        },
+                        {
+                            "@name": "7400 kilometers across",
+                            "@input": "Map:CityData__7400 kilometers across"
+                        },
+                        {
+                            "@name": "12000 kilometers across",
+                            "@input": "Map:CityData__12000 kilometers across"
+                        },
+                        {
+                            "@name": "24000 kilometers across",
+                            "@input": "Map:CityData__24000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "Map:CityData__Non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Administrative regions",
+            "@scanner": "Data",
+            "@id": "AdministrativeRegions:CityData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6352140iiidd47ah5hdg000034fcdi58e46idhi2?MSPStoreType=image/gif&s=56",
+                    "@alt": "  | region | country (all cases) | Nova Scotia | Canada",
+                    "@title": "  | region | country (all cases) | Nova Scotia | Canada",
+                    "@width": "263",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| region | country\n(all cases) | Nova Scotia | Canada"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Current local times",
+            "@scanner": "Data",
+            "@id": "CurrentTime:CityData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6353140iiidd47ah5hdg00001c585a16d40d0h2i?MSPStoreType=image/gif&s=56",
+                    "@alt": "Middleton | 1:21 am AST | Sunday, January 19, 2020 Bridgetown | 1:21 am AST | Sunday, January 19, 2020",
+                    "@title": "Middleton | 1:21 am AST | Sunday, January 19, 2020 Bridgetown | 1:21 am AST | Sunday, January 19, 2020",
+                    "@width": "407",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Middleton | 1:21 am AST | Sunday, January 19, 2020\nBridgetown | 1:21 am AST | Sunday, January 19, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Current weather",
+            "@scanner": "Data",
+            "@id": "WeatherPod:CityData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "CountryData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "UNData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6354140iiidd47ah5hdg000049752dbgfh079bcf?MSPStoreType=image/gif&s=56",
+                    "@alt": " | Middleton, Canada | Bridgetown, Canada temperature | -10 \u00b0C (wind chill: -16 \u00b0C) | -10 \u00b0C (wind chill: -16 \u00b0C) conditions | overcast | overcast relative humidity | 79% (dew point: -13 \u00b0C) | 79% (dew point: -13 \u00b0C) wind speed | 3.1 m/s | 3.1 m/s  | (21 minutes ago) | (21 minutes ago)",
+                    "@title": " | Middleton, Canada | Bridgetown, Canada temperature | -10 \u00b0C (wind chill: -16 \u00b0C) | -10 \u00b0C (wind chill: -16 \u00b0C) conditions | overcast | overcast relative humidity | 79% (dew point: -13 \u00b0C) | 79% (dew point: -13 \u00b0C) wind speed | 3.1 m/s | 3.1 m/s  | (21 minutes ago) | (21 minutes ago)",
+                    "@width": "525",
+                    "@height": "197",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Middleton, Canada | Bridgetown, Canada\ntemperature | -10 \u00b0C (wind chill: -16 \u00b0C) | -10 \u00b0C (wind chill: -16 \u00b0C)\nconditions | overcast | overcast\nrelative humidity | 79% (dew point: -13 \u00b0C) | 79% (dew point: -13 \u00b0C)\nwind speed | 3.1 m/s | 3.1 m/s\n | (21 minutes ago) | (21 minutes ago)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "WeatherPod:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "WeatherPod:CityData__More"
+                    }
+                ]
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "units": {
+                        "@count": "1",
+                        "unit": {
+                            "@short": "m/s",
+                            "@long": "meters per second"
+                        },
+                        "img": {
+                            "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6355140iiidd47ah5hdg00003c5fc63ie543b305?MSPStoreType=image/gif&s=56",
+                            "@width": "171",
+                            "@height": "26"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:CityData",
+            "@position": "1000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6356140iiidd47ah5hdg000038h38f0767179668?MSPStoreType=image/gif&s=56",
+                    "@alt": " | Middleton | Bridgetown elevation | 21 m | 159 m",
+                    "@title": " | Middleton | Bridgetown elevation | 21 m | 159 m",
+                    "@width": "270",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Middleton | Bridgetown\nelevation | 21 m | 159 m"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:CityData__Show non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "units": {
+                        "@count": "1",
+                        "unit": {
+                            "@short": "m",
+                            "@long": "meters"
+                        },
+                        "img": {
+                            "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6357140iiidd47ah5hdg00004i28ac4852a5dccf?MSPStoreType=image/gif&s=56",
+                            "@width": "96",
+                            "@height": "26"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Wikipedia page hits history",
+            "@scanner": "Data",
+            "@id": "PopularityPod:WikipediaStatsData",
+            "@position": "1100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6358140iiidd47ah5hdg00002g210a4f539e27ib?MSPStoreType=image/gif&s=56",
+                    "@alt": "Wikipedia page hits history",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "199",
+                    "@type": "TimeSeriesPlot_2",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopularityPod:WikipediaStatsData__Log scale"
+                }
+            }
+        }
+    ],
+    "sources": {
+        "@count": "4",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CountryDataSourceInformationNotes.html",
+                "@text": "Country data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            }
+        ]
+    }
+}

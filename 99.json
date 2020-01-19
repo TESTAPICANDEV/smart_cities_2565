@@ -1,0 +1,789 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "14",
+    "@datatypes": "AdministrativeDivision,City,NuclearReactor,Person,WeatherStation",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "5.41",
+    "@parsetiming": "0.155",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP663719i43eecc936133500005ba6i72g153fe6e0",
+    "@host": "https://www4b.wolframalpha.com",
+    "@server": "35",
+    "@related": "https://www4b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa663819i43eecc9361335000011052fc5081e8g601126076849232655612",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www4b.wolframalpha.com/Calculate/MSP/MSP663919i43eecc9361335000049c340g5f7fc170e?MSPStoreType=image/gif&s=35",
+                    "@alt": "Beaconsfield, Buckinghamshire, United Kingdom",
+                    "@title": "Beaconsfield, Buckinghamshire, United Kingdom",
+                    "@width": "318",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Beaconsfield, Buckinghamshire, United Kingdom"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Population",
+            "@scanner": "Data",
+            "@id": "Population:CityData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCensusData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www4b.wolframalpha.com/Calculate/MSP/MSP664019i43eecc936133500004a47ehfd3a680f44?MSPStoreType=image/gif&s=35",
+                    "@alt": "city population | 12566 people (country rank: \u2248707th) (2004 estimate)",
+                    "@title": "city population | 12566 people (country rank: \u2248707th) (2004 estimate)",
+                    "@width": "471",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "city population | 12566 people (country rank: \u2248707th) (2004 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Location",
+            "@scanner": "Data",
+            "@id": "Location:CityData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "2",
+            "subpod": [
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www4b.wolframalpha.com/Calculate/MSP/MSP664119i43eecc936133500004g4ah0b9dbb9134c?MSPStoreType=image/gif&s=35",
+                        "@alt": "Buckinghamshire, England, United Kingdom",
+                        "@title": "Buckinghamshire, England, United Kingdom",
+                        "@width": "291",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "Buckinghamshire, England, United Kingdom"
+                },
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData",
+                            "CountryData"
+                        ]
+                    },
+                    "datasources": {
+                        "datasource": "CIAFactbook"
+                    },
+                    "img": {
+                        "@src": "https://www4b.wolframalpha.com/Calculate/MSP/MSP664219i43eecc936133500000fi43b347b0bd73d?MSPStoreType=image/gif&s=35",
+                        "@alt": "Location",
+                        "@title": "",
+                        "@width": "195",
+                        "@height": "326",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                }
+            ],
+            "expressiontypes": {
+                "@count": "2",
+                "expressiontype": [
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    }
+                ]
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "World map",
+                        "@input": "Location:CityData__World map"
+                    },
+                    {
+                        "@name": "Show coordinates",
+                        "@input": "Location:CityData__Show coordinates"
+                    }
+                ]
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=51.6%2C-0.633333&q=51.6%20N%2C%200.633333%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "Map:CityData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www4b.wolframalpha.com/Calculate/MSP/MSP664319i43eecc936133500003d67bb0ggf22g3ic?MSPStoreType=image/gif&s=35",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "10 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "7 kilometers across",
+                            "@input": "Map:CityData__7 kilometers across"
+                        },
+                        {
+                            "@name": "10 kilometers across",
+                            "@input": "Map:CityData__10 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "Map:CityData__30 kilometers across"
+                        },
+                        {
+                            "@name": "50 kilometers across",
+                            "@input": "Map:CityData__50 kilometers across"
+                        },
+                        {
+                            "@name": "110 kilometers across",
+                            "@input": "Map:CityData__110 kilometers across"
+                        },
+                        {
+                            "@name": "210 kilometers across",
+                            "@input": "Map:CityData__210 kilometers across"
+                        },
+                        {
+                            "@name": "420 kilometers across",
+                            "@input": "Map:CityData__420 kilometers across"
+                        },
+                        {
+                            "@name": "850 kilometers across",
+                            "@input": "Map:CityData__850 kilometers across"
+                        },
+                        {
+                            "@name": "1700 kilometers across",
+                            "@input": "Map:CityData__1700 kilometers across"
+                        },
+                        {
+                            "@name": "3400 kilometers across",
+                            "@input": "Map:CityData__3400 kilometers across"
+                        },
+                        {
+                            "@name": "6500 kilometers across",
+                            "@input": "Map:CityData__6500 kilometers across"
+                        },
+                        {
+                            "@name": "10000 kilometers across",
+                            "@input": "Map:CityData__10000 kilometers across"
+                        },
+                        {
+                            "@name": "20000 kilometers across",
+                            "@input": "Map:CityData__20000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "Map:CityData__Non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=51.6%2C-0.633333&q=51.6%20N%2C%200.633333%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Administrative regions",
+            "@scanner": "Data",
+            "@id": "AdministrativeRegions:CityData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4b.wolframalpha.com/Calculate/MSP/MSP664419i43eecc9361335000035626e1a14895ad8?MSPStoreType=image/gif&s=35",
+                    "@alt": "region | Buckinghamshire country | United Kingdom",
+                    "@title": "region | Buckinghamshire country | United Kingdom",
+                    "@width": "214",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "region | Buckinghamshire\ncountry | United Kingdom"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Current local time",
+            "@scanner": "Data",
+            "@id": "CurrentTime:CityData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4b.wolframalpha.com/Calculate/MSP/MSP664519i43eecc9361335000025f75f1g3daa519a?MSPStoreType=image/gif&s=35",
+                    "@alt": "5:19 am GMT | Sunday, January 19, 2020",
+                    "@title": "5:19 am GMT | Sunday, January 19, 2020",
+                    "@width": "288",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "5:19 am GMT | Sunday, January 19, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Current weather",
+            "@scanner": "Data",
+            "@id": "WeatherPod:CityData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "WeatherData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www4b.wolframalpha.com/Calculate/MSP/MSP664619i43eecc936133500004eg7bf8g55f984f4?MSPStoreType=image/gif&s=35",
+                    "@alt": "-3 \u00b0C (wind chill: -5 \u00b0C) | relative humidity: 100% | wind: 2 m/s",
+                    "@title": "-3 \u00b0C (wind chill: -5 \u00b0C) | relative humidity: 100% | wind: 2 m/s",
+                    "@width": "440",
+                    "@height": "22",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "-3 \u00b0C (wind chill: -5 \u00b0C) | relative humidity: 100% | wind: 2 m/s"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show history",
+                        "@input": "WeatherPod:CityData__Show history"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "WeatherPod:CityData__Show non-metric"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby cities",
+            "@scanner": "Data",
+            "@id": "CityHierarchyInfo:CityData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4b.wolframalpha.com/Calculate/MSP/MSP664719i43eecc936133500003cahb8hi2h266ddd?MSPStoreType=image/gif&s=35",
+                    "@alt": "Reading | 31 km (kilometers) southwest | 244070 people London, Greater London | 38 km (kilometers) east-southeast | 8.174 million people Birmingham | 131 km (kilometers) northwest | 1.073 million people (straight-line distances between city centers)",
+                    "@title": "Reading | 31 km (kilometers) southwest | 244070 people London, Greater London | 38 km (kilometers) east-southeast | 8.174 million people Birmingham | 131 km (kilometers) northwest | 1.073 million people (straight-line distances between city centers)",
+                    "@width": "546",
+                    "@height": "176",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Reading | 31 km (kilometers) southwest | 244070 people\nLondon, Greater London | 38 km (kilometers) east-southeast | 8.174 million people\nBirmingham | 131 km (kilometers) northwest | 1.073 million people\n(straight-line distances between city centers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "CityHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "CityHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby airport",
+            "@scanner": "Data",
+            "@id": "AirportHierarchyInfo:CityData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4b.wolframalpha.com/Calculate/MSP/MSP664819i43eecc936133500002f6g04bf1e376fib?MSPStoreType=image/gif&s=35",
+                    "@alt": "London Heathrow Airport | 18 km (kilometers) southeast (straight-line distances between city center and airport)",
+                    "@title": "London Heathrow Airport | 18 km (kilometers) southeast (straight-line distances between city center and airport)",
+                    "@width": "404",
+                    "@height": "58",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "London Heathrow Airport | 18 km (kilometers) southeast\n(straight-line distances between city center and airport)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "AirportHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "AirportHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:CityData",
+            "@position": "1000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4b.wolframalpha.com/Calculate/MSP/MSP664919i43eecc936133500003he3799f0ac73985?MSPStoreType=image/gif&s=35",
+                    "@alt": "elevation | 105 m",
+                    "@title": "elevation | 105 m",
+                    "@width": "147",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "elevation | 105 m"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:CityData__Show non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "units": {
+                        "@count": "1",
+                        "unit": {
+                            "@short": "m",
+                            "@long": "meters"
+                        },
+                        "img": {
+                            "@src": "https://www4b.wolframalpha.com/Calculate/MSP/MSP665019i43eecc93613350000423c58dggae7bd02?MSPStoreType=image/gif&s=35",
+                            "@width": "96",
+                            "@height": "26"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Nearby feature",
+            "@scanner": "Data",
+            "@id": "FeaturesHierarchyInfo:CityData",
+            "@position": "1100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "NuclearReactorData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "IAEAPowerReactorInformationSystem"
+                },
+                "img": {
+                    "@src": "https://www4b.wolframalpha.com/Calculate/MSP/MSP665119i43eecc936133500003g2haf675e3d473g?MSPStoreType=image/gif&s=35",
+                    "@alt": "nuclear power site | Bradwell (permanent shutdown) | 107 km (kilometers) east (straight-line distances between city center and feature coordinates)",
+                    "@title": "nuclear power site | Bradwell (permanent shutdown) | 107 km (kilometers) east (straight-line distances between city center and feature coordinates)",
+                    "@width": "546",
+                    "@height": "78",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "nuclear power site | Bradwell (permanent shutdown) | 107 km (kilometers) east\n(straight-line distances between city center and feature coordinates)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "FeaturesHierarchyInfo:CityData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Nearest sea",
+            "@scanner": "Data",
+            "@id": "OceansHierarchyInfo:CityData",
+            "@position": "1200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www4b.wolframalpha.com/Calculate/MSP/MSP665219i43eecc936133500004e5i311e4ib15e19?MSPStoreType=image/gif&s=35",
+                    "@alt": "North Sea (73 km (kilometers) east-southeast)  (straight-line distance between city center and shore)",
+                    "@title": "North Sea (73 km (kilometers) east-southeast)  (straight-line distance between city center and shore)",
+                    "@width": "301",
+                    "@height": "41",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "North Sea (73 km (kilometers) east-southeast) \n(straight-line distance between city center and shore)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "3",
+                "state": [
+                    {
+                        "@name": "Show map",
+                        "@input": "OceansHierarchyInfo:CityData__Show map"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "OceansHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "OceansHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Notable people born in Beaconsfield",
+            "@scanner": "Data",
+            "@id": "NotablePeople:CityData",
+            "@position": "1300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "PeopleData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www4b.wolframalpha.com/Calculate/MSP/MSP665319i43eecc9361335000013d7d7gffac08i0i?MSPStoreType=image/gif&s=35",
+                    "@alt": "Terry Pratchett (novelist) (1948) Phillip Hubble (athlete) (1960) Christopher Frank (academy award nominee) (1942)",
+                    "@title": "Terry Pratchett (novelist) (1948) Phillip Hubble (athlete) (1960) Christopher Frank (academy award nominee) (1942)",
+                    "@width": "348",
+                    "@height": "57",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Terry Pratchett (novelist) (1948)\nPhillip Hubble (athlete) (1960)\nChristopher Frank (academy award nominee) (1942)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show dates",
+                        "@input": "NotablePeople:CityData__Show dates"
+                    },
+                    {
+                        "@name": "Show deaths",
+                        "@input": "NotablePeople:CityData__Show deaths"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Wikipedia page hits history",
+            "@scanner": "Data",
+            "@id": "PopularityPod:WikipediaStatsData",
+            "@position": "1400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www4b.wolframalpha.com/Calculate/MSP/MSP665419i43eecc936133500006064725aa91f768h?MSPStoreType=image/gif&s=35",
+                    "@alt": "Wikipedia page hits history",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "167",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopularityPod:WikipediaStatsData__Log scale"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "2",
+        "assumption": [
+            {
+                "@type": "Clash",
+                "@word": "Beaconsfield",
+                "@template": "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead",
+                "@count": "2",
+                "value": [
+                    {
+                        "@name": "City",
+                        "@desc": "a city",
+                        "@input": "*C.Beaconsfield-_*City-"
+                    },
+                    {
+                        "@name": "AstronomicalObservatory",
+                        "@desc": "an astronomical observatory",
+                        "@input": "*C.Beaconsfield-_*AstronomicalObservatory-"
+                    }
+                ]
+            },
+            {
+                "@type": "SubCategory",
+                "@word": "Beaconsfield",
+                "@template": "Assuming ${desc1}. Use ${desc2} instead",
+                "@count": "3",
+                "value": [
+                    {
+                        "@name": "{Beaconsfield, Buckinghamshire, UnitedKingdom}",
+                        "@desc": "Beaconsfield (United Kingdom)",
+                        "@input": "*DPClash.CityE.Beaconsfield-_**Beaconsfield.Buckinghamshire.UnitedKingdom--"
+                    },
+                    {
+                        "@name": "{Beaconsfield, Tasmania, Australia}",
+                        "@desc": "Beaconsfield (Australia)",
+                        "@input": "*DPClash.CityE.Beaconsfield-_**Beaconsfield.Tasmania.Australia--"
+                    },
+                    {
+                        "@name": "{Beaconsfield, Iowa, UnitedStates}",
+                        "@desc": "Beaconsfield (United States)",
+                        "@input": "*DPClash.CityE.Beaconsfield-_**Beaconsfield.Iowa.UnitedStates--"
+                    }
+                ]
+            }
+        ]
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "7",
+        "source": [
+            {
+                "@url": "https://www4b.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www4b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www4b.wolframalpha.com/sources/NuclearReactorDataSourceInformationNotes.html",
+                "@text": "Nuclear reactor data"
+            },
+            {
+                "@url": "https://www4b.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www4b.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html",
+                "@text": "People data"
+            },
+            {
+                "@url": "https://www4b.wolframalpha.com/sources/USCensusDataSourceInformationNotes.html",
+                "@text": "US census data"
+            },
+            {
+                "@url": "https://www4b.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html",
+                "@text": "Weather data"
+            }
+        ]
+    }
+}

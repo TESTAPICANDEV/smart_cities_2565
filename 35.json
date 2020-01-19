@@ -1,0 +1,843 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "16",
+    "@datatypes": "AdministrativeDivision,City,MetropolitanArea,Person,WeatherStation",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "6.936",
+    "@parsetiming": "0.522",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP390911bf0b8ghea3036f00002bicf183daaf34ha",
+    "@host": "https://www5a.wolframalpha.com",
+    "@server": "47",
+    "@related": "https://www5a.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa391011bf0b8ghea3036f000049255a41840h2a773940777145929605518",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP391111bf0b8ghea3036f00005673967g3ef48gh3?MSPStoreType=image/gif&s=47",
+                    "@alt": "Winnipeg, Manitoba",
+                    "@title": "Winnipeg, Manitoba",
+                    "@width": "134",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Winnipeg, Manitoba"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Populations",
+            "@scanner": "Data",
+            "@id": "Population:CityData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "MetropolitanAreaData",
+                        "USCensusData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP391211bf0b8ghea3036f00004c21i8824c2fd4gb?MSPStoreType=image/gif&s=47",
+                    "@alt": "city population | 663617 people (country rank: 7th) (2011 estimate) metro area population | 672129 people (Winnipeg metro area) (2007 estimate)",
+                    "@title": "city population | 663617 people (country rank: 7th) (2011 estimate) metro area population | 672129 people (Winnipeg metro area) (2007 estimate)",
+                    "@width": "521",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "city population | 663617 people (country rank: 7th) (2011 estimate)\nmetro area population | 672129 people (Winnipeg metro area) (2007 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show history",
+                    "@input": "Population:CityData__Show history"
+                }
+            }
+        },
+        {
+            "@title": "Location",
+            "@scanner": "Data",
+            "@id": "Location:CityData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "2",
+            "subpod": [
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP391311bf0b8ghea3036f00004h62d39f5ih6fgb4?MSPStoreType=image/gif&s=47",
+                        "@alt": "Manitoba, Canada",
+                        "@title": "Manitoba, Canada",
+                        "@width": "121",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "Manitoba, Canada"
+                },
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData",
+                            "CountryData"
+                        ]
+                    },
+                    "datasources": {
+                        "datasource": "CIAFactbook"
+                    },
+                    "img": {
+                        "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP391411bf0b8ghea3036f00005262g3893209dcif?MSPStoreType=image/gif&s=47",
+                        "@alt": "Location",
+                        "@title": "",
+                        "@width": "328",
+                        "@height": "214",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                }
+            ],
+            "expressiontypes": {
+                "@count": "2",
+                "expressiontype": [
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    }
+                ]
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "World map",
+                        "@input": "Location:CityData__World map"
+                    },
+                    {
+                        "@name": "Show coordinates",
+                        "@input": "Location:CityData__Show coordinates"
+                    }
+                ]
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=49.88%2C-97.17&q=49.88%20N%2C%2097.17%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "Map:CityData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP391511bf0b8ghea3036f0000606f575ca1ga1hbc?MSPStoreType=image/gif&s=47",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "110 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "7 kilometers across",
+                            "@input": "Map:CityData__7 kilometers across"
+                        },
+                        {
+                            "@name": "10 kilometers across",
+                            "@input": "Map:CityData__10 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "Map:CityData__30 kilometers across"
+                        },
+                        {
+                            "@name": "50 kilometers across",
+                            "@input": "Map:CityData__50 kilometers across"
+                        },
+                        {
+                            "@name": "110 kilometers across",
+                            "@input": "Map:CityData__110 kilometers across"
+                        },
+                        {
+                            "@name": "220 kilometers across",
+                            "@input": "Map:CityData__220 kilometers across"
+                        },
+                        {
+                            "@name": "440 kilometers across",
+                            "@input": "Map:CityData__440 kilometers across"
+                        },
+                        {
+                            "@name": "880 kilometers across",
+                            "@input": "Map:CityData__880 kilometers across"
+                        },
+                        {
+                            "@name": "1800 kilometers across",
+                            "@input": "Map:CityData__1800 kilometers across"
+                        },
+                        {
+                            "@name": "3500 kilometers across",
+                            "@input": "Map:CityData__3500 kilometers across"
+                        },
+                        {
+                            "@name": "6700 kilometers across",
+                            "@input": "Map:CityData__6700 kilometers across"
+                        },
+                        {
+                            "@name": "11000 kilometers across",
+                            "@input": "Map:CityData__11000 kilometers across"
+                        },
+                        {
+                            "@name": "21000 kilometers across",
+                            "@input": "Map:CityData__21000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "Map:CityData__Non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=49.88%2C-97.17&q=49.88%20N%2C%2097.17%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Administrative regions",
+            "@scanner": "Data",
+            "@id": "AdministrativeRegions:CityData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP391611bf0b8ghea3036f00004c2ibbh72340ech0?MSPStoreType=image/gif&s=47",
+                    "@alt": "region | Manitoba country | Canada",
+                    "@title": "region | Manitoba country | Canada",
+                    "@width": "163",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "region | Manitoba\ncountry | Canada"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Current local time",
+            "@scanner": "Data",
+            "@id": "CurrentTime:CityData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP391711bf0b8ghea3036f000050agi4f8bc32g057?MSPStoreType=image/gif&s=47",
+                    "@alt": "10:39 pm CST | Saturday, January 18, 2020",
+                    "@title": "10:39 pm CST | Saturday, January 18, 2020",
+                    "@width": "301",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "10:39 pm CST | Saturday, January 18, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Current weather",
+            "@scanner": "Data",
+            "@id": "WeatherPod:CityData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "WeatherData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP391811bf0b8ghea3036f00004i4f88e07960e70c?MSPStoreType=image/gif&s=47",
+                    "@alt": "-17 \u00b0C (wind chill: -24 \u00b0C) | relative humidity: 75% | wind: 3 m/s",
+                    "@title": "-17 \u00b0C (wind chill: -24 \u00b0C) | relative humidity: 75% | wind: 3 m/s",
+                    "@width": "448",
+                    "@height": "22",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "-17 \u00b0C (wind chill: -24 \u00b0C) | relative humidity: 75% | wind: 3 m/s"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show history",
+                        "@input": "WeatherPod:CityData__Show history"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "WeatherPod:CityData__Show non-metric"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby cities",
+            "@scanner": "Data",
+            "@id": "CityHierarchyInfo:CityData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP391911bf0b8ghea3036f00005cbdg1a68fbe737f?MSPStoreType=image/gif&s=47",
+                    "@alt": "Stonewall, Manitoba | 30 km (kilometers) north-northwest | 4376 people Selkirk, Manitoba | 35 km (kilometers) northeast | 9553 people Steinbach, Manitoba | 53 km (kilometers) southeast | 11066 people Portage la Prairie, Manitoba | 83 km (kilometers) west | 12773 people (straight-line distances between city centers)",
+                    "@title": "Stonewall, Manitoba | 30 km (kilometers) north-northwest | 4376 people Selkirk, Manitoba | 35 km (kilometers) northeast | 9553 people Steinbach, Manitoba | 53 km (kilometers) southeast | 11066 people Portage la Prairie, Manitoba | 83 km (kilometers) west | 12773 people (straight-line distances between city centers)",
+                    "@width": "546",
+                    "@height": "162",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Stonewall, Manitoba | 30 km (kilometers) north-northwest | 4376 people\nSelkirk, Manitoba | 35 km (kilometers) northeast | 9553 people\nSteinbach, Manitoba | 53 km (kilometers) southeast | 11066 people\nPortage la Prairie, Manitoba | 83 km (kilometers) west | 12773 people\n(straight-line distances between city centers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "CityHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "CityHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby airport",
+            "@scanner": "Data",
+            "@id": "AirportHierarchyInfo:CityData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP392011bf0b8ghea3036f000053693dcci8147a8c?MSPStoreType=image/gif&s=47",
+                    "@alt": "Winnipeg International Airport | 6 km (kilometers) west-northwest (straight-line distances between city center and airport)",
+                    "@title": "Winnipeg International Airport | 6 km (kilometers) west-northwest (straight-line distances between city center and airport)",
+                    "@width": "471",
+                    "@height": "58",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Winnipeg International Airport | 6 km (kilometers) west-northwest\n(straight-line distances between city center and airport)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "AirportHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "AirportHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Notable company headquarters",
+            "@scanner": "Data",
+            "@id": "CompaniesInCity:CityData",
+            "@position": "1000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "datasources": {
+                    "datasource": [
+                        "ForbesAmericasLargestPrivateCompanies",
+                        "CrunchBase"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP392111bf0b8ghea3036f0000576eb47fehiidic5?MSPStoreType=image/gif&s=47",
+                    "@alt": "Great-West Lifeco | 23300 employees (Quarter 4 2017) | $37.39 billion per year (Quarter 4 2017) IGM Financial Inc | 3286 employees (Quarter 4 2017) | $2.874 billion per year (Quarter 4 2017) The North West Co Inc | 7378 employees (Quarter 1 2016) | $1.508 billion per year (Quarter 4 2017) Hudbay Minerals Inc | 2219 employees (Quarter 4 2017) | $1.363 billion per year (Quarter 4 2017) Boyd Group Income Fund | 7547 employees (Quarter 4 2017) | $1.248 billion per year (Quarter 4 2017)",
+                    "@title": "Great-West Lifeco | 23300 employees (Quarter 4 2017) | $37.39 billion per year (Quarter 4 2017) IGM Financial Inc | 3286 employees (Quarter 4 2017) | $2.874 billion per year (Quarter 4 2017) The North West Co Inc | 7378 employees (Quarter 1 2016) | $1.508 billion per year (Quarter 4 2017) Hudbay Minerals Inc | 2219 employees (Quarter 4 2017) | $1.363 billion per year (Quarter 4 2017) Boyd Group Income Fund | 7547 employees (Quarter 4 2017) | $1.248 billion per year (Quarter 4 2017)",
+                    "@width": "546",
+                    "@height": "249",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Great-West Lifeco | 23300 employees (Quarter 4 2017) | $37.39 billion per year (Quarter 4 2017)\nIGM Financial Inc | 3286 employees (Quarter 4 2017) | $2.874 billion per year (Quarter 4 2017)\nThe North West Co Inc | 7378 employees (Quarter 1 2016) | $1.508 billion per year (Quarter 4 2017)\nHudbay Minerals Inc | 2219 employees (Quarter 4 2017) | $1.363 billion per year (Quarter 4 2017)\nBoyd Group Income Fund | 7547 employees (Quarter 4 2017) | $1.248 billion per year (Quarter 4 2017)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "More",
+                    "@input": "CompaniesInCity:CityData__More"
+                }
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:CityData",
+            "@position": "1100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP392211bf0b8ghea3036f000062469c5a1ac616aa?MSPStoreType=image/gif&s=47",
+                    "@alt": "elevation | 233 m",
+                    "@title": "elevation | 233 m",
+                    "@width": "147",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "elevation | 233 m"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:CityData__Show non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "units": {
+                        "@count": "1",
+                        "unit": {
+                            "@short": "m",
+                            "@long": "meters"
+                        },
+                        "img": {
+                            "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP392311bf0b8ghea3036f00003c753c8g95ga50ff?MSPStoreType=image/gif&s=47",
+                            "@width": "96",
+                            "@height": "26"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Nearest sea",
+            "@scanner": "Data",
+            "@id": "OceansHierarchyInfo:CityData",
+            "@position": "1200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP392411bf0b8ghea3036f00001i594dh971ha2410?MSPStoreType=image/gif&s=47",
+                    "@alt": "Hudson Bay (832 km (kilometers) north-northeast)  (straight-line distance between city center and shore)",
+                    "@title": "Hudson Bay (832 km (kilometers) north-northeast)  (straight-line distance between city center and shore)",
+                    "@width": "332",
+                    "@height": "41",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Hudson Bay (832 km (kilometers) north-northeast) \n(straight-line distance between city center and shore)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show map",
+                        "@input": "OceansHierarchyInfo:CityData__Show map"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "OceansHierarchyInfo:CityData__Show non-metric"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nicknames",
+            "@scanner": "Data",
+            "@id": "BasicInformation:CityData",
+            "@position": "1300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP392511bf0b8ghea3036f0000418fg2aab87ddd35?MSPStoreType=image/gif&s=47",
+                    "@alt": "Winterpeg | The 'peg | Slurpee Capital of Canada | Chicago of the North",
+                    "@title": "Winterpeg | The 'peg | Slurpee Capital of Canada | Chicago of the North",
+                    "@width": "508",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Winterpeg | The 'peg | Slurpee Capital of Canada | Chicago of the North"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Notable people born in Winnipeg",
+            "@scanner": "Data",
+            "@id": "NotablePeople:CityData",
+            "@position": "1400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "PeopleData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP392611bf0b8ghea3036f00000e0ecdi1735c4ig9?MSPStoreType=image/gif&s=47",
+                    "@alt": "Anna Paquin (actor) (1982) Terry Fox (athlete, etc.) (1958) David Reimer (unspecified) (1965) Daniel Gillies (actor, etc.) (1976) Jonathan Toews (athlete) (1988) Nia Vardalos (actor) (1962) Tracy Spiridakos (actor, etc.) (1988) Louis Slotin (physicist) (1910) Deanna Durbin (actor) (1921) Chantal Kreviazuk (musician, etc.) (1974) ...",
+                    "@title": "Anna Paquin (actor) (1982) Terry Fox (athlete, etc.) (1958) David Reimer (unspecified) (1965) Daniel Gillies (actor, etc.) (1976) Jonathan Toews (athlete) (1988) Nia Vardalos (actor) (1962) Tracy Spiridakos (actor, etc.) (1988) Louis Slotin (physicist) (1910) Deanna Durbin (actor) (1921) Chantal Kreviazuk (musician, etc.) (1974) ...",
+                    "@width": "276",
+                    "@height": "209",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Anna Paquin (actor) (1982)\nTerry Fox (athlete, etc.) (1958)\nDavid Reimer (unspecified) (1965)\nDaniel Gillies (actor, etc.) (1976)\nJonathan Toews (athlete) (1988)\nNia Vardalos (actor) (1962)\nTracy Spiridakos (actor, etc.) (1988)\nLouis Slotin (physicist) (1910)\nDeanna Durbin (actor) (1921)\nChantal Kreviazuk (musician, etc.) (1974)\n..."
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "3",
+                "state": [
+                    {
+                        "@name": "More",
+                        "@input": "NotablePeople:CityData__More"
+                    },
+                    {
+                        "@name": "Show dates",
+                        "@input": "NotablePeople:CityData__Show dates"
+                    },
+                    {
+                        "@name": "Show deaths",
+                        "@input": "NotablePeople:CityData__Show deaths"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Founding date",
+            "@scanner": "Data",
+            "@id": "FoundingDates:CityData",
+            "@position": "1500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP392711bf0b8ghea3036f00005fih5hibided3dfe?MSPStoreType=image/gif&s=47",
+                    "@alt": "1873 (147 years ago) (incorporation date)",
+                    "@title": "1873 (147 years ago) (incorporation date)",
+                    "@width": "268",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "1873 (147 years ago) (incorporation date)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "More",
+                    "@input": "FoundingDates:CityData__More"
+                }
+            }
+        },
+        {
+            "@title": "Wikipedia page hits history",
+            "@scanner": "Data",
+            "@id": "PopularityPod:WikipediaStatsData",
+            "@position": "1600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP392811bf0b8ghea3036f00003525692hce68bi06?MSPStoreType=image/gif&s=47",
+                    "@alt": "Wikipedia page hits history",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "166",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopularityPod:WikipediaStatsData__Log scale"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "1",
+        "assumption": {
+            "@type": "MultiClash",
+            "@word": "",
+            "@template": "Assuming ${word1} is referring to ${desc1}. Use \"${word2}\" as ${desc2}.",
+            "@count": "2",
+            "value": [
+                {
+                    "@name": "City",
+                    "@word": "the input",
+                    "@desc": "a city",
+                    "@input": "*MC.%7E-_*City-"
+                },
+                {
+                    "@name": "Lake",
+                    "@word": "Winnipeg",
+                    "@desc": "a lake",
+                    "@input": "*MC.%7E-_*Lake-"
+                }
+            ]
+        }
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "7",
+        "source": [
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/MetropolitanAreaDataSourceInformationNotes.html",
+                "@text": "Metropolitan area data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html",
+                "@text": "People data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/USCensusDataSourceInformationNotes.html",
+                "@text": "US census data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html",
+                "@text": "Weather data"
+            }
+        ]
+    }
+}

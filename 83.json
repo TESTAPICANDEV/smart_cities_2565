@@ -1,0 +1,1041 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "19",
+    "@datatypes": "ACS,City,MetropolitanArea,NuclearReactor,Person,UrbanArea,USCounty,USHousing,USState,WeatherStation",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "7.718",
+    "@parsetiming": "0.437",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP47531ff7aad8i00f3b8500001g308abb1gege05d",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "52",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa47541ff7aad8i00f3b8500002728dcig6i047e8c4257389488633439858",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47551ff7aad8i00f3b8500006928fbhfhh6401ad?MSPStoreType=image/gif&s=52",
+                    "@alt": "Valley View, Pennsylvania, United States",
+                    "@title": "Valley View, Pennsylvania, United States",
+                    "@width": "264",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Valley View, Pennsylvania, United States"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Populations",
+            "@scanner": "Data",
+            "@id": "Population:CityData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "MetropolitanAreaData",
+                        "UrbanAreaData",
+                        "USCensusData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47561ff7aad8i00f3b8500005gh1a06if4395h61?MSPStoreType=image/gif&s=52",
+                    "@alt": "city population | 2743 people (2000 estimate) urban area population | 192903 people (York (PA) urban area) (country rank: 158th) (2000 estimate) metro area population | 436770 people (York-Hanover metro area) (country rank: 113th) (2011 estimate)",
+                    "@title": "city population | 2743 people (2000 estimate) urban area population | 192903 people (York (PA) urban area) (country rank: 158th) (2000 estimate) metro area population | 436770 people (York-Hanover metro area) (country rank: 113th) (2011 estimate)",
+                    "@width": "546",
+                    "@height": "134",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "city population | 2743 people (2000 estimate)\nurban area population | 192903 people (York (PA) urban area) (country rank: 158th) (2000 estimate)\nmetro area population | 436770 people (York-Hanover metro area) (country rank: 113th) (2011 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Location",
+            "@scanner": "Data",
+            "@id": "Location:CityData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "2",
+            "subpod": [
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "CityData",
+                            "USCountyData",
+                            "USStateData"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47571ff7aad8i00f3b8500004bb96fb671d4e2e8?MSPStoreType=image/gif&s=52",
+                        "@alt": "York County, Pennsylvania",
+                        "@title": "York County, Pennsylvania",
+                        "@width": "177",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "York County, Pennsylvania"
+                },
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "CityData",
+                            "USCountyData",
+                            "USStateData",
+                            "CountryData"
+                        ]
+                    },
+                    "datasources": {
+                        "datasource": "CIAFactbook"
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47581ff7aad8i00f3b85000061h79i1b5echb45h?MSPStoreType=image/gif&s=52",
+                        "@alt": "Location",
+                        "@title": "",
+                        "@width": "328",
+                        "@height": "177",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                }
+            ],
+            "expressiontypes": {
+                "@count": "2",
+                "expressiontype": [
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    }
+                ]
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "World map",
+                        "@input": "Location:CityData__World map"
+                    },
+                    {
+                        "@name": "Show coordinates",
+                        "@input": "Location:CityData__Show coordinates"
+                    }
+                ]
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=39.9527%2C-76.7006&q=39.9527%20N%2C%2076.7006%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "Map:CityData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47591ff7aad8i00f3b85000016ie0hd29198g8e7?MSPStoreType=image/gif&s=52",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "8 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "8 kilometers across",
+                            "@input": "Map:CityData__8 kilometers across"
+                        },
+                        {
+                            "@name": "20 kilometers across",
+                            "@input": "Map:CityData__20 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "Map:CityData__30 kilometers across"
+                        },
+                        {
+                            "@name": "60 kilometers across",
+                            "@input": "Map:CityData__60 kilometers across"
+                        },
+                        {
+                            "@name": "130 kilometers across",
+                            "@input": "Map:CityData__130 kilometers across"
+                        },
+                        {
+                            "@name": "260 kilometers across",
+                            "@input": "Map:CityData__260 kilometers across"
+                        },
+                        {
+                            "@name": "520 kilometers across",
+                            "@input": "Map:CityData__520 kilometers across"
+                        },
+                        {
+                            "@name": "1000 kilometers across",
+                            "@input": "Map:CityData__1000 kilometers across"
+                        },
+                        {
+                            "@name": "2100 kilometers across",
+                            "@input": "Map:CityData__2100 kilometers across"
+                        },
+                        {
+                            "@name": "4100 kilometers across",
+                            "@input": "Map:CityData__4100 kilometers across"
+                        },
+                        {
+                            "@name": "8100 kilometers across",
+                            "@input": "Map:CityData__8100 kilometers across"
+                        },
+                        {
+                            "@name": "13000 kilometers across",
+                            "@input": "Map:CityData__13000 kilometers across"
+                        },
+                        {
+                            "@name": "26000 kilometers across",
+                            "@input": "Map:CityData__26000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "Map:CityData__Non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=39.9527%2C-76.7006&q=39.9527%20N%2C%2076.7006%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Administrative regions",
+            "@scanner": "Data",
+            "@id": "AdministrativeRegions:CityData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCountyData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47601ff7aad8i00f3b85000028hi88h6bh27aab9?MSPStoreType=image/gif&s=52",
+                    "@alt": "county | York County state | Pennsylvania country | United States",
+                    "@title": "county | York County state | Pennsylvania country | United States",
+                    "@width": "186",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "county | York County\nstate | Pennsylvania\ncountry | United States"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Current local time",
+            "@scanner": "Data",
+            "@id": "CurrentTime:CityData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47611ff7aad8i00f3b85000056ah1a9abhe7cg5i?MSPStoreType=image/gif&s=52",
+                    "@alt": "11:48 pm EST | Saturday, January 18, 2020",
+                    "@title": "11:48 pm EST | Saturday, January 18, 2020",
+                    "@width": "301",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "11:48 pm EST | Saturday, January 18, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Current weather",
+            "@scanner": "Data",
+            "@id": "WeatherPod:CityData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "WeatherData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47621ff7aad8i00f3b85000048hdg8g4cg753ha8?MSPStoreType=image/gif&s=52",
+                    "@alt": "1 \u00b0C (wind chill: -1 \u00b0C) | relative humidity: 88% | wind: 2 m/s | overcast",
+                    "@title": "1 \u00b0C (wind chill: -1 \u00b0C) | relative humidity: 88% | wind: 2 m/s | overcast",
+                    "@width": "502",
+                    "@height": "22",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "1 \u00b0C (wind chill: -1 \u00b0C) | relative humidity: 88% | wind: 2 m/s | overcast"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show history",
+                        "@input": "WeatherPod:CityData__Show history"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "WeatherPod:CityData__Show non-metric"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Demographics",
+            "@scanner": "Data",
+            "@id": "ACSPercentageEntrainments:ACSData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "ACSData"
+                },
+                "datasources": {
+                    "datasource": [
+                        "CensusAmericanCommunitySurvey5YearsRace",
+                        "CensusAmericanCommunitySurvey5YearsHispanicOrigin",
+                        "CensusAmericanCommunitySurvey5YearsCitizenship"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47631ff7aad8i00f3b8500004h171c62gc072b8g?MSPStoreType=image/gif&s=52",
+                    "@alt": "race | white: 93% | black/African American: 3.4% | Asian: 1.7% | ... Hispanic origin | 6.8% US citizens | 100%",
+                    "@title": "race | white: 93% | black/African American: 3.4% | Asian: 1.7% | ... Hispanic origin | 6.8% US citizens | 100%",
+                    "@width": "546",
+                    "@height": "117",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "race | white: 93% | black/African American: 3.4% | Asian: 1.7% | ...\nHispanic origin | 6.8%\nUS citizens | 100%"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "More",
+                    "@input": "ACSPercentageEntrainments:ACSData__More"
+                }
+            }
+        },
+        {
+            "@title": "Educational attainment",
+            "@scanner": "Data",
+            "@id": "ACSEducationEntrainments:ACSData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "ACSData"
+                },
+                "datasources": {
+                    "datasource": "CensusAmericanCommunitySurvey5YearsEducation"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47641ff7aad8i00f3b8500001hbh49ddb4egc156?MSPStoreType=image/gif&s=52",
+                    "@alt": "college degree and above | 48.6% (1.28 \u00d7 national average) high school diploma | 30.8% (\u2248 national average) less than high school diploma | 4.6% (0.343 \u00d7 national average) (for population age 25 and older)",
+                    "@title": "college degree and above | 48.6% (1.28 \u00d7 national average) high school diploma | 30.8% (\u2248 national average) less than high school diploma | 4.6% (0.343 \u00d7 national average) (for population age 25 and older)",
+                    "@width": "430",
+                    "@height": "121",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "college degree and above | 48.6% (1.28 \u00d7 national average)\nhigh school diploma | 30.8% (\u2248 national average)\nless than high school diploma | 4.6% (0.343 \u00d7 national average)\n(for population age 25 and older)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show enrollment",
+                    "@input": "ACSEducationEntrainments:ACSData__Show enrollment"
+                }
+            }
+        },
+        {
+            "@title": "Income statistics",
+            "@scanner": "Data",
+            "@id": "ACSIncomeEntrainments:ACSData",
+            "@position": "1000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "ACSData"
+                },
+                "datasources": {
+                    "datasource": [
+                        "CensusAmericanCommunitySurvey5YearsMedianIncome",
+                        "CensusAmericanCommunitySurvey5YearsPerCapitaIncome",
+                        "CensusAmericanCommunitySurvey5YearsPoverty"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47651ff7aad8i00f3b850000613ch3ib6f6dcbc4?MSPStoreType=image/gif&s=52",
+                    "@alt": "median household income | $62537 per year (US dollars per year) (\u2248 national average) per capita income | $37139 per year per person (US dollars per year per person) (1.25 \u00d7 national average) population below poverty line | 5.7% (0.379 \u00d7 national average)",
+                    "@title": "median household income | $62537 per year (US dollars per year) (\u2248 national average) per capita income | $37139 per year per person (US dollars per year per person) (1.25 \u00d7 national average) population below poverty line | 5.7% (0.379 \u00d7 national average)",
+                    "@width": "546",
+                    "@height": "151",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "median household income | $62537 per year (US dollars per year) (\u2248 national average)\nper capita income | $37139 per year per person (US dollars per year per person) (1.25 \u00d7 national average)\npopulation below poverty line | 5.7% (0.379 \u00d7 national average)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show distribution",
+                    "@input": "ACSIncomeEntrainments:ACSData__Show distribution"
+                }
+            }
+        },
+        {
+            "@title": "Economic properties",
+            "@scanner": "Data",
+            "@id": "EconomicProperties:CityData",
+            "@position": "1100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USEmploymentData",
+                        "USHousingData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "RealtorsMetropolitanAreaMedianPrices"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47661ff7aad8i00f3b8500004cdf7275ia0efi02?MSPStoreType=image/gif&s=52",
+                    "@alt": "median home price | $150500 (York-Hanover metro area) (annual change: +2.52%) (2013)",
+                    "@title": "median home price | $150500 (York-Hanover metro area) (annual change: +2.52%) (2013)",
+                    "@width": "546",
+                    "@height": "53",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "median home price | $150500 (York-Hanover metro area) (annual change: +2.52%) (2013)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Nearby cities",
+            "@scanner": "Data",
+            "@id": "CityHierarchyInfo:CityData",
+            "@position": "1200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47671ff7aad8i00f3b8500001b1di60527hg6e52?MSPStoreType=image/gif&s=52",
+                    "@alt": "York, Pennsylvania | 3 km (kilometers) west-northwest | 43550 people Baltimore, Maryland | 73 km (kilometers) south | 621342 people New York City, New York | 248 km (kilometers) east-northeast | 8.337 million people (straight-line distances between city centers)",
+                    "@title": "York, Pennsylvania | 3 km (kilometers) west-northwest | 43550 people Baltimore, Maryland | 73 km (kilometers) south | 621342 people New York City, New York | 248 km (kilometers) east-northeast | 8.337 million people (straight-line distances between city centers)",
+                    "@width": "546",
+                    "@height": "156",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "York, Pennsylvania | 3 km (kilometers) west-northwest | 43550 people\nBaltimore, Maryland | 73 km (kilometers) south | 621342 people\nNew York City, New York | 248 km (kilometers) east-northeast | 8.337 million people\n(straight-line distances between city centers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "CityHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "CityHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby airports",
+            "@scanner": "Data",
+            "@id": "AirportHierarchyInfo:CityData",
+            "@position": "1300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47681ff7aad8i00f3b8500002f3bgh13109eabe3?MSPStoreType=image/gif&s=52",
+                    "@alt": "York Airport | 15 km (kilometers) west-southwest Harrisburg International Airport | 27 km (kilometers) north-northwest Capital City Airport | 32 km (kilometers) north-northwest Lancaster Airport | 39 km (kilometers) east-northeast Phillips AAF | 71 km (kilometers) southeast (straight-line distances between city center and airport)",
+                    "@title": "York Airport | 15 km (kilometers) west-southwest Harrisburg International Airport | 27 km (kilometers) north-northwest Capital City Airport | 32 km (kilometers) north-northwest Lancaster Airport | 39 km (kilometers) east-northeast Phillips AAF | 71 km (kilometers) southeast (straight-line distances between city center and airport)",
+                    "@width": "495",
+                    "@height": "170",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "York Airport | 15 km (kilometers) west-southwest\nHarrisburg International Airport | 27 km (kilometers) north-northwest\nCapital City Airport | 32 km (kilometers) north-northwest\nLancaster Airport | 39 km (kilometers) east-northeast\nPhillips AAF | 71 km (kilometers) southeast\n(straight-line distances between city center and airport)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "AirportHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "AirportHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby hospital",
+            "@scanner": "Data",
+            "@id": "HospitalHierarchyInfo:CityData",
+            "@position": "1400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47691ff7aad8i00f3b8500003g5ge93587e283gc?MSPStoreType=image/gif&s=52",
+                    "@alt": "York Hospital | 2 km (kilometers) west-southwest (straight-line distances between city center and hospital)",
+                    "@title": "York Hospital | 2 km (kilometers) west-southwest (straight-line distances between city center and hospital)",
+                    "@width": "355",
+                    "@height": "58",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "York Hospital | 2 km (kilometers) west-southwest\n(straight-line distances between city center and hospital)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "HospitalHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "HospitalHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:CityData",
+            "@position": "1500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47701ff7aad8i00f3b85000027h8dehh0b58g5ei?MSPStoreType=image/gif&s=52",
+                    "@alt": "elevation | 188 m area | 2.0023 km^2 population density | 1370 people per square kilometer",
+                    "@title": "elevation | 188 m area | 2.0023 km^2 population density | 1370 people per square kilometer",
+                    "@width": "386",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "elevation | 188 m\narea | 2.0023 km^2\npopulation density | 1370 people per square kilometer"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:CityData__Show non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "units": {
+                        "@count": "2",
+                        "unit": [
+                            {
+                                "@short": "km^2",
+                                "@long": "square kilometers"
+                            },
+                            {
+                                "@short": "m",
+                                "@long": "meters"
+                            }
+                        ],
+                        "img": {
+                            "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47711ff7aad8i00f3b850000570cb0927ih22eg8?MSPStoreType=image/gif&s=52",
+                            "@width": "171",
+                            "@height": "48"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Nearby features",
+            "@scanner": "Data",
+            "@id": "FeaturesHierarchyInfo:CityData",
+            "@position": "1600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "NuclearReactorData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "IAEAPowerReactorInformationSystem"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47721ff7aad8i00f3b85000030c43c68agb1002f?MSPStoreType=image/gif&s=52",
+                    "@alt": "nuclear power site | Three Mile Island | 22 km (kilometers) north waterfall | Great Falls (24 meters) | 116 km (kilometers) south-southwest (straight-line distances between city center and feature coordinates)",
+                    "@title": "nuclear power site | Three Mile Island | 22 km (kilometers) north waterfall | Great Falls (24 meters) | 116 km (kilometers) south-southwest (straight-line distances between city center and feature coordinates)",
+                    "@width": "546",
+                    "@height": "106",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "nuclear power site | Three Mile Island | 22 km (kilometers) north\nwaterfall | Great Falls (24 meters) | 116 km (kilometers) south-southwest\n(straight-line distances between city center and feature coordinates)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "FeaturesHierarchyInfo:CityData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Nearest sea",
+            "@scanner": "Data",
+            "@id": "OceansHierarchyInfo:CityData",
+            "@position": "1700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47731ff7aad8i00f3b850000428a8cbb07ac62d1?MSPStoreType=image/gif&s=52",
+                    "@alt": "Atlantic Ocean (68 km (kilometers) south-southeast)  (straight-line distance between city center and shore)",
+                    "@title": "Atlantic Ocean (68 km (kilometers) south-southeast)  (straight-line distance between city center and shore)",
+                    "@width": "342",
+                    "@height": "41",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Atlantic Ocean (68 km (kilometers) south-southeast) \n(straight-line distance between city center and shore)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "OceansHierarchyInfo:CityData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Notable people born in Valley View",
+            "@scanner": "Data",
+            "@id": "NotablePeople:CityData",
+            "@position": "1800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "PeopleData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47741ff7aad8i00f3b850000666e93cbddbd1b89?MSPStoreType=image/gif&s=52",
+                    "@alt": "(none known)",
+                    "@title": "(none known)",
+                    "@width": "92",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "(none known)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show dates",
+                        "@input": "NotablePeople:CityData__Show dates"
+                    },
+                    {
+                        "@name": "Show deaths",
+                        "@input": "NotablePeople:CityData__Show deaths"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Wikipedia page hits history",
+            "@scanner": "Data",
+            "@id": "PopularityPod:WikipediaStatsData",
+            "@position": "1900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP47751ff7aad8i00f3b8500002ieg97ac7hg7784h?MSPStoreType=image/gif&s=52",
+                    "@alt": "Wikipedia page hits history",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "170",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopularityPod:WikipediaStatsData__Log scale"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "2",
+        "assumption": [
+            {
+                "@type": "MultiClash",
+                "@word": "",
+                "@template": "Assuming ${word1} is referring to ${desc1}. Use \"${word2}\" as ${desc2}.",
+                "@count": "2",
+                "value": [
+                    {
+                        "@name": "City",
+                        "@word": "the input",
+                        "@desc": "a city",
+                        "@input": "*MC.%7E-_*City-"
+                    },
+                    {
+                        "@name": "Neighborhood",
+                        "@word": "Valleyview",
+                        "@desc": "a neighborhood",
+                        "@input": "*MC.%7E-_*Neighborhood-"
+                    }
+                ]
+            },
+            {
+                "@type": "SubCategory",
+                "@word": "Town of Valleyview",
+                "@template": "Assuming ${desc1}. Use ${desc2} instead",
+                "@count": "5",
+                "value": [
+                    {
+                        "@name": "{ValleyView, Pennsylvania, UnitedStates}",
+                        "@desc": "Valley View (Pennsylvania, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Valleyview-_**ValleyView.Pennsylvania.UnitedStates--"
+                    },
+                    {
+                        "@name": "{ValleyView, Ohio, UnitedStates}",
+                        "@desc": "Valley View (Ohio, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Valleyview-_**ValleyView.Ohio.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Valleyview, Alberta, Canada}",
+                        "@desc": "Valleyview (Canada)",
+                        "@input": "*DPClash.CityE.Town+of+Valleyview-_**Valleyview.Alberta.Canada--"
+                    },
+                    {
+                        "@name": "{Valleyview, Ohio, UnitedStates}",
+                        "@desc": "Valleyview (Ohio, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Valleyview-_**Valleyview.Ohio.UnitedStates--"
+                    },
+                    {
+                        "@name": "{ValleyView, Texas, UnitedStates}",
+                        "@desc": "Valley View (Texas, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Valleyview-_**ValleyView.Texas.UnitedStates--"
+                    }
+                ]
+            }
+        ]
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "13",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/ACSDataSourceInformationNotes.html",
+                "@text": "ACS data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/MetropolitanAreaDataSourceInformationNotes.html",
+                "@text": "Metropolitan area data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/NuclearReactorDataSourceInformationNotes.html",
+                "@text": "Nuclear reactor data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html",
+                "@text": "People data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/UrbanAreaDataSourceInformationNotes.html",
+                "@text": "Urban area data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USCensusDataSourceInformationNotes.html",
+                "@text": "US census data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USCountyDataSourceInformationNotes.html",
+                "@text": "US county data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USEmploymentDataSourceInformationNotes.html",
+                "@text": "US employment data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USHousingDataSourceInformationNotes.html",
+                "@text": "US housing data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USStateDataSourceInformationNotes.html",
+                "@text": "US state data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html",
+                "@text": "Weather data"
+            }
+        ]
+    }
+}

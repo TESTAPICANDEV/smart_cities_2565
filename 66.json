@@ -1,0 +1,306 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "6",
+    "@datatypes": "Person",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "2.593",
+    "@parsetiming": "0.338",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP35301hgda8bba2hhf4b000004a1f4gf381eb6ibe",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "54",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa35311hgda8bba2hhf4b000005hi3h9ie4cb29bc02137842930739718529",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP35321hgda8bba2hhf4b0000048hdh29f86bi3908?MSPStoreType=image/gif&s=54",
+                    "@alt": "John of Patmos (religious)",
+                    "@title": "John of Patmos (religious)",
+                    "@width": "174",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "John of Patmos (religious)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Basic information",
+            "@scanner": "Data",
+            "@id": "BasicInformation:PeopleData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "PeopleData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP35331hgda8bba2hhf4b000005bf1chddgd2di3fb?MSPStoreType=image/gif&s=54",
+                    "@alt": "full name | John of Patmos date of birth | 1 BC (2020 years ago)",
+                    "@title": "full name | John of Patmos date of birth | 1 BC (2020 years ago)",
+                    "@width": "255",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "full name | John of Patmos\ndate of birth | 1 BC (2020 years ago)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Image",
+            "@scanner": "Data",
+            "@id": "Image:PeopleData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "imagesource": "http://commons.wikimedia.org/wiki/File:Alonso_Cano_001.jpg",
+                "microsources": {
+                    "microsource": "PeopleData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP35341hgda8bba2hhf4b00000459255eecf2i7d16?MSPStoreType=image/gif&s=54",
+                    "@alt": "Image",
+                    "@title": "",
+                    "@width": "106",
+                    "@height": "150",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Timeline",
+            "@scanner": "Data",
+            "@id": "Timeline:PeopleData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "PeopleData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP35351hgda8bba2hhf4b00000163528c670525e14?MSPStoreType=image/gif&s=54",
+                    "@alt": "Timeline",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "38",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimelinePlot"
+                }
+            }
+        },
+        {
+            "@title": "Wikipedia summary",
+            "@scanner": "Character",
+            "@id": "WikipediaSummary:PeopleData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP35361hgda8bba2hhf4b000002h2cc54a985fc839?MSPStoreType=image/gif&s=54",
+                    "@alt": "John of Patmos (also called John the Revelator, John the Divine or John the Theologian; Coptic:) is the author named as John in the Book of Revelation, the apocalyptic text forming the final book of the New Testament. The text of Revelation states that John was on Patmos, a Greek island where, by most biblical historians, he is considered to be in exile as a result of anti-Christian persecution under the Roman emperor Domitian.",
+                    "@title": "John of Patmos (also called John the Revelator, John the Divine or John the Theologian; Coptic:) is the author named as John in the Book of Revelation, the apocalyptic text forming the final book of the New Testament. The text of Revelation states that John was on Patmos, a Greek island where, by most biblical historians, he is considered to be in exile as a result of anti-Christian persecution under the Roman emperor Domitian.",
+                    "@width": "542",
+                    "@height": "109",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "John of Patmos (also called John the Revelator, John the Divine or John the Theologian; Coptic:) is the author named as John in the Book of Revelation, the apocalyptic text forming the final book of the New Testament. The text of Revelation states that John was on Patmos, a Greek island where, by most biblical historians, he is considered to be in exile as a result of anti-Christian persecution under the Roman emperor Domitian.",
+                "infos": {
+                    "@count": "1",
+                    "info": {
+                        "link": {
+                            "@url": "http://en.wikipedia.org/wiki?curid=2023036",
+                            "@text": "Full entry"
+                        }
+                    }
+                }
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Wikipedia page hits history",
+            "@scanner": "Data",
+            "@id": "PopularityPod:WikipediaStatsData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP35371hgda8bba2hhf4b00000464h1hh6e0dg1dgh?MSPStoreType=image/gif&s=54",
+                    "@alt": "Wikipedia page hits history",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "166",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopularityPod:WikipediaStatsData__Log scale"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "2",
+        "assumption": [
+            {
+                "@type": "Clash",
+                "@word": "St. John's",
+                "@template": "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead",
+                "@count": "9",
+                "value": [
+                    {
+                        "@name": "Person",
+                        "@desc": "a person",
+                        "@input": "*C.St%21.+John%27s-_*Person-"
+                    },
+                    {
+                        "@name": "University",
+                        "@desc": "a university",
+                        "@input": "*C.St%21.+John%27s-_*University-"
+                    },
+                    {
+                        "@name": "SolarSystemFeature",
+                        "@desc": "a solar system feature",
+                        "@input": "*C.St%21.+John%27s-_*SolarSystemFeature-"
+                    },
+                    {
+                        "@name": "MusicWork",
+                        "@desc": "a music work",
+                        "@input": "*C.St%21.+John%27s-_*MusicWork-"
+                    },
+                    {
+                        "@name": "Island",
+                        "@desc": "an island",
+                        "@input": "*C.St%21.+John%27s-_*Island-"
+                    },
+                    {
+                        "@name": "City",
+                        "@desc": "a city",
+                        "@input": "*C.St%21.+John%27s-_*City-"
+                    },
+                    {
+                        "@name": "Building",
+                        "@desc": "a structure",
+                        "@input": "*C.St%21.+John%27s-_*Building-"
+                    },
+                    {
+                        "@name": "Glacier",
+                        "@desc": "a glacier",
+                        "@input": "*C.St%21.+John%27s-_*Glacier-"
+                    },
+                    {
+                        "@name": "Surname",
+                        "@desc": "a surname",
+                        "@input": "*C.St%21.+John%27s-_*Surname-"
+                    }
+                ]
+            },
+            {
+                "@type": "SubCategory",
+                "@word": "St. John's",
+                "@template": "Assuming ${desc1}. Use ${desc2} instead",
+                "@count": "4",
+                "value": [
+                    {
+                        "@name": "JohnOfPatmos::d4y35",
+                        "@desc": "John of Patmos",
+                        "@input": "*DPClash.PersonE.St%21.+John%27s-_*JohnOfPatmos%3A%3Ad4y35-"
+                    },
+                    {
+                        "@name": "JohnTheApostle::pj8x6",
+                        "@desc": "John the Apostle",
+                        "@input": "*DPClash.PersonE.St%21.+John%27s-_*JohnTheApostle%3A%3Apj8x6-"
+                    },
+                    {
+                        "@name": "JohnTheBaptist::y5924",
+                        "@desc": "John the Baptist",
+                        "@input": "*DPClash.PersonE.St%21.+John%27s-_*JohnTheBaptist%3A%3Ay5924-"
+                    },
+                    {
+                        "@name": "JohnTheEvangelist::j763z",
+                        "@desc": "John the Evangelist",
+                        "@input": "*DPClash.PersonE.St%21.+John%27s-_*JohnTheEvangelist%3A%3Aj763z-"
+                    }
+                ]
+            }
+        ]
+    },
+    "sources": {
+        "@count": "1",
+        "source": {
+            "@url": "https://www5b.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html",
+            "@text": "People data"
+        }
+    }
+}

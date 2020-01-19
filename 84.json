@@ -1,0 +1,1092 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "20",
+    "@datatypes": "ACS,City,Congestion,Crime,MetropolitanArea,NuclearReactor,Person,UrbanArea,USCounty,USHousing,USState,WeatherStation",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "8.202",
+    "@parsetiming": "0.402",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP4308141001f5614d804b000030a82h5254d3h08i",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "56",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa4309141001f5614d804b000013ade9ce52db26id2586184755524934074",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4310141001f5614d804b00003ghh1fbah69a37eh?MSPStoreType=image/gif&s=56",
+                    "@alt": "Yarmouth, Massachusetts, United States",
+                    "@title": "Yarmouth, Massachusetts, United States",
+                    "@width": "263",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Yarmouth, Massachusetts, United States"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Populations",
+            "@scanner": "Data",
+            "@id": "Population:CityData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "MetropolitanAreaData",
+                        "UrbanAreaData",
+                        "USCensusData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4311141001f5614d804b00004608g17447048h4a?MSPStoreType=image/gif&s=56",
+                    "@alt": "city population | 23339 people (country rank: \u22482018th) (2017 estimate) urban area population | 243667 people (Barnstable Town urban area) (country rank: 128th) (2000 estimate) metro area population | 215769 people (Barnstable Town metro area) (country rank: 198th) (2011 estimate)",
+                    "@title": "city population | 23339 people (country rank: \u22482018th) (2017 estimate) urban area population | 243667 people (Barnstable Town urban area) (country rank: 128th) (2000 estimate) metro area population | 215769 people (Barnstable Town metro area) (country rank: 198th) (2011 estimate)",
+                    "@width": "546",
+                    "@height": "134",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "city population | 23339 people (country rank: \u22482018th) (2017 estimate)\nurban area population | 243667 people (Barnstable Town urban area) (country rank: 128th) (2000 estimate)\nmetro area population | 215769 people (Barnstable Town metro area) (country rank: 198th) (2011 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show history",
+                    "@input": "Population:CityData__Show history"
+                }
+            }
+        },
+        {
+            "@title": "Location",
+            "@scanner": "Data",
+            "@id": "Location:CityData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "2",
+            "subpod": [
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "CityData",
+                            "USCountyData",
+                            "USStateData"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4312141001f5614d804b00005d0ihh2g57id6af3?MSPStoreType=image/gif&s=56",
+                        "@alt": "Barnstable County, Massachusetts",
+                        "@title": "Barnstable County, Massachusetts",
+                        "@width": "224",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "Barnstable County, Massachusetts"
+                },
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "CityData",
+                            "USCountyData",
+                            "USStateData",
+                            "CountryData"
+                        ]
+                    },
+                    "datasources": {
+                        "datasource": "CIAFactbook"
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4313141001f5614d804b0000402998eci5228h28?MSPStoreType=image/gif&s=56",
+                        "@alt": "Location",
+                        "@title": "",
+                        "@width": "328",
+                        "@height": "177",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                }
+            ],
+            "expressiontypes": {
+                "@count": "2",
+                "expressiontype": [
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    }
+                ]
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "World map",
+                        "@input": "Location:CityData__World map"
+                    },
+                    {
+                        "@name": "Show coordinates",
+                        "@input": "Location:CityData__Show coordinates"
+                    }
+                ]
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=41.6749%2C-70.226&q=41.6749%20N%2C%2070.226%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "Map:CityData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4314141001f5614d804b0000569dh73641c1ge1e?MSPStoreType=image/gif&s=56",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "20 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "8 kilometers across",
+                            "@input": "Map:CityData__8 kilometers across"
+                        },
+                        {
+                            "@name": "20 kilometers across",
+                            "@input": "Map:CityData__20 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "Map:CityData__30 kilometers across"
+                        },
+                        {
+                            "@name": "60 kilometers across",
+                            "@input": "Map:CityData__60 kilometers across"
+                        },
+                        {
+                            "@name": "130 kilometers across",
+                            "@input": "Map:CityData__130 kilometers across"
+                        },
+                        {
+                            "@name": "250 kilometers across",
+                            "@input": "Map:CityData__250 kilometers across"
+                        },
+                        {
+                            "@name": "510 kilometers across",
+                            "@input": "Map:CityData__510 kilometers across"
+                        },
+                        {
+                            "@name": "1000 kilometers across",
+                            "@input": "Map:CityData__1000 kilometers across"
+                        },
+                        {
+                            "@name": "2000 kilometers across",
+                            "@input": "Map:CityData__2000 kilometers across"
+                        },
+                        {
+                            "@name": "4000 kilometers across",
+                            "@input": "Map:CityData__4000 kilometers across"
+                        },
+                        {
+                            "@name": "7800 kilometers across",
+                            "@input": "Map:CityData__7800 kilometers across"
+                        },
+                        {
+                            "@name": "13000 kilometers across",
+                            "@input": "Map:CityData__13000 kilometers across"
+                        },
+                        {
+                            "@name": "25000 kilometers across",
+                            "@input": "Map:CityData__25000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "Map:CityData__Non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=41.6749%2C-70.226&q=41.6749%20N%2C%2070.226%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Administrative regions",
+            "@scanner": "Data",
+            "@id": "AdministrativeRegions:CityData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCountyData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4315141001f5614d804b00000d1h2a991270f99a?MSPStoreType=image/gif&s=56",
+                    "@alt": "county | Barnstable County state | Massachusetts country | United States",
+                    "@title": "county | Barnstable County state | Massachusetts country | United States",
+                    "@width": "222",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "county | Barnstable County\nstate | Massachusetts\ncountry | United States"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Current local time",
+            "@scanner": "Data",
+            "@id": "CurrentTime:CityData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4316141001f5614d804b00001hahdhf138f138d0?MSPStoreType=image/gif&s=56",
+                    "@alt": "11:48 pm EST | Saturday, January 18, 2020",
+                    "@title": "11:48 pm EST | Saturday, January 18, 2020",
+                    "@width": "301",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "11:48 pm EST | Saturday, January 18, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Current weather",
+            "@scanner": "Data",
+            "@id": "WeatherPod:CityData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "WeatherData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4317141001f5614d804b000010cig585fdeg5d1g?MSPStoreType=image/gif&s=56",
+                    "@alt": "3 \u00b0C (wind chill: -1 \u00b0C) | relative humidity: 92% | wind: 4 m/s | rain, fog, overcast",
+                    "@title": "3 \u00b0C (wind chill: -1 \u00b0C) | relative humidity: 92% | wind: 4 m/s | rain, fog, overcast",
+                    "@width": "512",
+                    "@height": "39",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "3 \u00b0C (wind chill: -1 \u00b0C) | relative humidity: 92% | wind: 4 m/s | rain, fog, overcast"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show history",
+                        "@input": "WeatherPod:CityData__Show history"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "WeatherPod:CityData__Show non-metric"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Demographics",
+            "@scanner": "Data",
+            "@id": "ACSPercentageEntrainments:ACSData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "ACSData"
+                },
+                "datasources": {
+                    "datasource": [
+                        "CensusAmericanCommunitySurvey5YearsRace",
+                        "CensusAmericanCommunitySurvey5YearsHispanicOrigin",
+                        "CensusAmericanCommunitySurvey5YearsCitizenship"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4318141001f5614d804b00003g1fbd74164h962d?MSPStoreType=image/gif&s=56",
+                    "@alt": "race | white: 93.3% | Asian: 2.1% | black/African American: 1.9% | ... Hispanic origin | 1.7% US citizens | 96.7%",
+                    "@title": "race | white: 93.3% | Asian: 2.1% | black/African American: 1.9% | ... Hispanic origin | 1.7% US citizens | 96.7%",
+                    "@width": "546",
+                    "@height": "117",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "race | white: 93.3% | Asian: 2.1% | black/African American: 1.9% | ...\nHispanic origin | 1.7%\nUS citizens | 96.7%"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "More",
+                    "@input": "ACSPercentageEntrainments:ACSData__More"
+                }
+            }
+        },
+        {
+            "@title": "Educational attainment",
+            "@scanner": "Data",
+            "@id": "ACSEducationEntrainments:ACSData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "ACSData"
+                },
+                "datasources": {
+                    "datasource": "CensusAmericanCommunitySurvey5YearsEducation"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4319141001f5614d804b00002963ad9bi463i6h0?MSPStoreType=image/gif&s=56",
+                    "@alt": "college degree and above | 45.2% (1.2 \u00d7 national average) high school diploma | 27.7% (\u2248 national average) less than high school diploma | 5% (0.378 \u00d7 national average) (for population age 25 and older)",
+                    "@title": "college degree and above | 45.2% (1.2 \u00d7 national average) high school diploma | 27.7% (\u2248 national average) less than high school diploma | 5% (0.378 \u00d7 national average) (for population age 25 and older)",
+                    "@width": "423",
+                    "@height": "121",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "college degree and above | 45.2% (1.2 \u00d7 national average)\nhigh school diploma | 27.7% (\u2248 national average)\nless than high school diploma | 5% (0.378 \u00d7 national average)\n(for population age 25 and older)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show enrollment",
+                    "@input": "ACSEducationEntrainments:ACSData__Show enrollment"
+                }
+            }
+        },
+        {
+            "@title": "Income statistics",
+            "@scanner": "Data",
+            "@id": "ACSIncomeEntrainments:ACSData",
+            "@position": "1000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "ACSData"
+                },
+                "datasources": {
+                    "datasource": [
+                        "CensusAmericanCommunitySurvey5YearsMedianIncome",
+                        "CensusAmericanCommunitySurvey5YearsPerCapitaIncome",
+                        "CensusAmericanCommunitySurvey5YearsPoverty"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4320141001f5614d804b00005ahi749916927ihe?MSPStoreType=image/gif&s=56",
+                    "@alt": "median household income | $62954 per year (US dollars per year) (1.14 \u00d7 national average) per capita income | $36706 per year per person (US dollars per year per person) (1.23 \u00d7 national average) population below poverty line | 6.9% (0.454 \u00d7 national average)",
+                    "@title": "median household income | $62954 per year (US dollars per year) (1.14 \u00d7 national average) per capita income | $36706 per year per person (US dollars per year per person) (1.23 \u00d7 national average) population below poverty line | 6.9% (0.454 \u00d7 national average)",
+                    "@width": "546",
+                    "@height": "151",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "median household income | $62954 per year (US dollars per year) (1.14 \u00d7 national average)\nper capita income | $36706 per year per person (US dollars per year per person) (1.23 \u00d7 national average)\npopulation below poverty line | 6.9% (0.454 \u00d7 national average)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show distribution",
+                    "@input": "ACSIncomeEntrainments:ACSData__Show distribution"
+                }
+            }
+        },
+        {
+            "@title": "Economic properties",
+            "@scanner": "Data",
+            "@id": "EconomicProperties:CityData",
+            "@position": "1100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USEmploymentData",
+                        "USHousingData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "RealtorsMetropolitanAreaMedianPrices"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4321141001f5614d804b00000cb82090e73d9db5?MSPStoreType=image/gif&s=56",
+                    "@alt": "median home price | $335100 (Barnstable Town metro area) (annual change: +4.56%) (2013) unemployment rate | 3.7% (November 2019)",
+                    "@title": "median home price | $335100 (Barnstable Town metro area) (annual change: +4.56%) (2013) unemployment rate | 3.7% (November 2019)",
+                    "@width": "546",
+                    "@height": "85",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "median home price | $335100 (Barnstable Town metro area) (annual change: +4.56%) (2013)\nunemployment rate | 3.7% (November 2019)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Other indicators",
+            "@scanner": "Data",
+            "@id": "QualityOfLife:CityData",
+            "@position": "1200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "CongestionData",
+                        "CrimeData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": [
+                        "TexasTransportationInstituteCongestionDataForYourCityUrbanMobilityInformation",
+                        "UnitedStatesDepartmentOfJusticeBureauOfJusticeStatisticsCrimeAndJusticeDataOnline"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4322141001f5614d804b00003e2dc48f28e6acbc?MSPStoreType=image/gif&s=56",
+                    "@alt": "total rate of violent crime | 1.8 \u00d7 national average (2017 estimate) total rate of property crime | 0.67 \u00d7 national average (2017 estimate)",
+                    "@title": "total rate of violent crime | 1.8 \u00d7 national average (2017 estimate) total rate of property crime | 0.67 \u00d7 national average (2017 estimate)",
+                    "@width": "483",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "total rate of violent crime | 1.8 \u00d7 national average (2017 estimate)\ntotal rate of property crime | 0.67 \u00d7 national average (2017 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Nearby cities",
+            "@scanner": "Data",
+            "@id": "CityHierarchyInfo:CityData",
+            "@position": "1300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4323141001f5614d804b00005c32agghh75gc69f?MSPStoreType=image/gif&s=56",
+                    "@alt": "South Yarmouth, Massachusetts | 2 km (kilometers) east-southeast | 11092 people Barnstable Town, Massachusetts | 11 km (kilometers) west | 44824 people New Bedford, Massachusetts | 59 km (kilometers) west | 94929 people Boston, Massachusetts | 98 km (kilometers) northwest | 636479 people Providence, Rhode Island | 101 km (kilometers) west | 178432 people New York City, New York | 331 km (kilometers) west-southwest | 8.337 million people (straight-line distances between city centers)",
+                    "@title": "South Yarmouth, Massachusetts | 2 km (kilometers) east-southeast | 11092 people Barnstable Town, Massachusetts | 11 km (kilometers) west | 44824 people New Bedford, Massachusetts | 59 km (kilometers) west | 94929 people Boston, Massachusetts | 98 km (kilometers) northwest | 636479 people Providence, Rhode Island | 101 km (kilometers) west | 178432 people New York City, New York | 331 km (kilometers) west-southwest | 8.337 million people (straight-line distances between city centers)",
+                    "@width": "545",
+                    "@height": "302",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "South Yarmouth, Massachusetts | 2 km (kilometers) east-southeast | 11092 people\nBarnstable Town, Massachusetts | 11 km (kilometers) west | 44824 people\nNew Bedford, Massachusetts | 59 km (kilometers) west | 94929 people\nBoston, Massachusetts | 98 km (kilometers) northwest | 636479 people\nProvidence, Rhode Island | 101 km (kilometers) west | 178432 people\nNew York City, New York | 331 km (kilometers) west-southwest | 8.337 million people\n(straight-line distances between city centers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "CityHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "CityHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby airport",
+            "@scanner": "Data",
+            "@id": "AirportHierarchyInfo:CityData",
+            "@position": "1400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4324141001f5614d804b00003i7727aa4fa1a179?MSPStoreType=image/gif&s=56",
+                    "@alt": "Barnstable Municipal Airport | 5 km (kilometers) west (straight-line distances between city center and airport)",
+                    "@title": "Barnstable Municipal Airport | 5 km (kilometers) west (straight-line distances between city center and airport)",
+                    "@width": "386",
+                    "@height": "58",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Barnstable Municipal Airport | 5 km (kilometers) west\n(straight-line distances between city center and airport)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "AirportHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "AirportHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby hospital",
+            "@scanner": "Data",
+            "@id": "HospitalHierarchyInfo:CityData",
+            "@position": "1500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4325141001f5614d804b000041ha3cf88a8eai92?MSPStoreType=image/gif&s=56",
+                    "@alt": "Cape Cod Hospital | 5 km (kilometers) west-southwest (straight-line distances between city center and hospital)",
+                    "@title": "Cape Cod Hospital | 5 km (kilometers) west-southwest (straight-line distances between city center and hospital)",
+                    "@width": "385",
+                    "@height": "58",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Cape Cod Hospital | 5 km (kilometers) west-southwest\n(straight-line distances between city center and hospital)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "HospitalHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "HospitalHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:CityData",
+            "@position": "1600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4326141001f5614d804b000011287g85a7d4ih49?MSPStoreType=image/gif&s=56",
+                    "@alt": "elevation | 9 m area | 62.544 km^2 population density | 373 people per square kilometer",
+                    "@title": "elevation | 9 m area | 62.544 km^2 population density | 373 people per square kilometer",
+                    "@width": "378",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "elevation | 9 m\narea | 62.544 km^2\npopulation density | 373 people per square kilometer"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:CityData__Show non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "units": {
+                        "@count": "2",
+                        "unit": [
+                            {
+                                "@short": "km^2",
+                                "@long": "square kilometers"
+                            },
+                            {
+                                "@short": "m",
+                                "@long": "meters"
+                            }
+                        ],
+                        "img": {
+                            "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4327141001f5614d804b000052609115b5ehga9b?MSPStoreType=image/gif&s=56",
+                            "@width": "171",
+                            "@height": "48"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Nearby feature",
+            "@scanner": "Data",
+            "@id": "FeaturesHierarchyInfo:CityData",
+            "@position": "1700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "NuclearReactorData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "IAEAPowerReactorInformationSystem"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4328141001f5614d804b00001f52dd0f576f7d83?MSPStoreType=image/gif&s=56",
+                    "@alt": "nuclear power site | Pilgrim | 42 km (kilometers) northwest (straight-line distances between city center and feature coordinates)",
+                    "@title": "nuclear power site | Pilgrim | 42 km (kilometers) northwest (straight-line distances between city center and feature coordinates)",
+                    "@width": "428",
+                    "@height": "58",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "nuclear power site | Pilgrim | 42 km (kilometers) northwest\n(straight-line distances between city center and feature coordinates)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "FeaturesHierarchyInfo:CityData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Nearest sea",
+            "@scanner": "Data",
+            "@id": "OceansHierarchyInfo:CityData",
+            "@position": "1800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4329141001f5614d804b00000d3265g92h29f043?MSPStoreType=image/gif&s=56",
+                    "@alt": "Atlantic Ocean (<5 km (kilometers))  (straight-line distance between city center and shore)",
+                    "@title": "Atlantic Ocean (<5 km (kilometers))  (straight-line distance between city center and shore)",
+                    "@width": "301",
+                    "@height": "41",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Atlantic Ocean (<5 km (kilometers)) \n(straight-line distance between city center and shore)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "OceansHierarchyInfo:CityData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Notable people born in Yarmouth",
+            "@scanner": "Data",
+            "@id": "NotablePeople:CityData",
+            "@position": "1900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "PeopleData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4330141001f5614d804b000017f9cfh71d6h5egh?MSPStoreType=image/gif&s=56",
+                    "@alt": "Joseph Eldridge Hamblin (officer, etc.) (1828) Joe Sherman (baseball player) (1890)",
+                    "@title": "Joseph Eldridge Hamblin (officer, etc.) (1828) Joe Sherman (baseball player) (1890)",
+                    "@width": "301",
+                    "@height": "38",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Joseph Eldridge Hamblin (officer, etc.) (1828)\nJoe Sherman (baseball player) (1890)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show dates",
+                        "@input": "NotablePeople:CityData__Show dates"
+                    },
+                    {
+                        "@name": "Show deaths",
+                        "@input": "NotablePeople:CityData__Show deaths"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Wikipedia page hits history",
+            "@scanner": "Data",
+            "@id": "PopularityPod:WikipediaStatsData",
+            "@position": "2000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4331141001f5614d804b00001eg59h4fhgb5ei2i?MSPStoreType=image/gif&s=56",
+                    "@alt": "Wikipedia page hits history",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "167",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopularityPod:WikipediaStatsData__Log scale"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "2",
+        "assumption": [
+            {
+                "@type": "MultiClash",
+                "@word": "",
+                "@template": "Assuming ${word1} is referring to ${desc1}. Use \"${word2}\" as ${desc2}.",
+                "@count": "2",
+                "value": [
+                    {
+                        "@name": "City",
+                        "@word": "the input",
+                        "@desc": "a city",
+                        "@input": "*MC.%7E-_*City-"
+                    },
+                    {
+                        "@name": "AdministrativeDivision",
+                        "@word": "Yarmouth",
+                        "@desc": "an administrative division",
+                        "@input": "*MC.%7E-_*AdministrativeDivision-"
+                    }
+                ]
+            },
+            {
+                "@type": "SubCategory",
+                "@word": "Town of Yarmouth",
+                "@template": "Assuming ${desc1}. Use ${desc2} instead",
+                "@count": "4",
+                "value": [
+                    {
+                        "@name": "{Yarmouth, Massachusetts, UnitedStates}",
+                        "@desc": "Yarmouth (Massachusetts, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Yarmouth-_**Yarmouth.Massachusetts.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Yarmouth, NovaScotia, Canada}",
+                        "@desc": "Yarmouth (Canada)",
+                        "@input": "*DPClash.CityE.Town+of+Yarmouth-_**Yarmouth.NovaScotia.Canada--"
+                    },
+                    {
+                        "@name": "{Yarmouth, Maine, UnitedStates}",
+                        "@desc": "Yarmouth (Maine, USA)",
+                        "@input": "*DPClash.CityE.Town+of+Yarmouth-_**Yarmouth.Maine.UnitedStates--"
+                    },
+                    {
+                        "@name": "{GreatYarmouth, Norfolk, UnitedKingdom}",
+                        "@desc": "Great Yarmouth (United Kingdom)",
+                        "@input": "*DPClash.CityE.Town+of+Yarmouth-_**GreatYarmouth.Norfolk.UnitedKingdom--"
+                    }
+                ]
+            }
+        ]
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "15",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/ACSDataSourceInformationNotes.html",
+                "@text": "ACS data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CongestionDataSourceInformationNotes.html",
+                "@text": "Congestion data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CrimeDataSourceInformationNotes.html",
+                "@text": "Crime data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/MetropolitanAreaDataSourceInformationNotes.html",
+                "@text": "Metropolitan area data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/NuclearReactorDataSourceInformationNotes.html",
+                "@text": "Nuclear reactor data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html",
+                "@text": "People data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/UrbanAreaDataSourceInformationNotes.html",
+                "@text": "Urban area data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USCensusDataSourceInformationNotes.html",
+                "@text": "US census data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USCountyDataSourceInformationNotes.html",
+                "@text": "US county data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USEmploymentDataSourceInformationNotes.html",
+                "@text": "US employment data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USHousingDataSourceInformationNotes.html",
+                "@text": "US housing data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USStateDataSourceInformationNotes.html",
+                "@text": "US state data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html",
+                "@text": "Weather data"
+            }
+        ]
+    }
+}

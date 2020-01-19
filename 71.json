@@ -1,0 +1,980 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "18",
+    "@datatypes": "AdministrativeDivision,City,MetropolitanArea,NuclearReactor,Person,WeatherStation",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "7.766",
+    "@parsetiming": "0.801",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP3821hgdaee13b5g3d4h000044i6g0gdfd7a4fig",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "54",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa3831hgdaee13b5g3d4h00006548b7869ia19ih82137842930739718529",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3841hgdaee13b5g3d4h00005h84dcdi664h211a?MSPStoreType=image/gif&s=54",
+                    "@alt": "Toronto, Ontario",
+                    "@title": "Toronto, Ontario",
+                    "@width": "112",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Toronto, Ontario"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Populations",
+            "@scanner": "Data",
+            "@id": "Population:CityData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "MetropolitanAreaData",
+                        "USCensusData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3851hgdaee13b5g3d4h00000de6acaf2fd6b4h4?MSPStoreType=image/gif&s=54",
+                    "@alt": "city population | 2.732 million people (country rank: 1st) (2016 estimate) metro area population | 6.324 million people (Toronto metro area) (2007 estimate)",
+                    "@title": "city population | 2.732 million people (country rank: 1st) (2016 estimate) metro area population | 6.324 million people (Toronto metro area) (2007 estimate)",
+                    "@width": "545",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "city population | 2.732 million people (country rank: 1st) (2016 estimate)\nmetro area population | 6.324 million people (Toronto metro area) (2007 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show history",
+                    "@input": "Population:CityData__Show history"
+                }
+            }
+        },
+        {
+            "@title": "Location",
+            "@scanner": "Data",
+            "@id": "Location:CityData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "2",
+            "subpod": [
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3861hgdaee13b5g3d4h00005h2bb45ac21i1c5d?MSPStoreType=image/gif&s=54",
+                        "@alt": "Ontario, Canada",
+                        "@title": "Ontario, Canada",
+                        "@width": "109",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "Ontario, Canada"
+                },
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData",
+                            "CountryData"
+                        ]
+                    },
+                    "datasources": {
+                        "datasource": "CIAFactbook"
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3871hgdaee13b5g3d4h0000106ibe0effb1684c?MSPStoreType=image/gif&s=54",
+                        "@alt": "Location",
+                        "@title": "",
+                        "@width": "328",
+                        "@height": "214",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                }
+            ],
+            "expressiontypes": {
+                "@count": "2",
+                "expressiontype": [
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    }
+                ]
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "World map",
+                        "@input": "Location:CityData__World map"
+                    },
+                    {
+                        "@name": "Show coordinates",
+                        "@input": "Location:CityData__Show coordinates"
+                    }
+                ]
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=43.65%2C-79.38&q=43.65%20N%2C%2079.38%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "Map:CityData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3881hgdaee13b5g3d4h00002ca8eef21cc372fb?MSPStoreType=image/gif&s=54",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "120 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "8 kilometers across",
+                            "@input": "Map:CityData__8 kilometers across"
+                        },
+                        {
+                            "@name": "20 kilometers across",
+                            "@input": "Map:CityData__20 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "Map:CityData__30 kilometers across"
+                        },
+                        {
+                            "@name": "60 kilometers across",
+                            "@input": "Map:CityData__60 kilometers across"
+                        },
+                        {
+                            "@name": "120 kilometers across",
+                            "@input": "Map:CityData__120 kilometers across"
+                        },
+                        {
+                            "@name": "250 kilometers across",
+                            "@input": "Map:CityData__250 kilometers across"
+                        },
+                        {
+                            "@name": "490 kilometers across",
+                            "@input": "Map:CityData__490 kilometers across"
+                        },
+                        {
+                            "@name": "980 kilometers across",
+                            "@input": "Map:CityData__980 kilometers across"
+                        },
+                        {
+                            "@name": "2000 kilometers across",
+                            "@input": "Map:CityData__2000 kilometers across"
+                        },
+                        {
+                            "@name": "3900 kilometers across",
+                            "@input": "Map:CityData__3900 kilometers across"
+                        },
+                        {
+                            "@name": "7600 kilometers across",
+                            "@input": "Map:CityData__7600 kilometers across"
+                        },
+                        {
+                            "@name": "13000 kilometers across",
+                            "@input": "Map:CityData__13000 kilometers across"
+                        },
+                        {
+                            "@name": "24000 kilometers across",
+                            "@input": "Map:CityData__24000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "Map:CityData__Non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=43.65%2C-79.38&q=43.65%20N%2C%2079.38%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Administrative regions",
+            "@scanner": "Data",
+            "@id": "AdministrativeRegions:CityData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3891hgdaee13b5g3d4h00005f963400b455gi2g?MSPStoreType=image/gif&s=54",
+                    "@alt": "region | Ontario country | Canada",
+                    "@title": "region | Ontario country | Canada",
+                    "@width": "151",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "region | Ontario\ncountry | Canada"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Current local time",
+            "@scanner": "Data",
+            "@id": "CurrentTime:CityData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3901hgdaee13b5g3d4h000019ced7c448hc4f19?MSPStoreType=image/gif&s=54",
+                    "@alt": "11:45 pm EST | Saturday, January 18, 2020",
+                    "@title": "11:45 pm EST | Saturday, January 18, 2020",
+                    "@width": "301",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "11:45 pm EST | Saturday, January 18, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Current weather",
+            "@scanner": "Data",
+            "@id": "WeatherPod:CityData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "WeatherData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3911hgdaee13b5g3d4h00002a55e8b6b369dde6?MSPStoreType=image/gif&s=54",
+                    "@alt": "2 \u00b0C | relative humidity: 74%",
+                    "@title": "2 \u00b0C | relative humidity: 74%",
+                    "@width": "199",
+                    "@height": "22",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "2 \u00b0C | relative humidity: 74%"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show history",
+                        "@input": "WeatherPod:CityData__Show history"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "WeatherPod:CityData__Show non-metric"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby cities",
+            "@scanner": "Data",
+            "@id": "CityHierarchyInfo:CityData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3921hgdaee13b5g3d4h00001h65g57ch59a29ba?MSPStoreType=image/gif&s=54",
+                    "@alt": "Mississauga, Ontario | 22 km (kilometers) west-southwest | 668549 people Vaughan, Ontario | 24 km (kilometers) north-northwest | 238866 people Markham, Ontario | 28 km (kilometers) north-northeast | 261573 people Brampton, Ontario | 31 km (kilometers) west | 433806 people Hamilton, Ontario | 58 km (kilometers) southwest | 519949 people (straight-line distances between city centers)",
+                    "@title": "Mississauga, Ontario | 22 km (kilometers) west-southwest | 668549 people Vaughan, Ontario | 24 km (kilometers) north-northwest | 238866 people Markham, Ontario | 28 km (kilometers) north-northeast | 261573 people Brampton, Ontario | 31 km (kilometers) west | 433806 people Hamilton, Ontario | 58 km (kilometers) southwest | 519949 people (straight-line distances between city centers)",
+                    "@width": "534",
+                    "@height": "170",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Mississauga, Ontario | 22 km (kilometers) west-southwest | 668549 people\nVaughan, Ontario | 24 km (kilometers) north-northwest | 238866 people\nMarkham, Ontario | 28 km (kilometers) north-northeast | 261573 people\nBrampton, Ontario | 31 km (kilometers) west | 433806 people\nHamilton, Ontario | 58 km (kilometers) southwest | 519949 people\n(straight-line distances between city centers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "CityHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "CityHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby airport",
+            "@scanner": "Data",
+            "@id": "AirportHierarchyInfo:CityData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3931hgdaee13b5g3d4h0000313h6i1f7fafd360?MSPStoreType=image/gif&s=54",
+                    "@alt": "Toronto Pearson International Airport | 20 km (kilometers) west (straight-line distances between city center and airport)",
+                    "@title": "Toronto Pearson International Airport | 20 km (kilometers) west (straight-line distances between city center and airport)",
+                    "@width": "454",
+                    "@height": "58",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Toronto Pearson International Airport | 20 km (kilometers) west\n(straight-line distances between city center and airport)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "AirportHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "AirportHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby hospital",
+            "@scanner": "Data",
+            "@id": "HospitalHierarchyInfo:CityData",
+            "@position": "1000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3941hgdaee13b5g3d4h00005h72cd2f2abciehb?MSPStoreType=image/gif&s=54",
+                    "@alt": "Lockport Memorial Hospital | 78 km (kilometers) southeast (straight-line distances between city center and hospital)",
+                    "@title": "Lockport Memorial Hospital | 78 km (kilometers) southeast (straight-line distances between city center and hospital)",
+                    "@width": "419",
+                    "@height": "58",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Lockport Memorial Hospital | 78 km (kilometers) southeast\n(straight-line distances between city center and hospital)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "HospitalHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "HospitalHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Notable company headquarters",
+            "@scanner": "Data",
+            "@id": "CompaniesInCity:CityData",
+            "@position": "1100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "datasources": {
+                    "datasource": [
+                        "ForbesAmericasLargestPrivateCompanies",
+                        "CrunchBase"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3951hgdaee13b5g3d4h00004g226g7g1036e729?MSPStoreType=image/gif&s=54",
+                    "@alt": "Manulife Financial Corp | 34000 employees (Quarter 4 2017) | $46.39 billion per year (Quarter 4 2017) George Weston Ltd | 198000 employees (Quarter 4 2017) | $38.41 billion per year (Quarter 4 2017) Royal Bank of Canada | 78648 employees (Quarter 1 2018) | $34.04 billion per year (Quarter 1 2018) Brookfield Asset Management | 80750 employees (Quarter 4 2017) | $32.43 billion per year (Quarter 4 2017) The Toronto-Dominion Bank | 82581 employees (Quarter 1 2018) | $29.55 billion per year (Quarter 1 2018)",
+                    "@title": "Manulife Financial Corp | 34000 employees (Quarter 4 2017) | $46.39 billion per year (Quarter 4 2017) George Weston Ltd | 198000 employees (Quarter 4 2017) | $38.41 billion per year (Quarter 4 2017) Royal Bank of Canada | 78648 employees (Quarter 1 2018) | $34.04 billion per year (Quarter 1 2018) Brookfield Asset Management | 80750 employees (Quarter 4 2017) | $32.43 billion per year (Quarter 4 2017) The Toronto-Dominion Bank | 82581 employees (Quarter 1 2018) | $29.55 billion per year (Quarter 1 2018)",
+                    "@width": "546",
+                    "@height": "249",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Manulife Financial Corp | 34000 employees (Quarter 4 2017) | $46.39 billion per year (Quarter 4 2017)\nGeorge Weston Ltd | 198000 employees (Quarter 4 2017) | $38.41 billion per year (Quarter 4 2017)\nRoyal Bank of Canada | 78648 employees (Quarter 1 2018) | $34.04 billion per year (Quarter 1 2018)\nBrookfield Asset Management | 80750 employees (Quarter 4 2017) | $32.43 billion per year (Quarter 4 2017)\nThe Toronto-Dominion Bank | 82581 employees (Quarter 1 2018) | $29.55 billion per year (Quarter 1 2018)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "More",
+                    "@input": "CompaniesInCity:CityData__More"
+                }
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:CityData",
+            "@position": "1200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3961hgdaee13b5g3d4h00005707fcecgfe6027d?MSPStoreType=image/gif&s=54",
+                    "@alt": "elevation | 92 m",
+                    "@title": "elevation | 92 m",
+                    "@width": "139",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "elevation | 92 m"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:CityData__Show non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "units": {
+                        "@count": "1",
+                        "unit": {
+                            "@short": "m",
+                            "@long": "meters"
+                        },
+                        "img": {
+                            "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3971hgdaee13b5g3d4h00005i0chc0734998ei7?MSPStoreType=image/gif&s=54",
+                            "@width": "96",
+                            "@height": "26"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Nearby features",
+            "@scanner": "Data",
+            "@id": "FeaturesHierarchyInfo:CityData",
+            "@position": "1300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "NuclearReactorData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "IAEAPowerReactorInformationSystem"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3981hgdaee13b5g3d4h000046ada81aig1458h5?MSPStoreType=image/gif&s=54",
+                    "@alt": "nuclear power site | Pickering | 31 km (kilometers) northeast waterfall | Niagara Falls (51 meters) | 68 km (kilometers) south-southeast (straight-line distances between city center and feature coordinates)",
+                    "@title": "nuclear power site | Pickering | 31 km (kilometers) northeast waterfall | Niagara Falls (51 meters) | 68 km (kilometers) south-southeast (straight-line distances between city center and feature coordinates)",
+                    "@width": "546",
+                    "@height": "106",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "nuclear power site | Pickering | 31 km (kilometers) northeast\nwaterfall | Niagara Falls (51 meters) | 68 km (kilometers) south-southeast\n(straight-line distances between city center and feature coordinates)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "FeaturesHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "FeaturesHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearest sea",
+            "@scanner": "Data",
+            "@id": "OceansHierarchyInfo:CityData",
+            "@position": "1400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP3991hgdaee13b5g3d4h00001a33df74fi6f1f1e?MSPStoreType=image/gif&s=54",
+                    "@alt": "Atlantic Ocean (516 km (kilometers) east-southeast)  (straight-line distance between city center and shore)",
+                    "@title": "Atlantic Ocean (516 km (kilometers) east-southeast)  (straight-line distance between city center and shore)",
+                    "@width": "339",
+                    "@height": "41",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Atlantic Ocean (516 km (kilometers) east-southeast) \n(straight-line distance between city center and shore)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "3",
+                "state": [
+                    {
+                        "@name": "Show map",
+                        "@input": "OceansHierarchyInfo:CityData__Show map"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "OceansHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "OceansHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nicknames",
+            "@scanner": "Data",
+            "@id": "BasicInformation:CityData",
+            "@position": "1500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4001hgdaee13b5g3d4h0000479862bf60h9hhga?MSPStoreType=image/gif&s=54",
+                    "@alt": "Economic Engine of Canada | Hogtown | Queen City | The Festival City | T.O. | T-Dot | The Big Smoke | Hollywood North | The Most Multicultural City in the World",
+                    "@title": "Economic Engine of Canada | Hogtown | Queen City | The Festival City | T.O. | T-Dot | The Big Smoke | Hollywood North | The Most Multicultural City in the World",
+                    "@width": "536",
+                    "@height": "57",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Economic Engine of Canada | Hogtown | Queen City | The Festival City | T.O. | T-Dot | The Big Smoke | Hollywood North | The Most Multicultural City in the World"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Notable people born in Toronto",
+            "@scanner": "Data",
+            "@id": "NotablePeople:CityData",
+            "@position": "1600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "PeopleData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4011hgdaee13b5g3d4h00000d3f483cba863c59?MSPStoreType=image/gif&s=54",
+                    "@alt": "Drake (rapper, etc.) (1986) The Weeknd (feces, etc.) (1990) Michael Cera (actor) (1988) Neil Young (musician) (1945) Mike Myers (comedian) (1963) John Candy (actor) (1950) Corey Haim (actor) (1971) Tara Strong (actor) (1973) Will Arnett (actor) (1970) Christopher Plummer (actor) (1929) ...",
+                    "@title": "Drake (rapper, etc.) (1986) The Weeknd (feces, etc.) (1990) Michael Cera (actor) (1988) Neil Young (musician) (1945) Mike Myers (comedian) (1963) John Candy (actor) (1950) Corey Haim (actor) (1971) Tara Strong (actor) (1973) Will Arnett (actor) (1970) Christopher Plummer (actor) (1929) ...",
+                    "@width": "237",
+                    "@height": "209",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Drake (rapper, etc.) (1986)\nThe Weeknd (feces, etc.) (1990)\nMichael Cera (actor) (1988)\nNeil Young (musician) (1945)\nMike Myers (comedian) (1963)\nJohn Candy (actor) (1950)\nCorey Haim (actor) (1971)\nTara Strong (actor) (1973)\nWill Arnett (actor) (1970)\nChristopher Plummer (actor) (1929)\n..."
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "3",
+                "state": [
+                    {
+                        "@name": "More",
+                        "@input": "NotablePeople:CityData__More"
+                    },
+                    {
+                        "@name": "Show dates",
+                        "@input": "NotablePeople:CityData__Show dates"
+                    },
+                    {
+                        "@name": "Show deaths",
+                        "@input": "NotablePeople:CityData__Show deaths"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Founding date",
+            "@scanner": "Data",
+            "@id": "FoundingDates:CityData",
+            "@position": "1700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4021hgdaee13b5g3d4h0000528h4a19e1f420ee?MSPStoreType=image/gif&s=54",
+                    "@alt": "06-03-1834 (185 years 10 months 12 days ago) (incorporation date)",
+                    "@title": "06-03-1834 (185 years 10 months 12 days ago) (incorporation date)",
+                    "@width": "458",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "06-03-1834 (185 years 10 months 12 days ago) (incorporation date)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "More",
+                    "@input": "FoundingDates:CityData__More"
+                }
+            }
+        },
+        {
+            "@title": "Wikipedia page hits history",
+            "@scanner": "Data",
+            "@id": "PopularityPod:WikipediaStatsData",
+            "@position": "1800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4031hgdaee13b5g3d4h0000392e52ai5051d151?MSPStoreType=image/gif&s=54",
+                    "@alt": "Wikipedia page hits history",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "164",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopularityPod:WikipediaStatsData__Log scale"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "2",
+        "assumption": [
+            {
+                "@type": "MultiClash",
+                "@word": "",
+                "@template": "Assuming ${word1} is referring to ${desc1}. Use \"${word2}\" as ${desc2}.",
+                "@count": "2",
+                "value": [
+                    {
+                        "@name": "City",
+                        "@word": "City of Toronto",
+                        "@desc": "a city",
+                        "@input": "*MC.City+of+Toronto-_*City-"
+                    },
+                    {
+                        "@name": "AdministrativeDivision",
+                        "@word": "Toronto",
+                        "@desc": "an administrative division",
+                        "@input": "*MC.City+of+Toronto-_*AdministrativeDivision-"
+                    }
+                ]
+            },
+            {
+                "@type": "SubCategory",
+                "@word": "City of Toronto",
+                "@template": "Assuming ${desc1}. Use ${desc2} instead",
+                "@count": "5",
+                "value": [
+                    {
+                        "@name": "{Toronto, Ontario, Canada}",
+                        "@desc": "Toronto (Canada)",
+                        "@input": "*DPClash.CityE.City+of+Toronto-_**Toronto.Ontario.Canada--"
+                    },
+                    {
+                        "@name": "{Toronto, Ohio, UnitedStates}",
+                        "@desc": "Toronto (Ohio, USA)",
+                        "@input": "*DPClash.CityE.City+of+Toronto-_**Toronto.Ohio.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Toronto, Kansas, UnitedStates}",
+                        "@desc": "Toronto (Kansas, USA)",
+                        "@input": "*DPClash.CityE.City+of+Toronto-_**Toronto.Kansas.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Toronto, SouthDakota, UnitedStates}",
+                        "@desc": "Toronto (South Dakota, USA)",
+                        "@input": "*DPClash.CityE.City+of+Toronto-_**Toronto.SouthDakota.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Toronto, Iowa, UnitedStates}",
+                        "@desc": "Toronto (Iowa, USA)",
+                        "@input": "*DPClash.CityE.City+of+Toronto-_**Toronto.Iowa.UnitedStates--"
+                    }
+                ]
+            }
+        ]
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "8",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/MetropolitanAreaDataSourceInformationNotes.html",
+                "@text": "Metropolitan area data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/NuclearReactorDataSourceInformationNotes.html",
+                "@text": "Nuclear reactor data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html",
+                "@text": "People data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USCensusDataSourceInformationNotes.html",
+                "@text": "US census data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html",
+                "@text": "Weather data"
+            }
+        ]
+    }
+}

@@ -1,0 +1,1282 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "24",
+    "@datatypes": "ACS,AdministrativeDivision,City,Company,Congestion,Country,Crime,MetropolitanArea,Person,UrbanArea,USCounty,USHousing,USState,USTax,WeatherStation",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "10.954",
+    "@parsetiming": "0.41400000000000003",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP6431140iiidd47ah5hdg00001167754a97219ggd",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "56",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa6432140iiidd47ah5hdg00000fg6eec3aci0378f2586184755524934074",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6433140iiidd47ah5hdg000015i6ig5c47414cd6?MSPStoreType=image/gif&s=56",
+                    "@alt": "Digby | city",
+                    "@title": "Digby | city",
+                    "@width": "92",
+                    "@height": "23",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Digby | city"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Result",
+            "@scanner": "Data",
+            "@id": "Result",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6434140iiidd47ah5hdg000066ab2795ab29eh7d?MSPStoreType=image/gif&s=56",
+                    "@alt": "Austin, Texas, United States",
+                    "@title": "Austin, Texas, United States",
+                    "@width": "183",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Austin, Texas, United States"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Populations",
+            "@scanner": "Data",
+            "@id": "Population:CityData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "MetropolitanAreaData",
+                        "UrbanAreaData",
+                        "USCensusData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6435140iiidd47ah5hdg00005h9gg50ig5g9c1ga?MSPStoreType=image/gif&s=56",
+                    "@alt": "city population | 950715 people (country rank: 11th) (2017 estimate) urban area population | 901920 people (Austin (TX) urban area) (country rank: 40th) (2000 estimate) metro area population | 1.784 million people (Austin (TX) metro area) (country rank: 34th) (2011 estimate)",
+                    "@title": "city population | 950715 people (country rank: 11th) (2017 estimate) urban area population | 901920 people (Austin (TX) urban area) (country rank: 40th) (2000 estimate) metro area population | 1.784 million people (Austin (TX) metro area) (country rank: 34th) (2011 estimate)",
+                    "@width": "546",
+                    "@height": "134",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "city population | 950715 people (country rank: 11th) (2017 estimate)\nurban area population | 901920 people (Austin (TX) urban area) (country rank: 40th) (2000 estimate)\nmetro area population | 1.784 million people (Austin (TX) metro area) (country rank: 34th) (2011 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show history",
+                    "@input": "Population:CityData__Show history"
+                }
+            }
+        },
+        {
+            "@title": "Location",
+            "@scanner": "Data",
+            "@id": "Location:CityData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "2",
+            "subpod": [
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "CityData",
+                            "USCountyData",
+                            "USStateData"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6436140iiidd47ah5hdg000026387f1h9bf3ed0g?MSPStoreType=image/gif&s=56",
+                        "@alt": "Travis County, Texas | Williamson County, Texas",
+                        "@title": "Travis County, Texas | Williamson County, Texas",
+                        "@width": "335",
+                        "@height": "18",
+                        "@type": "Grid",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "Travis County, Texas | Williamson County, Texas"
+                },
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "CityData",
+                            "USCountyData",
+                            "USStateData",
+                            "CountryData"
+                        ]
+                    },
+                    "datasources": {
+                        "datasource": "CIAFactbook"
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6437140iiidd47ah5hdg000057058a877c5e7259?MSPStoreType=image/gif&s=56",
+                        "@alt": "Location",
+                        "@title": "",
+                        "@width": "328",
+                        "@height": "177",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                }
+            ],
+            "expressiontypes": {
+                "@count": "2",
+                "expressiontype": [
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    }
+                ]
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "World map",
+                        "@input": "Location:CityData__World map"
+                    },
+                    {
+                        "@name": "Show coordinates",
+                        "@input": "Location:CityData__Show coordinates"
+                    }
+                ]
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=30.3072%2C-97.756&q=30.3072%20N%2C%2097.756%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "Map:CityData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6438140iiidd47ah5hdg000021de0435igdbh420?MSPStoreType=image/gif&s=56",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "70 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "9 kilometers across",
+                            "@input": "Map:CityData__9 kilometers across"
+                        },
+                        {
+                            "@name": "20 kilometers across",
+                            "@input": "Map:CityData__20 kilometers across"
+                        },
+                        {
+                            "@name": "40 kilometers across",
+                            "@input": "Map:CityData__40 kilometers across"
+                        },
+                        {
+                            "@name": "70 kilometers across",
+                            "@input": "Map:CityData__70 kilometers across"
+                        },
+                        {
+                            "@name": "150 kilometers across",
+                            "@input": "Map:CityData__150 kilometers across"
+                        },
+                        {
+                            "@name": "290 kilometers across",
+                            "@input": "Map:CityData__290 kilometers across"
+                        },
+                        {
+                            "@name": "580 kilometers across",
+                            "@input": "Map:CityData__580 kilometers across"
+                        },
+                        {
+                            "@name": "1200 kilometers across",
+                            "@input": "Map:CityData__1200 kilometers across"
+                        },
+                        {
+                            "@name": "2300 kilometers across",
+                            "@input": "Map:CityData__2300 kilometers across"
+                        },
+                        {
+                            "@name": "4600 kilometers across",
+                            "@input": "Map:CityData__4600 kilometers across"
+                        },
+                        {
+                            "@name": "9100 kilometers across",
+                            "@input": "Map:CityData__9100 kilometers across"
+                        },
+                        {
+                            "@name": "16000 kilometers across",
+                            "@input": "Map:CityData__16000 kilometers across"
+                        },
+                        {
+                            "@name": "30000 kilometers across",
+                            "@input": "Map:CityData__30000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "Map:CityData__Non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=30.3072%2C-97.756&q=30.3072%20N%2C%2097.756%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Administrative regions",
+            "@scanner": "Data",
+            "@id": "AdministrativeRegions:CityData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCountyData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6439140iiidd47ah5hdg000042a78813g6icbee3?MSPStoreType=image/gif&s=56",
+                    "@alt": "counties | Travis County (98.2% of city population) | Williamson County (1.8% of city population) state | Texas country | United States",
+                    "@title": "counties | Travis County (98.2% of city population) | Williamson County (1.8% of city population) state | Texas country | United States",
+                    "@width": "546",
+                    "@height": "117",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "counties | Travis County (98.2% of city population) | Williamson County (1.8% of city population)\nstate | Texas\ncountry | United States"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Current local time",
+            "@scanner": "Data",
+            "@id": "CurrentTime:CityData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6440140iiidd47ah5hdg0000626i93a6i57aa765?MSPStoreType=image/gif&s=56",
+                    "@alt": "11:22 pm CST | Saturday, January 18, 2020",
+                    "@title": "11:22 pm CST | Saturday, January 18, 2020",
+                    "@width": "301",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "11:22 pm CST | Saturday, January 18, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Current weather",
+            "@scanner": "Data",
+            "@id": "WeatherPod:CityData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "WeatherData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6441140iiidd47ah5hdg000047bd6cc4311de9f5?MSPStoreType=image/gif&s=56",
+                    "@alt": "10 \u00b0C (wind chill: 8 \u00b0C) | relative humidity: 48% | wind: 4 m/s | clear",
+                    "@title": "10 \u00b0C (wind chill: 8 \u00b0C) | relative humidity: 48% | wind: 4 m/s | clear",
+                    "@width": "479",
+                    "@height": "22",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "10 \u00b0C (wind chill: 8 \u00b0C) | relative humidity: 48% | wind: 4 m/s | clear"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show history",
+                        "@input": "WeatherPod:CityData__Show history"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "WeatherPod:CityData__Show non-metric"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Demographics",
+            "@scanner": "Data",
+            "@id": "ACSPercentageEntrainments:ACSData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "ACSData"
+                },
+                "datasources": {
+                    "datasource": [
+                        "CensusAmericanCommunitySurvey5YearsRace",
+                        "CensusAmericanCommunitySurvey5YearsHispanicOrigin",
+                        "CensusAmericanCommunitySurvey5YearsCitizenship"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6442140iiidd47ah5hdg000067b1gc62i6bhbhf6?MSPStoreType=image/gif&s=56",
+                    "@alt": "race | white: 75% | black/African American: 7.6% | Asian: 7% | ... Hispanic origin | 34.5% US citizens | 87.4%",
+                    "@title": "race | white: 75% | black/African American: 7.6% | Asian: 7% | ... Hispanic origin | 34.5% US citizens | 87.4%",
+                    "@width": "546",
+                    "@height": "117",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "race | white: 75% | black/African American: 7.6% | Asian: 7% | ...\nHispanic origin | 34.5%\nUS citizens | 87.4%"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "More",
+                    "@input": "ACSPercentageEntrainments:ACSData__More"
+                }
+            }
+        },
+        {
+            "@title": "Educational attainment",
+            "@scanner": "Data",
+            "@id": "ACSEducationEntrainments:ACSData",
+            "@position": "1000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "ACSData"
+                },
+                "datasources": {
+                    "datasource": "CensusAmericanCommunitySurvey5YearsEducation"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6443140iiidd47ah5hdg0000501g02h0bd9fif41?MSPStoreType=image/gif&s=56",
+                    "@alt": "college degree and above | 54.2% (1.43 \u00d7 national average) high school diploma | 16.3% (0.586 \u00d7 national average) less than high school diploma | 11.5% (0.859 \u00d7 national average) (for population age 25 and older)",
+                    "@title": "college degree and above | 54.2% (1.43 \u00d7 national average) high school diploma | 16.3% (0.586 \u00d7 national average) less than high school diploma | 11.5% (0.859 \u00d7 national average) (for population age 25 and older)",
+                    "@width": "437",
+                    "@height": "121",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "college degree and above | 54.2% (1.43 \u00d7 national average)\nhigh school diploma | 16.3% (0.586 \u00d7 national average)\nless than high school diploma | 11.5% (0.859 \u00d7 national average)\n(for population age 25 and older)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show enrollment",
+                    "@input": "ACSEducationEntrainments:ACSData__Show enrollment"
+                }
+            }
+        },
+        {
+            "@title": "Income statistics",
+            "@scanner": "Data",
+            "@id": "ACSIncomeEntrainments:ACSData",
+            "@position": "1100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "ACSData"
+                },
+                "datasources": {
+                    "datasource": [
+                        "CensusAmericanCommunitySurvey5YearsMedianIncome",
+                        "CensusAmericanCommunitySurvey5YearsPerCapitaIncome",
+                        "CensusAmericanCommunitySurvey5YearsPoverty"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6444140iiidd47ah5hdg000069412fh115g1h1b8?MSPStoreType=image/gif&s=56",
+                    "@alt": "median household income | $63717 per year (US dollars per year) (1.15 \u00d7 national average) per capita income | $37888 per year per person (US dollars per year per person) (1.27 \u00d7 national average) population below poverty line | 15.4% (\u2248 national average)",
+                    "@title": "median household income | $63717 per year (US dollars per year) (1.15 \u00d7 national average) per capita income | $37888 per year per person (US dollars per year per person) (1.27 \u00d7 national average) population below poverty line | 15.4% (\u2248 national average)",
+                    "@width": "546",
+                    "@height": "151",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "median household income | $63717 per year (US dollars per year) (1.15 \u00d7 national average)\nper capita income | $37888 per year per person (US dollars per year per person) (1.27 \u00d7 national average)\npopulation below poverty line | 15.4% (\u2248 national average)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show distribution",
+                    "@input": "ACSIncomeEntrainments:ACSData__Show distribution"
+                }
+            }
+        },
+        {
+            "@title": "Economic properties",
+            "@scanner": "Data",
+            "@id": "EconomicProperties:CityData",
+            "@position": "1200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USEmploymentData",
+                        "USHousingData",
+                        "USTaxData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "RealtorsMetropolitanAreaMedianPrices"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6445140iiidd47ah5hdg000014322a1egdh109h2?MSPStoreType=image/gif&s=56",
+                    "@alt": "median home price | $222900 (Austin (TX) metro area) (annual change: +8.2%) (2013) unemployment rate | 2.4% (November 2019) total sales tax rate | 8.25% (2019 estimate)",
+                    "@title": "median home price | $222900 (Austin (TX) metro area) (annual change: +8.2%) (2013) unemployment rate | 2.4% (November 2019) total sales tax rate | 8.25% (2019 estimate)",
+                    "@width": "546",
+                    "@height": "117",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "median home price | $222900 (Austin (TX) metro area) (annual change: +8.2%) (2013)\nunemployment rate | 2.4% (November 2019)\ntotal sales tax rate | 8.25% (2019 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Other indicators",
+            "@scanner": "Data",
+            "@id": "QualityOfLife:CityData",
+            "@position": "1300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "CongestionData",
+                        "CrimeData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": [
+                        "TexasTransportationInstituteCongestionDataForYourCityUrbanMobilityInformation",
+                        "UnitedStatesDepartmentOfJusticeBureauOfJusticeStatisticsCrimeAndJusticeDataOnline"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6446140iiidd47ah5hdg000060ib78g9873e0i4h?MSPStoreType=image/gif&s=56",
+                    "@alt": "total rate of violent crime | 1.1 \u00d7 national average (2017 estimate) total rate of property crime | 1.4 \u00d7 national average (2017 estimate) average daily traffic delay | 8.6 minutes per person per day",
+                    "@title": "total rate of violent crime | 1.1 \u00d7 national average (2017 estimate) total rate of property crime | 1.4 \u00d7 national average (2017 estimate) average daily traffic delay | 8.6 minutes per person per day",
+                    "@width": "475",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "total rate of violent crime | 1.1 \u00d7 national average (2017 estimate)\ntotal rate of property crime | 1.4 \u00d7 national average (2017 estimate)\naverage daily traffic delay | 8.6 minutes per person per day"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Nearby cities",
+            "@scanner": "Data",
+            "@id": "CityHierarchyInfo:CityData",
+            "@position": "1400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6447140iiidd47ah5hdg0000155f272f55hhgg72?MSPStoreType=image/gif&s=56",
+                    "@alt": "Round Rock, Texas | 25 km (kilometers) north-northeast | 106573 people San Antonio, Texas | 119 km (kilometers) southwest | 1.383 million people Houston, Texas | 236 km (kilometers) east-southeast | 2.161 million people (straight-line distances between city centers)",
+                    "@title": "Round Rock, Texas | 25 km (kilometers) north-northeast | 106573 people San Antonio, Texas | 119 km (kilometers) southwest | 1.383 million people Houston, Texas | 236 km (kilometers) east-southeast | 2.161 million people (straight-line distances between city centers)",
+                    "@width": "546",
+                    "@height": "156",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Round Rock, Texas | 25 km (kilometers) north-northeast | 106573 people\nSan Antonio, Texas | 119 km (kilometers) southwest | 1.383 million people\nHouston, Texas | 236 km (kilometers) east-southeast | 2.161 million people\n(straight-line distances between city centers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "CityHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "CityHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby airport",
+            "@scanner": "Data",
+            "@id": "AirportHierarchyInfo:CityData",
+            "@position": "1500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6448140iiidd47ah5hdg000018810867abc8191i?MSPStoreType=image/gif&s=56",
+                    "@alt": "Austin-Bergstrom International Airport | 15 km (kilometers) south-southeast (straight-line distances between city center and airport)",
+                    "@title": "Austin-Bergstrom International Airport | 15 km (kilometers) south-southeast (straight-line distances between city center and airport)",
+                    "@width": "538",
+                    "@height": "58",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Austin-Bergstrom International Airport | 15 km (kilometers) south-southeast\n(straight-line distances between city center and airport)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "AirportHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "AirportHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby hospitals",
+            "@scanner": "Data",
+            "@id": "HospitalHierarchyInfo:CityData",
+            "@position": "1600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6449140iiidd47ah5hdg000021dd06631eg001bb?MSPStoreType=image/gif&s=56",
+                    "@alt": "Seton Medical Center Austin | 1 km (kilometer) east-southeast St. David's Medical Center | 3 km (kilometers) southeast University Medical Center Brackenridge | 4 km (kilometers) south-southeast St. David's South Austin Hospital | 9 km (kilometers) south-southwest St. David's North Austin Center | 13 km (kilometers) north-northeast (straight-line distances between city center and hospital)",
+                    "@title": "Seton Medical Center Austin | 1 km (kilometer) east-southeast St. David's Medical Center | 3 km (kilometers) southeast University Medical Center Brackenridge | 4 km (kilometers) south-southeast St. David's South Austin Hospital | 9 km (kilometers) south-southwest St. David's North Austin Center | 13 km (kilometers) north-northeast (straight-line distances between city center and hospital)",
+                    "@width": "536",
+                    "@height": "170",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Seton Medical Center Austin | 1 km (kilometer) east-southeast\nSt. David's Medical Center | 3 km (kilometers) southeast\nUniversity Medical Center Brackenridge | 4 km (kilometers) south-southeast\nSt. David's South Austin Hospital | 9 km (kilometers) south-southwest\nSt. David's North Austin Center | 13 km (kilometers) north-northeast\n(straight-line distances between city center and hospital)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "HospitalHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "HospitalHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Notable company headquarters",
+            "@scanner": "Data",
+            "@id": "CompaniesInCity:CityData",
+            "@position": "1700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "datasources": {
+                    "datasource": [
+                        "ForbesAmericasLargestPrivateCompanies",
+                        "CrunchBase"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6450140iiidd47ah5hdg00003bg479ic2ecg87c5?MSPStoreType=image/gif&s=56",
+                    "@alt": "Dell | 111300 employees (Quarter 1 2013) | $56.62 billion per year (Quarter 3 2013) Whole Foods Market | 87000 employees (Quarter 3 2016) | $15.88 billion per year (Quarter 2 2017) Freescale Semiconductor | 18000 employees (2009) | $3.51 billion per year (2009) Cirrus | 1444 employees (Quarter 1 2017) | $1.557 billion per year (Quarter 4 2017) National Instruments | 7412 employees (Quarter 4 2017) | $1.289 billion per year (Quarter 4 2017)",
+                    "@title": "Dell | 111300 employees (Quarter 1 2013) | $56.62 billion per year (Quarter 3 2013) Whole Foods Market | 87000 employees (Quarter 3 2016) | $15.88 billion per year (Quarter 2 2017) Freescale Semiconductor | 18000 employees (2009) | $3.51 billion per year (2009) Cirrus | 1444 employees (Quarter 1 2017) | $1.557 billion per year (Quarter 4 2017) National Instruments | 7412 employees (Quarter 4 2017) | $1.289 billion per year (Quarter 4 2017)",
+                    "@width": "546",
+                    "@height": "249",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Dell | 111300 employees (Quarter 1 2013) | $56.62 billion per year (Quarter 3 2013)\nWhole Foods Market | 87000 employees (Quarter 3 2016) | $15.88 billion per year (Quarter 2 2017)\nFreescale Semiconductor | 18000 employees (2009) | $3.51 billion per year (2009)\nCirrus | 1444 employees (Quarter 1 2017) | $1.557 billion per year (Quarter 4 2017)\nNational Instruments | 7412 employees (Quarter 4 2017) | $1.289 billion per year (Quarter 4 2017)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "More",
+                    "@input": "CompaniesInCity:CityData__More"
+                }
+            }
+        },
+        {
+            "@title": "Map",
+            "@scanner": "Data",
+            "@id": "WolframMap:CompanyData",
+            "@position": "1800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CompanyData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6451140iiidd47ah5hdg000032bfbe65bfggd6if?MSPStoreType=image/gif&s=56",
+                    "@alt": "Map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "20 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "9 kilometers across",
+                            "@input": "WolframMap:CompanyData__9 kilometers across"
+                        },
+                        {
+                            "@name": "20 kilometers across",
+                            "@input": "WolframMap:CompanyData__20 kilometers across"
+                        },
+                        {
+                            "@name": "40 kilometers across",
+                            "@input": "WolframMap:CompanyData__40 kilometers across"
+                        },
+                        {
+                            "@name": "70 kilometers across",
+                            "@input": "WolframMap:CompanyData__70 kilometers across"
+                        },
+                        {
+                            "@name": "150 kilometers across",
+                            "@input": "WolframMap:CompanyData__150 kilometers across"
+                        },
+                        {
+                            "@name": "290 kilometers across",
+                            "@input": "WolframMap:CompanyData__290 kilometers across"
+                        },
+                        {
+                            "@name": "580 kilometers across",
+                            "@input": "WolframMap:CompanyData__580 kilometers across"
+                        },
+                        {
+                            "@name": "1200 kilometers across",
+                            "@input": "WolframMap:CompanyData__1200 kilometers across"
+                        },
+                        {
+                            "@name": "2300 kilometers across",
+                            "@input": "WolframMap:CompanyData__2300 kilometers across"
+                        },
+                        {
+                            "@name": "4600 kilometers across",
+                            "@input": "WolframMap:CompanyData__4600 kilometers across"
+                        },
+                        {
+                            "@name": "9100 kilometers across",
+                            "@input": "WolframMap:CompanyData__9100 kilometers across"
+                        },
+                        {
+                            "@name": "16000 kilometers across",
+                            "@input": "WolframMap:CompanyData__16000 kilometers across"
+                        },
+                        {
+                            "@name": "30000 kilometers across",
+                            "@input": "WolframMap:CompanyData__30000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "WolframMap:CompanyData__Non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:CityData",
+            "@position": "1900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6452140iiidd47ah5hdg00001i558b81h48egg55?MSPStoreType=image/gif&s=56",
+                    "@alt": "elevation | 149 m area | 771.55 km^2 population density | 1232 people per square kilometer",
+                    "@title": "elevation | 149 m area | 771.55 km^2 population density | 1232 people per square kilometer",
+                    "@width": "386",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "elevation | 149 m\narea | 771.55 km^2\npopulation density | 1232 people per square kilometer"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:CityData__Show non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "units": {
+                        "@count": "2",
+                        "unit": [
+                            {
+                                "@short": "km^2",
+                                "@long": "square kilometers"
+                            },
+                            {
+                                "@short": "m",
+                                "@long": "meters"
+                            }
+                        ],
+                        "img": {
+                            "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6453140iiidd47ah5hdg000066a7i3545db98f3g?MSPStoreType=image/gif&s=56",
+                            "@width": "171",
+                            "@height": "48"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Nearest sea",
+            "@scanner": "Data",
+            "@id": "OceansHierarchyInfo:CityData",
+            "@position": "2000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6454140iiidd47ah5hdg000015e4bdc11ee8c9b7?MSPStoreType=image/gif&s=56",
+                    "@alt": "Gulf of Mexico (207 km (kilometers) south-southeast)  (straight-line distance between city center and shore)",
+                    "@title": "Gulf of Mexico (207 km (kilometers) south-southeast)  (straight-line distance between city center and shore)",
+                    "@width": "350",
+                    "@height": "41",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Gulf of Mexico (207 km (kilometers) south-southeast) \n(straight-line distance between city center and shore)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show map",
+                        "@input": "OceansHierarchyInfo:CityData__Show map"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "OceansHierarchyInfo:CityData__Show non-metric"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nicknames",
+            "@scanner": "Data",
+            "@id": "BasicInformation:CityData",
+            "@position": "2100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6455140iiidd47ah5hdg00000i7ggih03ibc55gc?MSPStoreType=image/gif&s=56",
+                    "@alt": "City of the Violet Crown | Live Music Capital of the World",
+                    "@title": "City of the Violet Crown | Live Music Capital of the World",
+                    "@width": "388",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "City of the Violet Crown | Live Music Capital of the World"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Notable people born in Austin",
+            "@scanner": "Data",
+            "@id": "NotablePeople:CityData",
+            "@position": "2200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "PeopleData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6456140iiidd47ah5hdg00004ah6600fcfhh28e3?MSPStoreType=image/gif&s=56",
+                    "@alt": "Amber Heard (actor) (1986) Ciara (singer, etc.) (1985) Nelly (rapper, etc.) (1974) Ethan Hawke (actor) (1970) Dakota Johnson (actor, etc.) (1989) Angus T. Jones (actor) (1993) Drew Brees (football player) (1979) Goldust (wrestler) (1969) Alex Jones (radio personality) (1974) Carly Fiorina (businessperson, etc.) (1954) ...",
+                    "@title": "Amber Heard (actor) (1986) Ciara (singer, etc.) (1985) Nelly (rapper, etc.) (1974) Ethan Hawke (actor) (1970) Dakota Johnson (actor, etc.) (1989) Angus T. Jones (actor) (1993) Drew Brees (football player) (1979) Goldust (wrestler) (1969) Alex Jones (radio personality) (1974) Carly Fiorina (businessperson, etc.) (1954) ...",
+                    "@width": "281",
+                    "@height": "209",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Amber Heard (actor) (1986)\nCiara (singer, etc.) (1985)\nNelly (rapper, etc.) (1974)\nEthan Hawke (actor) (1970)\nDakota Johnson (actor, etc.) (1989)\nAngus T. Jones (actor) (1993)\nDrew Brees (football player) (1979)\nGoldust (wrestler) (1969)\nAlex Jones (radio personality) (1974)\nCarly Fiorina (businessperson, etc.) (1954)\n..."
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "3",
+                "state": [
+                    {
+                        "@name": "More",
+                        "@input": "NotablePeople:CityData__More"
+                    },
+                    {
+                        "@name": "Show dates",
+                        "@input": "NotablePeople:CityData__Show dates"
+                    },
+                    {
+                        "@name": "Show deaths",
+                        "@input": "NotablePeople:CityData__Show deaths"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Founding date",
+            "@scanner": "Data",
+            "@id": "FoundingDates:CityData",
+            "@position": "2300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6457140iiidd47ah5hdg0000354966669e6b106g?MSPStoreType=image/gif&s=56",
+                    "@alt": "27-12-1839 (180 years 23 days ago) (incorporation date)",
+                    "@title": "27-12-1839 (180 years 23 days ago) (incorporation date)",
+                    "@width": "378",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "27-12-1839 (180 years 23 days ago) (incorporation date)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "More",
+                    "@input": "FoundingDates:CityData__More"
+                }
+            }
+        },
+        {
+            "@title": "Wikipedia page hits history",
+            "@scanner": "Data",
+            "@id": "PopularityPod:WikipediaStatsData",
+            "@position": "2400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP6458140iiidd47ah5hdg00002d8b2i1gd1158a67?MSPStoreType=image/gif&s=56",
+                    "@alt": "Wikipedia page hits history",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "166",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopularityPod:WikipediaStatsData__Log scale"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "1",
+        "assumption": {
+            "@type": "MultiClash",
+            "@word": "",
+            "@template": "Assuming ${word1} is referring to ${desc1}. Use \"${word2}\" as ${desc2}. Use \"${word3}\" as ${desc3}.",
+            "@count": "3",
+            "value": [
+                {
+                    "@name": "Company",
+                    "@word": "Digby",
+                    "@desc": "a company",
+                    "@input": "*MC.%7E-_*Company-"
+                },
+                {
+                    "@name": "AdministrativeDivision",
+                    "@word": "Digby",
+                    "@desc": "an administrative division",
+                    "@input": "*MC.%7E-_*AdministrativeDivision-"
+                },
+                {
+                    "@name": "City",
+                    "@word": "",
+                    "@desc": "a city",
+                    "@input": "*MC.%7E-_*City-"
+                }
+            ]
+        }
+    },
+    "sources": {
+        "@count": "18",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/ACSDataSourceInformationNotes.html",
+                "@text": "ACS data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CompanyDataSourceInformationNotes.html",
+                "@text": "Company data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CongestionDataSourceInformationNotes.html",
+                "@text": "Congestion data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CountryDataSourceInformationNotes.html",
+                "@text": "Country data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CrimeDataSourceInformationNotes.html",
+                "@text": "Crime data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/MetropolitanAreaDataSourceInformationNotes.html",
+                "@text": "Metropolitan area data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html",
+                "@text": "People data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/UrbanAreaDataSourceInformationNotes.html",
+                "@text": "Urban area data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USCensusDataSourceInformationNotes.html",
+                "@text": "US census data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USCountyDataSourceInformationNotes.html",
+                "@text": "US county data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USEmploymentDataSourceInformationNotes.html",
+                "@text": "US employment data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USHousingDataSourceInformationNotes.html",
+                "@text": "US housing data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USStateDataSourceInformationNotes.html",
+                "@text": "US state data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USTaxDataSourceInformationNotes.html",
+                "@text": "US tax data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html",
+                "@text": "Weather data"
+            }
+        ]
+    }
+}

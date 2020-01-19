@@ -1,0 +1,821 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "15",
+    "@datatypes": "AdministrativeDivision,City,NuclearReactor,Person,WeatherStation",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "6.8",
+    "@parsetiming": "0.527",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP1231caa5bahh7124afe00000d6127f98a615374",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "42",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa1241caa5bahh7124afe00001aa337bc4fcffhf61974172802644588749",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1251caa5bahh7124afe00005did26131f3ie3bf?MSPStoreType=image/gif&s=42",
+                    "@alt": "Chatham, Ontario",
+                    "@title": "Chatham, Ontario",
+                    "@width": "118",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Chatham, Ontario"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Population",
+            "@scanner": "Data",
+            "@id": "Population:CityData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCensusData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1261caa5bahh7124afe000054b5i2bg6h60194d?MSPStoreType=image/gif&s=42",
+                    "@alt": "city population | 45783 people (country rank: 94th) (2006 estimate)",
+                    "@title": "city population | 45783 people (country rank: 94th) (2006 estimate)",
+                    "@width": "452",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "city population | 45783 people (country rank: 94th) (2006 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show history",
+                    "@input": "Population:CityData__Show history"
+                }
+            }
+        },
+        {
+            "@title": "Location",
+            "@scanner": "Data",
+            "@id": "Location:CityData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "2",
+            "subpod": [
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1271caa5bahh7124afe00006ae4i714e95iddg1?MSPStoreType=image/gif&s=42",
+                        "@alt": "Ontario, Canada",
+                        "@title": "Ontario, Canada",
+                        "@width": "109",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "Ontario, Canada"
+                },
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData",
+                            "CountryData"
+                        ]
+                    },
+                    "datasources": {
+                        "datasource": "CIAFactbook"
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1281caa5bahh7124afe00004b1992f96781d756?MSPStoreType=image/gif&s=42",
+                        "@alt": "Location",
+                        "@title": "",
+                        "@width": "328",
+                        "@height": "214",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                }
+            ],
+            "expressiontypes": {
+                "@count": "2",
+                "expressiontype": [
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    }
+                ]
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "World map",
+                        "@input": "Location:CityData__World map"
+                    },
+                    {
+                        "@name": "Show coordinates",
+                        "@input": "Location:CityData__Show coordinates"
+                    }
+                ]
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=42.41%2C-82.19&q=42.41%20N%2C%2082.19%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "Map:CityData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1291caa5bahh7124afe000065c6bh4e14839105?MSPStoreType=image/gif&s=42",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "30 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "8 kilometers across",
+                            "@input": "Map:CityData__8 kilometers across"
+                        },
+                        {
+                            "@name": "20 kilometers across",
+                            "@input": "Map:CityData__20 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "Map:CityData__30 kilometers across"
+                        },
+                        {
+                            "@name": "60 kilometers across",
+                            "@input": "Map:CityData__60 kilometers across"
+                        },
+                        {
+                            "@name": "130 kilometers across",
+                            "@input": "Map:CityData__130 kilometers across"
+                        },
+                        {
+                            "@name": "250 kilometers across",
+                            "@input": "Map:CityData__250 kilometers across"
+                        },
+                        {
+                            "@name": "500 kilometers across",
+                            "@input": "Map:CityData__500 kilometers across"
+                        },
+                        {
+                            "@name": "1000 kilometers across",
+                            "@input": "Map:CityData__1000 kilometers across"
+                        },
+                        {
+                            "@name": "2000 kilometers across",
+                            "@input": "Map:CityData__2000 kilometers across"
+                        },
+                        {
+                            "@name": "4000 kilometers across",
+                            "@input": "Map:CityData__4000 kilometers across"
+                        },
+                        {
+                            "@name": "7800 kilometers across",
+                            "@input": "Map:CityData__7800 kilometers across"
+                        },
+                        {
+                            "@name": "13000 kilometers across",
+                            "@input": "Map:CityData__13000 kilometers across"
+                        },
+                        {
+                            "@name": "25000 kilometers across",
+                            "@input": "Map:CityData__25000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "Map:CityData__Non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=42.41%2C-82.19&q=42.41%20N%2C%2082.19%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Administrative regions",
+            "@scanner": "Data",
+            "@id": "AdministrativeRegions:CityData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1301caa5bahh7124afe00000fccb9e7g10ed126?MSPStoreType=image/gif&s=42",
+                    "@alt": "region | Ontario country | Canada",
+                    "@title": "region | Ontario country | Canada",
+                    "@width": "151",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "region | Ontario\ncountry | Canada"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Current local time",
+            "@scanner": "Data",
+            "@id": "CurrentTime:CityData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1311caa5bahh7124afe000067g7ia0a60g36gei?MSPStoreType=image/gif&s=42",
+                    "@alt": "12:21 am EST | Sunday, January 19, 2020",
+                    "@title": "12:21 am EST | Sunday, January 19, 2020",
+                    "@width": "290",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "12:21 am EST | Sunday, January 19, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Current weather",
+            "@scanner": "Data",
+            "@id": "WeatherPod:CityData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "WeatherData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1321caa5bahh7124afe00001i7fc7ai56720ah3?MSPStoreType=image/gif&s=42",
+                    "@alt": "0 \u00b0C (wind chill: -8 \u00b0C) | relative humidity: 96% | wind: 11 m/s",
+                    "@title": "0 \u00b0C (wind chill: -8 \u00b0C) | relative humidity: 96% | wind: 11 m/s",
+                    "@width": "431",
+                    "@height": "22",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "0 \u00b0C (wind chill: -8 \u00b0C) | relative humidity: 96% | wind: 11 m/s"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show history",
+                        "@input": "WeatherPod:CityData__Show history"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "WeatherPod:CityData__Show non-metric"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby cities",
+            "@scanner": "Data",
+            "@id": "CityHierarchyInfo:CityData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1331caa5bahh7124afe000016beg56ee2ig9f75?MSPStoreType=image/gif&s=42",
+                    "@alt": "Windsor, Ontario | 70 km (kilometers) west | 210891 people Detroit, Michigan | 75 km (kilometers) west | 701475 people London, Ontario | 100 km (kilometers) northeast | 366151 people Cleveland, Ohio | 112 km (kilometers) south-southeast | 390928 people Toronto, Ontario | 267 km (kilometers) east-northeast | 2.615 million people (straight-line distances between city centers)",
+                    "@title": "Windsor, Ontario | 70 km (kilometers) west | 210891 people Detroit, Michigan | 75 km (kilometers) west | 701475 people London, Ontario | 100 km (kilometers) northeast | 366151 people Cleveland, Ohio | 112 km (kilometers) south-southeast | 390928 people Toronto, Ontario | 267 km (kilometers) east-northeast | 2.615 million people (straight-line distances between city centers)",
+                    "@width": "545",
+                    "@height": "170",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Windsor, Ontario | 70 km (kilometers) west | 210891 people\nDetroit, Michigan | 75 km (kilometers) west | 701475 people\nLondon, Ontario | 100 km (kilometers) northeast | 366151 people\nCleveland, Ohio | 112 km (kilometers) south-southeast | 390928 people\nToronto, Ontario | 267 km (kilometers) east-northeast | 2.615 million people\n(straight-line distances between city centers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "CityHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "CityHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby airports",
+            "@scanner": "Data",
+            "@id": "AirportHierarchyInfo:CityData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1341caa5bahh7124afe00002fb679b2i0f9125g?MSPStoreType=image/gif&s=42",
+                    "@alt": "Chatham-Kent Airport | 15 km (kilometers) southeast Selfridge Air National Guard Base | 57 km (kilometers) west-northwest St. Clair County International Airport | 62 km (kilometers) north-northwest Windsor Airport | 65 km (kilometers) west-southwest Chris Hadfield | 66 km (kilometers) north (straight-line distances between city center and airport)",
+                    "@title": "Chatham-Kent Airport | 15 km (kilometers) southeast Selfridge Air National Guard Base | 57 km (kilometers) west-northwest St. Clair County International Airport | 62 km (kilometers) north-northwest Windsor Airport | 65 km (kilometers) west-southwest Chris Hadfield | 66 km (kilometers) north (straight-line distances between city center and airport)",
+                    "@width": "527",
+                    "@height": "170",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Chatham-Kent Airport | 15 km (kilometers) southeast\nSelfridge Air National Guard Base | 57 km (kilometers) west-northwest\nSt. Clair County International Airport | 62 km (kilometers) north-northwest\nWindsor Airport | 65 km (kilometers) west-southwest\nChris Hadfield | 66 km (kilometers) north\n(straight-line distances between city center and airport)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "AirportHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "AirportHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby hospitals",
+            "@scanner": "Data",
+            "@id": "HospitalHierarchyInfo:CityData",
+            "@position": "1000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1351caa5bahh7124afe00006011ega32i46162i?MSPStoreType=image/gif&s=42",
+                    "@alt": "St John River District Hospital | 41 km (kilometers) northwest St. John Hospital And Medical Center | 60 km (kilometers) west Beaumont Hospital | 60 km (kilometers) west Mount Clemens Regional Medical Center | 61 km (kilometers) west-northwest Port Huron Hospital | 67 km (kilometers) north-northwest (straight-line distances between city center and hospital)",
+                    "@title": "St John River District Hospital | 41 km (kilometers) northwest St. John Hospital And Medical Center | 60 km (kilometers) west Beaumont Hospital | 60 km (kilometers) west Mount Clemens Regional Medical Center | 61 km (kilometers) west-northwest Port Huron Hospital | 67 km (kilometers) north-northwest (straight-line distances between city center and hospital)",
+                    "@width": "546",
+                    "@height": "190",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "St John River District Hospital | 41 km (kilometers) northwest\nSt. John Hospital And Medical Center | 60 km (kilometers) west\nBeaumont Hospital | 60 km (kilometers) west\nMount Clemens Regional Medical Center | 61 km (kilometers) west-northwest\nPort Huron Hospital | 67 km (kilometers) north-northwest\n(straight-line distances between city center and hospital)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "HospitalHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "HospitalHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:CityData",
+            "@position": "1100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1361caa5bahh7124afe00000g626d5911fif309?MSPStoreType=image/gif&s=42",
+                    "@alt": "elevation | 183 m",
+                    "@title": "elevation | 183 m",
+                    "@width": "147",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "elevation | 183 m"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:CityData__Show non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "units": {
+                        "@count": "1",
+                        "unit": {
+                            "@short": "m",
+                            "@long": "meters"
+                        },
+                        "img": {
+                            "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1371caa5bahh7124afe00005h4b0cdb1b02bb11?MSPStoreType=image/gif&s=42",
+                            "@width": "96",
+                            "@height": "26"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Nearby feature",
+            "@scanner": "Data",
+            "@id": "FeaturesHierarchyInfo:CityData",
+            "@position": "1200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "NuclearReactorData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "IAEAPowerReactorInformationSystem"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1381caa5bahh7124afe0000399cbc257gc883bf?MSPStoreType=image/gif&s=42",
+                    "@alt": "nuclear power site | Enrico Fermi | 101 km (kilometers) west-southwest (straight-line distances between city center and feature coordinates)",
+                    "@title": "nuclear power site | Enrico Fermi | 101 km (kilometers) west-southwest (straight-line distances between city center and feature coordinates)",
+                    "@width": "509",
+                    "@height": "58",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "nuclear power site | Enrico Fermi | 101 km (kilometers) west-southwest\n(straight-line distances between city center and feature coordinates)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "FeaturesHierarchyInfo:CityData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Nearest sea",
+            "@scanner": "Data",
+            "@id": "OceansHierarchyInfo:CityData",
+            "@position": "1300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1391caa5bahh7124afe0000288g4c4hdh6347ee?MSPStoreType=image/gif&s=42",
+                    "@alt": "Atlantic Ocean (583 km (kilometers) southeast)  (straight-line distance between city center and shore)",
+                    "@title": "Atlantic Ocean (583 km (kilometers) southeast)  (straight-line distance between city center and shore)",
+                    "@width": "308",
+                    "@height": "41",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Atlantic Ocean (583 km (kilometers) southeast) \n(straight-line distance between city center and shore)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "3",
+                "state": [
+                    {
+                        "@name": "Show map",
+                        "@input": "OceansHierarchyInfo:CityData__Show map"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "OceansHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "OceansHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Notable people born in Chatham",
+            "@scanner": "Data",
+            "@id": "NotablePeople:CityData",
+            "@position": "1400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "PeopleData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1401caa5bahh7124afe00005hhg570ffi9b2b6a?MSPStoreType=image/gif&s=42",
+                    "@alt": "Ferguson Jenkins (baseball player) (1943) Andy Fantuz (football player) (1983) T. J. Brodie (ice hockey player) (1990) Kenne Duncan (actor) (1903) Ron Pardo (actor) (1967) Arthur Stringer (writer) (1874) Geoffrey O'Hara (composer, etc.) (1882) Bill Atkinson (baseball player) (1954) Colleen Beaumier (businessperson, etc.) (1944) Doc Miller (baseball player) (1883) ...",
+                    "@title": "Ferguson Jenkins (baseball player) (1943) Andy Fantuz (football player) (1983) T. J. Brodie (ice hockey player) (1990) Kenne Duncan (actor) (1903) Ron Pardo (actor) (1967) Arthur Stringer (writer) (1874) Geoffrey O'Hara (composer, etc.) (1882) Bill Atkinson (baseball player) (1954) Colleen Beaumier (businessperson, etc.) (1944) Doc Miller (baseball player) (1883) ...",
+                    "@width": "310",
+                    "@height": "209",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Ferguson Jenkins (baseball player) (1943)\nAndy Fantuz (football player) (1983)\nT. J. Brodie (ice hockey player) (1990)\nKenne Duncan (actor) (1903)\nRon Pardo (actor) (1967)\nArthur Stringer (writer) (1874)\nGeoffrey O'Hara (composer, etc.) (1882)\nBill Atkinson (baseball player) (1954)\nColleen Beaumier (businessperson, etc.) (1944)\nDoc Miller (baseball player) (1883)\n..."
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "3",
+                "state": [
+                    {
+                        "@name": "More",
+                        "@input": "NotablePeople:CityData__More"
+                    },
+                    {
+                        "@name": "Show dates",
+                        "@input": "NotablePeople:CityData__Show dates"
+                    },
+                    {
+                        "@name": "Show deaths",
+                        "@input": "NotablePeople:CityData__Show deaths"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Wikipedia page hits history",
+            "@scanner": "Data",
+            "@id": "PopularityPod:WikipediaStatsData",
+            "@position": "1500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP1411caa5bahh7124afe000044e8fagb13495563?MSPStoreType=image/gif&s=42",
+                    "@alt": "Wikipedia page hits history",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "167",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopularityPod:WikipediaStatsData__Log scale"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "1",
+        "assumption": {
+            "@type": "MultiClash",
+            "@word": "",
+            "@template": "Assuming ${word1} is referring to ${desc1}. Use \"${word2}\" as ${desc2}.",
+            "@count": "2",
+            "value": [
+                {
+                    "@name": "City",
+                    "@word": "the input",
+                    "@desc": "a city",
+                    "@input": "*MC.%7E-_*City-"
+                },
+                {
+                    "@name": "AdministrativeDivision",
+                    "@word": "Chatham-Kent",
+                    "@desc": "an administrative division",
+                    "@input": "*MC.%7E-_*AdministrativeDivision-"
+                }
+            ]
+        }
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "7",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/NuclearReactorDataSourceInformationNotes.html",
+                "@text": "Nuclear reactor data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html",
+                "@text": "People data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USCensusDataSourceInformationNotes.html",
+                "@text": "US census data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html",
+                "@text": "Weather data"
+            }
+        ]
+    }
+}

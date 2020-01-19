@@ -1,0 +1,978 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "15",
+    "@datatypes": "AdministrativeDivision,City,Person,WeatherStation",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "6.390000000000001",
+    "@parsetiming": "0.753",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP3579160fgc5504fbg27c00005hei35a798654cf6",
+    "@host": "https://www5a.wolframalpha.com",
+    "@server": "50",
+    "@related": "https://www5a.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa3580160fgc5504fbg27c00002gf6eeihdi8eci4h2678292769077595422",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3581160fgc5504fbg27c00001d2a8a402f5a2adb?MSPStoreType=image/gif&s=50",
+                    "@alt": "Richmond, Ontario",
+                    "@title": "Richmond, Ontario",
+                    "@width": "126",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Richmond, Ontario"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Population",
+            "@scanner": "Data",
+            "@id": "Population:CityData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCensusData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3582160fgc5504fbg27c000047feeb5c6e7i3eg3?MSPStoreType=image/gif&s=50",
+                    "@alt": "city population | 4482 people (country rank: \u2248434th) (2011 estimate)",
+                    "@title": "city population | 4482 people (country rank: \u2248434th) (2011 estimate)",
+                    "@width": "461",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "city population | 4482 people (country rank: \u2248434th) (2011 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Location",
+            "@scanner": "Data",
+            "@id": "Location:CityData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "2",
+            "subpod": [
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3583160fgc5504fbg27c00002g544ei24b939d2a?MSPStoreType=image/gif&s=50",
+                        "@alt": "Ontario, Canada",
+                        "@title": "Ontario, Canada",
+                        "@width": "109",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "Ontario, Canada"
+                },
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData",
+                            "CountryData"
+                        ]
+                    },
+                    "datasources": {
+                        "datasource": "CIAFactbook"
+                    },
+                    "img": {
+                        "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3584160fgc5504fbg27c00001e1f25ii974iecab?MSPStoreType=image/gif&s=50",
+                        "@alt": "Location",
+                        "@title": "",
+                        "@width": "328",
+                        "@height": "214",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                }
+            ],
+            "expressiontypes": {
+                "@count": "2",
+                "expressiontype": [
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    }
+                ]
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "World map",
+                        "@input": "Location:CityData__World map"
+                    },
+                    {
+                        "@name": "Show coordinates",
+                        "@input": "Location:CityData__Show coordinates"
+                    }
+                ]
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=45.18%2C-75.83&q=45.18%20N%2C%2075.83%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "Map:CityData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3585160fgc5504fbg27c00002e2d4b3eed188hi1?MSPStoreType=image/gif&s=50",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "10 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "7 kilometers across",
+                            "@input": "Map:CityData__7 kilometers across"
+                        },
+                        {
+                            "@name": "10 kilometers across",
+                            "@input": "Map:CityData__10 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "Map:CityData__30 kilometers across"
+                        },
+                        {
+                            "@name": "60 kilometers across",
+                            "@input": "Map:CityData__60 kilometers across"
+                        },
+                        {
+                            "@name": "120 kilometers across",
+                            "@input": "Map:CityData__120 kilometers across"
+                        },
+                        {
+                            "@name": "240 kilometers across",
+                            "@input": "Map:CityData__240 kilometers across"
+                        },
+                        {
+                            "@name": "480 kilometers across",
+                            "@input": "Map:CityData__480 kilometers across"
+                        },
+                        {
+                            "@name": "960 kilometers across",
+                            "@input": "Map:CityData__960 kilometers across"
+                        },
+                        {
+                            "@name": "1900 kilometers across",
+                            "@input": "Map:CityData__1900 kilometers across"
+                        },
+                        {
+                            "@name": "3800 kilometers across",
+                            "@input": "Map:CityData__3800 kilometers across"
+                        },
+                        {
+                            "@name": "7400 kilometers across",
+                            "@input": "Map:CityData__7400 kilometers across"
+                        },
+                        {
+                            "@name": "12000 kilometers across",
+                            "@input": "Map:CityData__12000 kilometers across"
+                        },
+                        {
+                            "@name": "24000 kilometers across",
+                            "@input": "Map:CityData__24000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "Map:CityData__Non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=45.18%2C-75.83&q=45.18%20N%2C%2075.83%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Administrative regions",
+            "@scanner": "Data",
+            "@id": "AdministrativeRegions:CityData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3586160fgc5504fbg27c000028f12708g8c5gfb2?MSPStoreType=image/gif&s=50",
+                    "@alt": "region | Ontario country | Canada",
+                    "@title": "region | Ontario country | Canada",
+                    "@width": "151",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "region | Ontario\ncountry | Canada"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Current local time",
+            "@scanner": "Data",
+            "@id": "CurrentTime:CityData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3587160fgc5504fbg27c00005hbee747if5cda39?MSPStoreType=image/gif&s=50",
+                    "@alt": "11:50 pm EST | Saturday, January 18, 2020",
+                    "@title": "11:50 pm EST | Saturday, January 18, 2020",
+                    "@width": "301",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "11:50 pm EST | Saturday, January 18, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Current weather",
+            "@scanner": "Data",
+            "@id": "WeatherPod:CityData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "WeatherData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3588160fgc5504fbg27c0000449e20b9gb50he9c?MSPStoreType=image/gif&s=50",
+                    "@alt": "-15 \u00b0C | relative humidity: 85% | snow, overcast",
+                    "@title": "-15 \u00b0C | relative humidity: 85% | snow, overcast",
+                    "@width": "338",
+                    "@height": "22",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "-15 \u00b0C | relative humidity: 85% | snow, overcast"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show history",
+                        "@input": "WeatherPod:CityData__Show history"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "WeatherPod:CityData__Show non-metric"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby cities",
+            "@scanner": "Data",
+            "@id": "CityHierarchyInfo:CityData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3589160fgc5504fbg27c00000d27ib8h7e3f6e84?MSPStoreType=image/gif&s=50",
+                    "@alt": "Ottawa, Ontario | 28 km (kilometers) north-northeast | 883391 people Gatineau, Quebec | 37 km (kilometers) north-northeast | 265349 people Montreal, Quebec | 181 km (kilometers) east-northeast | 1.65 million people (straight-line distances between city centers)",
+                    "@title": "Ottawa, Ontario | 28 km (kilometers) north-northeast | 883391 people Gatineau, Quebec | 37 km (kilometers) north-northeast | 265349 people Montreal, Quebec | 181 km (kilometers) east-northeast | 1.65 million people (straight-line distances between city centers)",
+                    "@width": "533",
+                    "@height": "114",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Ottawa, Ontario | 28 km (kilometers) north-northeast | 883391 people\nGatineau, Quebec | 37 km (kilometers) north-northeast | 265349 people\nMontreal, Quebec | 181 km (kilometers) east-northeast | 1.65 million people\n(straight-line distances between city centers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "CityHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "CityHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby airport",
+            "@scanner": "Data",
+            "@id": "AirportHierarchyInfo:CityData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3590160fgc5504fbg27c000046e02e90a66i2icg?MSPStoreType=image/gif&s=50",
+                    "@alt": "Ottawa/Macdonald-Cartier International Airport | 20 km (kilometers) northeast (straight-line distances between city center and airport)",
+                    "@title": "Ottawa/Macdonald-Cartier International Airport | 20 km (kilometers) northeast (straight-line distances between city center and airport)",
+                    "@width": "546",
+                    "@height": "78",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Ottawa/Macdonald-Cartier International Airport | 20 km (kilometers) northeast\n(straight-line distances between city center and airport)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "AirportHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "AirportHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby hospitals",
+            "@scanner": "Data",
+            "@id": "HospitalHierarchyInfo:CityData",
+            "@position": "1000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3591160fgc5504fbg27c000062bfei19g0e38a74?MSPStoreType=image/gif&s=50",
+                    "@alt": "Claxton-Hepburn Medical Center | 60 km (kilometers) south-southeast Massena Memorial Hospital | 78 km (kilometers) east-southeast (straight-line distances between city center and hospital)",
+                    "@title": "Claxton-Hepburn Medical Center | 60 km (kilometers) south-southeast Massena Memorial Hospital | 78 km (kilometers) east-southeast (straight-line distances between city center and hospital)",
+                    "@width": "496",
+                    "@height": "86",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Claxton-Hepburn Medical Center | 60 km (kilometers) south-southeast\nMassena Memorial Hospital | 78 km (kilometers) east-southeast\n(straight-line distances between city center and hospital)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "HospitalHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "HospitalHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:CityData",
+            "@position": "1100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3592160fgc5504fbg27c000010g2888cgh49154i?MSPStoreType=image/gif&s=50",
+                    "@alt": "elevation | 95 m",
+                    "@title": "elevation | 95 m",
+                    "@width": "139",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "elevation | 95 m"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:CityData__Show non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "units": {
+                        "@count": "1",
+                        "unit": {
+                            "@short": "m",
+                            "@long": "meters"
+                        },
+                        "img": {
+                            "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3593160fgc5504fbg27c000055i265e0i85b417e?MSPStoreType=image/gif&s=50",
+                            "@width": "96",
+                            "@height": "26"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Nearby features",
+            "@scanner": "Data",
+            "@id": "FeaturesHierarchyInfo:CityData",
+            "@position": "1200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3594160fgc5504fbg27c00005i317294b0h00bg6?MSPStoreType=image/gif&s=50",
+                    "@alt": "mountain | Algonquin Peak (1559 meters) | 186 km (kilometers) southeast mountain | Mount Marcy (1629 meters) | 192 km (kilometers) southeast mountain | Haystack (1512 meters) | 194 km (kilometers) southeast (straight-line distances between city center and feature coordinates)",
+                    "@title": "mountain | Algonquin Peak (1559 meters) | 186 km (kilometers) southeast mountain | Mount Marcy (1629 meters) | 192 km (kilometers) southeast mountain | Haystack (1512 meters) | 194 km (kilometers) southeast (straight-line distances between city center and feature coordinates)",
+                    "@width": "525",
+                    "@height": "114",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "mountain | Algonquin Peak (1559 meters) | 186 km (kilometers) southeast\nmountain | Mount Marcy (1629 meters) | 192 km (kilometers) southeast\nmountain | Haystack (1512 meters) | 194 km (kilometers) southeast\n(straight-line distances between city center and feature coordinates)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "FeaturesHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "FeaturesHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearest sea",
+            "@scanner": "Data",
+            "@id": "OceansHierarchyInfo:CityData",
+            "@position": "1300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3595160fgc5504fbg27c00001hd1ca2150c5c805?MSPStoreType=image/gif&s=50",
+                    "@alt": "Gulf of Saint Lawrence (392 km (kilometers) east-northeast)  (straight-line distance between city center and shore)",
+                    "@title": "Gulf of Saint Lawrence (392 km (kilometers) east-northeast)  (straight-line distance between city center and shore)",
+                    "@width": "394",
+                    "@height": "41",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Gulf of Saint Lawrence (392 km (kilometers) east-northeast) \n(straight-line distance between city center and shore)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "3",
+                "state": [
+                    {
+                        "@name": "Show map",
+                        "@input": "OceansHierarchyInfo:CityData__Show map"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "OceansHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "OceansHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Notable people born in Richmond",
+            "@scanner": "Data",
+            "@id": "NotablePeople:CityData",
+            "@position": "1400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "PeopleData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3596160fgc5504fbg27c000054d918d4cc3fi32g?MSPStoreType=image/gif&s=50",
+                    "@alt": "George Hamilton Pettit (barrister) (1872)",
+                    "@title": "George Hamilton Pettit (barrister) (1872)",
+                    "@width": "271",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "George Hamilton Pettit (barrister) (1872)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show dates",
+                        "@input": "NotablePeople:CityData__Show dates"
+                    },
+                    {
+                        "@name": "Show deaths",
+                        "@input": "NotablePeople:CityData__Show deaths"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Wikipedia page hits history",
+            "@scanner": "Data",
+            "@id": "PopularityPod:WikipediaStatsData",
+            "@position": "1500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3597160fgc5504fbg27c000056bacb55d6aeab26?MSPStoreType=image/gif&s=50",
+                    "@alt": "Wikipedia page hits history",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "170",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopularityPod:WikipediaStatsData__Log scale"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "2",
+        "assumption": [
+            {
+                "@type": "MultiClash",
+                "@word": "",
+                "@template": "Assuming ${word1} is referring to ${desc1}. Use as ${desc2} instead. Use \"${word3}\" as ${desc3}. Use \"${word4}\" as ${desc4}.",
+                "@count": "4",
+                "value": [
+                    {
+                        "@name": "City",
+                        "@word": "the input",
+                        "@desc": "a city",
+                        "@input": "*MC.%7E-_*City-"
+                    },
+                    {
+                        "@name": "USCounty",
+                        "@word": "the input",
+                        "@desc": "a US county",
+                        "@input": "*MC.%7E-_*USCounty-"
+                    },
+                    {
+                        "@name": "Neighborhood",
+                        "@word": "Richmond",
+                        "@desc": "a neighborhood",
+                        "@input": "*MC.%7E-_*Neighborhood-"
+                    },
+                    {
+                        "@name": "AdministrativeDivision",
+                        "@word": "Richmond",
+                        "@desc": "an administrative division",
+                        "@input": "*MC.%7E-_*AdministrativeDivision-"
+                    }
+                ]
+            },
+            {
+                "@type": "SubCategory",
+                "@word": "City of Richmond",
+                "@template": "Assuming ${desc1}. Use ${desc2} instead",
+                "@count": "30",
+                "value": [
+                    {
+                        "@name": "{Richmond, Ontario, Canada}",
+                        "@desc": "Richmond (Ontario, Canada)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.Ontario.Canada--"
+                    },
+                    {
+                        "@name": "{Richmond, Virginia, UnitedStates}",
+                        "@desc": "Richmond (Virginia, USA)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.Virginia.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Richmond, BritishColumbia, Canada}",
+                        "@desc": "Richmond (British Columbia, Canada)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.BritishColumbia.Canada--"
+                    },
+                    {
+                        "@name": "{Richmond, Indiana, UnitedStates}",
+                        "@desc": "Richmond (Indiana, USA)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.Indiana.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Richmond, Kentucky, UnitedStates}",
+                        "@desc": "Richmond (Kentucky, USA)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.Kentucky.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Richmond, California, UnitedStates}",
+                        "@desc": "Richmond (California, USA)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.California.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Richmond, Quebec, Canada}",
+                        "@desc": "Richmond (Quebec, Canada)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.Quebec.Canada--"
+                    },
+                    {
+                        "@name": "{Richmond, Vermont, UnitedStates}",
+                        "@desc": "Richmond (Vermont, USA)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.Vermont.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Richmond, RhodeIsland, UnitedStates}",
+                        "@desc": "Richmond (Rhode Island, USA)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.RhodeIsland.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Richmond, NewYork, UnitedStates}",
+                        "@desc": "Richmond (New York, USA)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.NewYork.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Richmond, Michigan, UnitedStates}",
+                        "@desc": "Richmond (Michigan, USA)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.Michigan.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Richmond, Texas, UnitedStates}",
+                        "@desc": "Richmond (Texas, USA)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.Texas.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Richmond, GreaterLondon, UnitedKingdom}",
+                        "@desc": "Richmond (Greater London, United Kingdom)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.GreaterLondon.UnitedKingdom--"
+                    },
+                    {
+                        "@name": "{Richmond, Massachusetts, UnitedStates}",
+                        "@desc": "Richmond (Massachusetts, USA)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.Massachusetts.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Richmond, Maine, UnitedStates}",
+                        "@desc": "Richmond (Maine, USA)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.Maine.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Richmond, Missouri, UnitedStates}",
+                        "@desc": "Richmond (Missouri, USA)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.Missouri.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Richmond, NewHampshire, UnitedStates}",
+                        "@desc": "Richmond (New Hampshire, USA)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.NewHampshire.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Richmond, KwaZuluNatal, SouthAfrica}",
+                        "@desc": "Richmond (South Africa)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.KwaZuluNatal.SouthAfrica--"
+                    },
+                    {
+                        "@name": "{Richmond, Wisconsin, UnitedStates}",
+                        "@desc": "Richmond (Wisconsin, USA)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.Wisconsin.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Richmond, Illinois, UnitedStates}",
+                        "@desc": "Richmond (Illinois, USA)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.Illinois.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Richmond, NorthYorkshire, UnitedKingdom}",
+                        "@desc": "Richmond (North Yorkshire, United Kingdom)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.NorthYorkshire.UnitedKingdom--"
+                    },
+                    {
+                        "@name": "{Richmond, Victoria, Australia}",
+                        "@desc": "Richmond (Victoria, Australia)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.Victoria.Australia--"
+                    },
+                    {
+                        "@name": "{Richmond, Minnesota, UnitedStates}",
+                        "@desc": "Richmond (Minnesota, USA)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.Minnesota.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Richmond, Utah, UnitedStates}",
+                        "@desc": "Richmond (Utah, USA)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.Utah.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Richmond, Tasman, NewZealand}",
+                        "@desc": "Richmond (New Zealand)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.Tasman.NewZealand--"
+                    },
+                    {
+                        "@name": "{Richmond, SaintMary, Jamaica}",
+                        "@desc": "Richmond (Jamaica)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.SaintMary.Jamaica--"
+                    },
+                    {
+                        "@name": "{Richmond, Ohio, UnitedStates}",
+                        "@desc": "Richmond (Ohio, USA)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.Ohio.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Richmond, NewSouthWales, Australia}",
+                        "@desc": "Richmond (New South Wales, Australia)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.NewSouthWales.Australia--"
+                    },
+                    {
+                        "@name": "{Richmond, Louisiana, UnitedStates}",
+                        "@desc": "Richmond (Louisiana, USA)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.Louisiana.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Richmond, Kansas, UnitedStates}",
+                        "@desc": "Richmond (Kansas, USA)",
+                        "@input": "*DPClash.CityE.City+of+Richmond-_**Richmond.Kansas.UnitedStates--"
+                    }
+                ]
+            }
+        ]
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "6",
+        "source": [
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html",
+                "@text": "People data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/USCensusDataSourceInformationNotes.html",
+                "@text": "US census data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html",
+                "@text": "Weather data"
+            }
+        ]
+    }
+}

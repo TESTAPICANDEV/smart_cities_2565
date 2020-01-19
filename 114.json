@@ -1,0 +1,782 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "17",
+    "@datatypes": "AdministrativeDivision,Book,Bridge,Building,City,Company,Country,GivenName,HistoricalPeriod,Internet,Lake,Mountain,Movie,Ocean,River,Surname,Translation,Word",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "5.086",
+    "@parsetiming": "0.171",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP69001f3f1bga20h10ae30000145g0h001a277e36",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "46",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa69011f3f1bga20h10ae300002bc4942cc76aedfi5330507842791824525",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP69021f3f1bga20h10ae300006b13hfc2hda79eh2?MSPStoreType=image/gif&s=46",
+                    "@alt": "members (English word)",
+                    "@title": "members (English word)",
+                    "@width": "163",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "members (English word)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Definitions of \"member\"",
+            "@scanner": "Data",
+            "@id": "Definition:WordData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP69031f3f1bga20h10ae3000030g4be7f68g52a45?MSPStoreType=image/gif&s=46",
+                    "@alt": "1 | noun | one of the persons who compose a social group (especially individuals who have joined and participate in a group organization) 2 | noun | anything that belongs to a set or class 3 | noun | an external body part that projects from the body 4 | noun | an organization that is a member of another organization (especially a state that belongs to a group of nations) 5 | noun | the male organ of copulation (5 meanings)",
+                    "@title": "1 | noun | one of the persons who compose a social group (especially individuals who have joined and participate in a group organization) 2 | noun | anything that belongs to a set or class 3 | noun | an external body part that projects from the body 4 | noun | an organization that is a member of another organization (especially a state that belongs to a group of nations) 5 | noun | the male organ of copulation (5 meanings)",
+                    "@width": "546",
+                    "@height": "196",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "1 | noun | one of the persons who compose a social group (especially individuals who have joined and participate in a group organization)\n2 | noun | anything that belongs to a set or class\n3 | noun | an external body part that projects from the body\n4 | noun | an organization that is a member of another organization (especially a state that belongs to a group of nations)\n5 | noun | the male organ of copulation\n(5 meanings)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "American pronunciation",
+            "@scanner": "Data",
+            "@id": "Pronunciation:WordData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP69041f3f1bga20h10ae300002h4id756a9086e51?MSPStoreType=image/gif&s=46",
+                    "@alt": "m'emberz (IPA: m\u02c8\u025bmb\u025dz)",
+                    "@title": "m'emberz (IPA: m\u02c8\u025bmb\u025dz)",
+                    "@width": "155",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "m'emberz (IPA: m\u02c8\u025bmb\u025dz)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "First known use of \"member\" in English",
+            "@scanner": "Data",
+            "@id": "FirstRecordYear:WordData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "HistoricalPeriodData",
+                        "WordData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "TheWikimediaFoundationIncWikipedia"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP69051f3f1bga20h10ae300006a314276bgb50h90?MSPStoreType=image/gif&s=46",
+                    "@alt": "1225 (High Middle ages) (795 years ago)",
+                    "@title": "1225 (High Middle ages) (795 years ago)",
+                    "@width": "248",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "1225 (High Middle ages) (795 years ago)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Word origins of \"member\"",
+            "@scanner": "Data",
+            "@id": "LanguageOrigin:WordData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP69061f3f1bga20h10ae300002184842iagi937ib?MSPStoreType=image/gif&s=46",
+                    "@alt": "Old French | Latin",
+                    "@title": "Old French | Latin",
+                    "@width": "132",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Old French | Latin"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Overall typical frequency",
+            "@scanner": "Data",
+            "@id": "Frequency:WordData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "3",
+            "subpod": [
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": "WordData"
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP69071f3f1bga20h10ae3000025b8h4b7697hhedh?MSPStoreType=image/gif&s=46",
+                        "@alt": "written: 267th most common (1 in 5405 words) ( > 99% noun)",
+                        "@title": "written: 267th most common (1 in 5405 words) ( > 99% noun)",
+                        "@width": "374",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "written: 267th most common (1 in 5405 words) ( > 99% noun)"
+                },
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": "WordData"
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP69081f3f1bga20h10ae300003f1g1f680h686256?MSPStoreType=image/gif&s=46",
+                        "@alt": "spoken: 357th most common (1 in 11765 words)",
+                        "@title": "spoken: 357th most common (1 in 11765 words)",
+                        "@width": "296",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "spoken: 357th most common (1 in 11765 words)"
+                },
+                {
+                    "@title": "",
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP69091f3f1bga20h10ae300000i6a114982cd159h?MSPStoreType=image/gif&s=46",
+                        "@alt": "(includes some inflected forms)",
+                        "@title": "(includes some inflected forms)",
+                        "@width": "179",
+                        "@height": "22",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "(includes some inflected forms)"
+                }
+            ],
+            "expressiontypes": {
+                "@count": "2",
+                "expressiontype": [
+                    {
+                        "@name": "Grid"
+                    },
+                    {
+                        "@name": "Grid"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Inflected form",
+            "@scanner": "Data",
+            "@id": "InflectedForms:WordData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP69101f3f1bga20h10ae300004g793f0g635044a2?MSPStoreType=image/gif&s=46",
+                    "@alt": "member",
+                    "@title": "member",
+                    "@width": "54",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "member"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Synonyms of \"member\"",
+            "@scanner": "Data",
+            "@id": "Synonyms:WordData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP69111f3f1bga20h10ae300001a5197a219dha912?MSPStoreType=image/gif&s=46",
+                    "@alt": "fellow member | appendage | extremity | chapter",
+                    "@title": "fellow member | appendage | extremity | chapter",
+                    "@width": "356",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "fellow member | appendage | extremity | chapter"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": {
+                    "@name": "Show synonym network",
+                    "@input": "Synonyms:WordData__Show synonym network"
+                },
+                "statelist": {
+                    "@count": "2",
+                    "@value": "Meanings combined",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "Meanings divided",
+                            "@input": "Synonyms:WordData__Meanings divided"
+                        },
+                        {
+                            "@name": "Meanings combined",
+                            "@input": "Synonyms:WordData__Meanings combined"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "@title": "Antonym of \"member\"",
+            "@scanner": "Data",
+            "@id": "Antonyms:WordData",
+            "@position": "1000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP69121f3f1bga20h10ae300003d1i79ci5ebhf5ag?MSPStoreType=image/gif&s=46",
+                    "@alt": "nonmember",
+                    "@title": "nonmember",
+                    "@width": "80",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "nonmember"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Narrower terms of \"member\"",
+            "@scanner": "Data",
+            "@id": "Hyponym:WordData",
+            "@position": "1100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP69131f3f1bga20h10ae30000151dehd092d00a66?MSPStoreType=image/gif&s=46",
+                    "@alt": "Areopagite | board member | brother | cabalist | charter member | clan member | clansman | clanswoman | club member | commissioner | committee member | Conservative | councillor | council member | fellow | ... (total: 45)",
+                    "@title": "Areopagite | board member | brother | cabalist | charter member | clan member | clansman | clanswoman | club member | commissioner | committee member | Conservative | councillor | council member | fellow | ... (total: 45)",
+                    "@width": "529",
+                    "@height": "76",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Areopagite | board member | brother | cabalist | charter member | clan member | clansman | clanswoman | club member | commissioner | committee member | Conservative | councillor | council member | fellow | ... (total: 45)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "2",
+                    "@value": "Meanings combined",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "Meanings divided",
+                            "@input": "Hyponym:WordData__Meanings divided"
+                        },
+                        {
+                            "@name": "Meanings combined",
+                            "@input": "Hyponym:WordData__Meanings combined"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "More",
+                    "@input": "Hyponym:WordData__More"
+                }
+            }
+        },
+        {
+            "@title": "Broader terms of \"member\"",
+            "@scanner": "Data",
+            "@id": "Hypernym:WordData",
+            "@position": "1200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP69141f3f1bga20h10ae300005d7h037c88896035?MSPStoreType=image/gif&s=46",
+                    "@alt": "associate | component | component part | constituent | part | portion | external body part | social unit | unit | erectile organ (total: 10)",
+                    "@title": "associate | component | component part | constituent | part | portion | external body part | social unit | unit | erectile organ (total: 10)",
+                    "@width": "540",
+                    "@height": "38",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "associate | component | component part | constituent | part | portion | external body part | social unit | unit | erectile organ (total: 10)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "statelist": {
+                    "@count": "2",
+                    "@value": "Meanings combined",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "Meanings divided",
+                            "@input": "Hypernym:WordData__Meanings divided"
+                        },
+                        {
+                            "@name": "Meanings combined",
+                            "@input": "Hypernym:WordData__Meanings combined"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "@title": "Rhymes",
+            "@scanner": "Data",
+            "@id": "Rhyme:WordData",
+            "@position": "1300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP69151f3f1bga20h10ae300005f61gg33a3a50e25?MSPStoreType=image/gif&s=46",
+                    "@alt": "nonmembers | remembers (based on typical American pronunciation)",
+                    "@title": "nonmembers | remembers (based on typical American pronunciation)",
+                    "@width": "236",
+                    "@height": "45",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "nonmembers | remembers\n(based on typical American pronunciation)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "statelist": {
+                    "@count": "4",
+                    "@value": "Sorted alphabetically",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "Sorted alphabetically",
+                            "@input": "Rhyme:WordData__Sorted alphabetically"
+                        },
+                        {
+                            "@name": "Sorted by length",
+                            "@input": "Rhyme:WordData__Sorted by length"
+                        },
+                        {
+                            "@name": "Sorted by syllables",
+                            "@input": "Rhyme:WordData__Sorted by syllables"
+                        },
+                        {
+                            "@name": "Sorted by frequency",
+                            "@input": "Rhyme:WordData__Sorted by frequency"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "@title": "Lexically close words",
+            "@scanner": "Data",
+            "@id": "LexicallyCloseWords:WordData",
+            "@position": "1400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP69161f3f1bga20h10ae30000518gggfi09egd6da?MSPStoreType=image/gif&s=46",
+                    "@alt": "Berbers | remembers",
+                    "@title": "Berbers | remembers",
+                    "@width": "147",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Berbers | remembers"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "statelist": {
+                    "@count": "2",
+                    "@value": "Up to 2-letter difference",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "Up to 2-letter difference",
+                            "@input": "LexicallyCloseWords:WordData__Up to 2-letter difference"
+                        },
+                        {
+                            "@name": "Up to 3-letter difference",
+                            "@input": "LexicallyCloseWords:WordData__Up to 3-letter difference"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "@title": "Anagrams",
+            "@scanner": "Data",
+            "@id": "Anagram:WordData",
+            "@position": "1500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP69171f3f1bga20h10ae300001f17id8c1a075916?MSPStoreType=image/gif&s=46",
+                    "@alt": "(none among common words)",
+                    "@title": "(none among common words)",
+                    "@width": "197",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "(none among common words)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Translations",
+            "@scanner": "Data",
+            "@id": "ManyTranslations:TranslationData",
+            "@position": "1600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "TranslationData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP69181f3f1bga20h10ae300002bec1cagdcd361ag?MSPStoreType=image/gif&s=46",
+                    "@alt": "Japanese: | \u80a2\u4f53 (common noun) | \u69cb\u6210\u54e1 (common noun) | \u9854\u3076\u308c (common noun) | \u9854\u89e6\u308c (common noun)",
+                    "@title": "Japanese: | \u80a2\u4f53 (common noun) | \u69cb\u6210\u54e1 (common noun) | \u9854\u3076\u308c (common noun) | \u9854\u89e6\u308c (common noun)",
+                    "@width": "546",
+                    "@height": "39",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Japanese: | \u80a2\u4f53 (common noun) | \u69cb\u6210\u54e1 (common noun) | \u9854\u3076\u308c (common noun) | \u9854\u89e6\u308c (common noun)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Crossword puzzle clues",
+            "@scanner": "Data",
+            "@id": "NYTCrosswordPuzzleClues:WordData",
+            "@position": "1800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "datasources": {
+                    "datasource": "XWordInfo"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP69191f3f1bga20h10ae300005h258i1dh16acd7g?MSPStoreType=image/gif&s=46",
+                    "@alt": "(none)",
+                    "@title": "(none)",
+                    "@width": "41",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "(none)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Scrabble score",
+            "@scanner": "Data",
+            "@id": "ScrabbleScore:WordData",
+            "@position": "1900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "WordData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP69201f3f1bga20h10ae300000df8af351a1gf0b8?MSPStoreType=image/gif&s=46",
+                    "@alt": "13 (International English) | 13 (North American English)",
+                    "@title": "13 (International English) | 13 (North American English)",
+                    "@width": "391",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "13 (International English) | 13 (North American English)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        }
+    ],
+    "warnings": {
+        "@count": "1",
+        "spellcheck": {
+            "@word": "Membertou",
+            "@suggestion": "members",
+            "@text": "Interpreting \"Membertou\" as \"members\""
+        }
+    },
+    "sources": {
+        "@count": "18",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/BookDataSourceInformationNotes.html",
+                "@text": "Book data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/BridgeDataSourceInformationNotes.html",
+                "@text": "Bridge data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/BuildingDataSourceInformationNotes.html",
+                "@text": "Building data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CompanyDataSourceInformationNotes.html",
+                "@text": "Company data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CountryDataSourceInformationNotes.html",
+                "@text": "Country data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/GivenNameDataSourceInformationNotes.html",
+                "@text": "Given name data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/HistoricalPeriodDataSourceInformationNotes.html",
+                "@text": "Historical period data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/InternetDataSourceInformationNotes.html",
+                "@text": "Internet data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/LakeDataSourceInformationNotes.html",
+                "@text": "Lake data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/MountainDataSourceInformationNotes.html",
+                "@text": "Mountain data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/MovieDataSourceInformationNotes.html",
+                "@text": "Movie data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/OceanDataSourceInformationNotes.html",
+                "@text": "Ocean data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/RiverDataSourceInformationNotes.html",
+                "@text": "River data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/SurnameDataSourceInformationNotes.html",
+                "@text": "Surname data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/TranslationDataSourceInformationNotes.html",
+                "@text": "Translation data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/WordDataSourceInformationNotes.html",
+                "@text": "Word data"
+            }
+        ]
+    }
+}

@@ -1,0 +1,1043 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "19",
+    "@datatypes": "ACS,City,MetropolitanArea,NuclearReactor,Person,UrbanArea,USCounty,USHousing,USState,WeatherStation",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "8.185",
+    "@parsetiming": "0.532",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP3205160fgc5504fbg27c00004h7g823g5d8h52c8",
+    "@host": "https://www5a.wolframalpha.com",
+    "@server": "50",
+    "@related": "https://www5a.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa3206160fgc5504fbg27c00001hi6i04efggb7e9a2678292769077595422",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3207160fgc5504fbg27c00003bfdh0g2ei2bh735?MSPStoreType=image/gif&s=50",
+                    "@alt": "White Horse, New Jersey, United States",
+                    "@title": "White Horse, New Jersey, United States",
+                    "@width": "258",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "White Horse, New Jersey, United States"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Populations",
+            "@scanner": "Data",
+            "@id": "Population:CityData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "MetropolitanAreaData",
+                        "UrbanAreaData",
+                        "USCensusData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3208160fgc5504fbg27c00005681f9bd39g5a117?MSPStoreType=image/gif&s=50",
+                    "@alt": "city population | 9494 people (country rank: \u22484443rd) (2010 estimate) urban area population | 268472 people (Trenton (NJ) urban area) (country rank: 120th) (2000 estimate) metro area population | 367063 people (Trenton-Ewing metro area) (country rank: 140th) (2011 estimate)",
+                    "@title": "city population | 9494 people (country rank: \u22484443rd) (2010 estimate) urban area population | 268472 people (Trenton (NJ) urban area) (country rank: 120th) (2000 estimate) metro area population | 367063 people (Trenton-Ewing metro area) (country rank: 140th) (2011 estimate)",
+                    "@width": "546",
+                    "@height": "134",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "city population | 9494 people (country rank: \u22484443rd) (2010 estimate)\nurban area population | 268472 people (Trenton (NJ) urban area) (country rank: 120th) (2000 estimate)\nmetro area population | 367063 people (Trenton-Ewing metro area) (country rank: 140th) (2011 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show history",
+                    "@input": "Population:CityData__Show history"
+                }
+            }
+        },
+        {
+            "@title": "Location",
+            "@scanner": "Data",
+            "@id": "Location:CityData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "2",
+            "subpod": [
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "CityData",
+                            "USCountyData",
+                            "USStateData"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3209160fgc5504fbg27c0000197ga441befbif94?MSPStoreType=image/gif&s=50",
+                        "@alt": "Mercer County, New Jersey",
+                        "@title": "Mercer County, New Jersey",
+                        "@width": "182",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "Mercer County, New Jersey"
+                },
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "CityData",
+                            "USCountyData",
+                            "USStateData",
+                            "CountryData"
+                        ]
+                    },
+                    "datasources": {
+                        "datasource": "CIAFactbook"
+                    },
+                    "img": {
+                        "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3210160fgc5504fbg27c0000409g034aef2cge3i?MSPStoreType=image/gif&s=50",
+                        "@alt": "Location",
+                        "@title": "",
+                        "@width": "328",
+                        "@height": "177",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                }
+            ],
+            "expressiontypes": {
+                "@count": "2",
+                "expressiontype": [
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    }
+                ]
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "World map",
+                        "@input": "Location:CityData__World map"
+                    },
+                    {
+                        "@name": "Show coordinates",
+                        "@input": "Location:CityData__Show coordinates"
+                    }
+                ]
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=40.1918%2C-74.7014&q=40.1918%20N%2C%2074.7014%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "Map:CityData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3211160fgc5504fbg27c000031ed8h5g1effa8ed?MSPStoreType=image/gif&s=50",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "20 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "8 kilometers across",
+                            "@input": "Map:CityData__8 kilometers across"
+                        },
+                        {
+                            "@name": "20 kilometers across",
+                            "@input": "Map:CityData__20 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "Map:CityData__30 kilometers across"
+                        },
+                        {
+                            "@name": "60 kilometers across",
+                            "@input": "Map:CityData__60 kilometers across"
+                        },
+                        {
+                            "@name": "130 kilometers across",
+                            "@input": "Map:CityData__130 kilometers across"
+                        },
+                        {
+                            "@name": "260 kilometers across",
+                            "@input": "Map:CityData__260 kilometers across"
+                        },
+                        {
+                            "@name": "520 kilometers across",
+                            "@input": "Map:CityData__520 kilometers across"
+                        },
+                        {
+                            "@name": "1000 kilometers across",
+                            "@input": "Map:CityData__1000 kilometers across"
+                        },
+                        {
+                            "@name": "2100 kilometers across",
+                            "@input": "Map:CityData__2100 kilometers across"
+                        },
+                        {
+                            "@name": "4100 kilometers across",
+                            "@input": "Map:CityData__4100 kilometers across"
+                        },
+                        {
+                            "@name": "8000 kilometers across",
+                            "@input": "Map:CityData__8000 kilometers across"
+                        },
+                        {
+                            "@name": "13000 kilometers across",
+                            "@input": "Map:CityData__13000 kilometers across"
+                        },
+                        {
+                            "@name": "26000 kilometers across",
+                            "@input": "Map:CityData__26000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "Map:CityData__Non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=40.1918%2C-74.7014&q=40.1918%20N%2C%2074.7014%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Administrative regions",
+            "@scanner": "Data",
+            "@id": "AdministrativeRegions:CityData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCountyData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3212160fgc5504fbg27c000061ic6ie79ib2d968?MSPStoreType=image/gif&s=50",
+                    "@alt": "county | Mercer County state | New Jersey country | United States",
+                    "@title": "county | Mercer County state | New Jersey country | United States",
+                    "@width": "198",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "county | Mercer County\nstate | New Jersey\ncountry | United States"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Current local time",
+            "@scanner": "Data",
+            "@id": "CurrentTime:CityData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3213160fgc5504fbg27c000055cd338fab76g297?MSPStoreType=image/gif&s=50",
+                    "@alt": "11:39 pm EST | Saturday, January 18, 2020",
+                    "@title": "11:39 pm EST | Saturday, January 18, 2020",
+                    "@width": "301",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "11:39 pm EST | Saturday, January 18, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Current weather",
+            "@scanner": "Data",
+            "@id": "WeatherPod:CityData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "WeatherData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3214160fgc5504fbg27c00005gi67dh5bhi6721e?MSPStoreType=image/gif&s=50",
+                    "@alt": "2 \u00b0C (wind chill: -2 \u00b0C) | relative humidity: 89% | wind: 5 m/s | overcast",
+                    "@title": "2 \u00b0C (wind chill: -2 \u00b0C) | relative humidity: 89% | wind: 5 m/s | overcast",
+                    "@width": "502",
+                    "@height": "22",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "2 \u00b0C (wind chill: -2 \u00b0C) | relative humidity: 89% | wind: 5 m/s | overcast"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show history",
+                        "@input": "WeatherPod:CityData__Show history"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "WeatherPod:CityData__Show non-metric"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Demographics",
+            "@scanner": "Data",
+            "@id": "ACSPercentageEntrainments:ACSData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "ACSData"
+                },
+                "datasources": {
+                    "datasource": [
+                        "CensusAmericanCommunitySurvey5YearsRace",
+                        "CensusAmericanCommunitySurvey5YearsHispanicOrigin",
+                        "CensusAmericanCommunitySurvey5YearsCitizenship"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3215160fgc5504fbg27c00003dgf2f230ih72ifg?MSPStoreType=image/gif&s=50",
+                    "@alt": "race | white: 84.1% | black/African American: 9.1% | Asian: 3.1% | ... Hispanic origin | 13.3% US citizens | 97.8%",
+                    "@title": "race | white: 84.1% | black/African American: 9.1% | Asian: 3.1% | ... Hispanic origin | 13.3% US citizens | 97.8%",
+                    "@width": "546",
+                    "@height": "117",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "race | white: 84.1% | black/African American: 9.1% | Asian: 3.1% | ...\nHispanic origin | 13.3%\nUS citizens | 97.8%"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "More",
+                    "@input": "ACSPercentageEntrainments:ACSData__More"
+                }
+            }
+        },
+        {
+            "@title": "Educational attainment",
+            "@scanner": "Data",
+            "@id": "ACSEducationEntrainments:ACSData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "ACSData"
+                },
+                "datasources": {
+                    "datasource": "CensusAmericanCommunitySurvey5YearsEducation"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3216160fgc5504fbg27c00002904367a9g773f21?MSPStoreType=image/gif&s=50",
+                    "@alt": "college degree and above | 36.3% (\u2248 national average) high school diploma | 35.2% (1.27 \u00d7 national average) less than high school diploma | 7.7% (0.577 \u00d7 national average) (for population age 25 and older)",
+                    "@title": "college degree and above | 36.3% (\u2248 national average) high school diploma | 35.2% (1.27 \u00d7 national average) less than high school diploma | 7.7% (0.577 \u00d7 national average) (for population age 25 and older)",
+                    "@width": "430",
+                    "@height": "121",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "college degree and above | 36.3% (\u2248 national average)\nhigh school diploma | 35.2% (1.27 \u00d7 national average)\nless than high school diploma | 7.7% (0.577 \u00d7 national average)\n(for population age 25 and older)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show enrollment",
+                    "@input": "ACSEducationEntrainments:ACSData__Show enrollment"
+                }
+            }
+        },
+        {
+            "@title": "Income statistics",
+            "@scanner": "Data",
+            "@id": "ACSIncomeEntrainments:ACSData",
+            "@position": "1000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "ACSData"
+                },
+                "datasources": {
+                    "datasource": [
+                        "CensusAmericanCommunitySurvey5YearsMedianIncome",
+                        "CensusAmericanCommunitySurvey5YearsPerCapitaIncome",
+                        "CensusAmericanCommunitySurvey5YearsPoverty"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3217160fgc5504fbg27c000059b8c401587eeb41?MSPStoreType=image/gif&s=50",
+                    "@alt": "median household income | $76201 per year (US dollars per year) (1.38 \u00d7 national average) per capita income | $36921 per year per person (US dollars per year per person) (1.24 \u00d7 national average) population below poverty line | 5.6% (0.37 \u00d7 national average)",
+                    "@title": "median household income | $76201 per year (US dollars per year) (1.38 \u00d7 national average) per capita income | $36921 per year per person (US dollars per year per person) (1.24 \u00d7 national average) population below poverty line | 5.6% (0.37 \u00d7 national average)",
+                    "@width": "546",
+                    "@height": "151",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "median household income | $76201 per year (US dollars per year) (1.38 \u00d7 national average)\nper capita income | $36921 per year per person (US dollars per year per person) (1.24 \u00d7 national average)\npopulation below poverty line | 5.6% (0.37 \u00d7 national average)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show distribution",
+                    "@input": "ACSIncomeEntrainments:ACSData__Show distribution"
+                }
+            }
+        },
+        {
+            "@title": "Economic properties",
+            "@scanner": "Data",
+            "@id": "EconomicProperties:CityData",
+            "@position": "1100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USEmploymentData",
+                        "USHousingData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "RealtorsMetropolitanAreaMedianPrices"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3218160fgc5504fbg27c0000430d8g3ab4e3768e?MSPStoreType=image/gif&s=50",
+                    "@alt": "median home price | $257500 (Trenton-Ewing metro area) (annual change: +4%) (2013)",
+                    "@title": "median home price | $257500 (Trenton-Ewing metro area) (annual change: +4%) (2013)",
+                    "@width": "546",
+                    "@height": "53",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "median home price | $257500 (Trenton-Ewing metro area) (annual change: +4%) (2013)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Nearby cities",
+            "@scanner": "Data",
+            "@id": "CityHierarchyInfo:CityData",
+            "@position": "1200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3219160fgc5504fbg27c00000ff48a8cb1694g2a?MSPStoreType=image/gif&s=50",
+                    "@alt": "Hamilton township (Mercer County), New Jersey | 3 km (kilometers) northeast | 90605 people Philadelphia, Pennsylvania | 42 km (kilometers) west-southwest | 1.548 million people New York City, New York | 83 km (kilometers) northeast | 8.337 million people (straight-line distances between city centers)",
+                    "@title": "Hamilton township (Mercer County), New Jersey | 3 km (kilometers) northeast | 90605 people Philadelphia, Pennsylvania | 42 km (kilometers) west-southwest | 1.548 million people New York City, New York | 83 km (kilometers) northeast | 8.337 million people (straight-line distances between city centers)",
+                    "@width": "545",
+                    "@height": "194",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Hamilton township (Mercer County), New Jersey | 3 km (kilometers) northeast | 90605 people\nPhiladelphia, Pennsylvania | 42 km (kilometers) west-southwest | 1.548 million people\nNew York City, New York | 83 km (kilometers) northeast | 8.337 million people\n(straight-line distances between city centers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "CityHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "CityHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby airports",
+            "@scanner": "Data",
+            "@id": "AirportHierarchyInfo:CityData",
+            "@position": "1300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3220160fgc5504fbg27c00001081c92ci98gh8dg?MSPStoreType=image/gif&s=50",
+                    "@alt": "Trenton-Robbinsville Airport | 9 km (kilometers) east-northeast Trenton Mercer Airport | 13 km (kilometers) northwest McGuire AFB | 22 km (kilometers) south-southeast Northeast Philadelphia Airport | 29 km (kilometers) west-southwest Philadelphia International Airport | 58 km (kilometers) southwest (straight-line distances between city center and airport)",
+                    "@title": "Trenton-Robbinsville Airport | 9 km (kilometers) east-northeast Trenton Mercer Airport | 13 km (kilometers) northwest McGuire AFB | 22 km (kilometers) south-southeast Northeast Philadelphia Airport | 29 km (kilometers) west-southwest Philadelphia International Airport | 58 km (kilometers) southwest (straight-line distances between city center and airport)",
+                    "@width": "498",
+                    "@height": "170",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Trenton-Robbinsville Airport | 9 km (kilometers) east-northeast\nTrenton Mercer Airport | 13 km (kilometers) northwest\nMcGuire AFB | 22 km (kilometers) south-southeast\nNortheast Philadelphia Airport | 29 km (kilometers) west-southwest\nPhiladelphia International Airport | 58 km (kilometers) southwest\n(straight-line distances between city center and airport)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "AirportHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "AirportHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby hospitals",
+            "@scanner": "Data",
+            "@id": "HospitalHierarchyInfo:CityData",
+            "@position": "1400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3221160fgc5504fbg27c0000546e65b3b74f7ca5?MSPStoreType=image/gif&s=50",
+                    "@alt": "St. Francis Medical Center | 4 km (kilometers) northwest Capital Health System | 7 km (kilometers) northwest Capital Health System | 8 km (kilometers) west-northwest (straight-line distances between city center and hospital)",
+                    "@title": "St. Francis Medical Center | 4 km (kilometers) northwest Capital Health System | 7 km (kilometers) northwest Capital Health System | 8 km (kilometers) west-northwest (straight-line distances between city center and hospital)",
+                    "@width": "437",
+                    "@height": "114",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "St. Francis Medical Center | 4 km (kilometers) northwest\nCapital Health System | 7 km (kilometers) northwest\nCapital Health System | 8 km (kilometers) west-northwest\n(straight-line distances between city center and hospital)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "HospitalHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "HospitalHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:CityData",
+            "@position": "1500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3222160fgc5504fbg27c00005cc0e5705adcbe5d?MSPStoreType=image/gif&s=50",
+                    "@alt": "elevation | 26 m area | 7.9629 km^2 population density | 1192 people per square kilometer",
+                    "@title": "elevation | 26 m area | 7.9629 km^2 population density | 1192 people per square kilometer",
+                    "@width": "386",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "elevation | 26 m\narea | 7.9629 km^2\npopulation density | 1192 people per square kilometer"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:CityData__Show non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "units": {
+                        "@count": "2",
+                        "unit": [
+                            {
+                                "@short": "km^2",
+                                "@long": "square kilometers"
+                            },
+                            {
+                                "@short": "m",
+                                "@long": "meters"
+                            }
+                        ],
+                        "img": {
+                            "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3223160fgc5504fbg27c0000377acbgg59c9ee80?MSPStoreType=image/gif&s=50",
+                            "@width": "171",
+                            "@height": "48"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Nearby features",
+            "@scanner": "Data",
+            "@id": "FeaturesHierarchyInfo:CityData",
+            "@position": "1600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "NuclearReactorData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "IAEAPowerReactorInformationSystem"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3224160fgc5504fbg27c00000cg73g4icag92cdi?MSPStoreType=image/gif&s=50",
+                    "@alt": "nuclear power site | Oyster Creek | 60 km (kilometers) southeast waterfall | Great Falls (23 meters) | 92 km (kilometers) north-northeast (straight-line distances between city center and feature coordinates)",
+                    "@title": "nuclear power site | Oyster Creek | 60 km (kilometers) southeast waterfall | Great Falls (23 meters) | 92 km (kilometers) north-northeast (straight-line distances between city center and feature coordinates)",
+                    "@width": "546",
+                    "@height": "106",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "nuclear power site | Oyster Creek | 60 km (kilometers) southeast\nwaterfall | Great Falls (23 meters) | 92 km (kilometers) north-northeast\n(straight-line distances between city center and feature coordinates)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "FeaturesHierarchyInfo:CityData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Nearest sea",
+            "@scanner": "Data",
+            "@id": "OceansHierarchyInfo:CityData",
+            "@position": "1700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3225160fgc5504fbg27c00003c24849g9f9e79f6?MSPStoreType=image/gif&s=50",
+                    "@alt": "Atlantic Ocean (34 km (kilometers) southwest)  (straight-line distance between city center and shore)",
+                    "@title": "Atlantic Ocean (34 km (kilometers) southwest)  (straight-line distance between city center and shore)",
+                    "@width": "304",
+                    "@height": "41",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Atlantic Ocean (34 km (kilometers) southwest) \n(straight-line distance between city center and shore)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "OceansHierarchyInfo:CityData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Notable people born in White Horse",
+            "@scanner": "Data",
+            "@id": "NotablePeople:CityData",
+            "@position": "1800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "PeopleData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3226160fgc5504fbg27c0000368cbg89cah04h90?MSPStoreType=image/gif&s=50",
+                    "@alt": "(none known)",
+                    "@title": "(none known)",
+                    "@width": "92",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "(none known)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show dates",
+                        "@input": "NotablePeople:CityData__Show dates"
+                    },
+                    {
+                        "@name": "Show deaths",
+                        "@input": "NotablePeople:CityData__Show deaths"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Wikipedia page hits history",
+            "@scanner": "Data",
+            "@id": "PopularityPod:WikipediaStatsData",
+            "@position": "1900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP3227160fgc5504fbg27c00001d86i5b35a46af27?MSPStoreType=image/gif&s=50",
+                    "@alt": "Wikipedia page hits history",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "169",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopularityPod:WikipediaStatsData__Log scale"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "2",
+        "assumption": [
+            {
+                "@type": "MultiClash",
+                "@word": "",
+                "@template": "Assuming ${word1} is referring to ${desc1}. Use \"${word2}\" as ${desc2}.",
+                "@count": "2",
+                "value": [
+                    {
+                        "@name": "City",
+                        "@word": "the input",
+                        "@desc": "a city",
+                        "@input": "*MC.%7E-_*City-"
+                    },
+                    {
+                        "@name": "AdministrativeDivision",
+                        "@word": "Whitehorse",
+                        "@desc": "an administrative division",
+                        "@input": "*MC.%7E-_*AdministrativeDivision-"
+                    }
+                ]
+            },
+            {
+                "@type": "SubCategory",
+                "@word": "City of Whitehorse",
+                "@template": "Assuming ${desc1}. Use ${desc2} instead",
+                "@count": "4",
+                "value": [
+                    {
+                        "@name": "{WhiteHorse, NewJersey, UnitedStates}",
+                        "@desc": "White Horse (New Jersey, USA)",
+                        "@input": "*DPClash.CityE.City+of+Whitehorse-_**WhiteHorse.NewJersey.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Whitehorse, YukonTerritory, Canada}",
+                        "@desc": "Whitehorse (Canada)",
+                        "@input": "*DPClash.CityE.City+of+Whitehorse-_**Whitehorse.YukonTerritory.Canada--"
+                    },
+                    {
+                        "@name": "{WhiteHorse, SouthDakota, UnitedStates}",
+                        "@desc": "White Horse (South Dakota, USA)",
+                        "@input": "*DPClash.CityE.City+of+Whitehorse-_**WhiteHorse.SouthDakota.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Whitehorse, SouthDakota, UnitedStates}",
+                        "@desc": "Whitehorse (South Dakota, USA)",
+                        "@input": "*DPClash.CityE.City+of+Whitehorse-_**Whitehorse.SouthDakota.UnitedStates--"
+                    }
+                ]
+            }
+        ]
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "13",
+        "source": [
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/ACSDataSourceInformationNotes.html",
+                "@text": "ACS data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/MetropolitanAreaDataSourceInformationNotes.html",
+                "@text": "Metropolitan area data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/NuclearReactorDataSourceInformationNotes.html",
+                "@text": "Nuclear reactor data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html",
+                "@text": "People data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/UrbanAreaDataSourceInformationNotes.html",
+                "@text": "Urban area data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/USCensusDataSourceInformationNotes.html",
+                "@text": "US census data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/USCountyDataSourceInformationNotes.html",
+                "@text": "US county data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/USEmploymentDataSourceInformationNotes.html",
+                "@text": "US employment data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/USHousingDataSourceInformationNotes.html",
+                "@text": "US housing data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/USStateDataSourceInformationNotes.html",
+                "@text": "US state data"
+            },
+            {
+                "@url": "https://www5a.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html",
+                "@text": "Weather data"
+            }
+        ]
+    }
+}

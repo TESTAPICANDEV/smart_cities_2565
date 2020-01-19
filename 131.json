@@ -1,0 +1,208 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "4",
+    "@datatypes": "AdministrativeDivision,City",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "1.86",
+    "@parsetiming": "0.965",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP4857113deei98i2iig1200002c424305cef8678b",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "26",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa4858113deei98i2iig120000357fceigd8d7f9e65712125966392968541",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4859113deei98i2iig120000269g7e4ec70e3ge0?MSPStoreType=image/gif&s=26",
+                    "@alt": "Grimsby, North East Lincolnshire, United Kingdom | Niagara, Ontario, Canada (regional municipality)",
+                    "@title": "Grimsby, North East Lincolnshire, United Kingdom | Niagara, Ontario, Canada (regional municipality)",
+                    "@width": "537",
+                    "@height": "38",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Grimsby, North East Lincolnshire, United Kingdom | Niagara, Ontario, Canada (regional municipality)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Distances",
+            "@scanner": "Data",
+            "@id": "Distances:MultipleData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4860113deei98i2iig1200002i1iii09911275g9?MSPStoreType=image/gif&s=26",
+                    "@alt": " | distance | flight time Grimsby to Niagara, Ontario, Canada | 5680 km (kilometers) | 6 hours 25 minutes (assuming direct flight path at 890 km/h)",
+                    "@title": " | distance | flight time Grimsby to Niagara, Ontario, Canada | 5680 km (kilometers) | 6 hours 25 minutes (assuming direct flight path at 890 km/h)",
+                    "@width": "546",
+                    "@height": "105",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| distance | flight time\nGrimsby to Niagara, Ontario, Canada | 5680 km (kilometers) | 6 hours 25 minutes\n(assuming direct flight path at 890 km/h)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "Distances:MultipleData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Demographics",
+            "@scanner": "Data",
+            "@id": "DemographicProperties:MultipleData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "Statoids"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4861113deei98i2iig1200000ch5a2bi45bd1001?MSPStoreType=image/gif&s=26",
+                    "@alt": " | Grimsby, North East Lincolnshire, United Kingdom | Niagara, Ontario, Canada population | 87574 people | 393936 people",
+                    "@title": " | Grimsby, North East Lincolnshire, United Kingdom | Niagara, Ontario, Canada population | 87574 people | 393936 people",
+                    "@width": "546",
+                    "@height": "85",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Grimsby, North East Lincolnshire, United Kingdom | Niagara, Ontario, Canada\npopulation | 87574 people | 393936 people"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:MultipleData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "AdministrativeDivisionData",
+                        "CityData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP4862113deei98i2iig1200000eehi0f85f82h8h7?MSPStoreType=image/gif&s=26",
+                    "@alt": " | Grimsby | Niagara, Ontario, Canada area | | 1862 km^2 (square kilometers) average elevation | 4 meters | ",
+                    "@title": " | Grimsby | Niagara, Ontario, Canada area | | 1862 km^2 (square kilometers) average elevation | 4 meters | ",
+                    "@width": "432",
+                    "@height": "100",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| Grimsby | Niagara, Ontario, Canada\narea | | 1862 km^2 (square kilometers)\naverage elevation | 4 meters |"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:MultipleData__Show non-metric"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "1",
+        "assumption": {
+            "@type": "MultiClash",
+            "@word": "",
+            "@template": "Assuming ${word1} is referring to ${desc1}. Use \"${word2}\" as ${desc2}.",
+            "@count": "2",
+            "value": [
+                {
+                    "@name": "AdministrativeDivision",
+                    "@word": "Niagara Region",
+                    "@desc": "an administrative division",
+                    "@input": "*MC.Niagara+Region-_*AdministrativeDivision-"
+                },
+                {
+                    "@name": "City",
+                    "@word": "Niagara",
+                    "@desc": "a city",
+                    "@input": "*MC.Niagara+Region-_*City-"
+                }
+            ]
+        }
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "2",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            }
+        ]
+    }
+}

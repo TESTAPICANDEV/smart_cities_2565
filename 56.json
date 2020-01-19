@@ -1,0 +1,267 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "7",
+    "@datatypes": "MusicAct",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "3.0580000000000003",
+    "@parsetiming": "0.634",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP15961c6eg7idga12b00800002b8c6fh12c8habe7",
+    "@host": "https://www5a.wolframalpha.com",
+    "@server": "53",
+    "@related": "https://www5a.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa15971c6eg7idga12b00800003f6icgcg139396b24970140347629816757",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP15981c6eg7idga12b008000041g3cc55ia151938?MSPStoreType=image/gif&s=53",
+                    "@alt": "Nelson (music act)",
+                    "@title": "Nelson (music act)",
+                    "@width": "125",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Nelson (music act)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Basic information",
+            "@scanner": "Data",
+            "@id": "BasicInformation:MusicActData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "MusicActData"
+                },
+                "datasources": {
+                    "datasource": "MusicBrainz"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP15991c6eg7idga12b008000014e5h10e441dig46?MSPStoreType=image/gif&s=53",
+                    "@alt": "name | Nelson active dates | 1990 to present place of origin | United States country | United States",
+                    "@title": "name | Nelson active dates | 1990 to present place of origin | United States country | United States",
+                    "@width": "246",
+                    "@height": "132",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "name | Nelson\nactive dates | 1990 to present\nplace of origin | United States\ncountry | United States"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Image",
+            "@scanner": "Data",
+            "@id": "Image:MusicActData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "imagesource": "http://commons.wikimedia.org/wiki/File:Gunnar_and_Matthew_Nelson.jpg",
+                "microsources": {
+                    "microsource": "MusicActData"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP16001c6eg7idga12b0080000608ic23130d61eg4?MSPStoreType=image/gif&s=53",
+                    "@alt": "Image",
+                    "@title": "",
+                    "@width": "113",
+                    "@height": "150",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Members",
+            "@scanner": "Data",
+            "@id": "PerformanceDates:MusicActData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "MusicActData"
+                },
+                "datasources": {
+                    "datasource": "MusicBrainz"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP16011c6eg7idga12b00800003gg1ah85324edd65?MSPStoreType=image/gif&s=53",
+                    "@alt": "Gunnar Nelson | Matthew Nelson | Bobby Rock",
+                    "@title": "Gunnar Nelson | Matthew Nelson | Bobby Rock",
+                    "@width": "337",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Gunnar Nelson | Matthew Nelson | Bobby Rock"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Music albums",
+            "@scanner": "Data",
+            "@id": "Albums:MusicActData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "MusicActData"
+                },
+                "datasources": {
+                    "datasource": "MusicBrainz"
+                },
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP16021c6eg7idga12b00800006929e0598h26481h?MSPStoreType=image/gif&s=53",
+                    "@alt": "After the Rain | 1990 Because They Can | 1995 Imaginator | 1996 Life | 1999 Brother Harmony | 2000 \u22ee |  Perfect Storm (After The Rain World Tour 1991) | December 3, 2010 This Christmas | 2015 Peace Out | May 18, 2015 Bring Back the Voodoo |  The Silence Is Broken | ",
+                    "@title": "After the Rain | 1990 Because They Can | 1995 Imaginator | 1996 Life | 1999 Brother Harmony | 2000 \u22ee |  Perfect Storm (After The Rain World Tour 1991) | December 3, 2010 This Christmas | 2015 Peace Out | May 18, 2015 Bring Back the Voodoo |  The Silence Is Broken | ",
+                    "@width": "478",
+                    "@height": "310",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "After the Rain | 1990\nBecause They Can | 1995\nImaginator | 1996\nLife | 1999\nBrother Harmony | 2000\n\u22ee | \nPerfect Storm (After The Rain World Tour 1991) | December 3, 2010\nThis Christmas | 2015\nPeace Out | May 18, 2015\nBring Back the Voodoo | \nThe Silence Is Broken |"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "More",
+                    "@input": "Albums:MusicActData__More"
+                }
+            }
+        },
+        {
+            "@title": "Wikipedia summary",
+            "@scanner": "Character",
+            "@id": "WikipediaSummary:MusicActData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP16031c6eg7idga12b00800005340hd86e22c9b22?MSPStoreType=image/gif&s=53",
+                    "@alt": "Nelson is an American rock band founded by singer/songwriters Matthew and Gunnar Nelson (twin sons of Ricky Nelson and Kristin Nelson). The band achieved success during the early 1990s with their double platinum debut album After the Rain, which featured the number-one hit \"(Can't Live Without Your) Love and Affection\".",
+                    "@title": "Nelson is an American rock band founded by singer/songwriters Matthew and Gunnar Nelson (twin sons of Ricky Nelson and Kristin Nelson). The band achieved success during the early 1990s with their double platinum debut album After the Rain, which featured the number-one hit \"(Can't Live Without Your) Love and Affection\".",
+                    "@width": "514",
+                    "@height": "90",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Nelson is an American rock band founded by singer/songwriters Matthew and Gunnar Nelson (twin sons of Ricky Nelson and Kristin Nelson). The band achieved success during the early 1990s with their double platinum debut album After the Rain, which featured the number-one hit \"(Can't Live Without Your) Love and Affection\".",
+                "infos": {
+                    "@count": "1",
+                    "info": {
+                        "link": {
+                            "@url": "http://en.wikipedia.org/wiki?curid=1513939",
+                            "@text": "Full entry"
+                        }
+                    }
+                }
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Wikipedia page hits history",
+            "@scanner": "Data",
+            "@id": "PopularityPod:WikipediaStatsData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5a.wolframalpha.com/Calculate/MSP/MSP16041c6eg7idga12b00800004c7289db429ha8fb?MSPStoreType=image/gif&s=53",
+                    "@alt": "Wikipedia page hits history",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "167",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopularityPod:WikipediaStatsData__Log scale"
+                }
+            }
+        }
+    ],
+    "sources": {
+        "@count": "1",
+        "source": {
+            "@url": "https://www5a.wolframalpha.com/sources/MusicActDataSourceInformationNotes.html",
+            "@text": "Music act data"
+        }
+    }
+}

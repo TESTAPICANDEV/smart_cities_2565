@@ -1,0 +1,984 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "16",
+    "@datatypes": "AdministrativeDivision,City,NuclearReactor,Person,WeatherStation",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "6.962",
+    "@parsetiming": "0.6880000000000001",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP97941ecce9di4g85ee79000014a28a486i1957hi",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "36",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa97951ecce9di4g85ee790000327866ii2298d2ci3163323455734918590",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP97961ecce9di4g85ee79000052e0hc64i2hd1h3e?MSPStoreType=image/gif&s=36",
+                    "@alt": "Windsor, Ontario",
+                    "@title": "Windsor, Ontario",
+                    "@width": "114",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Windsor, Ontario"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Population",
+            "@scanner": "Data",
+            "@id": "Population:CityData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "@primary": "true",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCensusData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP97971ecce9di4g85ee79000042g8b703eec279g5?MSPStoreType=image/gif&s=36",
+                    "@alt": "city population | 210891 people (country rank: 23rd) (2011 estimate)",
+                    "@title": "city population | 210891 people (country rank: 23rd) (2011 estimate)",
+                    "@width": "460",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "city population | 210891 people (country rank: 23rd) (2011 estimate)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show history",
+                    "@input": "Population:CityData__Show history"
+                }
+            }
+        },
+        {
+            "@title": "Location",
+            "@scanner": "Data",
+            "@id": "Location:CityData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "2",
+            "subpod": [
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData"
+                        ]
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP97981ecce9di4g85ee7900003d91123di94bd587?MSPStoreType=image/gif&s=36",
+                        "@alt": "Ontario, Canada",
+                        "@title": "Ontario, Canada",
+                        "@width": "109",
+                        "@height": "18",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": "Ontario, Canada"
+                },
+                {
+                    "@title": "",
+                    "microsources": {
+                        "microsource": [
+                            "AdministrativeDivisionData",
+                            "CityData",
+                            "CountryData"
+                        ]
+                    },
+                    "datasources": {
+                        "datasource": "CIAFactbook"
+                    },
+                    "img": {
+                        "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP97991ecce9di4g85ee7900002i99262hgd25b402?MSPStoreType=image/gif&s=36",
+                        "@alt": "Location",
+                        "@title": "",
+                        "@width": "328",
+                        "@height": "214",
+                        "@type": "Default",
+                        "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                        "@colorinvertable": "true"
+                    },
+                    "plaintext": null
+                }
+            ],
+            "expressiontypes": {
+                "@count": "2",
+                "expressiontype": [
+                    {
+                        "@name": "Default"
+                    },
+                    {
+                        "@name": "Default"
+                    }
+                ]
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "World map",
+                        "@input": "Location:CityData__World map"
+                    },
+                    {
+                        "@name": "Show coordinates",
+                        "@input": "Location:CityData__Show coordinates"
+                    }
+                ]
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=42.3%2C-83.03&q=42.3%20N%2C%2083.03%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Local map",
+            "@scanner": "Data",
+            "@id": "Map:CityData",
+            "@position": "400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "OpenStreetMap"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP98001ecce9di4g85ee790000206idfiadhdd00bi?MSPStoreType=image/gif&s=36",
+                    "@alt": "Local map",
+                    "@title": "",
+                    "@width": "550",
+                    "@height": "278",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "false"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "statelist": {
+                    "@count": "13",
+                    "@value": "60 kilometers across",
+                    "@delimiters": "",
+                    "state": [
+                        {
+                            "@name": "8 kilometers across",
+                            "@input": "Map:CityData__8 kilometers across"
+                        },
+                        {
+                            "@name": "20 kilometers across",
+                            "@input": "Map:CityData__20 kilometers across"
+                        },
+                        {
+                            "@name": "30 kilometers across",
+                            "@input": "Map:CityData__30 kilometers across"
+                        },
+                        {
+                            "@name": "60 kilometers across",
+                            "@input": "Map:CityData__60 kilometers across"
+                        },
+                        {
+                            "@name": "130 kilometers across",
+                            "@input": "Map:CityData__130 kilometers across"
+                        },
+                        {
+                            "@name": "250 kilometers across",
+                            "@input": "Map:CityData__250 kilometers across"
+                        },
+                        {
+                            "@name": "500 kilometers across",
+                            "@input": "Map:CityData__500 kilometers across"
+                        },
+                        {
+                            "@name": "1000 kilometers across",
+                            "@input": "Map:CityData__1000 kilometers across"
+                        },
+                        {
+                            "@name": "2000 kilometers across",
+                            "@input": "Map:CityData__2000 kilometers across"
+                        },
+                        {
+                            "@name": "4000 kilometers across",
+                            "@input": "Map:CityData__4000 kilometers across"
+                        },
+                        {
+                            "@name": "7800 kilometers across",
+                            "@input": "Map:CityData__7800 kilometers across"
+                        },
+                        {
+                            "@name": "13000 kilometers across",
+                            "@input": "Map:CityData__13000 kilometers across"
+                        },
+                        {
+                            "@name": "25000 kilometers across",
+                            "@input": "Map:CityData__25000 kilometers across"
+                        }
+                    ]
+                },
+                "state": {
+                    "@name": "Non-metric",
+                    "@input": "Map:CityData__Non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "link": {
+                        "@url": "http://maps.google.com?ie=UTF8&z=12&t=k&ll=42.3%2C-83.03&q=42.3%20N%2C%2083.03%20W",
+                        "@text": "Satellite image"
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Administrative regions",
+            "@scanner": "Data",
+            "@id": "AdministrativeRegions:CityData",
+            "@position": "500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP98011ecce9di4g85ee7900005h2bi6db3h837h4g?MSPStoreType=image/gif&s=36",
+                    "@alt": "region | Ontario country | Canada",
+                    "@title": "region | Ontario country | Canada",
+                    "@width": "151",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "region | Ontario\ncountry | Canada"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Current local time",
+            "@scanner": "Data",
+            "@id": "CurrentTime:CityData",
+            "@position": "600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP98021ecce9di4g85ee7900002f0hc25ab8ead75b?MSPStoreType=image/gif&s=36",
+                    "@alt": "12:20 am EST | Sunday, January 19, 2020",
+                    "@title": "12:20 am EST | Sunday, January 19, 2020",
+                    "@width": "290",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "12:20 am EST | Sunday, January 19, 2020"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Current weather",
+            "@scanner": "Data",
+            "@id": "WeatherPod:CityData",
+            "@position": "700",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "WeatherData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP98031ecce9di4g85ee7900003ecc87eec17bg6fb?MSPStoreType=image/gif&s=36",
+                    "@alt": "-3 \u00b0C (wind chill: -12 \u00b0C) | relative humidity: 80% | wind: 13 m/s | overcast",
+                    "@title": "-3 \u00b0C (wind chill: -12 \u00b0C) | relative humidity: 80% | wind: 13 m/s | overcast",
+                    "@width": "527",
+                    "@height": "22",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "-3 \u00b0C (wind chill: -12 \u00b0C) | relative humidity: 80% | wind: 13 m/s | overcast"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show history",
+                        "@input": "WeatherPod:CityData__Show history"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "WeatherPod:CityData__Show non-metric"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby cities",
+            "@scanner": "Data",
+            "@id": "CityHierarchyInfo:CityData",
+            "@position": "800",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP98041ecce9di4g85ee7900004c1a91a799b82b69?MSPStoreType=image/gif&s=36",
+                    "@alt": "Detroit, Michigan, United States | 11 km (kilometers) north-northwest | 701475 people Dearborn, Michigan, United States | 15 km (kilometers) west | 96474 people Warren, Michigan, United States | 21 km (kilometers) north | 134141 people (straight-line distances between city centers)",
+                    "@title": "Detroit, Michigan, United States | 11 km (kilometers) north-northwest | 701475 people Dearborn, Michigan, United States | 15 km (kilometers) west | 96474 people Warren, Michigan, United States | 21 km (kilometers) north | 134141 people (straight-line distances between city centers)",
+                    "@width": "545",
+                    "@height": "176",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Detroit, Michigan, United States | 11 km (kilometers) north-northwest | 701475 people\nDearborn, Michigan, United States | 15 km (kilometers) west | 96474 people\nWarren, Michigan, United States | 21 km (kilometers) north | 134141 people\n(straight-line distances between city centers)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "CityHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "CityHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby airports",
+            "@scanner": "Data",
+            "@id": "AirportHierarchyInfo:CityData",
+            "@position": "900",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP98051ecce9di4g85ee7900005e7959df58b9bdf4?MSPStoreType=image/gif&s=36",
+                    "@alt": "Windsor Airport | 7 km (kilometers) east-southeast Detroit Metropolitan Wayne County Airport | 28 km (kilometers) west-southwest (straight-line distances between city center and airport)",
+                    "@title": "Windsor Airport | 7 km (kilometers) east-southeast Detroit Metropolitan Wayne County Airport | 28 km (kilometers) west-southwest (straight-line distances between city center and airport)",
+                    "@width": "546",
+                    "@height": "106",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Windsor Airport | 7 km (kilometers) east-southeast\nDetroit Metropolitan Wayne County Airport | 28 km (kilometers) west-southwest\n(straight-line distances between city center and airport)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "AirportHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "AirportHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Nearby hospitals",
+            "@scanner": "Data",
+            "@id": "HospitalHierarchyInfo:CityData",
+            "@position": "1000",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP98061ecce9di4g85ee790000603d0gb48fi3e0e0?MSPStoreType=image/gif&s=36",
+                    "@alt": "Children's Hospital | 6 km (kilometers) north-northwest Harper University Hospital | 6 km (kilometers) north-northwest Detroit Receiving Hospital & University Health Center | 6 km (kilometers) north-northwest John D. Dingell VA Medical Center | 7 km (kilometers) north-northwest Henry Ford Hospital | 9 km (kilometers) north-northwest (straight-line distances between city center and hospital)",
+                    "@title": "Children's Hospital | 6 km (kilometers) north-northwest Harper University Hospital | 6 km (kilometers) north-northwest Detroit Receiving Hospital & University Health Center | 6 km (kilometers) north-northwest John D. Dingell VA Medical Center | 7 km (kilometers) north-northwest Henry Ford Hospital | 9 km (kilometers) north-northwest (straight-line distances between city center and hospital)",
+                    "@width": "546",
+                    "@height": "190",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Children's Hospital | 6 km (kilometers) north-northwest\nHarper University Hospital | 6 km (kilometers) north-northwest\nDetroit Receiving Hospital & University Health Center | 6 km (kilometers) north-northwest\nJohn D. Dingell VA Medical Center | 7 km (kilometers) north-northwest\nHenry Ford Hospital | 9 km (kilometers) north-northwest\n(straight-line distances between city center and hospital)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "2",
+                "state": [
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "HospitalHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "HospitalHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:CityData",
+            "@position": "1100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP98071ecce9di4g85ee79000055ce2bi56de8ea7b?MSPStoreType=image/gif&s=36",
+                    "@alt": "elevation | 188 m",
+                    "@title": "elevation | 188 m",
+                    "@width": "147",
+                    "@height": "36",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "elevation | 188 m"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:CityData__Show non-metric"
+                }
+            },
+            "infos": {
+                "@count": "1",
+                "info": {
+                    "units": {
+                        "@count": "1",
+                        "unit": {
+                            "@short": "m",
+                            "@long": "meters"
+                        },
+                        "img": {
+                            "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP98081ecce9di4g85ee790000355hgf1ec57bi725?MSPStoreType=image/gif&s=36",
+                            "@width": "96",
+                            "@height": "26"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "@title": "Nearby feature",
+            "@scanner": "Data",
+            "@id": "FeaturesHierarchyInfo:CityData",
+            "@position": "1200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "NuclearReactorData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "IAEAPowerReactorInformationSystem"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP98091ecce9di4g85ee79000066e7b14d249gi1hb?MSPStoreType=image/gif&s=36",
+                    "@alt": "nuclear power site | Enrico Fermi | 42 km (kilometers) south-southwest (straight-line distances between city center and feature coordinates)",
+                    "@title": "nuclear power site | Enrico Fermi | 42 km (kilometers) south-southwest (straight-line distances between city center and feature coordinates)",
+                    "@width": "508",
+                    "@height": "58",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "nuclear power site | Enrico Fermi | 42 km (kilometers) south-southwest\n(straight-line distances between city center and feature coordinates)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "FeaturesHierarchyInfo:CityData__Show non-metric"
+                }
+            }
+        },
+        {
+            "@title": "Nearest sea",
+            "@scanner": "Data",
+            "@id": "OceansHierarchyInfo:CityData",
+            "@position": "1300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP98101ecce9di4g85ee7900002cbf7216ee5a9c8d?MSPStoreType=image/gif&s=36",
+                    "@alt": "Atlantic Ocean (630 km (kilometers) southeast)  (straight-line distance between city center and shore)",
+                    "@title": "Atlantic Ocean (630 km (kilometers) southeast)  (straight-line distance between city center and shore)",
+                    "@width": "308",
+                    "@height": "41",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Atlantic Ocean (630 km (kilometers) southeast) \n(straight-line distance between city center and shore)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "3",
+                "state": [
+                    {
+                        "@name": "Show map",
+                        "@input": "OceansHierarchyInfo:CityData__Show map"
+                    },
+                    {
+                        "@name": "Show non-metric",
+                        "@input": "OceansHierarchyInfo:CityData__Show non-metric"
+                    },
+                    {
+                        "@name": "More",
+                        "@input": "OceansHierarchyInfo:CityData__More"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Notable people born in Windsor",
+            "@scanner": "Data",
+            "@id": "NotablePeople:CityData",
+            "@position": "1400",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "PeopleData"
+                    ]
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP98111ecce9di4g85ee79000066410fg5e7eci75h?MSPStoreType=image/gif&s=36",
+                    "@alt": "Shania Twain (songwriter, etc.) (1965) Oliver Platt (actor) (1960) John Sheardown (diplomat) (1924) Tamia (entrepreneur, etc.) (1975) Abdullah the Butcher (actor, etc.) (1941) Katie Findlay (actor) (1990) Paul Martin (politician) (1938) Killer Kowalski (wrestler) (1926) Jacqueline MacInnes Wood (singer, etc.) (1987) Bob Probert (hockey player) (1965) ...",
+                    "@title": "Shania Twain (songwriter, etc.) (1965) Oliver Platt (actor) (1960) John Sheardown (diplomat) (1924) Tamia (entrepreneur, etc.) (1975) Abdullah the Butcher (actor, etc.) (1941) Katie Findlay (actor) (1990) Paul Martin (politician) (1938) Killer Kowalski (wrestler) (1926) Jacqueline MacInnes Wood (singer, etc.) (1987) Bob Probert (hockey player) (1965) ...",
+                    "@width": "315",
+                    "@height": "209",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "Shania Twain (songwriter, etc.) (1965)\nOliver Platt (actor) (1960)\nJohn Sheardown (diplomat) (1924)\nTamia (entrepreneur, etc.) (1975)\nAbdullah the Butcher (actor, etc.) (1941)\nKatie Findlay (actor) (1990)\nPaul Martin (politician) (1938)\nKiller Kowalski (wrestler) (1926)\nJacqueline MacInnes Wood (singer, etc.) (1987)\nBob Probert (hockey player) (1965)\n..."
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "3",
+                "state": [
+                    {
+                        "@name": "More",
+                        "@input": "NotablePeople:CityData__More"
+                    },
+                    {
+                        "@name": "Show dates",
+                        "@input": "NotablePeople:CityData__Show dates"
+                    },
+                    {
+                        "@name": "Show deaths",
+                        "@input": "NotablePeople:CityData__Show deaths"
+                    }
+                ]
+            }
+        },
+        {
+            "@title": "Founding date",
+            "@scanner": "Data",
+            "@id": "FoundingDates:CityData",
+            "@position": "1500",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": "CityData"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP98121ecce9di4g85ee7900005bdd0a31c670322f?MSPStoreType=image/gif&s=36",
+                    "@alt": "1854 (166 years ago) (incorporation date)",
+                    "@title": "1854 (166 years ago) (incorporation date)",
+                    "@width": "268",
+                    "@height": "18",
+                    "@type": "Default",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "1854 (166 years ago) (incorporation date)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "More",
+                    "@input": "FoundingDates:CityData__More"
+                }
+            }
+        },
+        {
+            "@title": "Wikipedia page hits history",
+            "@scanner": "Data",
+            "@id": "PopularityPod:WikipediaStatsData",
+            "@position": "1600",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP98131ecce9di4g85ee79000038a34hga3598d600?MSPStoreType=image/gif&s=36",
+                    "@alt": "Wikipedia page hits history",
+                    "@title": "",
+                    "@width": "546",
+                    "@height": "166",
+                    "@type": "TimeSeriesPlot_1",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": null
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "TimeSeriesPlot"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Log scale",
+                    "@input": "PopularityPod:WikipediaStatsData__Log scale"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "2",
+        "assumption": [
+            {
+                "@type": "MultiClash",
+                "@word": "",
+                "@template": "Assuming ${word1} is referring to ${desc1}. Use \"${word2}\" as ${desc2}.",
+                "@count": "2",
+                "value": [
+                    {
+                        "@name": "City",
+                        "@word": "the input",
+                        "@desc": "a city",
+                        "@input": "*MC.%7E-_*City-"
+                    },
+                    {
+                        "@name": "AdministrativeDivision",
+                        "@word": "Windsor",
+                        "@desc": "an administrative division",
+                        "@input": "*MC.%7E-_*AdministrativeDivision-"
+                    }
+                ]
+            },
+            {
+                "@type": "SubCategory",
+                "@word": "City of Windsor",
+                "@template": "Assuming ${desc1}. Use ${desc2} instead",
+                "@count": "23",
+                "value": [
+                    {
+                        "@name": "{Windsor, Ontario, Canada}",
+                        "@desc": "Windsor (Ontario, Canada)",
+                        "@input": "*DPClash.CityE.City+of+Windsor-_**Windsor.Ontario.Canada--"
+                    },
+                    {
+                        "@name": "{Windsor, Connecticut, UnitedStates}",
+                        "@desc": "Windsor (Connecticut, USA)",
+                        "@input": "*DPClash.CityE.City+of+Windsor-_**Windsor.Connecticut.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Windsor, Quebec, Canada}",
+                        "@desc": "Windsor (Quebec, Canada)",
+                        "@input": "*DPClash.CityE.City+of+Windsor-_**Windsor.Quebec.Canada--"
+                    },
+                    {
+                        "@name": "{GrandFallsWindsor, NewfoundlandAndLabrador, Canada}",
+                        "@desc": "Grand Falls\u2010Windsor (Newfoundland and Labrador, Canada)",
+                        "@input": "*DPClash.CityE.City+of+Windsor-_**GrandFallsWindsor.NewfoundlandAndLabrador.Canada--"
+                    },
+                    {
+                        "@name": "{Windsor, Colorado, UnitedStates}",
+                        "@desc": "Windsor (Colorado, USA)",
+                        "@input": "*DPClash.CityE.City+of+Windsor-_**Windsor.Colorado.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Windsor, Vermont, UnitedStates}",
+                        "@desc": "Windsor (Vermont, USA)",
+                        "@input": "*DPClash.CityE.City+of+Windsor-_**Windsor.Vermont.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Windsor, NovaScotia, Canada}",
+                        "@desc": "Windsor (Nova Scotia, Canada)",
+                        "@input": "*DPClash.CityE.City+of+Windsor-_**Windsor.NovaScotia.Canada--"
+                    },
+                    {
+                        "@name": "{Windsor, California, UnitedStates}",
+                        "@desc": "Windsor (California, USA)",
+                        "@input": "*DPClash.CityE.City+of+Windsor-_**Windsor.California.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Windsor, Wisconsin, UnitedStates}",
+                        "@desc": "Windsor (Wisconsin, USA)",
+                        "@input": "*DPClash.CityE.City+of+Windsor-_**Windsor.Wisconsin.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Windsor, Maine, UnitedStates}",
+                        "@desc": "Windsor (Maine, USA)",
+                        "@input": "*DPClash.CityE.City+of+Windsor-_**Windsor.Maine.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Windsor, Berkshire, UnitedKingdom}",
+                        "@desc": "Windsor (United Kingdom)",
+                        "@input": "*DPClash.CityE.City+of+Windsor-_**Windsor.Berkshire.UnitedKingdom--"
+                    },
+                    {
+                        "@name": "{Windsor, NorthCarolina, UnitedStates}",
+                        "@desc": "Windsor (North Carolina, USA)",
+                        "@input": "*DPClash.CityE.City+of+Windsor-_**Windsor.NorthCarolina.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Windsor, Virginia, UnitedStates}",
+                        "@desc": "Windsor (Virginia, USA)",
+                        "@input": "*DPClash.CityE.City+of+Windsor-_**Windsor.Virginia.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Windsor, Pennsylvania, UnitedStates}",
+                        "@desc": "Windsor (Pennsylvania, USA)",
+                        "@input": "*DPClash.CityE.City+of+Windsor-_**Windsor.Pennsylvania.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Windsor, NewYork, UnitedStates}",
+                        "@desc": "Windsor (New York, USA)",
+                        "@input": "*DPClash.CityE.City+of+Windsor-_**Windsor.NewYork.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Windsor, Massachusetts, UnitedStates}",
+                        "@desc": "Windsor (Massachusetts, USA)",
+                        "@input": "*DPClash.CityE.City+of+Windsor-_**Windsor.Massachusetts.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Windsor, Missouri, UnitedStates}",
+                        "@desc": "Windsor (Missouri, USA)",
+                        "@input": "*DPClash.CityE.City+of+Windsor-_**Windsor.Missouri.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Windsor, Illinois, UnitedStates}",
+                        "@desc": "Windsor (Illinois, USA)",
+                        "@input": "*DPClash.CityE.City+of+Windsor-_**Windsor.Illinois.UnitedStates--"
+                    },
+                    {
+                        "@name": "{WindsorMercer, Illinois, UnitedStates}",
+                        "@desc": "Windsor (Illinois, USA)",
+                        "@input": "*DPClash.CityE.City+of+Windsor-_**WindsorMercer.Illinois.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Windsor, NewHampshire, UnitedStates}",
+                        "@desc": "Windsor (New Hampshire, USA)",
+                        "@input": "*DPClash.CityE.City+of+Windsor-_**Windsor.NewHampshire.UnitedStates--"
+                    },
+                    {
+                        "@name": "{Windsor, Victoria, Australia}",
+                        "@desc": "Windsor (Victoria, Australia)",
+                        "@input": "*DPClash.CityE.City+of+Windsor-_**Windsor.Victoria.Australia--"
+                    },
+                    {
+                        "@name": "{Windsor, NewSouthWales, Australia}",
+                        "@desc": "Windsor (New South Wales, Australia)",
+                        "@input": "*DPClash.CityE.City+of+Windsor-_**Windsor.NewSouthWales.Australia--"
+                    },
+                    {
+                        "@name": "{Windsor, SouthCarolina, UnitedStates}",
+                        "@desc": "Windsor (South Carolina, USA)",
+                        "@input": "*DPClash.CityE.City+of+Windsor-_**Windsor.SouthCarolina.UnitedStates--"
+                    }
+                ]
+            }
+        ]
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "7",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/AdministrativeDivisionDataSourceInformationNotes.html",
+                "@text": "Administrative division data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/NuclearReactorDataSourceInformationNotes.html",
+                "@text": "Nuclear reactor data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/OpenStreetMapSourceInformationNotes.html",
+                "@text": "Open street map"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/PeopleDataSourceInformationNotes.html",
+                "@text": "People data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USCensusDataSourceInformationNotes.html",
+                "@text": "US census data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html",
+                "@text": "Weather data"
+            }
+        ]
+    }
+}

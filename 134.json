@@ -1,0 +1,246 @@
+{
+    "@success": "true",
+    "@error": "false",
+    "@numpods": "3",
+    "@datatypes": "City,USCounty",
+    "@timedout": "",
+    "@timedoutpods": "",
+    "@timing": "1.818",
+    "@parsetiming": "1.127",
+    "@parsetimedout": "false",
+    "@recalculate": "",
+    "@id": "MSP28621hg6c57d74bica2c000052063aa8f42ciffi",
+    "@host": "https://www5b.wolframalpha.com",
+    "@server": "44",
+    "@related": "https://www5b.wolframalpha.com/api/v1/relatedQueries.jsp?id=MSPa28631hg6c57d74bica2c0000143c1cdgad54d997435888006500396608",
+    "@version": "2.6",
+    "pod": [
+        {
+            "@title": "Input interpretation",
+            "@scanner": "Identity",
+            "@id": "Input",
+            "@position": "100",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP28641hg6c57d74bica2c00005f35g8dgh92ceca0?MSPStoreType=image/gif&s=44",
+                    "@alt": "La Salle, Illinois, United States | Essex County, Massachusetts (US county)",
+                    "@title": "La Salle, Illinois, United States | Essex County, Massachusetts (US county)",
+                    "@width": "485",
+                    "@height": "18",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "La Salle, Illinois, United States | Essex County, Massachusetts (US county)"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Default"
+                }
+            }
+        },
+        {
+            "@title": "Demographics",
+            "@scanner": "Data",
+            "@id": "DemographicProperties:MultipleData",
+            "@position": "200",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCountyData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "USCensusQuickfacts"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP28651hg6c57d74bica2c000030d6ae9d056ac1ib?MSPStoreType=image/gif&s=44",
+                    "@alt": " | La Salle, Illinois, United States | Essex County, Massachusetts population | 9120 people | 785205 people",
+                    "@title": " | La Salle, Illinois, United States | Essex County, Massachusetts population | 9120 people | 785205 people",
+                    "@width": "528",
+                    "@height": "68",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| La Salle, Illinois, United States | Essex County, Massachusetts\npopulation | 9120 people | 785205 people"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            }
+        },
+        {
+            "@title": "Geographic properties",
+            "@scanner": "Data",
+            "@id": "GeographicProperties:MultipleData",
+            "@position": "300",
+            "@error": "false",
+            "@numsubpods": "1",
+            "subpod": {
+                "@title": "",
+                "microsources": {
+                    "microsource": [
+                        "CityData",
+                        "USCountyData"
+                    ]
+                },
+                "datasources": {
+                    "datasource": "USCensusQuickfacts"
+                },
+                "img": {
+                    "@src": "https://www5b.wolframalpha.com/Calculate/MSP/MSP28661hg6c57d74bica2c00001db8c9a69aii0dii?MSPStoreType=image/gif&s=44",
+                    "@alt": " | La Salle | Essex County area | 30.45 km^2 (square kilometers) | 2146 km^2 (square kilometers) average elevation | 174 meters | ",
+                    "@title": " | La Salle | Essex County area | 30.45 km^2 (square kilometers) | 2146 km^2 (square kilometers) average elevation | 174 meters | ",
+                    "@width": "545",
+                    "@height": "117",
+                    "@type": "Grid",
+                    "@themes": "1,2,3,4,5,6,7,8,9,10,11,12",
+                    "@colorinvertable": "true"
+                },
+                "plaintext": "| La Salle | Essex County\narea | 30.45 km^2 (square kilometers) | 2146 km^2 (square kilometers)\naverage elevation | 174 meters |"
+            },
+            "expressiontypes": {
+                "@count": "1",
+                "expressiontype": {
+                    "@name": "Grid"
+                }
+            },
+            "states": {
+                "@count": "1",
+                "state": {
+                    "@name": "Show non-metric",
+                    "@input": "GeographicProperties:MultipleData__Show non-metric"
+                }
+            }
+        }
+    ],
+    "assumptions": {
+        "@count": "3",
+        "assumption": [
+            {
+                "@type": "Clash",
+                "@word": "County of Essex",
+                "@template": "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead",
+                "@count": "2",
+                "value": [
+                    {
+                        "@name": "USCounty",
+                        "@desc": "a US county",
+                        "@input": "*C.County+of+Essex-_*USCounty-"
+                    },
+                    {
+                        "@name": "AdministrativeDivision",
+                        "@desc": "an administrative division",
+                        "@input": "*C.County+of+Essex-_*AdministrativeDivision-"
+                    }
+                ]
+            },
+            {
+                "@type": "SubCategory",
+                "@word": "Town of LaSalle",
+                "@template": "Assuming ${desc1}. Use ${desc2} instead",
+                "@count": "7",
+                "value": [
+                    {
+                        "@name": "{LaSalle, Illinois, UnitedStates}",
+                        "@desc": "La Salle (Illinois, USA)",
+                        "@input": "*DPClash.CityE.Town+of+LaSalle-_**LaSalle.Illinois.UnitedStates--"
+                    },
+                    {
+                        "@name": "{LaSalle, Colorado, UnitedStates}",
+                        "@desc": "La Salle (Colorado, USA)",
+                        "@input": "*DPClash.CityE.Town+of+LaSalle-_**LaSalle.Colorado.UnitedStates--"
+                    },
+                    {
+                        "@name": "{LaSalle, ValleDAosta, Italy}",
+                        "@desc": "La Salle (Italy)",
+                        "@input": "*DPClash.CityE.Town+of+LaSalle-_**LaSalle.ValleDAosta.Italy--"
+                    },
+                    {
+                        "@name": "{Lasalle, LanguedocRoussillon, France}",
+                        "@desc": "Lasalle (Languedoc\u2010Roussillon, France)",
+                        "@input": "*DPClash.CityE.Town+of+LaSalle-_**Lasalle.LanguedocRoussillon.France--"
+                    },
+                    {
+                        "@name": "{LaSalle, Bourgogne, France}",
+                        "@desc": "La Salle (Bourgogne, France)",
+                        "@input": "*DPClash.CityE.Town+of+LaSalle-_**LaSalle.Bourgogne.France--"
+                    },
+                    {
+                        "@name": "{LaSalle, Lorraine, France}",
+                        "@desc": "La Salle (Lorraine, France)",
+                        "@input": "*DPClash.CityE.Town+of+LaSalle-_**LaSalle.Lorraine.France--"
+                    },
+                    {
+                        "@name": "{LaSalle, Minnesota, UnitedStates}",
+                        "@desc": "La Salle (Minnesota, USA)",
+                        "@input": "*DPClash.CityE.Town+of+LaSalle-_**LaSalle.Minnesota.UnitedStates--"
+                    }
+                ]
+            },
+            {
+                "@type": "SubCategory",
+                "@word": "County of Essex",
+                "@template": "Assuming ${desc1}. Use ${desc2} instead",
+                "@count": "5",
+                "value": [
+                    {
+                        "@name": "EssexMA",
+                        "@desc": "Essex County (MA)",
+                        "@input": "*DPClash.USCountyE.County+of+Essex-_*EssexMA-"
+                    },
+                    {
+                        "@name": "EssexNJ",
+                        "@desc": "Essex County (NJ)",
+                        "@input": "*DPClash.USCountyE.County+of+Essex-_*EssexNJ-"
+                    },
+                    {
+                        "@name": "EssexNY",
+                        "@desc": "Essex County (NY)",
+                        "@input": "*DPClash.USCountyE.County+of+Essex-_*EssexNY-"
+                    },
+                    {
+                        "@name": "EssexVT",
+                        "@desc": "Essex County (VT)",
+                        "@input": "*DPClash.USCountyE.County+of+Essex-_*EssexVT-"
+                    },
+                    {
+                        "@name": "EssexVA",
+                        "@desc": "Essex County (VA)",
+                        "@input": "*DPClash.USCountyE.County+of+Essex-_*EssexVA-"
+                    }
+                ]
+            }
+        ]
+    },
+    "userinfoused": {
+        "@count": "1",
+        "userinfo": {
+            "@name": "Country"
+        }
+    },
+    "sources": {
+        "@count": "2",
+        "source": [
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/CityDataSourceInformationNotes.html",
+                "@text": "City data"
+            },
+            {
+                "@url": "https://www5b.wolframalpha.com/sources/USCountyDataSourceInformationNotes.html",
+                "@text": "US county data"
+            }
+        ]
+    }
+}
